@@ -1,0 +1,18 @@
+<config version="1.0">
+    <video noshadergen="1" screenwidth="1520" screenheight="892" posX="355" posY="97" ratio3D="1" vsync="0" fullscreen="0" gamma="0" contrast="0" brightness="0" texturefilter="2" maxaniso="16" texturedetail="0" modeldetail="0" shadow="3" shadowcascades="4" omnishadow="0" llevel="2" windowmode="1" fsaa="8" atoc="15" rvterrainshaders="3" stabilizecascades="1" />
+    <render geometricdetail="2" postprocess="5" reflections="0" waterdetail="1" terraindetail="1" terrainsalpha="1" />
+    <controls>
+        <mousespeed horizontal="100" vertical="100" />
+    </controls>
+    <workbench>
+        <launchbar>
+            <executable path="DayZIntDX11.exe" parameters="-noPause -window -x=1280 -y=720" icon="Icons/myIcon.png" tooltip="Launch game" />
+            <executable path="DataExporterApp_d.exe" parameters="" icon="" tooltip="Launch data exporter" />
+        </launchbar>
+    </workbench>
+    <jobsystem globalqueue="4096" threadqueue="1024">
+        <pc maxcores="2" reservedcores="1" />
+        <ps4 threadcount="4" />
+        <xb1 threadcount="4" />
+    </jobsystem>
+</config>
