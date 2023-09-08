@@ -4,7 +4,7 @@ Configuration files from ./config and ./mpmissions/Expansion.deerisle for a dayz
 
 ##Note - the startup batch file will load any directory starting with "@" as a mod.  Server-side mods have to be named as NOT starting with @.  In my case, I used _XYZ to note serverside mods and just added the one I'm using manually to the startup batch.  
 
-##Mods used
+## Mods used
 *DeerIsle
 *BulletStacksPlusEnhanced
 *CF
