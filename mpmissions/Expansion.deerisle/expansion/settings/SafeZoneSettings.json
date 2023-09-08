@@ -1,0 +1,47 @@
+{
+    "m_Version": 8,
+    "Enabled": 1,
+    "FrameRateCheckSafeZoneInMs": 0,
+    "CircleZones": [
+        {
+            "Center": [
+                7529.1357421875,
+                89.1981201171875,
+                4610.044921875
+            ],
+            "Radius": 200.0
+        },
+        {
+            "Center": [
+                5117.53369140625,
+                59.589271545410159,
+                7987.23974609375
+            ],
+            "Radius": 200.0
+        },
+        {
+            "Center": [
+                10511.400390625,
+                1.9471060037612916,
+                5723.33984375
+            ],
+            "Radius": 50.0
+        },
+        {
+            "Center": [
+                10154.73828125,
+                26.983402252197267,
+                10010.2939453125
+            ],
+            "Radius": 200.0
+        }
+    ],
+    "PolygonZones": [],
+    "ActorsPerTick": 5,
+    "DisableVehicleDamageInSafeZone": 1,
+    "EnableForceSZCleanup": 1,
+    "ItemLifetimeInSafeZone": 6000.0,
+    "ForceSZCleanup_ExcludedItems": [
+        "ExpansionVehicleCover"
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Armor",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MMG_JPC_Vest_Black",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_JPC_Vest_olive",
+                "MMG_JPC_Vest_tan",
+                "MMG_JPC_Vest_multicam",
+                "MMG_JPC_Vest_alpine",
+                "MMG_JPC_Vest_erdl",
+                "MMG_JPC_Vest_multicamblack",
+                "MMG_JPC_Vest_multicam_tropic",
+                "MMG_JPC_Vest_ucp",
+                "MMG_JPC_Vest_dark_woodland"
+            ]
+        },
+        {
+            "ClassName": "MMG_tt_vest_black",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_tt_vest_green",
+                "MMG_tt_vest_tan",
+                "MMG_tt_vest_mutlicam",
+                "MMG_tt_vest_alpine",
+                "MMG_tt_vest_erdl",
+                "MMG_tt_vest_multicamblack",
+                "MMG_tt_vest_dark_woodland",
+                "MMG_tt_vest_ucp",
+                "MMG_tt_vest_police",
+                "MMG_tt_vest_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_MK_III_Armor_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_MK_III_Armor_green",
+                "MMG_MK_III_Armor_multicamblack",
+                "MMG_MK_III_Armor_tan",
+                "MMG_MK_III_Armor_multicam",
+                "MMG_MK_III_Armor_erdl",
+                "MMG_MK_III_Armor_alpine",
+                "MMG_MK_III_Armor_dark_woodland",
+                "MMG_MK_III_Armor_ucp",
+                "MMG_MK_III_Armor_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_MK_V_Armor_black",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 1000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_MK_V_Armor_green",
+                "MMG_MK_V_Armor_tan",
+                "MMG_MK_V_Armor_multicamblack",
+                "MMG_MK_V_Armor_multicam",
+                "MMG_MK_V_Armor_alpine",
+                "MMG_MK_V_Armor_dark_woodland",
+                "MMG_MK_V_Armor_erdl",
+                "MMG_MK_V_Armor_ucp",
+                "MMG_MK_V_Armor_multicam_tropic"
+            ]
+        }
+    ]
+}

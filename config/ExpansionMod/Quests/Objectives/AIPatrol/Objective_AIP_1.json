@@ -1,0 +1,43 @@
+{
+    "ConfigVersion": 18,
+    "ID": 1,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Kill all 4 units of the bandit patrol in the valley near the marked location",
+    "TimeLimit": -1,
+    "AIPatrol": {
+        "NPCUnits": 4,
+        "Waypoints": [
+            [
+                5813.33,
+                148.545,
+                6032.03
+            ],
+            [
+                5871.64,
+                128.598,
+                5643.54
+            ],
+            [
+                6088.02,
+                170.27,
+                5743.32
+            ]
+        ],
+        "NPCSpeed": "WALK",
+        "NPCMode": "ALTERNATE",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "BanditLoadout",
+        "NPCAccuracyMin": 0.4,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 50.0,
+    "MaxDistRadius": 350.0,
+    "DespawnRadius": 750.0,
+    "CanLootAI": 1
+}

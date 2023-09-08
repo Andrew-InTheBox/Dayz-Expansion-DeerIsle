@@ -1,0 +1,86 @@
+{
+    "m_Version": 2,
+    "UseCategoryMenu": 0,
+    "StorageLevels": {
+        "1": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [
+                "Vest",
+                "Body",
+                "Hips",
+                "Legs",
+                "Back"
+            ],
+            "AllowAttachmentCargo": 0
+        },
+        "2": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [
+                "Vest",
+                "Body",
+                "Hips",
+                "Legs",
+                "Back"
+            ],
+            "AllowAttachmentCargo": 0
+        },
+        "3": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [
+                "Vest",
+                "Body",
+                "Hips",
+                "Legs",
+                "Back"
+            ],
+            "AllowAttachmentCargo": 0
+        },
+        "4": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [
+                "Vest",
+                "Body",
+                "Hips",
+                "Legs",
+                "Back"
+            ],
+            "AllowAttachmentCargo": 0
+        },
+        "5": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [
+                "Vest",
+                "Body",
+                "Hips",
+                "Legs",
+                "Back"
+            ],
+            "AllowAttachmentCargo": 0
+        },
+        "6": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [],
+            "AllowAttachmentCargo": 0
+        },
+        "7": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [],
+            "AllowAttachmentCargo": 0
+        },
+        "8": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [],
+            "AllowAttachmentCargo": 0
+        },
+        "9": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [],
+            "AllowAttachmentCargo": 0
+        },
+        "10": {
+            "ReputationRequirement": -1,
+            "ExcludedSlots": [],
+            "AllowAttachmentCargo": 1
+        }
+    }
+}

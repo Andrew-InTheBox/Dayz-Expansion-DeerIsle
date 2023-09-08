@@ -1,0 +1,23 @@
+{
+    "m_Version": 11,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_BUILDING_SUPPLIES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Nails",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "Categories": [
+        "Gardening",
+        "Tools",
+        "Supplies",
+        "Locks",
+        "Containers",
+        "Tents",
+        "Furnishings",
+        "Flags"
+    ],
+    "Items": {}
+}

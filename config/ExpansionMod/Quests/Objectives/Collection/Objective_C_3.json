@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 18,
+    "ID": 3,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Get the yellow king's helmet",
+    "TimeLimit": -1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "DarkMotoHelmet_YellowScarred"
+        }
+    ],
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Item",
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

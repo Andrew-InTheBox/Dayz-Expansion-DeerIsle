@@ -1,0 +1,13 @@
+{
+    "ConfigVersion": 18,
+    "ID": 4,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ActionNames": [
+        "ActionCPR"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

@@ -1,0 +1,136 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Backpacks",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MMG_carrier_backpack_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_carrier_backpack_olive",
+                "MMG_carrier_backpack_tan",
+                "MMG_carrier_backpack_multicam",
+                "MMG_carrier_backpack_alpine",
+                "MMG_carrier_backpack_erdl",
+                "MMG_carrier_backpack_multicamblack",
+                "MMG_carrier_backpack_dark_woodland",
+                "MMG_carrier_backpack_ucp",
+                "MMG_carrier_backpack_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_supplybag_black",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_supplybag_green",
+                "MMG_supplybag_tan",
+                "MMG_supplybag_alpine",
+                "MMG_supplybag_erdl",
+                "MMG_supplybag_multicamblack",
+                "MMG_supplybag_multicam",
+                "MMG_supplybag_dark_woodland",
+                "MMG_supplybag_ucp",
+                "MMG_supplybag_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_assault_pack_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_assault_pack_olive",
+                "MMG_assault_pack_tan",
+                "MMG_assault_pack_dark_woodland",
+                "MMG_assault_pack_erdl",
+                "MMG_assault_pack_multicam",
+                "MMG_assault_pack_multicamblack",
+                "MMG_assault_pack_alpine",
+                "MMG_assault_pack_ucp",
+                "MMG_assault_pack_mct"
+            ]
+        },
+        {
+            "ClassName": "MMG_camelback_black",
+            "MaxPriceThreshold": 1750,
+            "MinPriceThreshold": 1750,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_camelback_tan",
+                "MMG_camelback_green",
+                "MMG_camelback_multicamblack",
+                "MMG_camelback_multicam",
+                "MMG_camelback_erdl",
+                "MMG_camelback_alpine",
+                "MMG_camelback_dark_woodland",
+                "MMG_camelback_ucp",
+                "MMG_camelback_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_mmps_bag_black",
+            "MaxPriceThreshold": 1750,
+            "MinPriceThreshold": 1750,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_mmps_bag_tan",
+                "MMG_mmps_bag_green",
+                "MMG_mmps_bag_multicamblack",
+                "MMG_mmps_bag_multicam",
+                "MMG_mmps_bag_erdl",
+                "MMG_mmps_bag_alpine",
+                "MMG_mmps_bag_dark_woodland",
+                "MMG_mmps_bag_ucp",
+                "MMG_mmps_bag_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_mmps_bag_atacs_black",
+            "MaxPriceThreshold": 1750,
+            "MinPriceThreshold": 1750,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_mmps_bag_atacs_tan",
+                "MMG_mmps_bag_atacs_green",
+                "MMG_mmps_bag_atacs_multicamblack",
+                "MMG_mmps_bag_atacs_multicam",
+                "MMG_mmps_bag_atacs_erdl",
+                "MMG_mmps_bag_atacs_alpine",
+                "MMG_mmps_bag_atacs_dark_woodland",
+                "MMG_mmps_bag_atacs_ucp",
+                "MMG_mmps_bag_atacs_multicam_tropic"
+            ]
+        }
+    ]
+}

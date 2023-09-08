@@ -1,0 +1,53 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Holsters and Sheath",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MMG_Holster_black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_Holster_green",
+                "MMG_Holster_tan",
+                "MMG_Holster_alpine",
+                "MMG_Holster_erdl",
+                "MMG_Holster_multicamblack",
+                "MMG_Holster_multicam",
+                "MMG_Holster_dark_woodland",
+                "MMG_Holster_ucp",
+                "MMG_Holster_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_sheath_black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_sheath_olive",
+                "MMG_sheath_tan",
+                "MMG_sheath_mcb_digital",
+                "MMG_sheath_alpine",
+                "MMG_sheath_erdl",
+                "MMG_sheath_multicamblack",
+                "MMG_sheath_multicam",
+                "MMG_sheath_dark_woodland",
+                "MMG_sheath_ucp",
+                "MMG_sheath_multicam_tropic"
+            ]
+        }
+    ]
+}

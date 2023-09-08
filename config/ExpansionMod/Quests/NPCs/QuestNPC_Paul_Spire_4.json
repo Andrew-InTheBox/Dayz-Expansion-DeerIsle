@@ -1,0 +1,29 @@
+{
+    "ConfigVersion": 4,
+    "ID": 4,
+    "ClassName": "ExpansionQuestNPCAIDenis",
+    "IsAI": 1,
+    "Position": [
+        5122.99,
+		59.219,
+		7974.46
+    ],
+    "Orientation": [
+        36.1,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Paul",
+    "DefaultNPCText": "Hmm?",
+    "Waypoints": [
+        [
+            5122.99,
+			59.219,
+			7974.46
+        ]
+    ],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "BanditLoadout",
+    "IsStatic": 0
+}

@@ -1,0 +1,83 @@
+{
+    "m_Version": 5,
+    "EnableMap": 1,
+    "UseMapOnMapItem": 1,
+    "ShowPlayerPosition": 1,
+    "ShowMapStats": 1,
+    "NeedPenItemForCreateMarker": 0,
+    "NeedGPSItemForCreateMarker": 0,
+    "CanCreateMarker": 1,
+    "CanCreate3DMarker": 1,
+    "CanOpenMapWithKeyBinding": 1,
+    "ShowDistanceOnPersonalMarkers": 1,
+    "EnableHUDGPS": 1,
+    "NeedGPSItemForKeyBinding": 1,
+    "NeedMapItemForKeyBinding": 0,
+    "EnableServerMarkers": 1,
+    "ShowNameOnServerMarkers": 1,
+    "ShowDistanceOnServerMarkers": 1,
+    "ServerMarkers": [
+	{
+            "m_UID": "ServerMarker_Trader_hill",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Traders - The Hill",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                7529.1357421875,
+                89.1981201171875,
+                4610.044921875
+            ],
+            "m_Locked": 1
+        },
+        {
+            "m_UID": "ServerMarker_Trader_spire",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Traders - The Spire",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                5117.53369140625,
+                59.589271545410159,
+                7987.23974609375
+            ],
+            "m_Locked": 1
+        },
+        {
+            "m_UID": "ServerMarker_Trader_Boat",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Boat Trader",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                10511.400390625,
+                1.9471060037612916,
+                5723.33984375
+            ],
+            "m_Locked": 1
+        },
+        {
+            "m_UID": "ServerMarker_Trader_high_end",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "MMG and Weapons",
+            "m_IconName": "Trader",
+            "m_Color": -13710223,
+            "m_Position": [
+                10154.73828125,
+                26.983402252197267,
+                10010.2939453125
+            ],
+            "m_Locked": 1
+        }],
+    "EnableHUDCompass": 1,
+    "NeedCompassItemForHUDCompass": 1,
+    "NeedGPSItemForHUDCompass": 1,
+    "CompassColor": -1,
+    "CreateDeathMarker": 1,
+    "PlayerLocationNotifier": 1,
+    "CompassBadgesColor": -1946157056
+}

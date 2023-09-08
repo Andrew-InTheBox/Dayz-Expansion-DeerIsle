@@ -1,0 +1,51 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Facemask",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MMG_facemask_black",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 50,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_facemask_green",
+                "MMG_facemask_alpine",
+                "MMG_facemask_erdl",
+                "MMG_facemask_multicamblack",
+                "MMG_facemask_multicam",
+                "MMG_facemask_dark_woodland",
+                "MMG_facemask_ucp",
+                "MMG_facemask_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_balaclava_black",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 50,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_balaclava_olive",
+                "MMG_balaclava_tan",
+                "MMG_balaclava_erdl",
+                "MMG_balaclava_alpine",
+                "MMG_balaclava_multicamblack",
+                "MMG_balaclava_multicam",
+                "MMG_balaclava_dark_woodland",
+                "MMG_balaclava_ucp",
+                "MMG_balaclava_multicam_tropic"
+            ]
+        }
+    ]
+}

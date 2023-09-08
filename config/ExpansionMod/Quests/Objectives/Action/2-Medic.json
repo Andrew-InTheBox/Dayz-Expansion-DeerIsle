@@ -1,0 +1,13 @@
+{
+    "ConfigVersion": 18,
+    "ID": 2,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ActionNames": [
+        "ActionGiveBloodTarget"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

@@ -1,0 +1,22 @@
+{
+    "VehicleName": "CivilianSedan_Black",
+    "DisplayName": "",
+    "Parts": [
+        "CivSedanHood_Black",
+        "CivSedanTrunk_Black",
+        "CivSedanDoors_Driver_Black",
+        "CivSedanDoors_BackRight_Black",
+        "CivSedanDoors_BackLeft_Black",
+        "CivSedanDoors_CoDriver_Black",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7"
+    ]
+}

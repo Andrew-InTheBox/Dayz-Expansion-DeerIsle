@@ -1,0 +1,61 @@
+{
+    "Name": "Watchtower Wood",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "WatchtowerKit",
+            "NumberOfStacks": 5,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Woodenlog",
+            "NumberOfStacks": 3,
+            "StackSize": 4
+        },
+        {
+            "ItemName": "WoodenPlank",
+            "NumberOfStacks": 3,
+            "StackSize": 20
+        },
+        {
+            "ItemName": "Nail",
+            "NumberOfStacks": 3,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "Hammer",
+            "NumberOfStacks": 4,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Shovel",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Pliers",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "BarbedWire",
+            "NumberOfStacks": 6,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "CamoNet",
+            "NumberOfStacks": 9,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Crowbar",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "DuctTape",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        }
+    ]
+}

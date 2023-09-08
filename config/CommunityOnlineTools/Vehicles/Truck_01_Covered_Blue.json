@@ -1,0 +1,20 @@
+{
+    "VehicleName": "Truck_01_Covered_Blue",
+    "DisplayName": "",
+    "Parts": [
+        "Truck_01_Hood_Blue",
+        "Truck_01_Door_1_1_Blue",
+        "Truck_01_Door_2_1_Blue",
+        "Truck_01_WheelDouble",
+        "Truck_01_WheelDouble",
+        "Truck_01_WheelDouble",
+        "Truck_01_WheelDouble",
+        "Truck_01_Wheel",
+        "Truck_01_Wheel",
+        "Truck_01_Wheel",
+        "Truck_01_Wheel",
+        "TruckBattery",
+        "HeadlightH7",
+        "HeadlightH7"
+    ]
+}

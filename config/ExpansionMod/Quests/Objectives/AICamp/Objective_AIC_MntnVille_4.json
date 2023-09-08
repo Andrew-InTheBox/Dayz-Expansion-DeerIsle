@@ -1,0 +1,53 @@
+{
+    "ConfigVersion": 18,
+    "ID": 4,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill the 5 bandits",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                7279.56,
+                6.6625,
+                8613.8
+            ],
+            [
+                7299.95,
+                6.6625,
+                8544.45
+            ],
+            [
+                7317.21,
+                6.94047, 
+                8523.95
+            ],
+            [
+                7318.77,
+                7.26577,
+                8478.97
+            ],
+            [
+                7364.29,
+                6.6625,
+                8459.22
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "SurvivorLoadout",
+        "NPCAccuracyMin": 0.40,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 275.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1,
+    "InfectedDeletionRadius": 250
+}

@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 18,
+    "ID": 4,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Kill and Skin a Bear, bring back the pelt to Peter at the Trader.",
+    "TimeLimit": -1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "BearPelt"
+        }
+    ],
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items",
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

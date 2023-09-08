@@ -1,0 +1,219 @@
+{
+    "Connections": [
+        {
+            "Name": "Main",
+            "ContextURL": "",
+            "Address": "",
+            "Types": [
+                {
+                    "Name": "COTModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWebhookModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleSet",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleVehicle",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleTeleport",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleInventory",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModulePF",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleKick",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMObjectSpawnerModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMObjectSpawnerModuleDelete",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMObjectSpawnerModuleVector",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMObjectSpawnerModulePlayer",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleLog",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModulePosition",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleOrientation",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleHealth",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleDelete",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleBB_Build",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleBB_Dismantle",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleBB_Repair",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleMakeItemSet",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleDuplicateAll",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleDeleteAll",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleMoveToCursorRelative",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleMoveToCursorAbsolute",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMTeleportModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMTeleportModuleVector",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMTeleportModuleLocation",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMCameraModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMVehicleSpawnerModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMItemSetSpawnerModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMItemSetSpawnerModuleVector",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMItemSetSpawnerModulePlayer",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModuleDate",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModuleWind",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModuleOvercast",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModuleFog",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModuleRain",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMWeatherOldModuleStorm",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMMapModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMCommandModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMVehiclesModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "ServerStartup",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "ServerShutdown",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "PlayerJoin",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "PlayerLeave",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "PlayerDeath",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "PlayerDamage",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "AdminActive",
+                    "Enabled": 0
+                }
+            ]
+        }
+    ]
+}

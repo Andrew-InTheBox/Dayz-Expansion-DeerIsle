@@ -1,0 +1,34 @@
+{
+    "m_Version": 11,
+    "DisplayName": "MMG Items",
+    "MinRequiredReputation": 3000,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Airdrop",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "Categories": [
+        "MMG_Armored_Helmet_Visor:1",
+        "MMG_BackPacks:1",
+        "MMG_Belts:1",
+        "MMG_Boots:1",
+        "MMG_Bottle:1",
+        "MMG_Carbine:1",
+        "MMG_Chest_Rigs:1",
+        "MMG_Facemask:1",
+        "MMG_Gloves:1",
+        "MMG_Goggles:1",
+        "MMG_Headphones:1",
+        "MMG_Holsters:1",
+        "MMG_NBC:1",
+        "MMG_Pants:1",
+        "MMG_Plate_Carriers:1",
+        "MMG_Pouches:1",
+        "MMG_Patches:1",
+        "MMG_Shirts:1",
+        "MMG_Sniper_Boonie:1"
+    ],
+    "Items": {}
+}

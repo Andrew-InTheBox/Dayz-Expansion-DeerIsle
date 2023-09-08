@@ -1,0 +1,20 @@
+{
+    "VehicleName": "Offroad_02",
+    "DisplayName": "",
+    "Parts": [
+        "Offroad_02_Hood",
+        "Offroad_02_Trunk",
+        "Offroad_02_Door_1_1",
+        "Offroad_02_Door_1_2",
+        "Offroad_02_Door_2_1",
+        "Offroad_02_Door_2_2",
+        "Offroad_02_Wheel",
+        "Offroad_02_Wheel",
+        "Offroad_02_Wheel",
+        "Offroad_02_Wheel",
+        "CarBattery",
+        "GlowPlug",
+        "HeadlightH7",
+        "HeadlightH7"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "Version": 1,
+    "notification": [
+        {
+            "Spatial_Name": "East",
+            "MessageType": 1,
+            "MessageTitle": "East AI",
+            "MessageText": [
+                "Enemies nearby",
+                "AI Detected: East",
+                "Example 3"
+            ]
+        },
+        {
+            "Spatial_Name": "West",
+            "MessageType": 3,
+            "MessageTitle": "West AI",
+            "MessageText": [
+                "Enemies nearby",
+                "AI Detected: West"
+            ]
+        },
+        {
+            "Spatial_Name": "Civilian",
+            "MessageType": 5,
+            "MessageTitle": "Civilian AI",
+            "MessageText": [
+                "Civilians detected",
+                "Friendlies in the area"
+            ]
+        },
+        {
+            "Spatial_Name": "Name",
+            "MessageType": 0,
+            "MessageTitle": "Disabled",
+            "MessageText": [
+                "Disabled"
+            ]
+        }
+    ]
+}

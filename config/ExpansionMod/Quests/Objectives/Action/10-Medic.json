@@ -1,0 +1,13 @@
+{
+    "ConfigVersion": 18,
+    "ID": 10,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ActionNames": [
+        "ActionFeedVitaminBottle"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

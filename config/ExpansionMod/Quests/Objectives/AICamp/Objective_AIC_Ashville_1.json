@@ -1,0 +1,57 @@
+{
+    "ConfigVersion": 18,
+    "ID": 1,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill all 6 bandits at Ashville",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                7304.0,
+                45.7024,
+                2587.44 
+            ],
+            [
+                7329.23,
+                45.9214,
+                2585.45
+            ],
+            [
+                7345,
+                51.47,
+                2598.71
+            ],
+            [
+                7271.85,
+                42.1636,
+                2597.84
+            ],
+            [
+                7338.61,
+                45.8025,
+                2541.17
+            ],
+            [
+                7300.82,
+                44.8592,
+                2521.76
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "West",
+        "NPCLoadoutFile": "BanditLoadout",
+        "NPCAccuracyMin": 0.4,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 275.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1,
+    "InfectedDeletionRadius": 250
+}

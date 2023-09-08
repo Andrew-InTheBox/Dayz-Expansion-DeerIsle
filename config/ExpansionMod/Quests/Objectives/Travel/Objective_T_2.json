@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 18,
+    "ID": 2,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get to the Village",
+    "TimeLimit": -1,
+    "Position": [
+        6564.63,
+        44.5425,
+        3859.64
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Get to the Village",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

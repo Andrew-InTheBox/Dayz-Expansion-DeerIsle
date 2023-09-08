@@ -1,0 +1,53 @@
+{
+    "ConfigVersion": 18,
+    "ID": 2,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill all 5 police imposters at the marked location",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                6101.17,
+                32.8389,
+                6890.89
+            ],
+            [
+                6043.67,
+                32.9077,
+                6882.43
+            ],
+            [
+                6049.93,
+                33.2144,
+                6918.32
+            ],
+            [
+                6020.79,
+                31.7297,
+                7008.13
+            ],
+            [
+                6038.25,
+                31.3213,
+                7003.78
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "PoliceLoadout",
+        "NPCAccuracyMin": 0.40,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 275.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1,
+    "InfectedDeletionRadius": 250
+}

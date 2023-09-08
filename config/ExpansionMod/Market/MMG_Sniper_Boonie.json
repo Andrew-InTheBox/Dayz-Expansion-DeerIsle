@@ -1,0 +1,31 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Sniper Boonies",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "mmg_boonie_green",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mmg_boonie_black",
+                "mmg_boonie_tan",
+                "mmg_boonie_erdl",
+                "mmg_boonie_multicam",
+                "mmg_boonie_multicamblack",
+                "mmg_boonie_alpine",
+                "mmg_boonie_dark_woodland",
+                "mmg_boonie_ucp",
+                "mmg_boonie_multicam_tropic"
+            ]
+        }
+    ]
+}

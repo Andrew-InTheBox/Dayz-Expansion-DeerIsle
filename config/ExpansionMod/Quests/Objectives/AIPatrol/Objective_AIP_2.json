@@ -1,0 +1,43 @@
+{
+    "ConfigVersion": 18,
+    "ID": 2,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Kill all 4 units of the militia patrol in the swamp",
+    "TimeLimit": -1,
+    "AIPatrol": {
+        "NPCUnits": 4,
+        "Waypoints": [
+            [
+                3859.58,
+                11.4625,
+                8082.12
+            ],
+            [
+                3971.27,
+                11.45,
+                8232.65
+            ],
+            [
+                4220.99,
+                11.45,
+                8425.03
+            ]
+        ],
+        "NPCSpeed": "WALK",
+        "NPCMode": "ALTERNATE",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "GorkaLoadout",
+        "NPCAccuracyMin": 0.4,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 50.0,
+    "MaxDistRadius": 350.0,
+    "DespawnRadius": 750.0,
+    "CanLootAI": 1
+}

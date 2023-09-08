@@ -1,0 +1,29 @@
+{
+    "ConfigVersion": 4,
+    "ID": 2,
+    "ClassName": "ExpansionQuestNPCAIElias",
+    "IsAI": 1,
+    "Position": [
+        7504.69,
+        22.1367,
+        4151.96
+    ],
+    "Orientation": [
+        145.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Steve",
+    "DefaultNPCText": "What do you want? I am busy...",
+    "Waypoints": [
+        [
+            7504.69,
+			22.1367,
+			4151.96
+        ]
+    ],
+    "NPCEmoteID": 14,
+    "NPCEmoteIsStatic": 1,
+    "NPCLoadoutFile": "SurvivorLoadout",
+    "IsStatic": 0
+}

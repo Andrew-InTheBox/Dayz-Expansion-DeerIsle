@@ -1,0 +1,627 @@
+
+					  NOTE THAT ALL THESE VALUES (Globals and Characteristics) 
+						CAN BE REFRESH INGAME WITHOUT RESTARTING THE SERVER 
+									BY PRESSING NUMPAD4
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////// Global.xml AND Characteristics.xml ////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+	Important : don't modify the variable names and don't use these names in comments if you write some. 	
+	
+	The modifications you will do should not be crushed when new variables will come with new updates.
+	So don't worry you shouldn't lose your tweaks with updates (but keep reading the patch notes to be sure!).		
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// GLOBALS XML FILE ///////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+	Section "NewFeatures" (at the end of the file)
+		In this section you will find the new features variables.
+		
+		You can move these variables in an existing sections.
+		It is not mandatory but more clear for you to tweak in the future.		
+
+////////////////////////
+		
+	Customisable_Zombies_List
+		You can change the name of the file containing zombie characteristics
+		This is useful to quickly change the zombie configuration or to make tests
+		Don't forget .xml extension
+
+	Features_Activation	
+		Disable_All_Features
+			This will disable all feature of the mod
+			Useful if you encounter problems (but it shouldn't happen ;-))
+		Zombies_Health_Activated / Zombies_Resistance_Activated / Zombies_Speed_Activated / Zombies_Vision_Activated...
+			This disable the feature one by one
+			It is the more efficient way to disable a feature (more that modify characteristics) 
+			All my code will be skipped so no bug or resource consume from a disabled feature that way
+			Note the disable "Bleeding_Chance_Activated" can solve solve some conflict with other mods that make player systematically sick when hit by zombies.
+			
+		Zombies_Hearing_Doors_Player_Standing_Activated
+			Activate/Deactivate zombies hearing the players opening or closing doors when he is standing.
+		Zombies_Hearing_Doors_Player_Crouching_Activated
+			Activate/Deactivate zombies hearing the players opening or closing doors when he is crouching.
+			
+		Zombies_Hit_Unconscious_Players_Activated
+			Activate/Deactivate zombies ability to hit unconscious players.
+			
+		Zombies_Fight_Wolves_Activated / Zombies_Fight_Bears_Activated
+			If set to 0 the animal concerned will not fight with zombies.
+			Note that the "Friendly_Wolves" (details in "other" section bellow) never fight the zombies.
+			Remember these last features can be server resource consuming (if set to 1).
+		
+		Zombies_Breaking_Doors_Activated
+			If set to 0 no zombies will be able to break the closed doors.
+			If set to 1 the zombies that have their "Numb_Of_Hit_To_Break_Doors" value superior to 0 in Characteristics.xml will be able to break the doors.
+			Note the doors locked with a lockpick, doors from base buildings or mods like "More Doors" can't be break.
+			All doors (small, big, wooden or metal) have the same resistance.
+		
+		Zombies_Breaking_LockedDoors_Activated
+			Same thing than above but for the doors locked with a lockpick
+		
+		Zombies_Aggressive_Doors_Detection_Activated
+			If set to 1 zombies will hit the door even if they don't face it anymore.
+			The zombie only have to face the door for the first hit, for the other hits he just need to not move too much.
+			This can be somewhat immersive breaking (that's why this feature can be deactivated) but make breaking doors feature more efficient.
+			
+////////////////////////	
+
+	Zombies_Caracteristics :
+	
+		Zombies_Health_Ratio		
+			Ratio (%) applied to all zombies health
+			
+		Zombies_Strength_Ratio
+			Ratio (%) applied to all zombies 
+				Ratio_Damage_Health
+				Ratio_Damage_Shock
+				Damage_Blood
+				Damage_Stamina
+				(!NOT to the Bleeding_Chance!)
+				
+		Zombies_Speed_Ratio	
+			Ratio (%) applied to all zombies minimum and maximum speed.
+			
+		Zombies_Clamp_Speed_Mini / Zombies_Clamp_Speed_Maxi
+			[Decimal 1.5=Walk / 2.5=Run / 3.0=Sprint]
+			Setting a value superior to 3.0 will not increase zombie speed beyond sprint speed
+			You can try to set different values (2.0 for example) but it can lead to weird behaviours (especially between 1.4 and 2.1).
+			These values allow to easily limit the speed for all zombies without changing all speed values in Characteristics.xml
+			For example if you don't want sprinters at day time you can set the Zombies_Clamp_Speed_Maxi Day value to 2.5
+			if you want all zombies be sprinters at night time you can set the Zombies_Clamp_Speed_Mini Night value to 3.0
+			
+		Zombies_Hearing_Standing_Players_Ratio
+			Ratio (%) applied to all zombies hearing when the player is standing.
+			Can't be superior to 1.0
+		Zombies_Hearing_Crouching_Players_Ratio
+			Ratio (%) applied to all zombies hearing when the player is crouching.
+			Can't be superior to 1.0
+		
+		Zombies_Size_Ratio
+			Ratio (%) applied to all zombies "Size_Mini" and "Size_Maxi" from Characteristics.xml
+			
+		Zombies_Maximum_Size_In_Buildings
+			Limits the size of zombies when they are in a building to avoid them glitching through the roof.
+			It doesn't work in some custom structures if their not identify as buildings by the game engine.	
+			
+////////////////////////	
+
+	Players_Caracteristics :
+	
+		Maximum_Number_Of_Bleeding_Sources_From_Zombies_Combat
+			It is the maximum number of bleeding source from zombie
+			It does not include bleeding from ladders or ruined shoes
+			
+		Shoes_Degradation_When_Hit_By_Crawling_Zombie
+			The crawling zombies inflict damages to player shoes 
+			Increase it if you want make things harder
+	
+		The "Gloves" values intend to avoid players to fight zombies with fists too easily
+		Gloves_Degradation_Speed_When_Fist_Fighting
+			Increase it if you want make things harder
+		Bleeding_Chance_If_Fist_Fighting_Without_Gloves
+			Increase it if you want make things harder
+		Player_Dammage_If_Fist_Fighting_Without_Gloves
+			Increase it if you want make things harder
+		Player_Health_Limite_To_Take_Dammage_From_Fist_Fighting
+			This limit is because nobody want to die because a wound at the hand
+			Default value is 80 (maximum health is 100)
+			Decrease it if you want make things harder
+
+		Special_Mask_To_Hide_From_Zombies
+			It is a list of ITEMS that allow player to modify zombie vision.
+			Despite the name of this section you can set other items than masks (just set the appropriate value in the "Special_Mask_Type_Of_Slot" below)
+			When a player wear one of this item (non ruined), the "WithSpecialMask" ratio from Characteristics file is apply to zombies vision distance.
+			You don't need to add all item class names, for exemple if you set "BalaclavaMask", all items that contain "BalaclavaMask" in there class name will be taken into account (if "Special_Mask_Type_Of_Slot" below is set to "Mask" in this example).
+			(no spaces and use comma between each value)
+			The default value includes mask from : 
+				SkinCraft mod 	 : https://steamcommunity.com/sharedfiles/filedetails/?id=1836951845
+				SkinInfected mod : https://steamcommunity.com/sharedfiles/filedetails/?id=1668199233
+				I do not recommend to you to use xml files provided by these mods because I can't guarantee that they are up to date.		
+		Special_Mask_Type_Of_Slot
+			Possible values : Mask/Head/Shoulder/Melee/Headgear/Eyewear/Gloves/Armband/Vest/Body/Back/Hips/Legs/Feet/Splint_Right/Hands
+			You can only set ONE slot.
+			This will allow to use another item type than mask to hide from zombies.
+		Special_Mask_Lifetime
+			[Decimal: 0.0 to infinite]
+			Set the lifetime in minutes of the special item when the player wear it.
+			The item does not automatically degrade if it is on the ground or in the inventory (in the backpack for example) but not in its slot.
+			If set to 0.0 the item will never automatically degrade.
+		
+		Multi_Hits_On_Heavy_Attack
+			This feature allow player to hit multiple zombies when he perform a heavy attack.
+			The "radius" value is the radius (in meters) around the zombie that is hit at first.
+			All zombie in this radius play an animations and receive damages.
+			The Damages received by the zombies around = damage received by the originaly hitted zombie * "Damage_Ratio" value.
+			"Radius" : Decimal (meters) [0 to infinity] 0=disable feature / be careful high value can impact performances.
+			"Damage_Ratio" : Decimal (ratio) [0.0 to 1.0] (you can set > 1.0 but I don't think it make sense in gameplay perspective).
+			"Min_Dammage_To_Activate" : Decimal [0 to infinity] this value prevent the feature to be apply when player fights with most of items that are not weapons.
+			"Stamina_Bonus" : Decimal [0 to infinity] When a player hit many zombies with a heavy attack, he retrieve a small amount of stamina for each zombie hiten (not for the first one)
+
+////////////////////////
+
+	Night_Management :	
+		Maybe you noticed that The vanilla night schedules does not really correspond on what we can call night in real life. 
+		The vanilla system consider it is night as soon as the sun is behind the horizon even if the light is still intense.
+		This feature allow you to change the time of the beginning and the end of the night. 
+		Remember that will only affect the night zombie system of this mod, it will not modify the vanilla time acceleration for example.
+			
+		OverRide_Vanilla_Night_Time
+			Set it to 1 to use custom night schedules (0 to keep vanilla night schedules)
+			
+		Night_Beginning / Night_End
+			Set the beginning and the end hours of the night (24h time, set 20:30 no 8:30pm for example)			
+
+////////////////////////
+
+	Damages_To_Vehicles_Radiator_When_Cruching_Zombies
+		Each time player hit a zombie with a car (if car speed is above "Speed_Minimum") the radiator of the car receive damages.
+		Note that the radiator will receive damage even if the zombie is hit with the rear part of the car.
+		
+		Activated
+			0 to deactivate / 1 to activate this feature.
+		
+		Vehicle_Type_Resistance
+			This allow to have different resistance for each type of vehicle.
+			To add new vehicles type, add "VehicleName:Resistance" at the end of the list.
+			"VehicleName" don't have to be the complete class name, 
+			for example if you set "CivilianSedan", all cars containing "CivilianSedan" in their class name will be set (color variant for example)
+			"Resistance" must be an integer. It represent the maximum health of the radiator allowing making some vehicles type more resistance from zombies damages.
+			Don't forget the coma between each type : "VehicleName01:100,VehicleName02:50,VehicleName03:200" and no space anywhere in the list
+			Keep the first value to "DefaultCars:WhatResistanceYouWant", it will be used for all cars (vanilla or modded) that are not in the list.
+		
+		Damages_Per_Impact
+			Damages received by the car radiator on each impact on zombies [Decimal: 0.0 to infinite]
+		
+		Timer_Between_Impacts
+			[Integer: 1 to Infinite] (seconds)
+			This is to avoid radiator receiving multiple impact at the same time.
+			This value is a "per zombie" value, if you hit 3 zombies at the same time, the radiator will receive 3 damages.
+			But when a unique zombie receive multiple impacts in a very short time the radiator will receive only 1 damage.
+			This is because the vanilla system detect many many impacts when you hit a zombie 
+			so if this value is too low the radiator will receive many many damage each time you hit a zombie
+			This is why it is highly recommended to never set a value below 1.
+		
+		Speed_Minimum
+			[Integer: 1 to Infinite] (km/h)
+			This is to avoid radiator receiving damages when the car is moving slowly.
+			It is highly recommended to never set a value below 1 because even when the car don't move a residual speed is detected by the system
+			and it makes that the car receive damages from zombie even when it don't move.
+		
+		Speed_Multiplier
+			[Decimal: 0.0 to infinite]
+			If a value superior to zero is set, more the vehicle is moving fast, the more is will receive damages when it hit zombies.
+			For exemple if set to "0.01" the radiator will receive 1.0 more damage point if the speed is 100 km/h (0.01 * 100 = 1.0)
+			Set it to 0.0 if you want to disable this feature.
+			
+		Cruch_Physics_Force_Factor
+			[Decimal: 0 to infinite]
+			It apply a physical force to the vehicle when it cruches a zombies.
+			This value is multiplied by the vehicle speed.
+			Set to 0 to disable this feature in case of server resource consuming problem or if weird behaviours happen.
+			This value is affected by Vehicle_Type_Resistance value (a vehicle with 200 resistance will receive twice less force)
+			
+		Cruch_Physics_Force_Mini / Cruch_Physics_Force_Maxi
+			[Decimal: 0 to infinite]
+			Limits the total cruch force (Cruch_Physics_Force_Factor * Speed) applied to the vehicle to make force noticeable at low speed and avoid flying vehicles at hight speed.
+			Thess value is affected by Vehicle_Type_Resistance value.
+
+////////////////////////
+
+	Zombies_Attacking_Stopped_Vehicles:
+		Allows zombies to hit the vehicles when they are aggro around it (in place of doing nothing).
+		The part of the vehicle affected doesn't depend on the zombie position, it is chosen randomly.
+
+		Activated
+			0 to deactivate / 1 to activate this feature.
+			
+		Vehicle_Type_Resistance
+			This allows to have different resistance for each type of vehicle.
+			To add new vehicles type, add "VehicleName:Resistance" at the end of the list.
+			"VehicleName" don't have to be the complete class name, 
+			for example if you set "CivilianSedan", all cars containing "CivilianSedan" in their class name will be set (color variant for example)
+			"Resistance" must be an integer. It represent the maximum health of the radiator allowing making some vehicles type more resistance from zombies damages.
+			Don't forget the coma between each type : "VehicleName01:100,VehicleName02:50,VehicleName03:200" and no space anywhere in the list
+			Keep the first value to "DefaultCars:WhatResistanceYouWant", it will be used for all cars (vanilla or modded) that are not in the list.
+			
+		Damage_On_Structure
+			[Decimal: 0.0 to infinite]
+			Quantity of damage each hit deals to the vehicle structure (not the attachments like baterie or doors).
+			Note that the structure includes parts like roof, fenders, front window... if these parts are ruined the vehicle can still work.
+			The vehicle become definitely unusable only if the main structure is ruined.
+			Because of this the vehicle can take lot more damages than just "Vehicle_Resistance" / "Damage_On_Structure".
+		
+		Damage_On_Attachments
+			[Decimal: 0.0 to infinite]
+			Quantity of damage each hit deals to the vehicle attachments.
+			The attachment are items like baterie, doors or other items that can be attached to vehicle slots.
+			More the vehicle have attachments more it will be resistant (less chance to damage a vital attachment or the main structure).
+			Note that the visual aspect of doors can be different from their real state 
+			(consider that the paint, the window and the structure of the doors are independent).
+				
+		Attack_Speed_Factor
+			[Decimal: 0.01 to 3.0]
+			The attack speed of the zombies on the stopped vehicles (doesn't affect zombie attack speed on players).
+			If you want to disable the attacks on vehicle don't set this value to 0, set the "Activated" option above to 0 instead.
+			Set this value beyond 3.0 is useless, you will see no difference, to attack the zombies have to reach some conditions, increasing this value will not change that.
+		
+		Activate_Sounds
+			[Integer 0 (deactivate) or 1 (activate)] 
+			Deactivate the sound if have desynchronisation problems.
+			This option affect the sound played when you crush zombies with a vehicle.
+			
+		Player_Inside_Can_Be_Hit
+			[Integer 0 (deactivate) or 1 (activate)] 
+			If activated the player is not protected by the vehicle from zombie attacks (the others damages are still active).
+			The doors does not protect the player (I will see if I can do it but not sure I will be able to push this feature that far, too much cases to deal with).
+			The player is not hit each time a zombie hit the vehicle, he is hit only when the zombie is close enough to him.
+			Note that you will still see the red flash effect but will not receive damages.
+			
+		Physics_Force_Apply
+			[0 to infinite]
+			It apply a physical force to the vehicle when zombies attack it.
+			Set to 0 to disable this feature in case of server resource consuming problem or if weird behaviours happen.
+			This value is affected by Vehicle_Type_Resistance value (a vehicle with 200 resistance will receive twice less force)
+			
+////////////////////////
+
+	Zombies_Throw_Stones : 
+		Zombies_Throw_Stones_Activated
+			[Integer 0 (deactivate) or 1 (activate)] 
+			If set to 0, zombies will never throw stones.
+			
+		Zombies_Throw_Stones_Only_If_Player_On_Obstacle
+			[Integer 0 (deactivate) or 1 (activate)] 
+			If set to 1, zombies will throw stones only if player is on an obstacle.
+			If set to 0, zombies will throw stones even if player is not on an obstacle.
+		
+		Zombies_Throw_Stones_Damage_Health
+			<!-- [Decimal 0.0 to infinite] -->
+			Health Damage per stone.
+		
+		Zombies_Throw_Stones_Damage_Shock
+			<!-- [Decimal 0.0 to infinite] -->
+			Shock Damage per stone.
+			
+		Zombies_Throw_Stones_Keep_Minimum_Health
+			<!-- [Decimal 0.0 to 100] -->
+			If you set a value superior to 0 the players will never die because of a stone.
+			
+		Zombies_Throw_Stones_Rate
+			[Decimal 1.0 to infinite]
+			Seconds between two throw.
+			Lower is the value, more aggressive are the zombies.
+		
+		Zombies_Throw_Stones_Force
+			[Decimal 0.0 to infinite] 
+			Impacts the distance the stone will go, not the damages they deal.
+			
+		Zombies_Throw_Stones_Distance_Maxi
+			[Decimal 0.0 to infinite]
+			Maximum distance to the player at which zombies can throw the stones.
+
+////////////////////////
+
+	Other :	
+		Special_HeadShot_Weapons
+			It is a list of weapon that allow to oneshot the zombies if hit in the head.
+			You can activate/deactivate this feature for each zombie categorie with the Special_HeadShot_Weapons values in the Characteristics.xml
+			With this feature activated, when you hit a zombie in the head with a weapon from the list, 
+			the zombie is automatically killed whatever the zombie HP or the weapon power.
+			This feature make Expansion mod crossbow useful on military zombies for example.
+			You don't need to add all item class names, for exemple if you set "Crossbow", all items that contain "Crossbow" in there class name will be taken into account.
+			(no spaces and use comma between each value)
+			
+		Items_Protect_HeadShots
+			When zombies wear an item in this list, he don't apply "Resistance_to_HeadShots" from Characteristics.xml ratio (which is usually < 1.0)
+			and is not oneshot by "Special_HeadShot_Weapons".
+			He receive "normal" damage as if he is shot in the chest.
+			You don't need to add all Helmets class names, for exemple if you set "ConstructionHelmet", all color variant will be taken into account
+			and if you set only "Helmet" all items that contain "Helmet" in there class name will be taken into account.
+			Note1 that the helmet is checked when the zombie spawn, if you modify helmet list the modification will be only apply on new zombies.
+			Note2 ruined helmets continue to protect zombies.
+			(no spaces and use comma between each value)
+			
+		Friendly_Wolves
+			You can make wolves not attacking players, they will just follow them.
+			It is a very very basic feature, you can't really tame the wolves, them can't defend himself from zombies and they will disappear at server restart.
+			See them only as wolves without teeth.
+			This feature will not be expanded as it is a big work to do real AI but I found an easy way to share you this little funny thing.
+			You can apply this feature on wolves or creatures from other mods (only if the creatures are based on wolves AI).
+			Sadly you can't apply this feature to bears, their AI seems to work in another way.
+			You don't need to add all animal class names, for exemple if you set "CanisLupus", all animals that contain "CanisLupus" in there class name will be taken into account.
+			(no spaces and use comma between each value)
+
+		Debug_Mod 	
+			[0 1 or 2] 
+			Keep to 0 to save server resources
+			Refresh xml modifications each 1 second if debug mod > 0 and each 30 seconds if debug mod = 0 
+			(when change from 0 to 1 the curent 30s timer have to finished before begin to refresh at 1s rate)
+			If set to 2 damage messages will be shown when hitting zombies -->
+			
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// CHARACTERISTICS XML FILE ///////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+	Important :
+		The fist class corresponding to the spawned zombie is used
+		For example if you place "ZmbM_HermitSkinny_Base" before "ZmbM_HermitSkinny_Black"
+		the "_Base" values will be used because "ZmbM_HermitSkinny_Base" is the parent of "ZmbM_HermitSkinny_Black" 
+		
+		"ZombieBase" is the "grandparent" class of all zombies, that's why it is at the end of the file		
+		If you want to add NEW ZOMBIE TYPES (from other mods), add the new categorie at BEGINING OF THE LIST	
+		Remember that I can't guarantee all modded zombies will work with my mod
+		If you want all zombies to have exactly same characteristics, you can modify "ZombieBase" as you want and delete all other categories.
+		
+////////////////////////
+	
+	type name :
+		The name of the class of the zombie
+		Note that the mod does not work for animals
+	
+	Health_Points : 
+		The number of heath point of the zombie
+
+	Resistance_to_Bullets /  Melees / Vehicles / Explosions / HeadShots	:	
+		Inferior to 1 	: Weak from damages
+		1 				: Normal resistance to damages 
+		Superior to 1 	: More resistant to damages
+		Note that "Resistance_to_HeadShots" only concern damage from guns and "Resist_to_Melee_HeadShots" the damages from melee weapons.
+		
+	Special_HeadShot_Weapons
+		Enable (1) or disable (0) the Special Weapons that allow to oneshot the zombie if hit in the head
+		You can modify the Special_HeadShot_Weapons list in the PvZmoD_CustomisableZombies_Globals.xml
+		With this feature activated, when you hit a zombie in the head with a weapon from the list, 
+		the zombie is automatically killed whatever the zombie HP or the weapon power.
+		This feature make Expansion mod crossbow useful on military zombies for example
+
+	Move_Speed_Min / Max : 
+		1.0 - 1.3 : Walk 			 
+		2.2 - 2.7 : run 				
+		2.8 - 3.0 : sprint 
+		(1.4-2.1 : sometime walk, sometime run, not recommended to use)
+		
+	Move_Speed_Adjust_Max :
+		The Move_Speed_Max is directly linked to the animation played (walk / run / sprint)
+		If you want zombies running slowly or walk faster you have to adjust the speed movement here.
+		Use et positive value to accelerate or a negative value to decelerate.
+		Recommended values between -0.5 and 0.5
+		Note that this values don't exactly scale as Move_Speed_Max
+		And the if you increase too much it, zombies will look like sliding on the ground.
+	
+	Animation_Type :
+		0 or 1 or 2 or 3 : Force the type moving animation used.
+		-9 : Choose random move animation.
+		Note that the zombies are a little bit faster when walking while using animation 1.
+	
+	Chance_To_Spawn_Crawling : 
+		-1 	: Never Crawling even when been shooted in legs
+		0  	: Never spawned Crawling 			 
+		0.5	: 50% chance to spawn Crawling 	
+		1 	: Always spawn Crawling
+		
+	Hit_Players_On_Obstacles :
+		Enable (1) or disable (0) 
+		The zombies can hit player on cars for example.
+		Note that this feature allow zombie to sometime hit players in buildings if they see them through a windows (and if player is above the zombie)
+		
+	Immune_To_MultiHit : 
+		Immune (1) or not Immune (0)
+		Enable / disable the "Multi_Hits_On_Heavy_Attack" for each zombie categories.
+		Look at "Global xml file / Players_Caracteristics" section for more details.
+		
+	Attack_Speed : 
+		0.0 to 2.0 (useless to set more)
+		Apply a ratio (%) to the zombies vanilla attack speed.
+	
+	Can_Throw_Stones
+		0 : Disable 
+		1 : Enable 
+		2 : Enable even if player is not on an obstacle (when Globals.xml settings are supposed to avoid this).
+		If set to 0 this zombie category will never throw stones.
+	
+	/////////
+	
+	Health_Points / Restistances / Chance_To_Spawn_Crawling / MoveSpeeds / Hit_Players_On_Obstacles / Immune_To_MultiHit : 
+		First Value  : DAY 	 time value
+		Second Value : NIGHT time value
+
+////////////////////////
+
+	Ratio_Damage_Health / Ratio_Damage_Shock :
+		RATIO applied to the vanilla "Heath"/"Shock" damages deals by zombies
+		Keep in mind it is a RATIO (%) not a quantity
+	
+	Bleeding_Chance :
+		Chance (%) for the player to bleed when hit by the zombie
+		Note that you can let the vanilla system dealing the bleeding chance by setting the value to -1
+		The vanilla bleeding chance are 10% for all attacks types
+	
+	Damage_Blood :
+		QUANTITY of blood the player loose when hit by the zombie
+		The player have a maximum of 5000 blood 
+		Keep in mind that the player can die with when than 2500 depending on his other statutes 
+		the vanilla system is not very clear about that so be careful
+		Note that the vanilla system does not apply blood damage on zombie hits
+		Keep in mind it is a QUANTITY not a ratio
+
+	Damage_Stamina
+		QUANTITY of stamina that the player loose when hit by the zombie
+		This is not a permanent stamina lose, the player recover it as usual
+		The maximum stamina is 100 (when carrying nothing)
+		Note that the vanilla system does not apply stamina and blood damage on zombie hits
+		Keep in mind it is a QUANTITY not a ratio
+		
+	/////////
+	
+	LightAttack_NotBlocked
+		Value (ratio or quantity) applied when zombie perform a LIGHT attack and the player does NOT BLOCK it
+	
+	LightAttack_Blocked
+		Value (ratio or quantity) applied when zombie perform a LIGHT attack and the player BLOCK it
+	
+	HeavyAttack_NotBlocked
+		Value (ratio or quantity) applied when zombie perform a HEAVY attack and the player does NOT BLOCK it
+	
+	HeavyAttack_Blocked
+		Value (ratio or quantity) applied when zombie perform a HEAVY attack and the player BLOCK it
+	
+	NightRatio
+		Ratio applied to the previous chosen ratio or quantity
+	
+	
+	Exemple : 		
+		If zombie perform a heavy attack on a player that block it, during the night.
+		Damage applied = 
+			Vanilla Heavy Attack damage (with vanilla clothing protection factor applied)
+			* HeavyAttack_Blocked ratio
+			* NightRatio
+			* Zombies_Strength_Ratio Night (from PvZmoD_CustomisableZombies_Globals.xml file)
+			
+////////////////////////
+
+	Vision_Distance_Ratios :
+		It is ratios applied to vanilla vision distance of zombies
+		The ratio are cumulative
+		The final ratio can't be superior to 1.0 (it is not possible to increase vision distance beyond the vanilla values)
+		
+	Example of vision distance calculation :
+		Final vision distance = 
+			Default Vanilla vision distance 
+			* Vanilla night ratio	(yes there is already a vanilla night ratio so don't lower the one of PvZ too much or zombie will become blind)
+			* Vanilla vision modifiers (include player stance, speed, and clothes)
+			* PvZ Day or Night ratio
+			* PvZ WithBloodyHands ratio (if player have bloody hands)
+			* PvZ WithSpecialMask ratio (if player wear a special mask that is in the Global.xml file)
+			
+	Note1 : The result of le multiplication of the 3 PvZ ratios can't be inferior to the "MiniMumRatioDistance" value (to avoid being able to go too close to the zombies)
+	Note2 : The Zombies hearing is not affected so zombies can be attracted by player sounds but will not aggro if they are not close enough.
+	Note3 : If you choose to increase the ratio beyond 1 to increase vision distance, the result will never exceed the original "Default Vanilla vision distance"
+
+////////////////////////
+	
+	Can_Be_Backstabbed
+		Enable (1) or disable (0) 
+		If disable the players will not be able to oneshot the zombie when he come from behind
+		
+////////////////////////
+
+	Resist_Contaminated_Effect
+		Enable (1) or disable (0) 
+		If enable the zombie will not die when he enter a contaminated zone
+		The NBC zombies always resist to contaminated areas, even if you set the value to 0
+
+////////////////////////
+	
+	Numb_Of_Hit_To_Break_Doors
+		[0 to infinite]
+		If set to 0 no zombie will be able to break the closed doors.
+		If set to 1 the zombie will break the door with 1 hit, if set to 2 with 2 hits, set to 3 with 3 hits...
+		Note the doors locked with a lockpick, doors from base buildings or mods like "More Doors" can't be break.
+		All doors (small, big, wooden or metal) have the same resistance.
+
+////////////////////////
+
+	Size_Mini / Size_Maxi
+		[0.01 to infinite]
+		Apply a ratio to the vanilla size of zombies.
+		Modifications of these value are only applied to new spawned zombies.
+
+
+
+
+
+
+////////////////////////
+	
+	Summary of possible values:
+	
+		type name					Class name
+		
+		Health_Points				Integer (Quantity) 	[1 to 100000]		(or "-99")	
+		Resistance_to_Bullets		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
+		Resistance_to_Melees		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
+		Resistance_to_Vehicles		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
+		Resistance_to_Explosions	Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
+		Resistance_to_HeadShots		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")	
+		Special_HeadShot_Weapons	Integer (On/Off) 	[0 or 1]			(or "-99")	
+		
+		Move_Speed_Min				Decimal (Quantity) 	[0.0 to 3.0]		(or "-99")
+		Move_Speed_Max				Decimal (Quantity) 	[1.0 to 3.0]		(or "-99")	
+		Move_Speed_Adjust_Max		Decimal (Quantity) 	[-0.5 to 0.5]		(or "-99")	
+		Animation_Type				Integer (Selection)	[0 to 3 or -9]		(or "-99")
+		
+		Chance_To_Spawn_Crawling	Decimal (Ratio) 	[0.0 to 1.0 or -1.0](or "-99")
+		
+		Hit_Players_On_Obstacles	Integer (On/Off)	[0 or 1]			(or "-99")
+		
+		Ratio_Damage_Health			Decimals (Ratio) 	[0.0 to infinite]	(or "-99")	
+		Ratio_Damage_Shock			Decimals (Ratio) 	[0.0 to infinite]	(or "-99")
+		Bleeding_Chance				Decimals (Ratio) 	[0.0 to 1.0 or -1.0](or "-99")		
+		Damage_Blood				Integers (Quantity) [0 to 5000]			(or "-99") 	except "NightRatio" => Decimal (Ratio) [0.0 to infinite]	(or "-99")
+		Damage_Stamina				Integers (Quantity) [0 to 100]			(or "-99") 	except "NightRatio" => Decimal (Ratio) [0.0 to infinite]	(or "-99")	
+		
+		Vision_Distance_Ratio		Decimals (Ratio) 	[0.0 to infinite]	(or "-99")
+		
+		Can_Be_Backstabbed			Integers (On/Off) 	[0 or 1]			(or "-99")
+		Resist_Contaminated_Effect	Integers (On/Off) 	[0 or 1]			(or "-99")
+		
+		Numb_Of_Hit_To_Break_Doors	Integer (Quantity) 	[0 to infinite]		(or "-99")	
+		
+		Size_Mini / Size_Maxi		Decimal (Ratio) 	[0.01 to infinite]	(or "-99")
+		
+		Can_Throw_Stones			Integer (Quantity) 	[0 to infinite]		(or "-99")	
+		
+	
+	/////////
+	
+	What means "-99" :
+		You can set a characteristic to "-99" if you want to use the "ZombieBase" corresponding value.
+		It is useful for change value of many zombie at the same time.
+		I hesitated to set all non modified values to -99 but I thought it will not be clear for users.		
+	
+////////////////////////
+
+	You can find a couple of examples at the end of the xml file (before "ZombieBase" class of course)
+	
+		Example_VANILLA_Config_for_VANILLA_Zombies
+			Use it if you want to keep vanilla zombies characteristics
+			
+		Example_OTHER_MOD_Zombies_whith_their_VANILLA_Config
+			Use it if you want add new zombies from other mods and keep the health points form the mod
+			The important value is the Health_Points = -1;
+			Remember that I can't guarantee all modded zombies will work with my mod
+			
+		Example_USE_DEFAULT_Config_values
+			All the values are set to "-99" so the "ZombieBase" values are used
+			Useful to tweak lot of zombies at once
+		
+		Example_WALKINGDEAD_HeadShot
+			And finally a Walking Dead zombie because I know a lot of you like it.
+			Note that the night values are "normal zombies" ones to compare differences between walking dead and vanilla zombies
+			Tips : if you want all zombies be the exactly same walking dead, you can copy the walking dead characteristics in "ZombieBase" and delete all other categories.
+
+/////////////////////////////////////////////////////////////////////////////////////////////

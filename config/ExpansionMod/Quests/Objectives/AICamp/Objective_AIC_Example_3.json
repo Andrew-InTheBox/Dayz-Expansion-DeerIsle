@@ -1,0 +1,52 @@
+{
+    "ConfigVersion": 18,
+    "ID": 3,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill all 5 Soldiers at the marked location:",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                7328.93017578125,
+                48.1505012512207,
+                10510.7001953125
+            ],
+            [
+                7283.7001953125,
+                48.2599983215332,
+                10534.400390625
+            ],
+            [
+                7309.75,
+                45.495601654052737,
+                10525.900390625
+            ],
+            [
+                7309.72021484375,
+                45.51839828491211,
+                10507.2001953125
+            ],
+            [
+                7282.93994140625,
+                45.47999954223633,
+                10552.2998046875
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "NAC",
+        "NPCLoadoutFile": "Namalsk_NAC",
+        "NPCAccuracyMin": 0.5,
+        "NPCAccuracyMax": 0.699999988079071,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 50.0,
+    "MaxDistRadius": 150.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 0,
+    "InfectedDeletionRadius": 500
+}

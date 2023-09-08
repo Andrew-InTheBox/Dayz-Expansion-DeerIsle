@@ -1,0 +1,13 @@
+{
+    "ConfigVersion": 18,
+    "ID": 11,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ActionNames": [
+        "ActionGiveSalineTarget"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

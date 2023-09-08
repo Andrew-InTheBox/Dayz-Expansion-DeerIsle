@@ -1,0 +1,22 @@
+{
+    "VehicleName": "Sedan_02_Red",
+    "DisplayName": "",
+    "Parts": [
+        "Sedan_02_Hood_Red",
+        "Sedan_02_Trunk_Red",
+        "Sedan_02_Door_1_1_Red",
+        "Sedan_02_Door_1_2_Red",
+        "Sedan_02_Door_2_1_Red",
+        "Sedan_02_Door_2_2_Red",
+        "Sedan_02_Wheel",
+        "Sedan_02_Wheel",
+        "Sedan_02_Wheel",
+        "Sedan_02_Wheel",
+        "Sedan_02_Wheel",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7"
+    ]
+}

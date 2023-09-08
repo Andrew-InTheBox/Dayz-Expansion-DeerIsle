@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 18,
+    "ID": 3,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get to the Camp",
+    "TimeLimit": -1,
+    "Position": [
+        7533.11,
+        87.7,
+        4616.7
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Get to the Camp",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 1
+}

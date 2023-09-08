@@ -1,0 +1,24 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG_Tac_Goggles",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "mmg_tac_goggles_red_green",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mmg_tac_goggles_red_black",
+                "mmg_tac_goggles_red_tan"
+            ]
+        }
+    ]
+}

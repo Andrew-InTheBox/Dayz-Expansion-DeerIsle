@@ -1,0 +1,20 @@
+{
+    "VehicleName": "OffroadHatchback",
+    "DisplayName": "",
+    "Parts": [
+        "HatchbackHood",
+        "HatchbackTrunk",
+        "HatchbackDoors_Driver",
+        "HatchbackDoors_CoDriver",
+        "HatchbackWheel",
+        "HatchbackWheel",
+        "HatchbackWheel",
+        "HatchbackWheel",
+        "HatchbackWheel",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "m_Version": 5,
+    "m_TraderID": 1,
+    "m_ClassName": "ExpansionP2PTraderAIIrena",
+    "m_Position": [
+        8192.0,
+        300.0,
+        8192.0
+    ],
+    "m_Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_LoadoutFile": "YellowKingLoadout",
+    "m_VehicleSpawnPosition": [
+        8192.0,
+        300.0,
+        8192.0
+    ],
+    "m_WatercraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_AircraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_DisplayName": "Unknown",
+    "m_DisplayIcon": "Deliver",
+    "m_Faction": "InvincibleObservers",
+    "m_Waypoints": [],
+    "m_EmoteID": 46,
+    "m_EmoteIsStatic": 0,
+    "m_IsGlobalTrader": 0
+}

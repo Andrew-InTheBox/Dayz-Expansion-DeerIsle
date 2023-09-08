@@ -1,0 +1,2010 @@
+<!--cfgspawnabletypes.xml-->
+<!-- JPC-VEST -->
+<spawnabletypes>
+    <type name="MMG_JPC_Vest_black">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_Black" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_black" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_black" 		chance="0.20" />
+			<item name="MMG_bottle_black" 			chance="0.20" />
+			<item name="MMG_sheath_black" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_olive">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_olive" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_olive" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_olive" 		chance="0.20" />
+			<item name="MMG_bottle_olive" 			chance="0.20" />
+			<item name="MMG_sheath_olive" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_tan">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_tan" 			chance="0.20" />
+			<item name="MMG_Med_Pouch_tan" 			chance="0.20" />
+			<item name="MMG_ammo_pouch_tan" 		chance="0.20" />
+			<item name="MMG_bottle_tan" 			chance="0.20" />
+			<item name="MMG_sheath_tan" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_multicam" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_multicam" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_multicam" 	chance="0.20" />
+			<item name="MMG_bottle_multicam" 		chance="0.20" />
+			<item name="MMG_sheath_multicam" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_multicamblack" 	chance="0.20" />	
+			<item name="MMG_Med_Pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_bottle_multicamblack" 		chance="0.20" />
+			<item name="MMG_sheath_multicamblack" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_bottle_dark_woodland" 		chance="0.20" />
+			<item name="MMG_sheath_dark_woodland" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					hance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_erdl" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_erdl" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_erdl" 	chance="0.20" />
+			<item name="MMG_bottle_erdl" 		chance="0.20" />
+			<item name="MMG_sheath_erdl" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_alpine" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_alpine" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_alpine" 	chance="0.20" />
+			<item name="MMG_bottle_alpine" 		chance="0.20" />
+			<item name="MMG_sheath_alpine" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_ucp" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_ucp" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_ucp"		chance="0.20" />
+			<item name="MMG_bottle_ucp" 		chance="0.20" />
+			<item name="MMG_sheath_ucp" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_multicam_tropic"		chance="0.20" />
+			<item name="MMG_bottle_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_sheath_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 						chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_JPC_Vest_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_atacs"		chance="0.20" />
+			<item name="MMG_bottle_atacs" 			chance="0.20" />
+			<item name="MMG_sheath_atacs" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+<!-- TT-VEST --> 
+	<type name="MMG_tt_vest_black">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_black" 		chance="0.20" />
+			<item name="MMG_double_magpouch_black" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_black" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_black" 			chance="0.20" />
+			<item name="MMG_bottle_black" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+		</type>
+	<type name="MMG_tt_vest_olive">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_green" 		chance="0.20" />
+			<item name="MMG_double_magpouch_green" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_olive" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_olive" 			chance="0.20" />
+			<item name="MMG_bottle_olive" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_tan">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_tan" 	chance="0.20" />
+			<item name="MMG_double_magpouch_tan" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_tan" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_tan" 		chance="0.20" />
+			<item name="MMG_bottle_tan" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_multicam" 	chance="0.20" />
+			<item name="MMG_double_magpouch_multicam" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_multicam" 		chance="0.20" />
+			<item name="MMG_ammo_Pouch_multicam" 		chance="0.20" />
+			<item name="MMG_bottle_multicam" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_multicamblack" 		chance="0.20" />
+			<item name="MMG_double_magpouch_multicamblack" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_multicamblack" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_multicamblack" 			chance="0.20" />
+			<item name="MMG_bottle_multicamblack" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_dark_woodland" 		chance="0.20" />
+			<item name="MMG_double_magpouch_dark_woodland" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_dark_woodland" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_dark_woodland" 			chance="0.20" />
+			<item name="MMG_bottle_dark_woodland" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_erdl" 		chance="0.20" />
+			<item name="MMG_double_magpouch_erdl" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_erdl" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_erdl" 			chance="0.20" />
+			<item name="MMG_bottle_erdl" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_alpine" 		chance="0.20" />
+			<item name="MMG_double_magpouch_alpine" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_alpine" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_alpine" 			chance="0.20" />
+			<item name="MMG_bottle_alpine" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_ucp" 	chance="0.20" />
+			<item name="MMG_double_magpouch_ucp" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_ucp" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_ucp" 		chance="0.20" />
+			<item name="MMG_bottle_ucp" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_double_magpouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_multicam_tropic" 			chance="0.20" />
+			<item name="MMG_ammo_Pouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_bottle_multicam_tropic" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_tt_vest_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_atacs" 	chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_ammo_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_bottle_atacs" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+<!-- CHESTRIG --> 
+	<type name="MMG_chestrig_black">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_black" 		chance="0.20" />
+			<item name="MMG_double_magpouch_black" 	chance="0.20" />
+			<item name="MMG_bottle_black" 			chance="0.20" />
+			<item name="MMG_sheath_black" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_green">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_olive" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_olive" 		chance="0.20" />
+			<item name="MMG_bottle_olive" 			chance="0.20" />
+			<item name="MMG_sheath_olive" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_tan">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_tan" 			chance="0.20" />
+			<item name="MMG_double_magpouch_tan" 	chance="0.20" />
+			<item name="MMG_bottle_tan" 			chance="0.20" />
+			<item name="MMG_sheath_tan" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_multicam" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_multicam" 	chance="0.20" />
+			<item name="MMG_bottle_multicam" 		chance="0.20" />
+			<item name="MMG_sheath_multicam" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_bottle_multicamblack" 		chance="0.20" />
+			<item name="MMG_sheath_multicamblack" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_bottle_dark_woodland" 		chance="0.20" />
+			<item name="MMG_sheath_dark_woodland" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					hance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_erdl" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_erdl" 	chance="0.20" />
+			<item name="MMG_bottle_erdl" 		chance="0.20" />
+			<item name="MMG_sheath_erdl" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_alpine" 	chance="0.20" />
+			<item name="MMG_ammo_pouch_alpine" 	chance="0.20" />
+			<item name="MMG_bottle_alpine" 		chance="0.20" />
+			<item name="MMG_sheath_alpine" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_chestrig_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_ucp" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_ucp"		chance="0.20" />
+			<item name="MMG_bottle_ucp" 		chance="0.20" />
+			<item name="MMG_sheath_ucp" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+	</type>
+	<type name="mmg_chestrig_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_multicam_tropic"		chance="0.20" />
+			<item name="MMG_bottle_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_sheath_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 						chance="0.05" />
+		</attachments>
+	</type>
+	<type name="mmg_chestrig_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_atacs"		chance="0.20" />
+			<item name="MMG_bottle_atacs" 			chance="0.20" />
+			<item name="MMG_sheath_atacs" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+<!-- MK III VEST -->
+	<type name="MMG_MK_III_Armor_black">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_black" 	chance="0.20" />
+			<item name="MMG_double_magpouch_black" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_black" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_black" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_green">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_green"	chance="0.20" />
+			<item name="MMG_double_magpouch_green" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_olive" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_green"	chance="0.20" />
+			<item name="MMG_nbc_pouch"				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_tan">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_tan"	chance="0.20" />
+			<item name="MMG_double_magpouch_tan" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_tan" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_tan" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_multicam" 	chance="0.20" />
+			<item name="MMG_double_magpouch_multicam" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_multicam" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_multicam" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_double_magpouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_multicamblack" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 						chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_woodland" 		chance="0.20" />
+			<item name="MMG_double_magpouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_dark_woodland" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 						chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_erdl" 	chance="0.20" />
+			<item name="MMG_double_magpouch_erdl" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_erdl" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_erdl" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_alpine" 	chance="0.20" />
+			<item name="MMG_double_magpouch_alpine" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_alpine" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_alpine" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_ucp" 	chance="0.20" />
+			<item name="MMG_double_magpouch_ucp" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_ucp" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_ucp" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_double_magpouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_multicam_tropic" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_atacs" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_atacs" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+	</type>
+<!-- MK-V VEST -->
+	<type name="MMG_MK_V_Armor_black">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_black" 				chance="0.20" />
+			<item name="MMG_double_magpouch_black" 		chance="0.20" />
+			<item name="MMG_double_magpouch_black" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_black" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_black" 	chance="0.20" />
+			<item name="MMG_sheath_black" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_green">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_green" 				chance="0.20" />
+			<item name="MMG_double_magpouch_green" 		chance="0.20" />
+			<item name="MMG_double_magpouch_green" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_green" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_green" 	chance="0.20" />
+			<item name="MMG_sheath_olive" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_tan">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_tan" 				chance="0.20" />
+			<item name="MMG_double_magpouch_tan" 		chance="0.20" />
+			<item name="MMG_double_magpouch_tan" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_tan" 		chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_tan" 	chance="0.20" />
+			<item name="MMG_sheath_tan"					chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_multicam" 				chance="0.20" />
+			<item name="MMG_double_magpouch_multicam" 		chance="0.20" />
+			<item name="MMG_double_magpouch_multicam" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_multicam" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_multicam" 	chance="0.20" />
+			<item name="MMG_sheath_multicam" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_multicamblack" 				chance="0.20" />
+			<item name="MMG_double_magpouch_multicamblack" 		chance="0.20" />
+			<item name="MMG_double_magpouch_multicamblack" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_sheath_multicamblack" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_dark_woodland" 				chance="0.20" />
+			<item name="MMG_double_magpouch_dark_woodland" 		chance="0.20" />
+			<item name="MMG_double_magpouch_dark_woodland" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_sheath_dark_woodland" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_erdl" 				chance="0.20" />
+			<item name="MMG_double_magpouch_erdl" 		chance="0.20" />
+			<item name="MMG_double_magpouch_erdl" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_erdl" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_erdl" 	chance="0.20" />
+			<item name="MMG_sheath_erdl" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_alpine" 				chance="0.20" />
+			<item name="MMG_double_magpouch_alpine" 		chance="0.20" />
+			<item name="MMG_double_magpouch_alpine" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_alpine" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_alpine" 	chance="0.20" />
+			<item name="MMG_sheath_alpine" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_ucp" 				chance="0.20" />
+			<item name="MMG_double_magpouch_ucp" 		chance="0.20" />
+			<item name="MMG_double_magpouch_ucp" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_ucp" 		chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_ucp" 	chance="0.20" />
+			<item name="MMG_sheath_ucp" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_multicam_tropic" 				chance="0.20" />
+			<item name="MMG_double_magpouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_double_magpouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_sheath_multicam_tropic" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_atacs" 				chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_atacs" 	chance="0.20" />
+			<item name="MMG_mk_V_grenade_pouch_atacs" 	chance="0.20" />
+			<item name="MMG_sheath_atacs" 				chance="0.20" />
+		</attachments>
+	</type>
+<!-- BELT -->
+	<type name="MMG_falcon_b1_belt_black">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_black" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_black" 	chance="0.20" />
+			<item name="MMG_Holster_black" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_black" 	chance="0.20" />
+			<item name="MMG_carbine_red" 			chance="0.05" />
+			<item name="MMG_carbine_blue" 			chance="0.05" />
+			<item name="MMG_carbine_green" 			chance="0.05" />
+			<item name="MMG_carbine_black" 			chance="0.05" />
+			<item name="MMG_carbine_grey" 			chance="0.05" />
+		    <item name="MMG_carbine_orange" 		chance="0.05" />
+			<item name="MMG_Epinephrine" 			chance="0.10" />
+			<item name="MMG_Morphine" 				chance="0.10" />
+			<item name="MMG_sheath_black" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_olive">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_olive" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_green" 	chance="0.20" />
+			<item name="MMG_Holster_green" 			chance="0.20" />
+			<item name="MMG_carbine_red" 			chance="0.05" />
+			<item name="MMG_carbine_blue" 			chance="0.05" />
+			<item name="MMG_carbine_green" 			chance="0.05" />
+			<item name="MMG_carbine_black" 			chance="0.05" />
+			<item name="MMG_carbine_grey" 			chance="0.05" />
+		    <item name="MMG_carbine_orange" 		chance="0.05" />
+			<item name="MMG_Epinephrine" 			chance="0.10" />
+			<item name="MMG_Morphine" 				chance="0.10" />
+			<item name="MMG_sheath_olive" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_tan">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_tan" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_tan" 	chance="0.20" />
+			<item name="MMG_Holster_tan" 			chance="0.20" />
+			<item name="MMG_carbine_red" 			chance="0.05" />
+			<item name="MMG_carbine_blue" 			chance="0.05" />
+			<item name="MMG_carbine_green" 			chance="0.05" />
+			<item name="MMG_carbine_black" 			chance="0.50" />
+			<item name="MMG_carbine_grey" 			chance="0.50" />
+		    <item name="MMG_carbine_orange" 		chance="0.50" />
+			<item name="MMG_Epinephrine" 			chance="0.10" />
+			<item name="MMG_Morphine" 				chance="0.10" />
+			<item name="MMG_sheath_tan" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_multicam" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_multicam" 	chance="0.20" />
+			<item name="MMG_Holster_multicam" 			chance="0.20" />
+			<item name="MMG_carbine_red" 				chance="0.05" />
+			<item name="MMG_carbine_blue" 				chance="0.05" />
+			<item name="MMG_carbine_green" 				chance="0.05" />
+			<item name="MMG_carbine_black" 				chance="0.05" />
+			<item name="MMG_carbine_grey" 				chance="0.05" />
+		    <item name="MMG_carbine_orange" 			chance="0.05" />
+			<item name="MMG_Epinephrine" 				chance="0.10" />
+			<item name="MMG_Morphine" 					chance="0.10" />
+			<item name="MMG_sheath_multicam" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_multicamblack" 		chance="0.20" />
+			<item name="MMG_tactical_pouch_multicamblack" 	chance="0.20" />
+			<item name="MMG_Holster_multicamblack" 			chance="0.20" />
+			<item name="MMG_carbine_red" 					chance="0.05" />
+			<item name="MMG_carbine_blue" 					chance="0.05" />
+			<item name="MMG_carbine_green" 					chance="0.05" />
+			<item name="MMG_carbine_black" 					chance="0.05" />
+			<item name="MMG_carbine_grey" 					chance="0.05" />
+		    <item name="MMG_carbine_orange" 				chance="0.05" />
+			<item name="MMG_Epinephrine" 					chance="0.10" />
+			<item name="MMG_Morphine" 						chance="0.10" />
+			<item name="MMG_sheath_multicamblack" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 						chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_dark_woodland" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_dark_woodland" 		chance="0.20" />
+			<item name="MMG_Holster_dark_woodland" 				chance="0.20" />
+			<item name="MMG_carbine_red" 						chance="0.05" />
+			<item name="MMG_carbine_blue" 						chance="0.05" />
+			<item name="MMG_carbine_green" 						chance="0.05" />
+			<item name="MMG_carbine_black" 						chance="0.05" />
+			<item name="MMG_carbine_grey" 						chance="0.05" />
+		    <item name="MMG_carbine_orange" 					chance="0.05" />
+			<item name="MMG_Epinephrine" 						chance="0.10" />
+			<item name="MMG_Morphine" 							chance="0.10" />
+			<item name="MMG_sheath_dark_woodland" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_erdl" 					chance="0.20" />
+			<item name="MMG_tactical_pouch_erdl" 				chance="0.20" />
+			<item name="MMG_Holster_erdl" 						chance="0.20" />
+			<item name="MMG_carbine_red" 						chance="0.05" />
+			<item name="MMG_carbine_blue" 						chance="0.05" />
+			<item name="MMG_carbine_green" 						chance="0.05" />
+			<item name="MMG_carbine_black" 						chance="0.05" />
+			<item name="MMG_carbine_grey" 						chance="0.05" />
+		    <item name="MMG_carbine_orange" 					chance="0.05" />
+			<item name="MMG_Epinephrine" 						chance="0.10" />
+			<item name="MMG_Morphine" 							chance="0.10" />
+			<item name="MMG_sheath_erdl" 						chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_alpine" 					chance="0.20" />
+			<item name="MMG_tactical_pouch_alpine" 				chance="0.20" />
+			<item name="MMG_Holster_alpine" 						chance="0.20" />
+			<item name="MMG_carbine_red" 						chance="0.05" />
+			<item name="MMG_carbine_blue" 						chance="0.05" />
+			<item name="MMG_carbine_green" 						chance="0.05" />
+			<item name="MMG_carbine_black" 						chance="0.05" />
+			<item name="MMG_carbine_grey" 						chance="0.05" />
+		    <item name="MMG_carbine_orange" 					chance="0.05" />
+			<item name="MMG_Epinephrine" 						chance="0.10" />
+			<item name="MMG_Morphine" 							chance="0.10" />
+			<item name="MMG_sheath_alpine" 						chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_ucp" 				chance="0.20" />
+			<item name="MMG_tactical_pouch_ucp" 		chance="0.20" />
+			<item name="MMG_Holster_ucp" 				chance="0.20" />
+			<item name="MMG_carbine_red" 				chance="0.05" />
+			<item name="MMG_carbine_blue" 				chance="0.05" />
+			<item name="MMG_carbine_green" 				chance="0.05" />
+			<item name="MMG_carbine_black" 				chance="0.05" />
+			<item name="MMG_carbine_grey" 				chance="0.05" />
+		    <item name="MMG_carbine_orange" 			chance="0.05" />
+			<item name="MMG_Epinephrine" 				chance="0.10" />
+			<item name="MMG_Morphine" 					chance="0.10" />
+			<item name="MMG_sheath_ucp" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_multicam_tropic" 				chance="0.20" />
+			<item name="MMG_tactical_pouch_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_Holster_multicam_tropic" 				chance="0.20" />
+			<item name="MMG_carbine_red" 					chance="0.05" />
+			<item name="MMG_carbine_blue" 					chance="0.05" />
+			<item name="MMG_carbine_green" 					chance="0.05" />
+			<item name="MMG_carbine_black" 					chance="0.05" />
+			<item name="MMG_carbine_grey" 					chance="0.05" />
+		    <item name="MMG_carbine_orange" 				chance="0.05" />
+			<item name="MMG_Epinephrine" 					chance="0.10" />
+			<item name="MMG_Morphine" 						chance="0.10" />
+			<item name="MMG_sheath_multicam_tropic" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 						chance="0.05" />	
+		</attachments>
+	</type>
+	<type name="MMG_falcon_b1_belt_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_atacs" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_atacs" 		chance="0.20" />
+			<item name="MMG_Holster_atacs" 				chance="0.20" />
+			<item name="MMG_carbine_red" 				chance="0.05" />
+			<item name="MMG_carbine_blue" 				chance="0.05" />
+			<item name="MMG_carbine_green" 				chance="0.05" />
+			<item name="MMG_carbine_black" 				chance="0.05" />
+			<item name="MMG_carbine_grey" 				chance="0.05" />
+		    <item name="MMG_carbine_orange" 			chance="0.05" />
+			<item name="MMG_Epinephrine" 				chance="0.10" />
+			<item name="MMG_Morphine" 					chance="0.10" />
+			<item name="MMG_sheath_atacs" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />	
+		</attachments>
+	</type>
+<!-- MMG CARRIER PACK -->
+	<type name="MMG_carrier_backpack_black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_olive">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_multicam">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="Chemlight_Blue" 		chance="0.05" />
+			<item name="Chemlight_Green" 		chance="0.05" />
+			<item name="Chemlight_Red" 			chance="0.05" />
+			<item name="Chemlight_White" 		chance="0.05" />
+			<item name="Chemlight_yellow" 		chance="0.05" />
+			<cargo preset="mixArmy" />
+		    <cargo preset="mixArmy" />
+		    <cargo preset="foodVillage" />
+		    </attachments>
+	</type>
+	<type name="MMG_carrier_backpack_multicamblack">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_dark_woodland">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_erdl">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_alpine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_ucp">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_carrier_backpack_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+<!-- MMG SUPPLYBAG -->
+	<type name="MMG_supplybag_black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_olive">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_multicam">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_dark_woodland">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_erdl">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_alpine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_ucp">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	  <!--MMG assault packs-->
+	<type name="MMG_assault_pack_black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_olive">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_multicam">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_multicamblack">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_dark_woodland">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_erdl">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_alpine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_ucp">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_mct">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+<!-- MMG CAMELBACK -->
+	<type name="MMG_camelback_black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="Chemlight_Blue" 		chance="0.05" />
+			<item name="Chemlight_Green" 		chance="0.05" />
+			<item name="Chemlight_Red" 			chance="0.05" />
+			<item name="Chemlight_White" 		chance="0.05" />
+			<item name="Chemlight_yellow" 		chance="0.05" />
+			<item name="MMG_Med_Pouch_black" 	chance="0.20" />
+			<item name="MMG_bottle_black" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_green">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="Chemlight_Blue" 		chance="0.05" />
+			<item name="Chemlight_Green" 		chance="0.05" />
+			<item name="Chemlight_Red" 			chance="0.05" />
+			<item name="Chemlight_White" 		chance="0.05" />
+			<item name="Chemlight_yellow" 		chance="0.05" />
+			<item name="MMG_Med_Pouch_olive" 	chance="0.20" />
+			<item name="MMG_bottle_olive" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_multicam">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="Chemlight_Blue" 		chance="0.05" />
+			<item name="Chemlight_Green" 		chance="0.05" />
+			<item name="Chemlight_Red" 			chance="0.05" />
+			<item name="Chemlight_White" 		chance="0.05" />
+			<item name="Chemlight_yellow" 		chance="0.05" />
+			<item name="MMG_Med_Pouch_multicam" chance="0.20" />
+			<item name="MMG_bottle_multicam" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_multicamblack">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 							chance="0.33" />
+			<item name="Chemlight_Blue" 						chance="0.05" />
+			<item name="Chemlight_Green" 						chance="0.05" />
+			<item name="Chemlight_Red" 							chance="0.05" />
+			<item name="Chemlight_White" 						chance="0.05" />
+			<item name="Chemlight_yellow" 						chance="0.05" />
+			<item name="MMG_Med_Pouch_multicamblack" 			chance="0.20" />
+			<item name="MMG_bottle_multicamblack"		 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 							chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="MMG_Med_Pouch_tan" 	chance="0.20" />
+			<item name="MMG_bottle_tan" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 		chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_dark_woodland">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 					chance="0.33" />
+			<item name="Chemlight_Blue" 				chance="0.05" />
+			<item name="Chemlight_Green" 				chance="0.05" />
+			<item name="Chemlight_Red" 					chance="0.05" />
+			<item name="Chemlight_White" 				chance="0.05" />
+			<item name="Chemlight_yellow" 				chance="0.05" />
+			<item name="MMG_Med_Pouch_dark_woodland" 	chance="0.20" />
+			<item name="MMG_bottle_dark_woodland" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_erdl">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="Chemlight_Blue" 		chance="0.05" />
+			<item name="Chemlight_Green" 		chance="0.05" />
+			<item name="Chemlight_Red" 			chance="0.05" />
+			<item name="Chemlight_White" 		chance="0.05" />
+			<item name="Chemlight_yellow" 		chance="0.05" />
+			<item name="MMG_Med_Pouch_erdl" 	chance="0.20" />
+			<item name="MMG_bottle_erdl" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_alpine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="Chemlight_Blue" 		chance="0.05" />
+			<item name="Chemlight_Green" 		chance="0.05" />
+			<item name="Chemlight_Red" 			chance="0.05" />
+			<item name="Chemlight_White" 		chance="0.05" />
+			<item name="Chemlight_yellow" 		chance="0.05" />
+			<item name="MMG_Med_Pouch_alpine" 	chance="0.20" />
+			<item name="MMG_bottle_alpine" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 			chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_ucp">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="MMG_Med_Pouch_ucp" 	chance="0.20" />
+			<item name="MMG_bottle_ucp" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 		chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="MMG_Med_Pouch_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_bottle_multicam_tropic" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 		chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_camelback_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="MMG_Med_Pouch_atacs" 	chance="0.20" />
+			<item name="MMG_bottle_atacs" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 		chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<!--MMG MMPS-->
+	<type name="MMG_mmps_bag_black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_green">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_multicam">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_multicamblack">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_dark_woodland">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_erdl">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_alpine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_ucp">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_mmps_bag_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+<!-- POUCHES -->
+<!-- MMG MAG POUCH -->
+	<type name="MMG_Mag_Pouch_Black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_olive">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_multicam">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_multicamblack">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_dark_woodland">
+			<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_erdl">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_alpine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_ucp">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_multicam_tropic">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_atacs">
+		<cargo preset="mixArmy" />
+	</type>
+	
+<!--MMG MED POUCH -->
+	<type name="MMG_Med_Pouch_black">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_olive">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+    </type>
+	<type name="MMG_Med_Pouch_multicam">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_multicamblack">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_tan">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_dark_woodland">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_erdl">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_alpine">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_ucp">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_multicam_tropic">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	<type name="MMG_Med_Pouch_atacs">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+	
+<!-- MMG AMMO POUCH -->
+	<type name="MMG_ammo_pouch_black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_olive">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_multicam">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_multicamblack">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_dark_woodland">
+			<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_erdl">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_alpine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_ucp">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_multicam_tropic">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_atacs">
+		<cargo preset="mixArmy" />
+	</type>
+	
+<!-- MMG TACTICAL POUCH -->
+	<type name="MMG_tactical_pouch_black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_green">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_multicam">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_multicamblack">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_dark_woodland">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_erdl">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_alpine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_ucp">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_multicam_tropic">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_tactical_pouch_atacs">
+		<cargo preset="mixArmy" />
+	</type>
+	
+<!-- MMG MK-V UTILITY POUCH -->
+	<type name="MMG_mk5_utility_pouch_black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_green">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_multicam">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_multicamblack">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_dark_woodland">
+      <cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_erdl">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_alpine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_ucp">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_multicam_tropic">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_atacs">
+		<cargo preset="mixArmy" />
+	</type>
+	
+<!-- MMG MK-V GRENADE POUCH -->
+	<type name="MMG_mk5_grenade_pouch_black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_green">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_multicam">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_multicamblack">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_erdl">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_alpine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_dark_woodland">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_ucp">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_multicam_tropic">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_grenade_pouch_atacs">
+		<cargo preset="mixArmy" />
+	</type>
+
+<!-- HELMETS -->
+<!-- MMG TACTICAL HELMET -->
+	<type name="MMG_tactical_helmet_black">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_black" 			chance="0.20" />
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_green">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_green" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_tan">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_tan" 			chance="0.20" />
+			<item name="mmg_gp_nvg_tan" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_multicam">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_tan" 			chance="0.20" />
+			<item name="mmg_gp_nvg_tan" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_multicamblack">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_green" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_erdl">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_green" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_alpine">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_gren" 			chance="0.20" />
+			<item name="mmg_gp_nvg_grey" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_dark_woodland">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_black" 			chance="0.20" />
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_ucp">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_ucp" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_green" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_tactical_helmet_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_green" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	
+<!-- MMG STRIKER HELMET -->
+	<type name="MMG_striker_helmet_black">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_green">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_tan">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_tan" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_multicam">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_ucp">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_grey" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_multicamblack">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_erdl">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_alpine">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_grey" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_dark_woodland">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_multicam_tropic">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_atacs">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+</spawnabletypes>

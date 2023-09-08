@@ -1,0 +1,1813 @@
+{
+    "Locations": [
+        {
+            "Name": "Camp | Arsenovo",
+            "Position": [
+                8509.6611328125,
+                0.0,
+                13918.6279296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Druzhba",
+            "Position": [
+                11437.0,
+                0.0,
+                10695.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Kometa",
+            "Position": [
+                10271.697265625,
+                0.0,
+                3558.22802734375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Metalurg",
+            "Position": [
+                1035.406005859375,
+                0.0,
+                6677.3828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Nadezhda",
+            "Position": [
+                7279.9677734375,
+                0.0,
+                7014.35009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Pobeda",
+            "Position": [
+                3703.382080078125,
+                0.0,
+                14876.3837890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Proud Chernarus",
+            "Position": [
+                3199.616943359375,
+                0.0,
+                6174.93212890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Romashka",
+            "Position": [
+                8177.60205078125,
+                0.0,
+                10980.2890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Shkolnik",
+            "Position": [
+                14856.5029296875,
+                0.0,
+                14571.0283203125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Stroytel",
+            "Position": [
+                7017.6298828125,
+                0.0,
+                4365.2099609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Camp | Youth Pioneer",
+            "Position": [
+                11155.8251953125,
+                0.0,
+                7074.14306640625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Capital | Chernogorsk",
+            "Position": [
+                6778.619140625,
+                0.0,
+                2321.77392578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Capital | Novodmitrovsk",
+            "Position": [
+                11339.76953125,
+                0.0,
+                14391.0498046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Berezino",
+            "Position": [
+                12372.3828125,
+                0.0,
+                9760.9814453125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Chernaya Polyana",
+            "Position": [
+                12158.5400390625,
+                0.0,
+                13770.2197265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Dubovo",
+            "Position": [
+                6754.509765625,
+                0.0,
+                3595.257080078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Elektrozavodsk",
+            "Position": [
+                10286.6796875,
+                0.0,
+                1992.77001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Gorka",
+            "Position": [
+                9524.0,
+                0.0,
+                8945.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Krasnostav",
+            "Position": [
+                11203.1669921875,
+                0.0,
+                12340.8076171875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Novaya Petrovka",
+            "Position": [
+                3477.1689453125,
+                0.0,
+                12931.2431640625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Novoselki",
+            "Position": [
+                6115.91015625,
+                0.0,
+                3256.360107421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Polyana",
+            "Position": [
+                10794.0,
+                0.0,
+                8160.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Severograd",
+            "Position": [
+                8168.48388671875,
+                0.0,
+                12573.6015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Solnechny",
+            "Position": [
+                13487.7236328125,
+                0.0,
+                6225.8837890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Stary Sobor",
+            "Position": [
+                6114.0,
+                0.0,
+                7849.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Svetloyarsk",
+            "Position": [
+                13989.740234375,
+                0.0,
+                13263.7802734375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Vybor",
+            "Position": [
+                3909.8310546875,
+                0.0,
+                9019.6142578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Vysotovo",
+            "Position": [
+                5701.240234375,
+                0.0,
+                2556.110107421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "City | Zelenogorsk",
+            "Position": [
+                2796.0,
+                0.0,
+                5166.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Altar",
+            "Position": [
+                8143.39990234375,
+                0.0,
+                9159.6796875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Baranchik",
+            "Position": [
+                10153.1474609375,
+                0.0,
+                6208.52099609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Bashnya",
+            "Position": [
+                4178.27001953125,
+                0.0,
+                11771.2197265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Bolshoy Kotel",
+            "Position": [
+                714.6489868164063,
+                0.0,
+                6520.43115234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Chernaya gora",
+            "Position": [
+                10280.81640625,
+                0.0,
+                12053.927734375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Dazhbog",
+            "Position": [
+                6581.0,
+                0.0,
+                8590.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Dobry",
+            "Position": [
+                10552.900390625,
+                0.0,
+                3061.030029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Dubina",
+            "Position": [
+                11107.900390625,
+                0.0,
+                8474.830078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Erbenka",
+            "Position": [
+                2842.916015625,
+                0.0,
+                4014.81103515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Kalmyk",
+            "Position": [
+                6903.77978515625,
+                0.0,
+                4919.66015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Kikimora",
+            "Position": [
+                1812.0,
+                0.0,
+                6200.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Klen",
+            "Position": [
+                11473.5107421875,
+                0.0,
+                11315.392578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Koman",
+            "Position": [
+                1660.6519775390626,
+                0.0,
+                7415.6611328125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Kopyto",
+            "Position": [
+                7871.47900390625,
+                0.0,
+                3869.10205078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Kurgan",
+            "Position": [
+                3368.52001953125,
+                0.0,
+                5296.8701171875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Kustryk",
+            "Position": [
+                4912.8798828125,
+                0.0,
+                5063.4501953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Lysaya gora",
+            "Position": [
+                6722.458984375,
+                0.0,
+                14050.419921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Malinovka",
+            "Position": [
+                10897.7001953125,
+                0.0,
+                7575.58984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Mayak",
+            "Position": [
+                12323.8134765625,
+                0.0,
+                4553.10693359375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Olsha",
+            "Position": [
+                12975.7001953125,
+                0.0,
+                12775.2001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Ostrog",
+            "Position": [
+                2655.73388671875,
+                0.0,
+                2264.632080078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Ostry",
+            "Position": [
+                10792.7470703125,
+                0.0,
+                12829.50390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Pik Kozlova",
+            "Position": [
+                8850.169921875,
+                0.0,
+                2880.530029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Pop Ivan",
+            "Position": [
+                6420.259765625,
+                0.0,
+                6570.66015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Shishok",
+            "Position": [
+                3559.31298828125,
+                0.0,
+                9422.26953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Simurg",
+            "Position": [
+                134.0,
+                0.0,
+                7569.990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Sokol",
+            "Position": [
+                12001.0,
+                0.0,
+                14813.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Svyatoy roman",
+            "Position": [
+                84.83200073242188,
+                0.0,
+                11901.24609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Tokarnya",
+            "Position": [
+                8890.4775390625,
+                0.0,
+                5672.55322265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Tumanny verkh",
+            "Position": [
+                331.2239990234375,
+                0.0,
+                12982.990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Veresnik",
+            "Position": [
+                4440.169921875,
+                0.0,
+                8070.5400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Vetryanaya gora",
+            "Position": [
+                3892.739990234375,
+                0.0,
+                4200.58984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Viselitsa",
+            "Position": [
+                12722.1572265625,
+                0.0,
+                7504.0498046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Volchiy pik",
+            "Position": [
+                320.2539978027344,
+                0.0,
+                2719.26904296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Vysokiy kamen",
+            "Position": [
+                8940.1904296875,
+                0.0,
+                4380.52001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Vysota",
+            "Position": [
+                6591.6298828125,
+                0.0,
+                3400.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Hill | Zelenaya gora",
+            "Position": [
+                3767.169921875,
+                0.0,
+                6010.5400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Adamovka",
+            "Position": [
+                5340.66015625,
+                0.0,
+                11380.009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Airfield Balota",
+            "Position": [
+                5082.03076171875,
+                0.0,
+                2376.327880859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Airfield Krasno",
+            "Position": [
+                12100.6806640625,
+                0.0,
+                12573.896484375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Airfield Vybor",
+            "Position": [
+                4428.0,
+                0.0,
+                10179.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Bogat",
+            "Position": [
+                7058.01123046875,
+                0.0,
+                12023.5712890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Cherny les",
+            "Position": [
+                9031.0,
+                0.0,
+                7803.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Chernye skaly",
+            "Position": [
+                3932.572021484375,
+                0.0,
+                14599.49609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Dichina",
+            "Position": [
+                4618.0,
+                0.0,
+                7821.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Drakon",
+            "Position": [
+                11191.0,
+                0.0,
+                2443.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Dubnik",
+            "Position": [
+                3298.2900390625,
+                0.0,
+                10330.8896484375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Galkino",
+            "Position": [
+                1102.6800537109376,
+                0.0,
+                8798.26953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Grozovy pereval",
+            "Position": [
+                3318.1201171875,
+                0.0,
+                15250.5498046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Grozovye doly",
+            "Position": [
+                10403.982421875,
+                0.0,
+                14793.16796875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Grubye skaly",
+            "Position": [
+                13115.0595703125,
+                0.0,
+                11900.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Kalinka",
+            "Position": [
+                3346.5,
+                0.0,
+                11292.0966796875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Karer Krasnaya Zarya",
+            "Position": [
+                8565.3486328125,
+                0.0,
+                13418.68359375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Klenovyi pereval",
+            "Position": [
+                10862.7021484375,
+                0.0,
+                11585.51171875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Kotka",
+            "Position": [
+                5873.7001953125,
+                0.0,
+                6883.240234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Krutye skaly",
+            "Position": [
+                14880.6298828125,
+                0.0,
+                13671.759765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Lesnoy khrebet",
+            "Position": [
+                8122.77001953125,
+                0.0,
+                7815.5400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Makosh",
+            "Position": [
+                7849.72021484375,
+                0.0,
+                6480.18994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Maryanka",
+            "Position": [
+                2789.0,
+                0.0,
+                3386.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Matveyevo",
+            "Position": [
+                4281.0,
+                0.0,
+                7380.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Medvezhi lugi",
+            "Position": [
+                9641.0,
+                0.0,
+                13236.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Military base Kamensk",
+            "Position": [
+                7838.81201171875,
+                0.0,
+                14704.8232421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Military base Pavlovo",
+            "Position": [
+                2016.0,
+                0.0,
+                3408.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Military base Tisy",
+            "Position": [
+                1570.0,
+                0.0,
+                14069.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Military base VMC",
+            "Position": [
+                4497.0,
+                0.0,
+                8291.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Military base Zeleno",
+            "Position": [
+                2410.375,
+                0.0,
+                5133.68115234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Mys Golova",
+            "Position": [
+                8286.052734375,
+                0.0,
+                2405.597900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Mys Krutoy",
+            "Position": [
+                13578.1904296875,
+                0.0,
+                3976.820068359375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Novy lug",
+            "Position": [
+                9251.0,
+                0.0,
+                11360.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Oreshka pereval",
+            "Position": [
+                9822.19140625,
+                0.0,
+                6088.79296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Otmel",
+            "Position": [
+                11581.25,
+                0.0,
+                3213.239990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Polonina",
+            "Position": [
+                1004.4860229492188,
+                0.0,
+                4242.869140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Pustoy khrebet",
+            "Position": [
+                10890.0,
+                0.0,
+                5665.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Radio Zenit",
+            "Position": [
+                8080.009765625,
+                0.0,
+                9341.6796875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Rify",
+            "Position": [
+                13931.73046875,
+                0.0,
+                11288.6103515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Rostoki",
+            "Position": [
+                744.4500122070313,
+                0.0,
+                8647.8603515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | SKVSCh Biathlon Arena",
+            "Position": [
+                357.0,
+                0.0,
+                11142.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Skalka",
+            "Position": [
+                5758.0,
+                0.0,
+                14486.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Sosnovy pereval",
+            "Position": [
+                2687.39990234375,
+                0.0,
+                6590.27978515625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Starye luga",
+            "Position": [
+                6919.0,
+                0.0,
+                8995.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Svyatoy-Roman Ski Resort",
+            "Position": [
+                638.0,
+                0.0,
+                11667.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Tri Kresta",
+            "Position": [
+                301.0,
+                0.0,
+                9478.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Tri doliny",
+            "Position": [
+                12764.4697265625,
+                0.0,
+                5412.2099609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Turovskiy pereval",
+            "Position": [
+                14674.2412109375,
+                0.0,
+                14089.3056640625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Vidy",
+            "Position": [
+                785.0540161132813,
+                0.0,
+                14398.8154296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Local | Zmeiny khrebet",
+            "Position": [
+                11446.169921875,
+                0.0,
+                13606.919921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Chernoye ozero",
+            "Position": [
+                13381.0,
+                0.0,
+                12002.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Cherny zaliv",
+            "Position": [
+                7599.06884765625,
+                0.0,
+                2486.5859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Glaza",
+            "Position": [
+                7383.0,
+                0.0,
+                9320.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Glubokoye ozero",
+            "Position": [
+                1692.5550537109376,
+                0.0,
+                14821.5654296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Ivovoye ozero",
+            "Position": [
+                13248.0,
+                0.0,
+                11572.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Nizhniy zaliv",
+            "Position": [
+                12989.2998046875,
+                0.0,
+                8515.759765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Orlye Ozero",
+            "Position": [
+                597.0,
+                0.0,
+                5990.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Ozerko",
+            "Position": [
+                6777.6298828125,
+                0.0,
+                4492.419921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Plotina Pobeda",
+            "Position": [
+                9928.2939453125,
+                0.0,
+                13874.642578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Plotina Tishina",
+            "Position": [
+                1150.8199462890626,
+                0.0,
+                6432.4541015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Plotina Topolka",
+            "Position": [
+                10231.330078125,
+                0.0,
+                3691.14990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Prud",
+            "Position": [
+                6610.97998046875,
+                0.0,
+                9308.5703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Skalisty proliv",
+            "Position": [
+                13385.919921875,
+                0.0,
+                3613.93994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Tikhiy zaliv",
+            "Position": [
+                1221.489990234375,
+                0.0,
+                2111.889892578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Tikhiy zaliv",
+            "Position": [
+                1221.489990234375,
+                0.0,
+                2111.889892578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Verbnik",
+            "Position": [
+                4414.87890625,
+                0.0,
+                9103.001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Zaliv Guba",
+            "Position": [
+                14328.3740234375,
+                0.0,
+                13136.732421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Marine | Zeleny zaliv",
+            "Position": [
+                11227.0185546875,
+                0.0,
+                2989.837890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Chortov zamok",
+            "Position": [
+                6883.23876953125,
+                0.0,
+                11501.2880859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Gnomov zamok",
+            "Position": [
+                7446.9150390625,
+                0.0,
+                9097.169921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Klyuch",
+            "Position": [
+                9282.5703125,
+                0.0,
+                13476.669921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Krona",
+            "Position": [
+                1493.0,
+                0.0,
+                9270.33984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Rog",
+            "Position": [
+                11267.2060546875,
+                0.0,
+                4293.0361328125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Storozh",
+            "Position": [
+                2816.60107421875,
+                0.0,
+                1277.9599609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Voron",
+            "Position": [
+                13517.9296875,
+                0.0,
+                3311.2451171875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Zolotar",
+            "Position": [
+                10179.0,
+                0.0,
+                11998.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Ruin | Zub",
+            "Position": [
+                6574.27978515625,
+                0.0,
+                5573.85009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Balota",
+            "Position": [
+                4527.580078125,
+                0.0,
+                2465.320068359375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Belaya Polyana",
+            "Position": [
+                14166.0,
+                0.0,
+                14968.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Berezhki",
+            "Position": [
+                15020.0,
+                0.0,
+                13905.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Bogatyrka",
+            "Position": [
+                1453.6199951171876,
+                0.0,
+                8870.919921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Bor",
+            "Position": [
+                3316.406005859375,
+                0.0,
+                4070.966064453125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Dobroye",
+            "Position": [
+                12996.0,
+                0.0,
+                15066.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Dolina",
+            "Position": [
+                11285.169921875,
+                0.0,
+                6633.580078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Drozhino",
+            "Position": [
+                3374.0,
+                0.0,
+                4861.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Dubrovka",
+            "Position": [
+                10324.298828125,
+                0.0,
+                9888.2373046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Grishino",
+            "Position": [
+                5980.0,
+                0.0,
+                10257.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Guglovo",
+            "Position": [
+                8445.0,
+                0.0,
+                6579.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Gvozdno",
+            "Position": [
+                8644.7509765625,
+                0.0,
+                11934.115234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kabanino",
+            "Position": [
+                5300.7099609375,
+                0.0,
+                8645.900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kalinovka",
+            "Position": [
+                7448.0,
+                0.0,
+                13406.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kamenka",
+            "Position": [
+                1981.0,
+                0.0,
+                2207.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kamensk",
+            "Position": [
+                6748.7412109375,
+                0.0,
+                14430.0458984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kamyshovo",
+            "Position": [
+                12170.0,
+                0.0,
+                3458.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Karmanovka",
+            "Position": [
+                12700.6279296875,
+                0.0,
+                14691.3115234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Khelm",
+            "Position": [
+                12329.26953125,
+                0.0,
+                10771.009765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Komarovo",
+            "Position": [
+                3702.0,
+                0.0,
+                2440.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kozlovka",
+            "Position": [
+                4402.0,
+                0.0,
+                4736.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Krasnoye",
+            "Position": [
+                6411.3740234375,
+                0.0,
+                15029.9609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Kumyrna",
+            "Position": [
+                8300.0,
+                0.0,
+                6054.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Lopatino",
+            "Position": [
+                2801.0,
+                0.0,
+                10029.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Mogilevka",
+            "Position": [
+                7650.41015625,
+                0.0,
+                5096.4599609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Msta",
+            "Position": [
+                11333.7900390625,
+                0.0,
+                5421.39990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Myshkino",
+            "Position": [
+                2048.0,
+                0.0,
+                7258.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Nadezhdino",
+            "Position": [
+                5894.0,
+                0.0,
+                4780.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Nagornoye",
+            "Position": [
+                9286.0,
+                0.0,
+                14677.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Nizhneye",
+            "Position": [
+                12824.8798828125,
+                0.0,
+                8097.7001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Novy Sobor",
+            "Position": [
+                7123.6298828125,
+                0.0,
+                7774.6298828125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Olsha",
+            "Position": [
+                13402.0,
+                0.0,
+                12898.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Orlovets",
+            "Position": [
+                12250.0,
+                0.0,
+                7253.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Pavlovo",
+            "Position": [
+                1693.97998046875,
+                0.0,
+                3858.64990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Pogorevka",
+            "Position": [
+                4445.0,
+                0.0,
+                6322.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Polesovo",
+            "Position": [
+                5955.73681640625,
+                0.0,
+                13558.0458984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Prigorodki",
+            "Position": [
+                7760.0,
+                0.0,
+                3336.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Pulkovo",
+            "Position": [
+                5015.0,
+                0.0,
+                5607.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Pusta",
+            "Position": [
+                9197.0,
+                0.0,
+                3873.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Pustoshka",
+            "Position": [
+                3137.944091796875,
+                0.0,
+                7890.9248046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Ratnoye",
+            "Position": [
+                6195.8779296875,
+                0.0,
+                12761.8017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Rogovo",
+            "Position": [
+                4802.0,
+                0.0,
+                6748.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Shakhovka",
+            "Position": [
+                9728.6396484375,
+                0.0,
+                6567.2998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Sinystok",
+            "Position": [
+                1538.2779541015626,
+                0.0,
+                11904.578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Skalisty",
+            "Position": [
+                13715.4541015625,
+                0.0,
+                3118.780029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Sosnovka",
+            "Position": [
+                2556.0,
+                0.0,
+                6307.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Staroye",
+            "Position": [
+                10212.51953125,
+                0.0,
+                5385.0498046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Stary Yar",
+            "Position": [
+                4987.85986328125,
+                0.0,
+                14992.9755859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Svergino",
+            "Position": [
+                9493.51953125,
+                0.0,
+                13875.26953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Tisy",
+            "Position": [
+                3441.64990234375,
+                0.0,
+                14799.5498046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Topolniki",
+            "Position": [
+                2913.7451171875,
+                0.0,
+                12366.357421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Tulga",
+            "Position": [
+                12768.0,
+                0.0,
+                4384.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Turovo",
+            "Position": [
+                13630.0,
+                0.0,
+                14146.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Vavilovo",
+            "Position": [
+                2263.0,
+                0.0,
+                11103.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Vyshnaya Dubrovka",
+            "Position": [
+                9926.8232421875,
+                0.0,
+                10468.9189453125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Vyshnoye",
+            "Position": [
+                6629.0,
+                0.0,
+                6051.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Zabolotye",
+            "Position": [
+                1256.8590087890626,
+                0.0,
+                9993.259765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Zaprudnoye",
+            "Position": [
+                5214.0,
+                0.0,
+                12792.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Name": "Village | Zvir",
+            "Position": [
+                577.3300170898438,
+                0.0,
+                5317.419921875
+            ],
+            "Radius": 4.0
+        }
+    ]
+}

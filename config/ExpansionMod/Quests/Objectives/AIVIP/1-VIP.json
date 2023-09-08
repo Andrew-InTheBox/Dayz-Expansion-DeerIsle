@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 18,
+    "ID": 1,
+    "ObjectiveType": 9,
+    "ObjectiveText": "Bring the survivor to the Spire.",
+    "TimeLimit": -1,
+    "Position": [
+        5122.99,
+		59.219,
+		7974.46
+    ],
+    "MaxDistance": 25.0,
+    "AIVIP": {
+        "NPCLoadoutFile": "BanditLoadout"
+    },
+    "MarkerName": "Escort VIP",
+    "ShowDistance": 1
+}

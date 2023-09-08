@@ -1,0 +1,46 @@
+{
+    "Name": "NBC Set",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "NBCGlovesGray",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "NBCHoodGray",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "NBCPantsGray",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "NBCBootsGray",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "NBCJacketGray",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "AirborneMask",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "AirborneMask",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "GasMask_Filter",
+            "NumberOfStacks": 4,
+            "StackSize": 100
+        }
+    ]
+}

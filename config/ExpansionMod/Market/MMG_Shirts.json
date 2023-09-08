@@ -1,0 +1,74 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Shirts",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MMG_combatshirt_black",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_combatshirt_green",
+                "MMG_combatshirt_tan",
+                "MMG_combatshirt_alpine",
+                "MMG_combatshirt_erdl",
+                "MMG_combatshirt_multicamblack",
+                "MMG_combatshirt_multicam",
+                "MMG_combatshirt_dark_woodland",
+                "MMG_combatshirt_ucp",
+                "MMG_combatshirt_multicam_tropic",
+                "MMG_combatshirt_police"
+            ]
+        },
+        {
+            "ClassName": "MMG_operatorshirt_black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_operatorshirt_green",
+                "MMG_operatorshirt_tan",
+                "MMG_operatorshirt_erdl",
+                "MMG_operatorshirt_multicamblack",
+                "MMG_operatorshirt_multicam",
+                "MMG_operatorshirt_dark_woodland",
+                "MMG_operatorshirt_alpine",
+                "MMG_operatorshirt_ucp",
+                "MMG_operatorshirt_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_tactical_shirt_black",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_tactical_shirt_ucp",
+                "MMG_tactical_shirt_green",
+                "MMG_tactical_shirt_tan",
+                "MMG_tactical_shirt_multicamblack",
+                "MMG_tactical_shirt_erdl",
+                "MMG_tactical_shirt_dark_wl",
+                "MMG_tactical_shirt_alpine",
+                "MMG_tactical_shirt_multicam",
+                "MMG_tactical_shirt_multicam_tropic"
+            ]
+        }
+    ]
+}

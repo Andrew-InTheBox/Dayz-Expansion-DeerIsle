@@ -1,0 +1,82 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MMG Helmets and Visors",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "mmg_armored_helmet_green",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mmg_armored_helmet_black",
+                "mmg_armored_helmet_tan"
+            ]
+        },
+        {
+            "ClassName": "mmg_armored_helmet_visor_tan",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mmg_armored_helmet_visor_black",
+                "mmg_armored_helmet_visor_green"
+            ]
+        },
+        {
+            "ClassName": "MMG_tactical_helmet_black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_tactical_helmet_green",
+                "MMG_tactical_helmet_tan",
+                "MMG_tactical_helmet_multicam",
+                "MMG_tactical_helmet_alpine",
+                "MMG_tactical_helmet_erdl",
+                "MMG_tactical_helmet_multicamblack",
+                "MMG_tactical_helmet_dark_woodland",
+                "MMG_tactical_helmet_ucp",
+                "MMG_tactical_helmet_multicam_tropic",
+                "MMG_tactical_helmet_police"
+            ]
+        },
+        {
+            "ClassName": "MMG_striker_helmet_rusty",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_striker_helmet_black",
+                "MMG_striker_helmet_green",
+                "MMG_striker_helmet_tan",
+                "MMG_striker_helmet_alpine",
+                "MMG_striker_helmet_erdl",
+                "MMG_striker_helmet_multicamblack",
+                "MMG_striker_helmet_multicam",
+                "MMG_striker_helmet_dark_woodland",
+                "MMG_striker_helmet_ucp",
+                "MMG_striker_helmet_multicam_tropic"
+            ]
+        }
+    ]
+}

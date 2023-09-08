@@ -1,0 +1,22 @@
+{
+    "VehicleName": "CivilianSedan_Wine",
+    "DisplayName": "",
+    "Parts": [
+        "CivSedanHood_Wine",
+        "CivSedanTrunk_Wine",
+        "CivSedanDoors_Driver_Wine",
+        "CivSedanDoors_BackRight_Wine",
+        "CivSedanDoors_BackLeft_Wine",
+        "CivSedanDoors_CoDriver_Wine",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CivSedanWheel",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7"
+    ]
+}

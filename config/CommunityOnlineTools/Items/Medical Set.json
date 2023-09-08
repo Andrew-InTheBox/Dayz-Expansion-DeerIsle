@@ -1,0 +1,66 @@
+{
+    "Name": "Medical Set",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "TetracyclineAntibiotics",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "PurificationTablets",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "DisinfectantAlcohol",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "PainkillerTablets",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "AntiChemInjector",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "BandageDressing",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "CharcoalTablets",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "VitaminBottle",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "Epinephrine",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "Thermometer",
+            "NumberOfStacks": 2,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "Morphine",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "Heatpack",
+            "NumberOfStacks": 5,
+            "StackSize": 100
+        }
+    ]
+}
