@@ -7,7 +7,6 @@ The setup includes:
 - Several quests
 - Multiple market traders
 
-<<<<<<< HEAD
 > **Note:** MMG equipment is integrated, but the category for market items can be removed if necessary.
 
 ## Startup Note
@@ -30,18 +29,3 @@ The setup utilizes the following mods:
 - **MMG-MightysMilitaryGear**
 - **PvZmoD_CustomizableZombies**
 - **_DayZ-Dynamic-AI-Addon** (server-side)
-=======
-## Mods used
-* DeerIsle
-* BulletStacksPlusEnhanced
-* CF
-* COT
-* DabsFramework
-* DayZ-Editor-Loader
-* Dayz-Expansion-Animations
-* DayZ-Expansion-Bundle
-* DayZ-Expansion-Licensed
-* MMG-MightysMilitaryGear
-* PvZmoD_CustomizableZombies
-* _DayZ-Dynamic-AI-Addon (server side)
->>>>>>> 9abebf34fbe8f2afc840c8038a0159f827281b89
