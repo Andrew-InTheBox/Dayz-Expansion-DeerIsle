@@ -28,4 +28,5 @@ The setup utilizes the following mods:
 - **DayZ-Expansion-Licensed**
 - **MMG-MightysMilitaryGear**
 - **PvZmoD_CustomizableZombies**
+- **NoForceWeaponRaise**
 - **_DayZ-Dynamic-AI-Addon** (server-side)
