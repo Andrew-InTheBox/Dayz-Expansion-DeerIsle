@@ -1,0 +1,43 @@
+{
+    "ConfigVersion": 18,
+    "ID": 3,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Watch for the patrol, and be quiet, infected are near.",
+    "TimeLimit": -1,
+    "AIPatrol": {
+        "NPCUnits": 3,
+        "Waypoints": [
+            [
+                4487.36,
+                33.3548,
+                7559.72
+            ],
+            [
+                4548.06,
+                28.3339,
+                7561.36
+            ],
+            [
+                4591.69,
+                22.4101,
+                7580.06
+            ]
+        ],
+        "NPCSpeed": "WALK",
+        "NPCMode": "ALTERNATE",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "GorkaLoadout",
+        "NPCAccuracyMin": 0.4,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 375.0,
+    "DespawnRadius": 800.0,
+    "CanLootAI": 1
+}

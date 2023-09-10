@@ -17,9 +17,60 @@
     "LargeVehicles": [
         "expansionlhd"
     ],
-    "LandSpawnPositions": [],
-    "AirSpawnPositions": [],
-    "WaterSpawnPositions": [],
+    "LandSpawnPositions": [
+		{
+            "Position": [
+                7559.16,
+				87.6825,
+				4582.23
+            ],
+            "Orientation": [
+                144.3,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Position": [
+                5084,
+				59.3382,
+				7989.46
+            ],
+            "Orientation": [
+                -126.6,
+                0.0,
+                0.0
+            ]
+        }
+	],
+    "AirSpawnPositions": [
+		{
+            "Position": [
+                5042.78,
+				57.9867,
+				7971.68
+            ],
+            "Orientation": [
+                -155.7,
+                0.0,
+                0.0
+            ]
+        }
+	],
+    "WaterSpawnPositions": [
+		{
+            "Position": [
+                10506,
+				0.1,
+				5724.88
+            ],
+            "Orientation": [
+                21.9,
+                0.0,
+                0.0
+            ]
+        }
+	],
     "MarketMenuColors": {
         "BaseColorVignette": "000000C8",
         "BaseColorHeaders": "13171BFF",
@@ -62,6 +113,5 @@
         "expansionbanknotehryvnia"
     ],
     "VehicleKeys": [
-        "ExpansionCarKey"
     ]
 }
