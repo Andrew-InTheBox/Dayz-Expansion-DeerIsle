@@ -1,0 +1,68 @@
+{
+    "ConfigVersion": 18,
+    "ID": 5,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill the mercenaries",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                4886.75,
+                24.064,
+                7049.88
+            ],
+            [
+                4838.13,
+                20.4782,
+                7049.3
+            ],
+            [
+                4909.97,
+                20.6701,
+                7099.03
+            ],
+            [
+                4770.92,
+                20.4884,
+                7200.0
+            ],
+            [
+                4790.94,
+                46.3919,
+                7083.17
+            ],
+            [
+                4766.86,
+                20.4914,
+                7188.64
+            ],
+            [
+                4819.64,
+                20.7017,
+                7093.28
+            ],
+            [
+                4810.29,
+                30.9892,
+                7199.85
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "GorkaLoadout",
+        "NPCAccuracyMin": 0.40,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 350.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1,
+    "InfectedDeletionRadius": 250
+}
