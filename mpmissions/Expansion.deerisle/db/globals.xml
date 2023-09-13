@@ -11,8 +11,8 @@
     <var name="FlagRefreshFrequency" type="0" value="432000"/>
     <var name="FlagRefreshMaxDuration" type="0" value="3456000"/>
     <var name="FoodDecay" type="0" value="1"/>
-    <var name="IdleModeCountdown" type="0" value="180"/>
-    <var name="IdleModeStartup" type="0" value="1"/>
+    <var name="IdleModeCountdown" type="0" value="0"/>
+    <var name="IdleModeStartup" type="0" value="0"/>
     <var name="InitialSpawn" type="0" value="100"/>
     <var name="LootDamageMax" type="1" value="0.70"/>
     <var name="LootDamageMin" type="1" value="0.05"/>

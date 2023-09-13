@@ -2,12 +2,12 @@
     "ConfigVersion": 18,
     "ID": 6,
     "ObjectiveType": 3,
-    "ObjectiveText": "Scout around and find the patrol to the southwest",
+    "ObjectiveText": "Get into position near the swamp",
     "TimeLimit": -1,
     "Position": [
-        6222.64,
-        15.2674,
-        6161.84
+        4286.33,
+        30.7325,
+        7978.46
     ],
     "MaxDistance": 20.0,
     "MarkerName": "Find the patrol",

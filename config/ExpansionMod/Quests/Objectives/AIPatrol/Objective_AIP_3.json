@@ -28,8 +28,8 @@
         "NPCFaction": "West",
         "NPCFormation": "RANDOM",
         "NPCLoadoutFile": "GorkaLoadout",
-        "NPCAccuracyMin": 0.4,
-        "NPCAccuracyMax": 0.75,
+        "NPCAccuracyMin": 0.5,
+        "NPCAccuracyMax": 0.8,
         "ClassNames": [
             "eAIBase"
         ],

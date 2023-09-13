@@ -2,7 +2,7 @@
     "ConfigVersion": 18,
     "ID": 2,
     "ObjectiveType": 2,
-    "ObjectiveText": "Kill 10 Infected",
+    "ObjectiveText": "Kill 10 Civilian Infected",
     "TimeLimit": -1,
     "Position": [
         0.0,

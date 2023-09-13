@@ -154,7 +154,7 @@
     ],
     "Patrols": [
         {
-            "Name": "",
+            "Name": "ParisIsland",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -269,7 +269,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Area42",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -354,7 +354,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Area42-2",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -414,7 +414,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Portland",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -554,7 +554,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Mountainville",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -849,7 +849,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Airfield",
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -1069,7 +1069,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Powerplant",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -1289,7 +1289,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Milo-Ashville",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -1834,7 +1834,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Greenville",
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -2134,7 +2134,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "ParisIsland2",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -2264,7 +2264,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "SwampAltar",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -2674,7 +2674,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "SouthOfSmallville",
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -3359,7 +3359,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "KMUC-to-Mountainville",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -4429,7 +4429,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "CampEagle-NE",
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -4529,7 +4529,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Area42-West",
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -4599,7 +4599,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "OldTown",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -4719,7 +4719,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "IslandCastle",
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
@@ -4849,7 +4849,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "TempleValleyIsle",
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
