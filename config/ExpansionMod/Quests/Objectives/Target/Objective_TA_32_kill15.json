@@ -2,10 +2,10 @@
   "ConfigVersion": 18,
   "ID": 32,
   "ObjectiveType": 2,
-  "ObjectiveText": "Kill infected nearby",
+  "ObjectiveText": "Kill infected near the cooling towers",
   "TimeLimit": -1,
-  "Position": [4753.09, 16.1201, 7477.93],
-  "MaxDistance": 150.0,
+  "Position": [4673.61, 20.3863, 7340.36],
+  "MaxDistance": 175.0,
   "Target": {
     "Amount": 15,
     "ClassNames": [
