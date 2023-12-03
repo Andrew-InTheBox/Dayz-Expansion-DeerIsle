@@ -3,7 +3,7 @@
 ::Name for the CMD window
 set serverName=ACBlocal
 ::Server files location
-set serverLocation="C:\Program Files (x86)\Steam\steamapps\common\DayZServerDI2"
+set serverLocation="C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader"
 ::Server Port
 set serverPort=2302
 ::Server config
