@@ -1,18 +1,20 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 9,
     "ObjectiveText": "Take the weirdo home to rest.",
     "TimeLimit": -1,
     "Position": [
         7527.0,
-        87.6825,
-        4624.89
+        87.68250274658203,
+        4624.89013671875
     ],
     "MaxDistance": 25.0,
     "AIVIP": {
-        "NPCLoadoutFile": "PoliceLoadout"
+        "NPCLoadoutFile": "PoliceLoadout",
+        "NPCClassName": ""
     },
     "MarkerName": "Escort VIP",
-    "ShowDistance": 1
+    "ShowDistance": 1,
+    "CanLootAI": 0
 }

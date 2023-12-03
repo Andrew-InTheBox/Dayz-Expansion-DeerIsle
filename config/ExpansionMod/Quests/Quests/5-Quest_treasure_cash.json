@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 15,
+    "ConfigVersion": 20,
     "ID": 5,
     "Type": 1,
     "Title": "Treasure Hunt - Cash",
@@ -25,6 +25,8 @@
     ],
     "Rewards": [],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 1,
     "QuestGiverIDs": [
         4
@@ -35,7 +37,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 18,
+            "ConfigVersion": 22,
             "ID": 2,
             "ObjectiveType": 6
         }
@@ -47,5 +49,8 @@
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
 }

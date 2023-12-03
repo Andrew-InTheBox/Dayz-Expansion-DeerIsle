@@ -1,26 +1,21 @@
 {
-    "Version": 20,
-    "Spatial_MinTimer": 20,
-    "Spatial_MaxTimer": 35,
+    "Version": 18,
+    "Spatial_MinTimer": 1200000,
+    "Spatial_MaxTimer": 1800000,
     "MinDistance": 140,
-    "MaxDistance": 220,
+    "MaxDistance": 200,
     "HuntMode": 1,
     "Points_Enabled": 0,
     "Locations_Enabled": 0,
-    "Audio_Enabled": 0,
-    "EngageTimer": 5.0,
-    "CleanupTimer": 6.0,
+    "EngageTimer": 300000,
+    "CleanupTimer": 360000,
     "PlayerChecks": -1,
-    "MaxAI": 20,
+    "MaxAI": 8,
     "GroupDifficulty": 0,
     "MinimumPlayerDistance": 0,
-    "MaxSoloPlayers": 0,
-    "MinimumAge": 0,
-    "ActiveHoursEnabled": 0,
-    "ActiveStartTime": 0.0,
-    "ActiveStopTime": 24.0,
-    "TargetBone": "Neck",
-    "MessageType": 1,
+    "MaxSoloPlayers": 6,
+    "MinimumAge": 40,
+    "MessageType": 0,
     "MessageTitle": "Spatial AI",
     "MessageText": "AI Spotted in the Area. Be Careful.",
     "LootWhitelist": [],
@@ -33,21 +28,21 @@
     "Spatial_InOwnTerritory": 0,
     "Group": [
         {
-            "Spatial_MinCount": 2,
+            "Spatial_MinCount": 1,
             "Spatial_MaxCount": 2,
             "Spatial_Weight": 200.0,
-            "Spatial_Loadout": "NBCLoadout.json",
-            "Spatial_Faction": "West",
-            "Spatial_Name": "Guard",
+            "Spatial_Loadout": "BanditLoadout.json",
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Name": "Mercenaries",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.25,
-            "Spatial_MaxAccuracy": 0.6600000262260437,
+            "Spatial_MaxAccuracy": 0.75,
             "Spatial_UnlimitedReload": 0
         },
         {
             "Spatial_MinCount": 1,
-            "Spatial_MaxCount": 3,
+            "Spatial_MaxCount": 2,
             "Spatial_Weight": 300.0,
             "Spatial_Loadout": "HumanLoadout.json",
             "Spatial_Faction": "Shamans",
@@ -55,25 +50,12 @@
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.25,
-            "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_UnlimitedReload": 1
-        },
-        {
-            "Spatial_MinCount": 2,
-            "Spatial_MaxCount": 3,
-            "Spatial_Weight": 350.0,
-            "Spatial_Loadout": "EastLoadout.json",
-            "Spatial_Faction": "East",
-            "Spatial_Name": "East",
-            "Spatial_Lootable": 1,
-            "Spatial_Chance": 0.5,
-            "Spatial_MinAccuracy": 0.25,
-            "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_UnlimitedReload": 1
+            "Spatial_MaxAccuracy": 0.75,
+            "Spatial_UnlimitedReload": 0
         },
 		{
-            "Spatial_MinCount": 2,
-            "Spatial_MaxCount": 3,
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 2,
             "Spatial_Weight": 350.0,
             "Spatial_Loadout": "WestLoadout.json",
             "Spatial_Faction": "West",
@@ -81,8 +63,21 @@
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.25,
-            "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_UnlimitedReload": 1
+            "Spatial_MaxAccuracy": 0.75,
+            "Spatial_UnlimitedReload": 0
+        },
+        {
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 2,
+            "Spatial_Weight": 350.0,
+            "Spatial_Loadout": "EastLoadout.json",
+            "Spatial_Faction": "East",
+            "Spatial_Name": "East",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.5,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.75,
+            "Spatial_UnlimitedReload": 0
         }
     ],
     "Point": [
@@ -90,9 +85,7 @@
             "Spatial_Name": "East",
             "Spatial_Safe": 0,
             "Spatial_Radius": 50.0,
-            "Spatial_ZoneLoadout": [
-                "EastLoadout.json"
-            ],
+            "Spatial_ZoneLoadout": "EastLoadout.json",
             "Spatial_MinCount": 0,
             "Spatial_MaxCount": 4,
             "Spatial_HuntMode": 6,
@@ -104,7 +97,7 @@
             "Spatial_UnlimitedReload": 0,
             "Spatial_Position": [
                 0.0,
-                1.0,
+                0.0,
                 0.0
             ]
         },
@@ -112,9 +105,7 @@
             "Spatial_Name": "West",
             "Spatial_Safe": 0,
             "Spatial_Radius": 100.0,
-            "Spatial_ZoneLoadout": [
-                "WestLoadout.json"
-            ],
+            "Spatial_ZoneLoadout": "WestLoadout.json",
             "Spatial_MinCount": 0,
             "Spatial_MaxCount": 5,
             "Spatial_HuntMode": 1,
@@ -126,7 +117,7 @@
             "Spatial_UnlimitedReload": 0,
             "Spatial_Position": [
                 0.0,
-                1.0,
+                0.0,
                 0.0
             ]
         },
@@ -134,10 +125,7 @@
             "Spatial_Name": "Civilian",
             "Spatial_Safe": 1,
             "Spatial_Radius": 150.0,
-            "Spatial_ZoneLoadout": [
-                "HumanLoadout.json",
-                "NBCLoadout.json"
-            ],
+            "Spatial_ZoneLoadout": "HumanLoadout.json",
             "Spatial_MinCount": 0,
             "Spatial_MaxCount": 0,
             "Spatial_HuntMode": 0,
@@ -149,14 +137,14 @@
             "Spatial_UnlimitedReload": 0,
             "Spatial_Position": [
                 0.0,
-                1.0,
+                0.0,
                 0.0
             ]
         }
     ],
     "Location": [
         {
-            "Spatial_Name": "Location1",
+            "Spatial_Name": "Name",
             "Spatial_TriggerRadius": 50.0,
             "Spatial_ZoneLoadout": "NBCLoadout.json",
             "Spatial_MinCount": 0,
@@ -167,24 +155,21 @@
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.25,
             "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_Timer": 5.0,
-            "Spatial_SpawnMode": 0,
+            "Spatial_Timer": 60000.0,
             "Spatial_UnlimitedReload": 0,
             "Spatial_TriggerPosition": [
                 0.0,
-                1.0,
+                0.0,
                 0.0
             ],
             "Spatial_SpawnPosition": [
-                [
-                    0.0,
-                    1.0,
-                    0.0
-                ]
+                0.0,
+                0.0,
+                0.0
             ]
         },
         {
-            "Spatial_Name": "Location2",
+            "Spatial_Name": "Name",
             "Spatial_TriggerRadius": 50.0,
             "Spatial_ZoneLoadout": "NBCLoadout.json",
             "Spatial_MinCount": 0,
@@ -195,80 +180,17 @@
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.25,
             "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_Timer": 5.0,
-            "Spatial_SpawnMode": 0,
+            "Spatial_Timer": 60000.0,
             "Spatial_UnlimitedReload": 0,
             "Spatial_TriggerPosition": [
                 0.0,
-                1.0,
-                0.0
-            ],
-            "Spatial_SpawnPosition": [
-                [
-                    0.0,
-                    1.0,
-                    0.0
-                ]
-            ]
-        }
-    ],
-    "Audio": [
-        {
-            "Spatial_Name": "Audio1",
-            "Spatial_TriggerRadius": 50.0,
-            "Spatial_ZoneLoadout": "NBCLoadout.json",
-            "Spatial_MinCount": 0,
-            "Spatial_MaxCount": 4,
-            "Spatial_HuntMode": 6,
-            "Spatial_Faction": "East",
-            "Spatial_Lootable": 1,
-            "Spatial_Chance": 0.5,
-            "Spatial_MinAccuracy": 0.25,
-            "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_Timer": 5.0,
-            "Spatial_Sensitivity": 3.0,
-            "Spatial_SpawnMode": 0,
-            "Spatial_UnlimitedReload": 0,
-            "Spatial_TriggerPosition": [
                 0.0,
-                1.0,
                 0.0
             ],
             "Spatial_SpawnPosition": [
-                [
-                    0.0,
-                    1.0,
-                    0.0
-                ]
-            ]
-        },
-        {
-            "Spatial_Name": "Audio2",
-            "Spatial_TriggerRadius": 50.0,
-            "Spatial_ZoneLoadout": "NBCLoadout.json",
-            "Spatial_MinCount": 0,
-            "Spatial_MaxCount": 4,
-            "Spatial_HuntMode": 6,
-            "Spatial_Faction": "East",
-            "Spatial_Lootable": 1,
-            "Spatial_Chance": 0.5,
-            "Spatial_MinAccuracy": 0.25,
-            "Spatial_MaxAccuracy": 0.6600000262260437,
-            "Spatial_Timer": 5.0,
-            "Spatial_Sensitivity": 3.0,
-            "Spatial_SpawnMode": 0,
-            "Spatial_UnlimitedReload": 0,
-            "Spatial_TriggerPosition": [
                 0.0,
-                1.0,
+                0.0,
                 0.0
-            ],
-            "Spatial_SpawnPosition": [
-                [
-                    0.0,
-                    1.0,
-                    0.0
-                ]
             ]
         }
     ]

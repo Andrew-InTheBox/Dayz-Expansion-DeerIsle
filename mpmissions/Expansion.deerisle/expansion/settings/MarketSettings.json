@@ -1,5 +1,5 @@
 {
-    "m_Version": 11,
+    "m_Version": 12,
     "MarketSystemEnabled": 1,
     "NetworkCategories": [],
     "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
@@ -18,59 +18,59 @@
         "expansionlhd"
     ],
     "LandSpawnPositions": [
-		{
+        {
             "Position": [
-                7559.16,
-				87.6825,
-				4582.23
+                7559.16015625,
+                87.68250274658203,
+                4582.22998046875
             ],
             "Orientation": [
-                144.3,
+                144.3000030517578,
                 0.0,
                 0.0
             ]
         },
         {
             "Position": [
-                5084,
-				59.3382,
-				7989.46
+                5084.0,
+                59.338199615478519,
+                7989.4599609375
             ],
             "Orientation": [
-                -126.6,
+                -126.5999984741211,
                 0.0,
                 0.0
             ]
         }
-	],
+    ],
     "AirSpawnPositions": [
-		{
+        {
             "Position": [
-                5042.78,
-				57.9867,
-				7971.68
+                5042.77978515625,
+                57.986698150634769,
+                7971.68017578125
             ],
             "Orientation": [
-                -155.7,
+                -155.6999969482422,
                 0.0,
                 0.0
             ]
         }
-	],
+    ],
     "WaterSpawnPositions": [
-		{
+        {
             "Position": [
-                10506,
-				0.1,
-				5724.88
+                10506.0,
+                0.10000000149011612,
+                5724.8798828125
             ],
             "Orientation": [
-                21.9,
+                21.899999618530275,
                 0.0,
                 0.0
             ]
         }
-	],
+    ],
     "MarketMenuColors": {
         "BaseColorVignette": "000000C8",
         "BaseColorHeaders": "13171BFF",
@@ -112,6 +112,7 @@
     "Currencies": [
         "expansionbanknotehryvnia"
     ],
-    "VehicleKeys": [
-    ]
+    "VehicleKeys": [],
+    "MaxSZVehicleParkingTime": 1800.0,
+    "SZVehicleParkingTicketFine": 0
 }

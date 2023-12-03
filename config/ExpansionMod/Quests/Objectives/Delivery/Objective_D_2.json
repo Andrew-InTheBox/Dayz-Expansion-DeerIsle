@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 5,
     "ObjectiveText": "Deliver the package to Peter",
@@ -7,7 +7,9 @@
     "Collections": [
         {
             "Amount": 1,
-            "ClassName": "ExpansionQuestItemPackage"
+            "ClassName": "ExpansionQuestItemPackage",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
         }
     ],
     "MaxDistance": 20.0,

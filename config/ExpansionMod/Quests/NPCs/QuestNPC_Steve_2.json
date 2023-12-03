@@ -1,12 +1,11 @@
 {
-    "ConfigVersion": 4,
+    "ConfigVersion": 5,
     "ID": 2,
     "ClassName": "ExpansionQuestNPCAIElias",
-    "IsAI": 1,
     "Position": [
-        7504.69,
-        22.1367,
-        4151.96
+        7504.68994140625,
+        22.136699676513673,
+        4151.9599609375
     ],
     "Orientation": [
         145.0,
@@ -17,13 +16,18 @@
     "DefaultNPCText": "What do you want? I am busy...",
     "Waypoints": [
         [
-            7504.69,
-			22.1367,
-			4151.96
+            7504.68994140625,
+            22.136699676513673,
+            4151.9599609375
         ]
     ],
     "NPCEmoteID": 14,
     "NPCEmoteIsStatic": 1,
     "NPCLoadoutFile": "SurvivorLoadout",
-    "IsStatic": 0
+    "NPCInteractionEmoteID": 0,
+    "NPCQuestCancelEmoteID": 0,
+    "NPCQuestStartEmoteID": 0,
+    "NPCQuestCompleteEmoteID": 0,
+    "NPCFaction": "",
+    "NPCType": 2
 }

@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 1,
     "ObjectiveType": 6,
     "ObjectiveText": "Find the location of the treasure",
@@ -11,63 +11,68 @@
     "MarkerVisibility": 4,
     "Positions": [
         [
-            7604.62,
-            12.991,
-            4037.57
+            7604.6201171875,
+            12.991000175476075,
+            4037.570068359375
         ],
         [
-            7940.27,
-            10.8823,
-            4086.28
+            7940.27001953125,
+            10.88230037689209,
+            4086.280029296875
         ],
         [
-            8141.51,
-            12.2332,
-            4360.88
+            8141.509765625,
+            12.233200073242188,
+            4360.8798828125
         ]
     ],
     "Loot": [
         {
             "Name": "AmmoBox_9x19_25rnd",
             "Attachments": [],
-            "Chance": 0.30,
+            "Chance": 0.30000001192092898,
             "QuantityPercent": -1,
-            "Variants": [],
-            "Max": -1
-          },
-          {
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
             "Name": "AmmoBox_308WinTracer_20Rnd",
             "Attachments": [],
-            "Chance": 0.30,
+            "Chance": 0.30000001192092898,
             "QuantityPercent": -1,
-            "Variants": [],
-            "Max": -1
-          },
-          {
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
             "Name": "AmmoBox_45ACP_25rnd",
             "Attachments": [],
-            "Chance": 0.30,
+            "Chance": 0.30000001192092898,
             "QuantityPercent": -1,
-            "Variants": [],
-            "Max": -1
-          },
-          {
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
             "Name": "AmmoBox_556x45_20Rnd",
             "Attachments": [],
-            "Chance": 0.30,
+            "Chance": 0.30000001192092898,
             "QuantityPercent": -1,
-            "Variants": [],
-            "Max": -1
-          },
-          {
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
             "Name": "AmmoBox_762x39_20Rnd",
             "Attachments": [],
-            "Chance": 0.3,
+            "Chance": 0.30000001192092898,
             "QuantityPercent": -1,
-            "Variants": [],
-            "Max": -1
-          }
-],
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        }
+    ],
     "LootItemsAmount": 6,
     "MaxDistance": 10.0
 }

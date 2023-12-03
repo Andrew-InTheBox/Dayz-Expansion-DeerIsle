@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 1,
     "ObjectiveType": 4,
     "ObjectiveText": "Collect 5 apples",
@@ -7,7 +7,9 @@
     "Collections": [
         {
             "Amount": 5,
-            "ClassName": "Apple"
+            "ClassName": "Apple",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
         }
     ],
     "MaxDistance": 10.0,

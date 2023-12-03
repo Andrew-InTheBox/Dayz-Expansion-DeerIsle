@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 4,
     "ObjectiveText": "Catch a mackerel",
@@ -7,7 +7,9 @@
     "Collections": [
         {
             "Amount": 1,
-            "ClassName": "Mackerel"
+            "ClassName": "Mackerel",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
         }
     ],
     "MaxDistance": 10.0,
