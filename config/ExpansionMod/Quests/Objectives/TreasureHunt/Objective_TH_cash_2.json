@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 6,
     "ObjectiveText": "Find the location of the treasure",
@@ -11,39 +11,41 @@
     "MarkerVisibility": 4,
     "Positions": [
         [
-            5938.71,
-            5.54746,
-            8473.78
+            5938.7099609375,
+            5.547460079193115,
+            8473.7802734375
         ],
         [
-            5730.07,
-            4.931,
-            8698.81
+            5730.06982421875,
+            4.931000232696533,
+            8698.8095703125
         ],
         [
-            5178.39,
-            4.79179, 
-            8775.89
+            5178.39013671875,
+            4.791790008544922,
+            8775.8896484375
         ]
     ],
     "Loot": [
         {
             "Name": "ExpansionBanknoteHryvnia",
             "Attachments": [],
-            "Chance": 0.50,
+            "Chance": 0.5,
             "QuantityPercent": 10,
-            "Variants": [],
-            "Max": -1
-          },
-          {
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
             "Name": "ExpansionBanknoteHryvnia",
             "Attachments": [],
-            "Chance": 0.50,
+            "Chance": 0.5,
             "QuantityPercent": 5,
-            "Variants": [],
-            "Max": -1
-          }
-],
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        }
+    ],
     "LootItemsAmount": 4,
     "MaxDistance": 10.0
 }

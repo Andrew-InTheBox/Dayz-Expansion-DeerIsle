@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 2,
     "ObjectiveText": "Kill 10 Civilian Infected",
@@ -83,6 +83,7 @@
         "SpecialWeapon": 0,
         "AllowedWeapons": [],
         "ExcludedClassNames": [],
-        "CountAIPlayers": 0
+        "CountAIPlayers": 0,
+        "AllowedTargetFactions": []
     }
 }

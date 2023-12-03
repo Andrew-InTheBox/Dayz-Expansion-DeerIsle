@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 15,
+    "ConfigVersion": 20,
     "ID": 310,
     "Type": 1,
     "Title": "Clear Patrol - Swamp Bandits",
@@ -25,10 +25,13 @@
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
-            "QuestID": -1
+            "QuestID": -1,
+            "Chance": 1.0
         }
     ],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
     "QuestGiverIDs": [
         5
@@ -39,12 +42,12 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 18,
+            "ConfigVersion": 22,
             "ID": 6,
             "ObjectiveType": 3
         },
         {
-            "ConfigVersion": 18,
+            "ConfigVersion": 22,
             "ID": 2,
             "ObjectiveType": 7
         }
@@ -56,5 +59,8 @@
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
 }

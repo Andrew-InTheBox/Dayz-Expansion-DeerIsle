@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 15,
+    "ConfigVersion": 20,
     "ID": 19,
     "Type": 1,
     "Title": "Where Kings Walk",
@@ -25,10 +25,13 @@
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
-            "QuestID": -1
+            "QuestID": -1,
+            "Chance": 1.0
         }
     ],
     "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 1,
     "QuestGiverIDs": [
         1
@@ -39,7 +42,7 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 18,
+            "ConfigVersion": 22,
             "ID": 4,
             "ObjectiveType": 2
         }
@@ -54,5 +57,8 @@
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
 }

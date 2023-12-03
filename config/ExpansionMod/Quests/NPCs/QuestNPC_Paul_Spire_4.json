@@ -1,15 +1,14 @@
 {
-    "ConfigVersion": 4,
+    "ConfigVersion": 5,
     "ID": 4,
     "ClassName": "ExpansionQuestNPCAIDenis",
-    "IsAI": 1,
     "Position": [
-        5122.99,
-		59.219,
-		7974.46
+        5122.990234375,
+        59.21900177001953,
+        7974.4599609375
     ],
     "Orientation": [
-        36.1,
+        36.099998474121097,
         0.0,
         0.0
     ],
@@ -17,13 +16,18 @@
     "DefaultNPCText": "Hmm?",
     "Waypoints": [
         [
-            5122.99,
-			59.219,
-			7974.46
+            5122.990234375,
+            59.21900177001953,
+            7974.4599609375
         ]
     ],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
     "NPCLoadoutFile": "BanditLoadout",
-    "IsStatic": 0
+    "NPCInteractionEmoteID": 0,
+    "NPCQuestCancelEmoteID": 0,
+    "NPCQuestStartEmoteID": 0,
+    "NPCQuestCompleteEmoteID": 0,
+    "NPCFaction": "",
+    "NPCType": 2
 }

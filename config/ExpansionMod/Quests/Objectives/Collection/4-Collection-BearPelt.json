@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 4,
     "ObjectiveType": 4,
     "ObjectiveText": "Kill and Skin a Bear, bring back the pelt to Peter at the Trader.",
@@ -7,7 +7,9 @@
     "Collections": [
         {
             "Amount": 1,
-            "ClassName": "BearPelt"
+            "ClassName": "BearPelt",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
         }
     ],
     "MaxDistance": 10.0,

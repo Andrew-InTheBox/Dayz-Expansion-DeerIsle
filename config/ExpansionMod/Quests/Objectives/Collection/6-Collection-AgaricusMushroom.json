@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 18,
+    "ConfigVersion": 22,
     "ID": 6,
     "ObjectiveType": 4,
     "ObjectiveText": "Gather 10 Agaricus Mushroom and bring them back to Peter at the Trader.",
@@ -7,7 +7,9 @@
     "Collections": [
         {
             "Amount": 10,
-            "ClassName": "AgaricusMushroom"
+            "ClassName": "AgaricusMushroom",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
         }
     ],
     "MaxDistance": 10.0,

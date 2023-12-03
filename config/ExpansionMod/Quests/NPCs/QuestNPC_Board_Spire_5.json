@@ -1,15 +1,14 @@
 {
-    "ConfigVersion": 4,
+    "ConfigVersion": 5,
     "ID": 5,
     "ClassName": "ExpansionQuestBoardLarge",
-    "IsAI": 0,
     "Position": [
-        5118.46,
-		60.50,
-		7977.06
+        5118.4599609375,
+        60.5,
+        7977.06005859375
     ],
     "Orientation": [
-        18.30,
+        18.299999237060548,
         0.0,
         0.0
     ],
@@ -19,10 +18,10 @@
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
     "NPCLoadoutFile": "",
-    "IsStatic": 1,
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
     "NPCQuestCompleteEmoteID": 39,
-    "NPCFaction": "InvincibleObservers"
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 1
 }
