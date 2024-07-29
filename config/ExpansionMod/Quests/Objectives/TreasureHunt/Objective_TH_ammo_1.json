@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 1,
     "ObjectiveType": 6,
     "ObjectiveText": "Find the location of the treasure",
     "TimeLimit": -1,
+    "Active": 1,
     "ShowDistance": 1,
     "ContainerName": "ExpansionQuestSeaChest",
     "DigInStash": 1,
@@ -26,11 +27,13 @@
             4360.8798828125
         ]
     ],
+    "LootItemsAmount": 6,
+    "MaxDistance": 10.0,
     "Loot": [
         {
             "Name": "AmmoBox_9x19_25rnd",
-            "Attachments": [],
             "Chance": 0.30000001192092898,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -38,8 +41,8 @@
         },
         {
             "Name": "AmmoBox_308WinTracer_20Rnd",
-            "Attachments": [],
             "Chance": 0.30000001192092898,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -47,8 +50,8 @@
         },
         {
             "Name": "AmmoBox_45ACP_25rnd",
-            "Attachments": [],
             "Chance": 0.30000001192092898,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -56,8 +59,8 @@
         },
         {
             "Name": "AmmoBox_556x45_20Rnd",
-            "Attachments": [],
             "Chance": 0.30000001192092898,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
@@ -65,14 +68,12 @@
         },
         {
             "Name": "AmmoBox_762x39_20Rnd",
-            "Attachments": [],
             "Chance": 0.30000001192092898,
+            "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
             "Min": 0,
             "Variants": []
         }
-    ],
-    "LootItemsAmount": 6,
-    "MaxDistance": 10.0
+    ]
 }

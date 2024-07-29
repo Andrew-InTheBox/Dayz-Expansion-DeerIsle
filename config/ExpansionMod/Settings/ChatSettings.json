@@ -1,8 +1,9 @@
 {
-    "m_Version": 3,
+    "m_Version": 4,
     "EnableGlobalChat": 1,
     "EnablePartyChat": 1,
     "EnableTransportChat": 1,
+    "EnableExpansionChat": 1,
     "ChatColors": {
         "SystemChatColor": "EB45EBFF",
         "AdminChatColor": "FF392BFF",
@@ -16,5 +17,6 @@
         "FriendlyMessageColor": "2ECC71FF",
         "ImportantMessageColor": "F22613FF",
         "DefaultMessageColor": "FFFFFFFF"
-    }
+    },
+    "BlacklistedWords": []
 }

@@ -69,6 +69,11 @@
     <input name="UALeanRightGamepad">
         <btn name="x1ShoulderRight" />
     </input>
+    <input name="UAPersonCamSwitchSide">
+        <btn name="x1ThumbRight">
+            <event name="holdbegin" />
+        </btn>
+    </input>
     <input name="UAAimLeft">
         <btn name="mLeft" />
         <btn name="x1RightThumbLeft" />
@@ -133,8 +138,12 @@
         <btn name="x1Y" />
     </input>
     <input name="UAADSToggle">
-        <btn name="kLShift" />
-        <btn name="x1ThumbRight" />
+        <btn name="kLShift">
+            <event name="click" />
+        </btn>
+        <btn name="x1ThumbRight">
+            <event name="click" />
+        </btn>
     </input>
     <input name="UAZoomInOptics">
         <btn name="mWheelUp" />
@@ -184,6 +193,9 @@
     </input>
     <input name="UAHeavyMeleeAttack">
         <btn name="x1Y" />
+    </input>
+    <input name="UAMeleeAttackModifier">
+        <btn name="kLShift" />
     </input>
     <input name="UAWeaponMeleeAttack">
         <btn name="kF" />
@@ -983,27 +995,6 @@
             <btn name="kN" />
         </btn>
     </input>
-    <input name="UALBMUndergroundAdd">
-        <btn name="kT" />
-    </input>
-    <input name="UALBMUndergroundAddWhole">
-        <btn name="kR" />
-    </input>
-    <input name="UALBMUndergroundAddDaylight">
-        <btn name="kU" />
-    </input>
-    <input name="UALBMUndergroundRemove">
-        <btn name="kG" />
-    </input>
-    <input name="UALBMUndergroundExport">
-        <btn name="kX" />
-    </input>
-    <input name="UALBMUndergroundClear">
-        <btn name="kC" />
-    </input>
-    <input name="UALBMUndergroundHere">
-        <btn name="kB" />
-    </input>
     <input name="PvZmoD_CZ_RefreshJsonVariables">
         <btn name="kNumpad4" />
     </input>
@@ -1011,6 +1002,52 @@
         <btn name="kSpace" />
     </input>
     <input name="DI_ToggleAutoRun">
+        <btn name="kAdd" />
+    </input>
+    <input name="UARFFSCyclicForward">
+        <btn name="kW" />
+        <btn name="ps4LeftThumbUp" />
+    </input>
+    <input name="UARFFSCyclicBack">
+        <btn name="kS" />
+        <btn name="ps4LeftThumbDown" />
+    </input>
+    <input name="UARFFSCyclicLeft">
+        <btn name="kA" />
+        <btn name="ps4LeftThumbLeft" />
+    </input>
+    <input name="UARFFSCyclicRight">
+        <btn name="kD" />
+        <btn name="ps4LeftThumbRight" />
+    </input>
+    <input name="UARFFSPedalLeft">
+        <btn name="kQ" />
+        <btn name="ps4ShoulderLeft" />
+    </input>
+    <input name="UARFFSPedalRight">
+        <btn name="kE" />
+        <btn name="ps4ShoulderRight" />
+    </input>
+    <input name="UARFFSCollectiveUp">
+        <btn name="kLShift" />
+        <btn name="mWheelUp" />
+        <btn name="ps4A" />
+    </input>
+    <input name="UARFFSCollectiveDown">
+        <btn name="kZ" />
+        <btn name="mWheelDown" />
+        <btn name="ps4B" />
+    </input>
+    <input name="UARFFSLandingLights">
+        <btn name="kL" />
+    </input>
+    <input name="UARFFSToggleHUD">
+        <btn name="kB" />
+    </input>
+    <input name="UARFFSToggleCommand">
+        <btn name="kBackslash" />
+    </input>
+    <input name="UARFFSRecover">
         <btn name="kAdd" />
     </input>
     <input name="UAExpansionPartyHUDToggle">
@@ -1036,6 +1073,9 @@
     </input>
     <input name="UAExpansion3DMarkerToggle">
         <btn name="kK" />
+    </input>
+    <input name="UAExpansionServerMarkersToggle">
+        <btn name="kMultiply" />
     </input>
     <input name="UAExpansionQuickMarker">
         <btn name="kH" />
@@ -1181,8 +1221,19 @@
     <input name="UAExpansionCarRefill">
         <btn name="kR" />
     </input>
+    <input name="UADiveDown">
+        <btn name="kNumpad2" />
+    </input>
+    <input name="UADiveUp">
+        <btn name="kNumpad8" />
+    </input>
     <input name="eAICommandMenu">
         <btn name="kT" />
+    </input>
+    <input name="eAISetWaypoint">
+        <btn name="kLControl">
+            <btn name="mBLeft" />
+        </btn>
     </input>
     <input name="eAITestInput">
         <btn name="kY" />

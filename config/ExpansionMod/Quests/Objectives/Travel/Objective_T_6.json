@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 6,
     "ObjectiveType": 3,
     "ObjectiveText": "Get into position near the swamp",
     "TimeLimit": -1,
+    "Active": 1,
     "Position": [
         4286.330078125,
         30.732500076293947,

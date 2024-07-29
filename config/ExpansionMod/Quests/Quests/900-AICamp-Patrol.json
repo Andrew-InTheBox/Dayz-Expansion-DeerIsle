@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 20,
+    "ConfigVersion": 22,
     "ID": 900,
     "Type": 1,
     "Title": "Clear out the power plant",
@@ -33,6 +33,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         5
     ],
@@ -42,22 +43,22 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 9,
             "ObjectiveType": 3
         },
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 3,
             "ObjectiveType": 7
         },
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 32,
             "ObjectiveType": 2
         },
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 5,
             "ObjectiveType": 8
         }
@@ -72,5 +73,7 @@
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {}
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

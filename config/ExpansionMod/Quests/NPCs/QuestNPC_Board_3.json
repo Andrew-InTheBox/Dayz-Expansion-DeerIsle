@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 6,
     "ID": 3,
     "ClassName": "ExpansionQuestBoardLarge",
     "Position": [
@@ -23,5 +23,6 @@
     "NPCQuestStartEmoteID": 58,
     "NPCQuestCompleteEmoteID": 39,
     "NPCFaction": "InvincibleObservers",
-    "NPCType": 1
+    "NPCType": 1,
+    "Active": 1
 }

@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 20,
+    "ConfigVersion": 22,
     "ID": 118,
     "Type": 1,
     "Title": "Green Thumb - Planting Seeds",
@@ -19,12 +19,13 @@
     "RandomReward": 0,
     "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [],
     "QuestTurnInIDs": [],
     "IsAchievement": 1,
     "Objectives": [
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 18,
             "ObjectiveType": 10
         }
@@ -39,5 +40,7 @@
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {}
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }

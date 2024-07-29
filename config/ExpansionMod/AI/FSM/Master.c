@@ -477,14 +477,14 @@ class Expansion_Fighting_Positioning_State_0: eAIState {
 			else
 			{
 				unit.OverrideMovementDirection(false, 0);
-				if (itemTarget && itemTarget.Expansion_IsExplosive() && wantsLower && fsm.DistanceToTargetSq < target.GetMinDistanceSq())
+				if (itemTarget && itemTarget.Expansion_IsExplosive() && wantsLower && fsm.DistanceToTargetSq < target.GetMinDistanceSq(unit))
 				unit.OverrideMovementSpeed(true, 3);
 				else
 				unit.OverrideMovementSpeed(false, 0);
 				time = 0;
 				movementDirection = 0;
 			}
-			if ((!itemTarget && ((hands && hands.IsWeapon()) || !target.CanMeleeIfClose(unit))) || (itemTarget && itemTarget.Expansion_IsDanger()))
+			if ((!itemTarget && ((hands && hands.IsWeapon()) || target.GetMinDistance(unit) > 0.0 || !target.CanMeleeIfClose(unit))) || (itemTarget && itemTarget.Expansion_IsDanger()))
 			{
 				unit.OverrideTargetPosition(target);
 			}
@@ -614,14 +614,7 @@ class Expansion_Fighting_Melee_State_0: eAIState {
 	override void OnEntry(string Event, ExpansionState From) {
 		time = 0;
 		fsm.LastFireTime = GetGame().GetTime();
-		unit.Expansion_GetUp();
-		//! FIXME: Pistols fuck up the hand animation state.
-		//! Ugly workaround: Put away when entering melee.
-		auto hands = unit.GetItemInHands();
-		if (hands && hands.IsKindOf("Pistol_Base"))
-		{
-			unit.eAI_TakeItemToInventory(hands);
-		}
+		unit.Expansion_GetUp(true);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 		unit.OverrideMovementDirection(false, 0);
@@ -699,6 +692,7 @@ class Expansion_Fighting__Melee_Transition_0: eAITransition {
 		// we are targetting an entity?
 		dst.target = unit.GetTarget();
 		if (!dst.target || !dst.target.IsMeleeViable(unit) || dst.target.GetThreat(unit) < 0.4) return FAIL;
+		if (dst.target.ShouldAvoid(unit)) return FAIL;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -769,7 +763,7 @@ class Expansion_Fighting__FireWeapon_Transition_0: eAITransition {
 		}
 		else if (Class.CastTo(itemTarget, targetEntity))
 		{
-			// don't shoot at bandages or ammo/magazines, silly
+			// don't shoot at bandages, ammo/magazines, melee weapons, clothing or headtorches, silly
 			if (itemTarget.Expansion_CanBeUsedToBandage())
 			return FAIL;
 			if (itemTarget.IsMagazine())
@@ -777,6 +771,8 @@ class Expansion_Fighting__FireWeapon_Transition_0: eAITransition {
 			if (itemTarget.IsWeapon())
 			return FAIL;
 			if (itemTarget.Expansion_IsMeleeWeapon())
+			return FAIL;
+			if (itemTarget.IsClothing())
 			return FAIL;
 		}
 		if (unit.IsFighting()) return FAIL;
@@ -1021,7 +1017,7 @@ class Expansion_Reloading_Removing_State_0: eAIState {
 		return EXIT;  // remove complete
 		if (unit.GetActionManager().GetRunningAction())
 		return CONTINUE;
-		if (fsm.weapon.IsDamageDestroyed() || !unit.eAI_TakeItemToInventory(fsm.weapon))
+		if (fsm.weapon.IsDamageDestroyed() || !unit.eAI_TakeItemToInventoryDropShoulderImpl(fsm.weapon))
 		unit.eAI_DropItem(fsm.weapon);
 		return CONTINUE;
 	}
@@ -1238,6 +1234,7 @@ class Expansion_Master_Interacting_State_0: eAIState {
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
+		if (unit.IsUnconscious()) return EXIT;
 		if (unit.eAI_HasInteractingPlayers())
 		{
 			return CONTINUE;
@@ -1249,13 +1246,15 @@ class Expansion_Master_FollowFormation_State_0: eAIState {
 	Expansion_Master_FSM_0 fsm;
 	eAIGroup group;
 	int speedLimit;
+	bool gotUp;
 	void Expansion_Master_FollowFormation_State_0(ExpansionFSM _fsm) {
 		Class.CastTo(fsm, _fsm);
 		m_ClassName = "Expansion_Master_FollowFormation_State_0";
 		m_Name = "FollowFormation";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		unit.Expansion_GetUp();
+		gotUp = false;
+		unit.eAI_LeaveCover();
 		unit.OverrideMovementDirection(false, 0);
 		unit.OverrideMovementSpeed(false, 0);
 		speedLimit = unit.GetMovementSpeedLimit();
@@ -1269,125 +1268,30 @@ class Expansion_Master_FollowFormation_State_0: eAIState {
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
 		if (!group) return EXIT;
 		unit.OverrideTargetPosition(group.GetFormationPosition(unit));
+		if (!gotUp && unit.Expansion_GetMovementSpeed() > 0)
+		{
+			unit.Expansion_GetUp(true);
+			gotUp = true;
+		}
 		return EXIT;
 	}
 }
-class Expansion_Master_TraversingWaypoints_State_0: eAIState {
+class Expansion_Master_TraversingWaypoints_State_0: ExpansionState_TraversingWaypoints {
 	Expansion_Master_FSM_0 fsm;
-	int index;
-	float threshold = 1.0;
-	float previousDistance;
-	vector previousWayPoint;
 	void Expansion_Master_TraversingWaypoints_State_0(ExpansionFSM _fsm) {
 		Class.CastTo(fsm, _fsm);
 		m_ClassName = "Expansion_Master_TraversingWaypoints_State_0";
 		m_Name = "TraversingWaypoints";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		unit.Expansion_GetUp();
+		super.OnEntry(Event, From);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
+		super.OnExit(Event, Aborted, To);
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		TVectorArray path = unit.GetGroup().GetWaypoints();
-		if (path.Count() == 0)
-		{
-			unit.Expansion_DeleteDebugObjects();
-			return EXIT;
-			//path = { unit.GetPosition() + unit.GetDirection() * unit.Expansion_GetMovementSpeed() };
-		}
-		index = unit.GetGroup().m_CurrentWaypointIndex;
-		if (index >= path.Count())
-		index = 0;
-		vector position = unit.GetPosition();
-		position[1] = path[index][1];
-		float distance = vector.DistanceSq(position, path[index]);
-		bool isFinal;
-		eAIWaypointBehavior behaviour = unit.GetGroup().GetWaypointBehaviour();
-		if (behaviour == eAIWaypointBehavior.HALT || path.Count() == 1)
-		{
-			if (distance < threshold || unit.Expansion_GetMovementSpeed() == 0)
-			isFinal = true;
-			unit.OverrideTargetPosition(path[index], isFinal);
-			unit.OverrideMovementDirection(false, 0);
-			unit.OverrideMovementSpeed(false, 0);
-			unit.Expansion_DebugObject_Deferred(index + 20, path[index] - "0 1.5 0", "ExpansionDebugNoticeMe_Purple", unit.GetDirection());
-			unit.Expansion_DebugObject_Deferred(path.Count() + 20, path[index], "ExpansionDebugNoticeMe", unit.GetDirection());
-			return EXIT;
-		}
-		bool backtracking = unit.GetGroup().m_BackTracking;
-		if (distance < threshold)
-		{
-			previousWayPoint = path[index];
-			if (backtracking) index--;
-			else index++;
-			threshold = 1.0;
-			if (unit.Expansion_GetMovementSpeed() > 0)
-			unit.GetPathFinding().ForceRecalculate(true);
-		}
-		else if (Math.AbsFloat(distance - previousDistance) < 0.0016)
-		{
-			//! We seem to not be getting closer to the waypoint, possibly the path is blocked.
-			//! Increase threshold until we are within distance.
-			threshold += 0.01;
-		}
-		previousDistance = distance;
-		if (index < 0)
-		{
-			if (behaviour == eAIWaypointBehavior.ALTERNATE)
-			{
-				backtracking = false;
-				index = 1;
-			}
-			else if (behaviour == eAIWaypointBehavior.LOOP)
-			{
-				index = path.Count() - 1;
-			}
-			else
-			{
-				index = 0;
-			}
-		}
-		else if (index >= path.Count())
-		{
-			if (behaviour == eAIWaypointBehavior.ALTERNATE)
-			{
-				backtracking = true;
-				index = path.Count() - 2;
-			}
-			else if (behaviour == eAIWaypointBehavior.LOOP)
-			{
-				index = 0;
-			}
-			else
-			{
-				index = path.Count() - 1;
-			}
-		}
-		if (behaviour != eAIWaypointBehavior.LOOP && (index == 0 || index == path.Count() - 1))
-		isFinal = true;
-		unit.OverrideTargetPosition(path[index], isFinal);
-		unit.OverrideMovementDirection(false, 0);
-		unit.OverrideMovementSpeed(false, 0);
-		vector direction;
-		if (path.Count() > 1)
-		{
-			if (previousWayPoint == vector.Zero)
-			previousWayPoint = path[0] - vector.Direction(path[0], path[1]);
-			direction = vector.Direction(previousWayPoint, path[index]).VectorToAngles();
-			direction[1] = 0.0;
-			direction[2] = 0.0;
-			direction = direction.AnglesToVector();
-		}
-		else
-		{
-			direction = unit.GetDirection();
-		}
-		unit.Expansion_DebugObject_Deferred(index + 20, path[index] - "0 1.5 0", "ExpansionDebugNoticeMe_Purple", direction);
-		unit.Expansion_DebugObject_Deferred(path.Count() + 20, path[index], "ExpansionDebugNoticeMe", unit.GetDirection());
-		unit.GetGroup().m_CurrentWaypointIndex = index;
-		unit.GetGroup().m_BackTracking = backtracking;
-		return EXIT;
+		if (super.OnUpdate(DeltaTime, SimulationPrecision) == EXIT) return EXIT;
+		return CONTINUE;
 	}
 }
 class Expansion_Master_Flank_State_0: eAIState {
@@ -1568,13 +1472,14 @@ class Expansion_Master_TakeItemToHands_State_0: eAIState {
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (unit.GetActionManager().GetRunningAction() || unit.GetWeaponManager().IsRunning() || !unit.GetCommand_Script())
+		if (unit.IsUnconscious()) return EXIT;
+		if (unit.GetEmoteManager().IsEmotePlaying() || unit.GetActionManager().GetRunningAction() || unit.GetWeaponManager().IsRunning() || !unit.GetCommand_Script())
 		{
 			time += DeltaTime;
 			if (time > 10)  //! Looks like something went terribly wrong
 			{
 				EXPrint(unit.ToString() + " TakeItemToHands - timeout");
-				unit.eAI_Unbug("taketohands");
+				unit.eAI_Unbug("take to hands");
 				time = 0;
 				return EXIT;
 			}
@@ -1598,22 +1503,27 @@ class Expansion_Master_TakeItemToHands_State_0: eAIState {
 			loweringWeapon = false;
 		}
 		ItemBase hands = unit.GetItemInHands();
-		if (item && hands != item && (!item.GetHierarchyRootPlayer() || item.GetHierarchyRootPlayer() == unit))
+		if (item && hands != item && !item.Expansion_GetRootPlayerAliveExcluding(unit))
 		{
-			if (unit.eAI_GetItemThreatOverride(item))
+			if (unit.eAI_GetThreatOverride(item))
 			{
 				//! If we can't take the item, exit
-				if (!unit.eAI_TakeItemToInventoryImpl(item))
+				if (!unit.eAI_TakeItemToInventoryDropShoulderImpl(item))
 				return EXIT;
 			}
 			else if (hands)
 			{
 				//! Try to put current hand item in inventory (shoulder slot or cargo), drop if not possible
-				if (!unit.eAI_TakeItemToInventoryImpl(hands))
+				if (!unit.eAI_TakeItemToInventoryDropShoulderImpl(hands))
 				unit.eAI_DropItem(hands);
+				else if (unit.m_eAI_LastDroppedItem == item)
+				unit.eAI_ThreatOverride(item, false);
+				else
+				unit.m_eAI_LastDroppedItem = null;
 			}
 			else if (!unit.eAI_TakeItemToHands(item))
 			{
+				unit.eAI_Unbug("take to hands");
 				return EXIT;
 			}
 		}
@@ -1649,8 +1559,19 @@ class Expansion_Master_TakeItemToInventory_State_0: eAIState {
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (unit.GetActionManager().GetRunningAction())
-		return CONTINUE;
+		if (unit.IsUnconscious()) return EXIT;
+		if (unit.GetEmoteManager().IsEmotePlaying() || unit.GetActionManager().GetRunningAction() || unit.GetWeaponManager().IsRunning() || !unit.GetCommand_Script())
+		{
+			time += DeltaTime;
+			if (time > 10)  //! Looks like something went terribly wrong
+			{
+				EXPrint(unit.ToString() + " TakeItemToInventory - timeout");
+				unit.eAI_Unbug("take to inventory");
+				time = 0;
+				return EXIT;
+			}
+			return CONTINUE;
+		}
 		//! Taking items while raised breaks hands! Wait until lowered
 		if (unit.IsRaised())
 		{
@@ -1668,10 +1589,15 @@ class Expansion_Master_TakeItemToInventory_State_0: eAIState {
 			time = 0;
 			loweringWeapon = false;
 		}
-		if (item && !item.GetHierarchyRootPlayer())
+		if (item && !item.Expansion_GetRootPlayerAliveExcluding(null))
 		{
-			if (unit.eAI_GetItemThreatOverride(item) || !unit.eAI_TakeItemToInventory(item))
+			if (unit.eAI_GetThreatOverride(item))
 			return EXIT;
+			if (!unit.eAI_TakeItemToInventory(item))
+			{
+				unit.eAI_Unbug("take to inventory");
+				return EXIT;
+			}
 		}
 		if (time < 0.5)
 		{
@@ -1707,6 +1633,9 @@ class Expansion_Master_Bandaging_Self_State_0: eAIState {
 		unit.OverrideStance(DayZPlayerConstants.STANCEIDX_CROUCH);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
+		//! If we had dropped another item to take bandage to hands, restore item threat
+		if (unit.m_eAI_LastDroppedItem && !unit.m_eAI_LastDroppedItem.Expansion_CanBeUsedToBandage())
+		unit.eAI_ThreatOverride(unit.m_eAI_LastDroppedItem, false);
 		if (bandage)
 		{
 			if (bandage.IsDamageDestroyed() || !unit.eAI_TakeItemToInventory(bandage))
@@ -1818,6 +1747,7 @@ class Expansion_Master__Interacting_Transition_0: eAITransition {
 	}
 	override int Guard() {
 		if (!(unit.eAI_HasInteractingPlayers())) return FAIL;
+		if (unit.IsUnconscious()) return FAIL;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1856,6 +1786,7 @@ class Expansion_Master_Idle_Bandaging_Self_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.eAI_ShouldBandage()) return FAIL;
 		if (GetGame().GetTime() - dst.last_bandage_attempt_time < 4000) return FAIL;
 		auto hands = unit.GetItemInHands();
@@ -1883,6 +1814,7 @@ class Expansion_Master_TraversingWaypoints_Bandaging_Self_Transition_0: eAITrans
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.eAI_ShouldBandage()) return FAIL;
 		if (GetGame().GetTime() - dst.last_bandage_attempt_time < 4000) return FAIL;
 		auto hands = unit.GetItemInHands();
@@ -1910,6 +1842,7 @@ class Expansion_Master_FollowFormation_Bandaging_Self_Transition_0: eAITransitio
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.eAI_ShouldBandage()) return FAIL;
 		if (GetGame().GetTime() - dst.last_bandage_attempt_time < 4000) return FAIL;
 		auto hands = unit.GetItemInHands();
@@ -1937,6 +1870,7 @@ class Expansion_Master_Flank_Bandaging_Self_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.eAI_ShouldBandage()) return FAIL;
 		if (GetGame().GetTime() - dst.last_bandage_attempt_time < 4000) return FAIL;
 		auto hands = unit.GetItemInHands();
@@ -1964,6 +1898,7 @@ class Expansion_Master_Fighting_Bandaging_Self_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.eAI_ShouldBandage()) return FAIL;
 		if (GetGame().GetTime() - dst.last_bandage_attempt_time < 4000) return FAIL;
 		auto hands = unit.GetItemInHands();
@@ -2011,6 +1946,7 @@ class Expansion_Master_Idle_Weapon_Reloading_Transition_0: eAITransition {
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
 		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
@@ -2039,6 +1975,7 @@ class Expansion_Master_TraversingWaypoints_Weapon_Reloading_Transition_0: eAITra
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
 		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
@@ -2067,6 +2004,7 @@ class Expansion_Master_FollowFormation_Weapon_Reloading_Transition_0: eAITransit
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
 		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
@@ -2095,6 +2033,7 @@ class Expansion_Master_Flank_Weapon_Reloading_Transition_0: eAITransition {
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
 		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
@@ -2123,6 +2062,7 @@ class Expansion_Master_Fighting_Weapon_Reloading_Transition_0: eAITransition {
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
 		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
@@ -2150,6 +2090,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2176,17 +2117,19 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 			}
 		}
 		eAITarget target = unit.GetTarget();
+		ItemBase targetItem;
+		if (target)
+		Class.CastTo(targetItem, target.GetEntity());
 		bool preferExplosiveAmmo;
 		bool preferMelee;
 		bool hasMeleeInHands;
+		bool preferTargetItem;
 		if (hands)
 		{
 			if (hands.Expansion_IsMeleeWeapon())
 			hasMeleeInHands = true;
-			EntityAI targetEntity;
 			if (target)
 			{
-				targetEntity = target.GetEntity();
 				if (target.IsMechanicalTrap() && target.IsActive() && !target.IsExplosive() && !target.CanPutInCargo(unit))
 				preferMelee = true;
 			}
@@ -2194,6 +2137,10 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 			{
 				if (hasMeleeInHands)
 				return FAIL;
+			}
+			else if (targetItem && unit.eAI_WeaponSelection(hands, targetItem))
+			{
+				preferTargetItem = true;
 			}
 			else if (hands.IsWeapon())
 			{
@@ -2214,20 +2161,24 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 		ItemBase item;  //! The item we may want to take to hands
 		if (!preferMelee)
 		{
-			item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
-			if (item)
+			if (!preferTargetItem)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-				return FAIL;
-				dst.item = item;
-				return SUCCESS;
+				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
+				if (item)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+					dst.item = item;
+					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
+					return SUCCESS;
+				}
 			}
-			ItemBase targetItem;
-			if (target && Class.CastTo(targetItem, target.GetEntity()) && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.GetHierarchyRootPlayer() && !targetItem.IsSetForDeletion())
+			if (targetItem && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.Expansion_GetRootPlayerAliveExcluding(null) && !targetItem.IsSetForDeletion())
 			{
 				if (target.GetDistanceSq(unit, true) <= 4.0 && target.GetThreat(unit) > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
 			}
@@ -2241,9 +2192,10 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
 				return FAIL;
 				dst.item = item;
+				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
 			if (hands)
@@ -2279,6 +2231,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2305,17 +2258,19 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 			}
 		}
 		eAITarget target = unit.GetTarget();
+		ItemBase targetItem;
+		if (target)
+		Class.CastTo(targetItem, target.GetEntity());
 		bool preferExplosiveAmmo;
 		bool preferMelee;
 		bool hasMeleeInHands;
+		bool preferTargetItem;
 		if (hands)
 		{
 			if (hands.Expansion_IsMeleeWeapon())
 			hasMeleeInHands = true;
-			EntityAI targetEntity;
 			if (target)
 			{
-				targetEntity = target.GetEntity();
 				if (target.IsMechanicalTrap() && target.IsActive() && !target.IsExplosive() && !target.CanPutInCargo(unit))
 				preferMelee = true;
 			}
@@ -2323,6 +2278,10 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 			{
 				if (hasMeleeInHands)
 				return FAIL;
+			}
+			else if (targetItem && unit.eAI_WeaponSelection(hands, targetItem))
+			{
+				preferTargetItem = true;
 			}
 			else if (hands.IsWeapon())
 			{
@@ -2343,20 +2302,24 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 		ItemBase item;  //! The item we may want to take to hands
 		if (!preferMelee)
 		{
-			item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
-			if (item)
+			if (!preferTargetItem)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-				return FAIL;
-				dst.item = item;
-				return SUCCESS;
+				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
+				if (item)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+					dst.item = item;
+					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
+					return SUCCESS;
+				}
 			}
-			ItemBase targetItem;
-			if (target && Class.CastTo(targetItem, target.GetEntity()) && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.GetHierarchyRootPlayer() && !targetItem.IsSetForDeletion())
+			if (targetItem && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.Expansion_GetRootPlayerAliveExcluding(null) && !targetItem.IsSetForDeletion())
 			{
 				if (target.GetDistanceSq(unit, true) <= 4.0 && target.GetThreat(unit) > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
 			}
@@ -2370,9 +2333,10 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
 				return FAIL;
 				dst.item = item;
+				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
 			if (hands)
@@ -2408,6 +2372,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2434,17 +2399,19 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 			}
 		}
 		eAITarget target = unit.GetTarget();
+		ItemBase targetItem;
+		if (target)
+		Class.CastTo(targetItem, target.GetEntity());
 		bool preferExplosiveAmmo;
 		bool preferMelee;
 		bool hasMeleeInHands;
+		bool preferTargetItem;
 		if (hands)
 		{
 			if (hands.Expansion_IsMeleeWeapon())
 			hasMeleeInHands = true;
-			EntityAI targetEntity;
 			if (target)
 			{
-				targetEntity = target.GetEntity();
 				if (target.IsMechanicalTrap() && target.IsActive() && !target.IsExplosive() && !target.CanPutInCargo(unit))
 				preferMelee = true;
 			}
@@ -2452,6 +2419,10 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 			{
 				if (hasMeleeInHands)
 				return FAIL;
+			}
+			else if (targetItem && unit.eAI_WeaponSelection(hands, targetItem))
+			{
+				preferTargetItem = true;
 			}
 			else if (hands.IsWeapon())
 			{
@@ -2472,20 +2443,24 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 		ItemBase item;  //! The item we may want to take to hands
 		if (!preferMelee)
 		{
-			item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
-			if (item)
+			if (!preferTargetItem)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-				return FAIL;
-				dst.item = item;
-				return SUCCESS;
+				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
+				if (item)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+					dst.item = item;
+					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
+					return SUCCESS;
+				}
 			}
-			ItemBase targetItem;
-			if (target && Class.CastTo(targetItem, target.GetEntity()) && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.GetHierarchyRootPlayer() && !targetItem.IsSetForDeletion())
+			if (targetItem && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.Expansion_GetRootPlayerAliveExcluding(null) && !targetItem.IsSetForDeletion())
 			{
 				if (target.GetDistanceSq(unit, true) <= 4.0 && target.GetThreat(unit) > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
 			}
@@ -2499,9 +2474,10 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
 				return FAIL;
 				dst.item = item;
+				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
 			if (hands)
@@ -2537,6 +2513,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2563,17 +2540,19 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 			}
 		}
 		eAITarget target = unit.GetTarget();
+		ItemBase targetItem;
+		if (target)
+		Class.CastTo(targetItem, target.GetEntity());
 		bool preferExplosiveAmmo;
 		bool preferMelee;
 		bool hasMeleeInHands;
+		bool preferTargetItem;
 		if (hands)
 		{
 			if (hands.Expansion_IsMeleeWeapon())
 			hasMeleeInHands = true;
-			EntityAI targetEntity;
 			if (target)
 			{
-				targetEntity = target.GetEntity();
 				if (target.IsMechanicalTrap() && target.IsActive() && !target.IsExplosive() && !target.CanPutInCargo(unit))
 				preferMelee = true;
 			}
@@ -2581,6 +2560,10 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 			{
 				if (hasMeleeInHands)
 				return FAIL;
+			}
+			else if (targetItem && unit.eAI_WeaponSelection(hands, targetItem))
+			{
+				preferTargetItem = true;
 			}
 			else if (hands.IsWeapon())
 			{
@@ -2601,20 +2584,24 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 		ItemBase item;  //! The item we may want to take to hands
 		if (!preferMelee)
 		{
-			item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
-			if (item)
+			if (!preferTargetItem)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-				return FAIL;
-				dst.item = item;
-				return SUCCESS;
+				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
+				if (item)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+					dst.item = item;
+					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
+					return SUCCESS;
+				}
 			}
-			ItemBase targetItem;
-			if (target && Class.CastTo(targetItem, target.GetEntity()) && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.GetHierarchyRootPlayer() && !targetItem.IsSetForDeletion())
+			if (targetItem && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.Expansion_GetRootPlayerAliveExcluding(null) && !targetItem.IsSetForDeletion())
 			{
 				if (target.GetDistanceSq(unit, true) <= 4.0 && target.GetThreat(unit) > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
 			}
@@ -2628,9 +2615,10 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
 				return FAIL;
 				dst.item = item;
+				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
 			if (hands)
@@ -2666,6 +2654,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2692,17 +2681,19 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 			}
 		}
 		eAITarget target = unit.GetTarget();
+		ItemBase targetItem;
+		if (target)
+		Class.CastTo(targetItem, target.GetEntity());
 		bool preferExplosiveAmmo;
 		bool preferMelee;
 		bool hasMeleeInHands;
+		bool preferTargetItem;
 		if (hands)
 		{
 			if (hands.Expansion_IsMeleeWeapon())
 			hasMeleeInHands = true;
-			EntityAI targetEntity;
 			if (target)
 			{
-				targetEntity = target.GetEntity();
 				if (target.IsMechanicalTrap() && target.IsActive() && !target.IsExplosive() && !target.CanPutInCargo(unit))
 				preferMelee = true;
 			}
@@ -2710,6 +2701,10 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 			{
 				if (hasMeleeInHands)
 				return FAIL;
+			}
+			else if (targetItem && unit.eAI_WeaponSelection(hands, targetItem))
+			{
+				preferTargetItem = true;
 			}
 			else if (hands.IsWeapon())
 			{
@@ -2730,20 +2725,24 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 		ItemBase item;  //! The item we may want to take to hands
 		if (!preferMelee)
 		{
-			item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
-			if (item)
+			if (!preferTargetItem)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-				return FAIL;
-				dst.item = item;
-				return SUCCESS;
+				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
+				if (item)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+					dst.item = item;
+					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
+					return SUCCESS;
+				}
 			}
-			ItemBase targetItem;
-			if (target && Class.CastTo(targetItem, target.GetEntity()) && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.GetHierarchyRootPlayer() && !targetItem.IsSetForDeletion())
+			if (targetItem && ((targetItem.IsWeapon() && (!preferExplosiveAmmo || targetItem.ShootsExplosiveAmmo())) || (!preferExplosiveAmmo && targetItem.Expansion_IsMeleeWeapon() && !hasMeleeInHands)) && !targetItem.Expansion_GetRootPlayerAliveExcluding(null) && !targetItem.IsSetForDeletion())
 			{
 				if (target.GetDistanceSq(unit, true) <= 4.0 && target.GetThreat(unit) > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
 			}
@@ -2757,9 +2756,10 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
 				return FAIL;
 				dst.item = item;
+				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
 			if (hands)
@@ -2812,14 +2812,18 @@ class Expansion_Master_Idle_TakeItemToInventory_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
 		eAITarget target = unit.GetTarget();
 		ItemBase targetItem;
-		if (!target || !Class.CastTo(targetItem, target.GetEntity()) || targetItem.GetHierarchyRootPlayer() || targetItem.IsSetForDeletion() || unit.eAI_GetItemThreatOverride(targetItem))
+		if (!target || !Class.CastTo(targetItem, target.GetEntity()) || targetItem.Expansion_GetRootPlayerAliveExcluding(null) || targetItem.IsSetForDeletion() || unit.eAI_GetThreatOverride(targetItem))
 		return FAIL;
-		if (targetItem.Expansion_IsLiveExplosive() || !targetItem.CanPutInCargo(unit))
+		bool isClothing;
+		if (targetItem.IsClothing())
+		isClothing = true;
+		if (targetItem.Expansion_IsLiveExplosive() || (!isClothing && !targetItem.CanPutInCargo(unit)))
 		return FAIL;
 		if (target.GetDistanceSq(unit, true) > 4.0 || unit.eAI_IsItemObstructed(targetItem))
 		return FAIL;
@@ -2839,7 +2843,7 @@ class Expansion_Master_Idle_TakeItemToInventory_Transition_0: eAITransition {
 				}
 				else if (!unit.eAI_TakeItemToInventory(hands))
 				{
-					unit.eAI_ItemThreatOverride(hands, true);  //! Make sure we do not attempt to take it again after  dropping
+					unit.eAI_ThreatOverride(hands, true);  //! Make sure we do not attempt to take it again after  dropping
 					unit.eAI_DropItem(hands, false);
 				}
 			}
@@ -2850,12 +2854,12 @@ class Expansion_Master_Idle_TakeItemToInventory_Transition_0: eAITransition {
 			//! Picking up melee weapons is handled by TakeItemToHands state
 			return FAIL;
 		}
-		if (!unit.eAI_FindFreeInventoryLocationFor(targetItem))
+		if (!isClothing && !unit.eAI_FindFreeInventoryLocationFor(targetItem))
 		{
-			unit.eAI_ItemThreatOverride(targetItem, true);
+			unit.eAI_ThreatOverride(targetItem, true);
 			return FAIL;
 		}
-		unit.eAI_ItemThreatOverride(targetItem, false);
+		unit.eAI_ThreatOverride(targetItem, false);
 		dst.item = targetItem;
 		return SUCCESS;
 	}
@@ -2877,14 +2881,18 @@ class Expansion_Master_Flank_TakeItemToInventory_Transition_0: eAITransition {
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
 		eAITarget target = unit.GetTarget();
 		ItemBase targetItem;
-		if (!target || !Class.CastTo(targetItem, target.GetEntity()) || targetItem.GetHierarchyRootPlayer() || targetItem.IsSetForDeletion() || unit.eAI_GetItemThreatOverride(targetItem))
+		if (!target || !Class.CastTo(targetItem, target.GetEntity()) || targetItem.Expansion_GetRootPlayerAliveExcluding(null) || targetItem.IsSetForDeletion() || unit.eAI_GetThreatOverride(targetItem))
 		return FAIL;
-		if (targetItem.Expansion_IsLiveExplosive() || !targetItem.CanPutInCargo(unit))
+		bool isClothing;
+		if (targetItem.IsClothing())
+		isClothing = true;
+		if (targetItem.Expansion_IsLiveExplosive() || (!isClothing && !targetItem.CanPutInCargo(unit)))
 		return FAIL;
 		if (target.GetDistanceSq(unit, true) > 4.0 || unit.eAI_IsItemObstructed(targetItem))
 		return FAIL;
@@ -2904,7 +2912,7 @@ class Expansion_Master_Flank_TakeItemToInventory_Transition_0: eAITransition {
 				}
 				else if (!unit.eAI_TakeItemToInventory(hands))
 				{
-					unit.eAI_ItemThreatOverride(hands, true);  //! Make sure we do not attempt to take it again after  dropping
+					unit.eAI_ThreatOverride(hands, true);  //! Make sure we do not attempt to take it again after  dropping
 					unit.eAI_DropItem(hands, false);
 				}
 			}
@@ -2915,12 +2923,12 @@ class Expansion_Master_Flank_TakeItemToInventory_Transition_0: eAITransition {
 			//! Picking up melee weapons is handled by TakeItemToHands state
 			return FAIL;
 		}
-		if (!unit.eAI_FindFreeInventoryLocationFor(targetItem))
+		if (!isClothing && !unit.eAI_FindFreeInventoryLocationFor(targetItem))
 		{
-			unit.eAI_ItemThreatOverride(targetItem, true);
+			unit.eAI_ThreatOverride(targetItem, true);
 			return FAIL;
 		}
-		unit.eAI_ItemThreatOverride(targetItem, false);
+		unit.eAI_ThreatOverride(targetItem, false);
 		dst.item = targetItem;
 		return SUCCESS;
 	}
@@ -2942,14 +2950,18 @@ class Expansion_Master_Fighting_TakeItemToInventory_Transition_0: eAITransition 
 		if (unit.IsFighting()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
 		eAITarget target = unit.GetTarget();
 		ItemBase targetItem;
-		if (!target || !Class.CastTo(targetItem, target.GetEntity()) || targetItem.GetHierarchyRootPlayer() || targetItem.IsSetForDeletion() || unit.eAI_GetItemThreatOverride(targetItem))
+		if (!target || !Class.CastTo(targetItem, target.GetEntity()) || targetItem.Expansion_GetRootPlayerAliveExcluding(null) || targetItem.IsSetForDeletion() || unit.eAI_GetThreatOverride(targetItem))
 		return FAIL;
-		if (targetItem.Expansion_IsLiveExplosive() || !targetItem.CanPutInCargo(unit))
+		bool isClothing;
+		if (targetItem.IsClothing())
+		isClothing = true;
+		if (targetItem.Expansion_IsLiveExplosive() || (!isClothing && !targetItem.CanPutInCargo(unit)))
 		return FAIL;
 		if (target.GetDistanceSq(unit, true) > 4.0 || unit.eAI_IsItemObstructed(targetItem))
 		return FAIL;
@@ -2969,7 +2981,7 @@ class Expansion_Master_Fighting_TakeItemToInventory_Transition_0: eAITransition 
 				}
 				else if (!unit.eAI_TakeItemToInventory(hands))
 				{
-					unit.eAI_ItemThreatOverride(hands, true);  //! Make sure we do not attempt to take it again after  dropping
+					unit.eAI_ThreatOverride(hands, true);  //! Make sure we do not attempt to take it again after  dropping
 					unit.eAI_DropItem(hands, false);
 				}
 			}
@@ -2980,12 +2992,12 @@ class Expansion_Master_Fighting_TakeItemToInventory_Transition_0: eAITransition 
 			//! Picking up melee weapons is handled by TakeItemToHands state
 			return FAIL;
 		}
-		if (!unit.eAI_FindFreeInventoryLocationFor(targetItem))
+		if (!isClothing && !unit.eAI_FindFreeInventoryLocationFor(targetItem))
 		{
-			unit.eAI_ItemThreatOverride(targetItem, true);
+			unit.eAI_ThreatOverride(targetItem, true);
 			return FAIL;
 		}
-		unit.eAI_ItemThreatOverride(targetItem, false);
+		unit.eAI_ThreatOverride(targetItem, false);
 		dst.item = targetItem;
 		return SUCCESS;
 	}
@@ -3024,6 +3036,7 @@ class Expansion_Master_Idle_Weapon_Unjamming_Transition_0: eAITransition {
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.weapon, unit.GetItemInHands())) return FAIL;
 		if (!unit.GetWeaponManager().CanUnjam(dst.weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
@@ -3048,6 +3061,7 @@ class Expansion_Master_TraversingWaypoints_Weapon_Unjamming_Transition_0: eAITra
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.weapon, unit.GetItemInHands())) return FAIL;
 		if (!unit.GetWeaponManager().CanUnjam(dst.weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
@@ -3072,6 +3086,7 @@ class Expansion_Master_FollowFormation_Weapon_Unjamming_Transition_0: eAITransit
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.weapon, unit.GetItemInHands())) return FAIL;
 		if (!unit.GetWeaponManager().CanUnjam(dst.weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
@@ -3096,6 +3111,7 @@ class Expansion_Master_Flank_Weapon_Unjamming_Transition_0: eAITransition {
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.weapon, unit.GetItemInHands())) return FAIL;
 		if (!unit.GetWeaponManager().CanUnjam(dst.weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
@@ -3120,6 +3136,7 @@ class Expansion_Master_Fighting_Weapon_Unjamming_Transition_0: eAITransition {
 		if (unit.IsClimbing() || unit.IsFalling() || unit.IsFighting() || !unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!Class.CastTo(dst.weapon, unit.GetItemInHands())) return FAIL;
 		if (!unit.GetWeaponManager().CanUnjam(dst.weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
@@ -3451,6 +3468,9 @@ class Expansion_Master_Idle_PlayEmote_Transition_0: eAITransition {
 		if (unit.IsRaised()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsClimbing()) return FAIL;
+		if (unit.IsFalling()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.eAI_IsChangingStance()) return FAIL;
 		if (!unit.m_Expansion_EmoteID) return FAIL;
@@ -3482,6 +3502,9 @@ class Expansion_Master_TraversingWaypoints_PlayEmote_Transition_0: eAITransition
 		if (unit.IsRaised()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsClimbing()) return FAIL;
+		if (unit.IsFalling()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.eAI_IsChangingStance()) return FAIL;
 		if (!unit.m_Expansion_EmoteID) return FAIL;
@@ -3513,6 +3536,9 @@ class Expansion_Master_FollowFormation_PlayEmote_Transition_0: eAITransition {
 		if (unit.IsRaised()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsClimbing()) return FAIL;
+		if (unit.IsFalling()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.eAI_IsChangingStance()) return FAIL;
 		if (!unit.m_Expansion_EmoteID) return FAIL;
@@ -3544,6 +3570,9 @@ class Expansion_Master_Flank_PlayEmote_Transition_0: eAITransition {
 		if (unit.IsRaised()) return FAIL;
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
+		if (unit.IsClimbing()) return FAIL;
+		if (unit.IsFalling()) return FAIL;
+		if (unit.IsSwimming()) return FAIL;
 		if (!unit.GetCommand_MoveAI()) return FAIL;
 		if (unit.eAI_IsChangingStance()) return FAIL;
 		if (!unit.m_Expansion_EmoteID) return FAIL;
@@ -3589,9 +3618,9 @@ class Expansion_Master_Idle_FollowFormation_Transition_0: eAITransition {
 		Class.CastTo(dst, _fsm.GetState("Expansion_Master_FollowFormation_State_0"));
 	}
 	override int Guard() {
-		if (unit.GetThreatToSelf() >= 0.4) return FAIL;
 		dst.group = unit.GetGroup();
 		if (!dst.group) return FAIL;
+		if (unit.GetThreatToSelf() >= 0.4 || dst.group.IsInCombat()) return FAIL;
 		if (dst.group.GetFormationState() != eAIGroupFormationState.IN) return FAIL;
 		auto leader = dst.group.GetFormationLeader();
 		if (!leader || leader == unit) return FAIL;
@@ -3613,9 +3642,9 @@ class Expansion_Master_Flank_FollowFormation_Transition_0: eAITransition {
 		Class.CastTo(dst, _fsm.GetState("Expansion_Master_FollowFormation_State_0"));
 	}
 	override int Guard() {
-		if (unit.GetThreatToSelf() >= 0.4) return FAIL;
 		dst.group = unit.GetGroup();
 		if (!dst.group) return FAIL;
+		if (unit.GetThreatToSelf() >= 0.4 || dst.group.IsInCombat()) return FAIL;
 		if (dst.group.GetFormationState() != eAIGroupFormationState.IN) return FAIL;
 		auto leader = dst.group.GetFormationLeader();
 		if (!leader || leader == unit) return FAIL;
@@ -3637,9 +3666,9 @@ class Expansion_Master_Idle_TraversingWaypoints_Transition_0: eAITransition {
 		Class.CastTo(dst, _fsm.GetState("Expansion_Master_TraversingWaypoints_State_0"));
 	}
 	override int Guard() {
-		if (unit.GetThreatToSelf() >= 0.4) return FAIL;
 		auto group = unit.GetGroup();
 		if (!group) return FAIL;
+		if (unit.GetThreatToSelf() >= 0.4 || group.IsInCombat()) return FAIL;
 		if (group.GetFormationState() != eAIGroupFormationState.IN) return FAIL;
 		// we are the leader so we traverse the waypoints
 		auto leader = group.GetFormationLeader();
@@ -3663,9 +3692,9 @@ class Expansion_Master_Flank_TraversingWaypoints_Transition_0: eAITransition {
 		Class.CastTo(dst, _fsm.GetState("Expansion_Master_TraversingWaypoints_State_0"));
 	}
 	override int Guard() {
-		if (unit.GetThreatToSelf() >= 0.4) return FAIL;
 		auto group = unit.GetGroup();
 		if (!group) return FAIL;
+		if (unit.GetThreatToSelf() >= 0.4 || group.IsInCombat()) return FAIL;
 		if (group.GetFormationState() != eAIGroupFormationState.IN) return FAIL;
 		// we are the leader so we traverse the waypoints
 		auto leader = group.GetFormationLeader();
@@ -3693,9 +3722,61 @@ class Expansion_Master_Idle_Flank_Transition_0: eAITransition {
 		if (unit.IsInTransport()) return FAIL;
 		auto group = unit.GetGroup();
 		if (!group) return FAIL;
-		if (group.GetFormationState() != eAIGroupFormationState.FLANK) return FAIL;
+		if (group.GetFormationState() != eAIGroupFormationState.FLANK && !group.IsInCombat()) return FAIL;
 		dst.target = unit.GetTarget();
-		if (!dst.target)
+		if (!dst.target || dst.target.info.IsInherited(eAIItemTargetInformation))
+		return FAIL;
+		if (!unit.eAI_IsInFlankRange(dst.target)) return FAIL;
+		return SUCCESS;
+	}
+	override ExpansionState GetSource() { return src; }
+	override ExpansionState GetDestination() { return dst; }
+	override string GetEvent() { return ""; }
+}
+class Expansion_Master_TraversingWaypoints_Flank_Transition_0: eAITransition {
+	private Expansion_Master_TraversingWaypoints_State_0 src;
+	private Expansion_Master_Flank_State_0 dst;
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_TraversingWaypoints_Flank_Transition_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_TraversingWaypoints_Flank_Transition_0";
+		Class.CastTo(src, _fsm.GetState("Expansion_Master_TraversingWaypoints_State_0"));
+		Class.CastTo(dst, _fsm.GetState("Expansion_Master_Flank_State_0"));
+	}
+	override int Guard() {
+		if (unit.GetThreatToSelf() >= 0.4) return FAIL;
+		if (unit.IsInTransport()) return FAIL;
+		auto group = unit.GetGroup();
+		if (!group) return FAIL;
+		if (group.GetFormationState() != eAIGroupFormationState.FLANK && !group.IsInCombat()) return FAIL;
+		dst.target = unit.GetTarget();
+		if (!dst.target || dst.target.info.IsInherited(eAIItemTargetInformation))
+		return FAIL;
+		if (!unit.eAI_IsInFlankRange(dst.target)) return FAIL;
+		return SUCCESS;
+	}
+	override ExpansionState GetSource() { return src; }
+	override ExpansionState GetDestination() { return dst; }
+	override string GetEvent() { return ""; }
+}
+class Expansion_Master_FollowFormation_Flank_Transition_0: eAITransition {
+	private Expansion_Master_FollowFormation_State_0 src;
+	private Expansion_Master_Flank_State_0 dst;
+	Expansion_Master_FSM_0 fsm;
+	void Expansion_Master_FollowFormation_Flank_Transition_0(ExpansionFSM _fsm) {
+		Class.CastTo(fsm, _fsm);
+		m_ClassName = "Expansion_Master_FollowFormation_Flank_Transition_0";
+		Class.CastTo(src, _fsm.GetState("Expansion_Master_FollowFormation_State_0"));
+		Class.CastTo(dst, _fsm.GetState("Expansion_Master_Flank_State_0"));
+	}
+	override int Guard() {
+		if (unit.GetThreatToSelf() >= 0.4) return FAIL;
+		if (unit.IsInTransport()) return FAIL;
+		auto group = unit.GetGroup();
+		if (!group) return FAIL;
+		if (group.GetFormationState() != eAIGroupFormationState.FLANK && !group.IsInCombat()) return FAIL;
+		dst.target = unit.GetTarget();
+		if (!dst.target || dst.target.info.IsInherited(eAIItemTargetInformation))
 		return FAIL;
 		if (!unit.eAI_IsInFlankRange(dst.target)) return FAIL;
 		return SUCCESS;
@@ -3756,7 +3837,7 @@ class Expansion_Master_Flank_Idle_Transition_0: eAITransition {
 	}
 	override int Guard() {
 		auto group = unit.GetGroup();
-		if (group && group.GetFormationState() == eAIGroupFormationState.FLANK && src.target && unit.eAI_IsInFlankRange(src.target)) return FAIL;
+		if (group && (group.GetFormationState() == eAIGroupFormationState.FLANK || group.IsInCombat()) && src.target && !src.target.info.IsInherited(eAIItemTargetInformation) && unit.eAI_IsInFlankRange(src.target)) return FAIL;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -3853,6 +3934,8 @@ class Expansion_Master_FSM_0: eAIFSM {
 		AddTransition(new Expansion_Master_Idle_TraversingWaypoints_Transition_0(this));
 		AddTransition(new Expansion_Master_Flank_TraversingWaypoints_Transition_0(this));
 		AddTransition(new Expansion_Master_Idle_Flank_Transition_0(this));
+		AddTransition(new Expansion_Master_TraversingWaypoints_Flank_Transition_0(this));
+		AddTransition(new Expansion_Master_FollowFormation_Flank_Transition_0(this));
 		AddTransition(new Expansion_Master_TraversingWaypoints_Idle_Transition_0(this));
 		AddTransition(new Expansion_Master_FollowFormation_Idle_Transition_0(this));
 		AddTransition(new Expansion_Master_Flank_Idle_Transition_0(this));

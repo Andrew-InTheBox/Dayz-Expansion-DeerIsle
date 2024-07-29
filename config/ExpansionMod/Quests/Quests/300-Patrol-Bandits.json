@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 20,
+    "ConfigVersion": 22,
     "ID": 300,
     "Type": 1,
     "Title": "Clear Patrol - Sunset Cross Valley",
@@ -33,6 +33,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         1
     ],
@@ -42,12 +43,12 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 6,
             "ObjectiveType": 3
         },
         {
-            "ConfigVersion": 22,
+            "ConfigVersion": 28,
             "ID": 1,
             "ObjectiveType": 7
         }
@@ -62,5 +63,7 @@
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {}
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }
