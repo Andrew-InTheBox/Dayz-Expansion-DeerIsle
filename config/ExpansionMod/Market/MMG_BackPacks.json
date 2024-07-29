@@ -9,7 +9,7 @@
         {
             "ClassName": "MMG_carrier_backpack_black",
             "MaxPriceThreshold": 7880,
-            "MinPriceThreshold": 7880,
+            "MinPriceThreshold": 7580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -30,7 +30,7 @@
         {
             "ClassName": "MMG_supplybag_black",
             "MaxPriceThreshold": 10500,
-            "MinPriceThreshold": 10500,
+            "MinPriceThreshold": 9100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -51,7 +51,7 @@
         {
             "ClassName": "MMG_assault_pack_black",
             "MaxPriceThreshold": 7880,
-            "MinPriceThreshold": 7880,
+            "MinPriceThreshold": 6880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -72,7 +72,7 @@
         {
             "ClassName": "MMG_camelback_black",
             "MaxPriceThreshold": 9190,
-            "MinPriceThreshold": 9190,
+            "MinPriceThreshold": 7190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -93,7 +93,7 @@
         {
             "ClassName": "MMG_mmps_bag_black",
             "MaxPriceThreshold": 9190,
-            "MinPriceThreshold": 9190,
+            "MinPriceThreshold": 7190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -114,7 +114,7 @@
         {
             "ClassName": "MMG_mmps_bag_atacs_black",
             "MaxPriceThreshold": 4590,
-            "MinPriceThreshold": 4590,
+            "MinPriceThreshold": 4090,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

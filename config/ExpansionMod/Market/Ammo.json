@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "ammo_22",
-            "MaxPriceThreshold": 15,
-            "MinPriceThreshold": 10,
+            "MaxPriceThreshold": 10,
+            "MinPriceThreshold": 2,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -52,7 +52,7 @@
         },
         {
             "ClassName": "ammo_308win",
-            "MaxPriceThreshold": 25,
+            "MaxPriceThreshold": 20,
             "MinPriceThreshold": 20,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -109,7 +109,7 @@
         },
         {
             "ClassName": "ammo_545x39",
-            "MaxPriceThreshold": 10,
+            "MaxPriceThreshold": 15,
             "MinPriceThreshold": 5,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -122,7 +122,7 @@
         },
         {
             "ClassName": "ammo_545x39tracer",
-            "MaxPriceThreshold": 40,
+            "MaxPriceThreshold": 25,
             "MinPriceThreshold": 20,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -146,7 +146,7 @@
         },
         {
             "ClassName": "ammo_556x45tracer",
-            "MaxPriceThreshold": 40,
+            "MaxPriceThreshold": 20,
             "MinPriceThreshold": 5,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -170,7 +170,7 @@
         },
         {
             "ClassName": "ammo_762x39tracer",
-            "MaxPriceThreshold": 30,
+            "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -181,7 +181,7 @@
         },
         {
             "ClassName": "ammo_762x54",
-            "MaxPriceThreshold": 20,
+            "MaxPriceThreshold": 15,
             "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -194,8 +194,8 @@
         },
         {
             "ClassName": "ammo_762x54tracer",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 15,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -205,7 +205,7 @@
         },
         {
             "ClassName": "ammo_9x19",
-            "MaxPriceThreshold": 15,
+            "MaxPriceThreshold": 12,
             "MinPriceThreshold": 8,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -229,8 +229,8 @@
         },
         {
             "ClassName": "ammo_9x39ap",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 20,
+            "MaxPriceThreshold": 25,
+            "MinPriceThreshold": 18,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -370,8 +370,8 @@
         },
         {
             "ClassName": "ammo_expansion_m203_he",
-            "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 420,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -425,74 +425,8 @@
         },
         {
             "ClassName": "Ammo_300WinMagnum",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Rev_Ammo_300BO",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Rev_Ammo_408",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Rev_Ammo_338",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Rev_Ammo_68SPC",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Rev_Ammo_50BW",
-            "MaxPriceThreshold": 440,
-            "MinPriceThreshold": 290,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "JebsGuns_Ammo_45_70",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 20,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

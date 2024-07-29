@@ -113,7 +113,7 @@
         {
             "ClassName": "MMG_tactical_pouch_tan",
             "MaxPriceThreshold": 1580,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 1380,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -122,6 +122,7 @@
             "Variants": [
                 "MMG_tactical_pouch_black",
                 "MMG_tactical_pouch_green",
+                "MMG_tactical_pouch_atacs",
                 "MMG_tactical_pouch_alpine",
                 "MMG_tactical_pouch_erdl",
                 "MMG_tactical_pouch_multicamblack",
@@ -171,6 +172,20 @@
                 "MMG_mk5_grenade_pouch_dark_woodland",
                 "MMG_mk5_grenade_pouch_ucp",
                 "MMG_mk5_grenade_pouch_multicam_tropic"
+            ]
+        },
+        {
+            "ClassName": "MMG_multiple_magpouch_black",
+            "MaxPriceThreshold": 1980,
+            "MinPriceThreshold": 1780,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MMG_multiple_magpouch_green",
+                "MMG_multiple_magpouch_tan"
             ]
         }
     ]

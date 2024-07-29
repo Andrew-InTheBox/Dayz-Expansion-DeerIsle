@@ -30,7 +30,8 @@
         "MMG_Pouches:1",
         "MMG_Patches:1",
         "MMG_Shirts:1",
-        "MMG_Sniper_Boonie:1"
+        "MMG_Sniper_Boonie:1",
+        "MMG_ATACS:1"
     ],
     "Items": {}
 }

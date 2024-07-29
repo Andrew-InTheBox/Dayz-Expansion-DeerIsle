@@ -27,6 +27,21 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "HipPack_Black",
+            "MaxPriceThreshold": 950,
+            "MinPriceThreshold": 470,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "HipPack_Green",
+                "HipPack_Medical",
+                "HipPack_Party"
+            ]
         }
     ]
 }

@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_EXPLOSIVES & #STR_EXPANSION_MARKET_CATEGORY_GRENADES",
+    "DisplayName": "Snafu_Ammo",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "rgd5grenade",
-            "MaxPriceThreshold": 2840,
-            "MinPriceThreshold": 1420,
+            "ClassName": "GCGN_Ammo_3006",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -18,9 +18,9 @@
             "Variants": []
         },
         {
-            "ClassName": "m67grenade",
-            "MaxPriceThreshold": 2840,
-            "MinPriceThreshold": 1420,
+            "ClassName": "SNAFU_Ammo_300ACC",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -29,9 +29,9 @@
             "Variants": []
         },
         {
-            "ClassName": "flashgrenade",
-            "MaxPriceThreshold": 2460,
-            "MinPriceThreshold": 1230,
+            "ClassName": "GCGN_Ammo_762x51",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -40,9 +40,9 @@
             "Variants": []
         },
         {
-            "ClassName": "remotedetonator",
-            "MaxPriceThreshold": 3070,
-            "MinPriceThreshold": 1530,
+            "ClassName": "SNAFU_Ammo_46x30",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -51,9 +51,9 @@
             "Variants": []
         },
         {
-            "ClassName": "remotedetonatortrigger",
-            "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "ClassName": "SNAFU_Ammo_5_7x28mm",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -62,9 +62,9 @@
             "Variants": []
         },
         {
-            "ClassName": "improvisedexplosive",
-            "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "ClassName": "SNAFU_Ammo_127x55mm",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -73,9 +73,9 @@
             "Variants": []
         },
         {
-            "ClassName": "plastic_explosive",
-            "MaxPriceThreshold": 3070,
-            "MinPriceThreshold": 1530,
+            "ClassName": "SNAFU_Ammo_45_70mm",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -84,9 +84,9 @@
             "Variants": []
         },
         {
-            "ClassName": "grenade_chemgas",
-            "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "ClassName": "SNAFU_Ammo_500_SW",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -95,26 +95,9 @@
             "Variants": []
         },
         {
-            "ClassName": "m18smokegrenade_red",
-            "MaxPriceThreshold": 2060,
-            "MinPriceThreshold": 1030,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "m18smokegrenade_green",
-                "m18smokegrenade_yellow",
-                "m18smokegrenade_purple",
-                "m18smokegrenade_white",
-                "expansion_m18smokegrenade_teargas"
-            ]
-        },
-        {
-            "ClassName": "expansion_m18smokegrenade_teargas",
-            "MaxPriceThreshold": 1360,
-            "MinPriceThreshold": 680,
+            "ClassName": "SNAFU_Ammo_145Cal",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -123,22 +106,9 @@
             "Variants": []
         },
         {
-            "ClassName": "rdg2smokegrenade_black",
-            "MaxPriceThreshold": 1970,
-            "MinPriceThreshold": 990,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "rdg2smokegrenade_white"
-            ]
-        },
-        {
-            "ClassName": "expansionsupplysignal",
-            "MaxPriceThreshold": 5250000,
-            "MinPriceThreshold": 2625000,
+            "ClassName": "SNAFU_MD_Ammo_556x45mm_M855A1",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -147,9 +117,9 @@
             "Variants": []
         },
         {
-            "ClassName": "expansionsatchel",
-            "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "ClassName": "SNAFU_Ammo_762x25",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -158,9 +128,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ClaymoreMine",
-            "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 2310,
+            "ClassName": "SNAFU_Ammo_44",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -169,9 +139,31 @@
             "Variants": []
         },
         {
-            "ClassName": "landminetrap",
-            "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 2310,
+            "ClassName": "GCGN_Ammo_50Cal",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_Ammo_338",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "GCGN_Ammo_408Chey",
+            "MaxPriceThreshold": 34,
+            "MinPriceThreshold": 25,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -181,5 +173,3 @@
         }
     ]
 }
-
-

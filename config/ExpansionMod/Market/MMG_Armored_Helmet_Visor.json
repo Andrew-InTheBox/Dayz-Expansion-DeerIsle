@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "mmg_armored_helmet_green",
-            "MaxPriceThreshold": 1580,
-            "MinPriceThreshold": 80,
+            "MaxPriceThreshold": 5580,
+            "MinPriceThreshold": 3580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -22,8 +22,8 @@
         },
         {
             "ClassName": "mmg_armored_helmet_visor_tan",
-            "MaxPriceThreshold": 1580,
-            "MinPriceThreshold": 80,
+            "MaxPriceThreshold": 5580,
+            "MinPriceThreshold": 4700,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -36,8 +36,8 @@
         },
         {
             "ClassName": "MMG_tactical_helmet_black",
-            "MaxPriceThreshold": 1580,
-            "MinPriceThreshold": 80,
+            "MaxPriceThreshold": 5580,
+            "MinPriceThreshold": 3900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -58,8 +58,8 @@
         },
         {
             "ClassName": "MMG_striker_helmet_rusty",
-            "MaxPriceThreshold": 790,
-            "MinPriceThreshold": 40,
+            "MaxPriceThreshold": 4790,
+            "MinPriceThreshold": 3900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

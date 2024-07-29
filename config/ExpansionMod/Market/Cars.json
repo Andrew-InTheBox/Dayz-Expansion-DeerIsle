@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "offroadhatchback",
-            "MaxPriceThreshold": 147750,
-            "MinPriceThreshold": 73880,
+            "MaxPriceThreshold": 120750,
+            "MinPriceThreshold": 100880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -35,7 +35,7 @@
         {
             "ClassName": "hatchback_02",
             "MaxPriceThreshold": 168860,
-            "MinPriceThreshold": 84430,
+            "MinPriceThreshold": 120430,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -63,7 +63,7 @@
         {
             "ClassName": "sedan_02",
             "MaxPriceThreshold": 189970,
-            "MinPriceThreshold": 94980,
+            "MinPriceThreshold": 140980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -91,7 +91,7 @@
         {
             "ClassName": "civiliansedan",
             "MaxPriceThreshold": 211080,
-            "MinPriceThreshold": 105540,
+            "MinPriceThreshold": 150540,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -119,7 +119,7 @@
         {
             "ClassName": "truck_01_covered",
             "MaxPriceThreshold": 527690,
-            "MinPriceThreshold": 263850,
+            "MinPriceThreshold": 330850,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -145,7 +145,7 @@
         {
             "ClassName": "offroad_02",
             "MaxPriceThreshold": 527690,
-            "MinPriceThreshold": 263850,
+            "MinPriceThreshold": 350850,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -194,7 +194,7 @@
         {
             "ClassName": "expansionuaz",
             "MaxPriceThreshold": 157500,
-            "MinPriceThreshold": 78750,
+            "MinPriceThreshold": 140750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -223,7 +223,7 @@
         },
         {
             "ClassName": "expansionbus",
-            "MaxPriceThreshold": 472500,
+            "MaxPriceThreshold": 225500,
             "MinPriceThreshold": 183750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -244,8 +244,8 @@
         },
         {
             "ClassName": "expansionvodnik",
-            "MaxPriceThreshold": 525000,
-            "MinPriceThreshold": 262500,
+            "MaxPriceThreshold": 250000,
+            "MinPriceThreshold": 235500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -265,8 +265,8 @@
         },
         {
             "ClassName": "expansion_landrover",
-            "MaxPriceThreshold": 472500,
-            "MinPriceThreshold": 183750,
+            "MaxPriceThreshold": 299500,
+            "MinPriceThreshold": 280750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

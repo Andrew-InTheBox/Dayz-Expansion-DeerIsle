@@ -13,6 +13,8 @@
     "DisplayCurrencyName": "",
     "Categories": [
         "Assault_Rifles",
+        "Snafu_Weapons",
+        "Snafu_Ammo",
         "Submachine_Guns",
         "Rifles",
         "Pistols",

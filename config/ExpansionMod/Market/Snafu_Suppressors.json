@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_AMMOBOXES",
+    "DisplayName": "Snafu_Suppressors",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "ammobox_00buck_10rnd",
-            "MaxPriceThreshold": 370,
-            "MinPriceThreshold": 180,
+            "ClassName": "GCGN_M1Garand_Supp",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -18,9 +18,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_12gaslug_10rnd",
-            "MaxPriceThreshold": 370,
-            "MinPriceThreshold": 180,
+            "ClassName": "SR3_Vikhr_Supp",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -29,9 +29,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_12garubberslug_10rnd",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
+            "ClassName": "SNAFU_Normalized_Suppressor_Green",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -40,9 +40,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_22_50rnd",
-            "MaxPriceThreshold": 330,
-            "MinPriceThreshold": 220,
+            "ClassName": "SNAFU_Normalized_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -51,22 +51,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_308win_20rnd",
-            "MaxPriceThreshold": 290,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ammobox_308wintracer_20rnd"
-            ]
-        },
-        {
-            "ClassName": "ammobox_308wintracer_20rnd",
-            "MaxPriceThreshold": 640,
-            "MinPriceThreshold": 320,
+            "ClassName": "SNAFU_Standardized_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -75,9 +62,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_357_20rnd",
-            "MaxPriceThreshold": 270,
-            "MinPriceThreshold": 140,
+            "ClassName": "SNAFU_Standardized_Suppressor_Green",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -86,9 +73,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_380_35rnd",
-            "MaxPriceThreshold": 510,
-            "MinPriceThreshold": 260,
+            "ClassName": "SNAFU_LNormalized_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -97,9 +84,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_45acp_25rnd",
-            "MaxPriceThreshold": 370,
-            "MinPriceThreshold": 180,
+            "ClassName": "SNAFU_LNormalized_Suppressor_Green",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -108,22 +95,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_545x39_20rnd",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ammobox_545x39tracer_20rnd"
-            ]
-        },
-        {
-            "ClassName": "ammobox_545x39tracer_20rnd",
-            "MaxPriceThreshold": 630,
-            "MinPriceThreshold": 320,
+            "ClassName": "SNAFU_LStandardized_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -132,22 +106,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_556x45_20rnd",
-            "MaxPriceThreshold": 290,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ammobox_556x45tracer_20rnd"
-            ]
-        },
-        {
-            "ClassName": "ammobox_556x45tracer_20rnd",
-            "MaxPriceThreshold": 640,
-            "MinPriceThreshold": 320,
+            "ClassName": "SNAFU_LStandardized_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -156,22 +117,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_762x39_20rnd",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ammobox_762x39tracer_20rnd"
-            ]
-        },
-        {
-            "ClassName": "ammobox_762x39tracer_20rnd",
-            "MaxPriceThreshold": 640,
-            "MinPriceThreshold": 320,
+            "ClassName": "SNAFUAR15_SPR_SIL",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -180,22 +128,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_762x54_20rnd",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ammobox_762x54tracer_20rnd"
-            ]
-        },
-        {
-            "ClassName": "ammobox_762x54tracer_20rnd",
-            "MaxPriceThreshold": 640,
-            "MinPriceThreshold": 320,
+            "ClassName": "SNAFUAR15_SPR_SQSIL",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -204,9 +139,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_9x19_25rnd",
-            "MaxPriceThreshold": 340,
-            "MinPriceThreshold": 170,
+            "ClassName": "SNAFUKivaari_338_Supp",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -215,22 +150,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_9x39_20rnd",
-            "MaxPriceThreshold": 160,
-            "MinPriceThreshold": 80,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "ammobox_9x39ap_20rnd"
-            ]
-        },
-        {
-            "ClassName": "ammobox_9x39ap_20rnd",
-            "MaxPriceThreshold": 650,
-            "MinPriceThreshold": 330,
+            "ClassName": "SNAFU_408_Suppressor_T",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -239,9 +161,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_expansion_46x30_25rnd",
-            "MaxPriceThreshold": 210,
-            "MinPriceThreshold": 100,
+            "ClassName": "Snafu_ScarH_SIL_Tan",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -250,9 +172,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox_expansion_338_15rnd",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 190,
+            "ClassName": "Snafu_ScarH_SIL_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -261,9 +183,86 @@
             "Variants": []
         },
         {
-            "ClassName": "expansion_ammobox_8mm_15rnd",
-            "MaxPriceThreshold": 220,
-            "MinPriceThreshold": 160,
+            "ClassName": "SNAFUGevar_Suppressor_Tan",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUGevar_Suppressor_Green",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_Agram_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_MPX_Suppressor_Black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_SPMOD",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_HeramuzzelF",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_MuzzelFF",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_MK47Muzzel",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

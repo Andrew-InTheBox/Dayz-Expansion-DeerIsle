@@ -12,7 +12,8 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "Vehicle_Parts"
+        "Vehicle_Parts",
+        "Batteries"
     ],
     "Items": {
         "tirerepairkit": 1,
