@@ -683,7 +683,7 @@
         },
         {
             "ClassName": "BandageDressing",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -742,7 +742,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -755,7 +755,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic_6x",
-                                            "Chance": 0.15000000596046449,
+                                            "Chance": 0.15000000596046448,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -888,7 +888,7 @@
                 },
                 {
                     "ClassName": "Mag_Scout_5Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -972,7 +972,7 @@
                 },
                 {
                     "ClassName": "Mag_FAMAS_25Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1097,7 +1097,7 @@
                                         },
                                         {
                                             "ClassName": "M4_CQBBttstck",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1110,7 +1110,7 @@
                                         },
                                         {
                                             "ClassName": "M4_MPBttstck",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1136,7 +1136,7 @@
                                         },
                                         {
                                             "ClassName": "M4_MPHndgrd",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1162,7 +1162,7 @@
                                         },
                                         {
                                             "ClassName": "M4_RISHndgrd",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1175,7 +1175,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1366,7 +1366,7 @@
                 },
                 {
                     "ClassName": "Mag_STANAG_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1450,7 +1450,7 @@
                 },
                 {
                     "ClassName": "Mag_Aug_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1510,7 +1510,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1688,7 +1688,7 @@
                 },
                 {
                     "ClassName": "Mag_Aug_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1735,7 +1735,7 @@
                                     "Items": [
                                         {
                                             "ClassName": "Mag_STANAG_60Rnd",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1785,7 +1785,7 @@
                 },
                 {
                     "ClassName": "Mag_STANAG_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0

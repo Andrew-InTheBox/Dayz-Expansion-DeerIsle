@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_facemask_black",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 50,
+            "MaxPriceThreshold": 260,
+            "MinPriceThreshold": 260,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -28,8 +28,8 @@
         },
         {
             "ClassName": "MMG_balaclava_black",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 50,
+            "MaxPriceThreshold": 260,
+            "MinPriceThreshold": 260,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

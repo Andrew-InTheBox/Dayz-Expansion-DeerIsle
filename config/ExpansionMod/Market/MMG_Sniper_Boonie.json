@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "mmg_boonie_green",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 15,
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 80,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

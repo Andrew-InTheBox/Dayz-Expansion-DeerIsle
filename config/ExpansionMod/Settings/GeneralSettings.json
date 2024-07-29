@@ -1,10 +1,10 @@
 {
-    "m_Version": 12,
+    "m_Version": 14,
     "DisableShootToUnlock": 0,
     "EnableGravecross": 0,
     "GravecrossDeleteBody": 1,
     "GravecrossTimeThreshold": 1200.0,
-    "GravecrossSpawnTimeDelay": 180.0,
+    "GravecrossSpawnTimeDelay": 30.0,
     "Mapping": {
         "UseCustomMappingModule": 0,
         "Mapping": [
@@ -94,15 +94,17 @@
     "EnableHUDNightvisionOverlay": 1,
     "DisableMagicCrosshair": 1,
     "EnableAutoRun": 1,
-    "UnlimitedStamina": 0,
     "UseDeathScreen": 1,
     "UseDeathScreenStatistics": 1,
     "UseExpansionMainMenuLogo": 1,
     "UseExpansionMainMenuIcons": 1,
     "UseExpansionMainMenuIntroScene": 1,
     "UseNewsFeedInGameMenu": 1,
+    "UseHUDColors": 0,
     "HUDColors": {
         "StaminaBarColor": "FFFFFFFF",
+        "StaminaBarColorHalf": "FFFFFFFF",
+        "StaminaBarColorLow": "FFFFFFFF",
         "NotifierDividerColor": "DCDCDCFF",
         "TemperatureBurningColor": "DC0000FF",
         "TemperatureHotColor": "DCDC00FF",

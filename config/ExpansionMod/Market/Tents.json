@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "partytent",
-            "MaxPriceThreshold": 5200,
-            "MinPriceThreshold": 2600,
+            "MaxPriceThreshold": 25620,
+            "MinPriceThreshold": 12810,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "mediumtent",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 3000,
+            "MaxPriceThreshold": 30050,
+            "MinPriceThreshold": 15020,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -37,8 +37,8 @@
         },
         {
             "ClassName": "largetent",
-            "MaxPriceThreshold": 12000,
-            "MinPriceThreshold": 6000,
+            "MaxPriceThreshold": 60090,
+            "MinPriceThreshold": 30050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -48,8 +48,8 @@
         },
         {
             "ClassName": "cartent",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 7000,
+            "MaxPriceThreshold": 70110,
+            "MinPriceThreshold": 35050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -59,8 +59,8 @@
         },
         {
             "ClassName": "expansioncamotentkit",
-            "MaxPriceThreshold": 5200,
-            "MinPriceThreshold": 2600,
+            "MaxPriceThreshold": 13650,
+            "MinPriceThreshold": 6820,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -70,8 +70,8 @@
         },
         {
             "ClassName": "expansioncamoboxkit",
-            "MaxPriceThreshold": 5200,
-            "MinPriceThreshold": 2600,
+            "MaxPriceThreshold": 13650,
+            "MinPriceThreshold": 6820,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

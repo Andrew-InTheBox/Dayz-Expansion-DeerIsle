@@ -5,7 +5,7 @@
             "Spatial_Name": "East",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 1.5,
+            "AgeTime": 1.2999999523162842,
             "MessageType": 1,
             "MessageTitle": "East AI",
             "MessageText": [
@@ -18,7 +18,7 @@
             "Spatial_Name": "West",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 2.5,
+            "AgeTime": 1.2999999523162842,
             "MessageType": 3,
             "MessageTitle": "West AI",
             "MessageText": [
@@ -27,34 +27,22 @@
             ]
         },
         {
-            "Spatial_Name": "Guard",
+            "Spatial_Name": "Civilian",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 4.5,
+            "AgeTime": 1.2999999523162842,
             "MessageType": 5,
-            "MessageTitle": "Guard AI",
+            "MessageTitle": "Civilian AI",
             "MessageText": [
-                "Guards detected",
-                "Friendlies in the area, guns down."
+                "Civilians detected",
+                "Friendlies in the area"
             ]
         },
         {
-            "Spatial_Name": "Shaman",
+            "Spatial_Name": "Name",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 4.5,
-            "MessageType": 5,
-            "MessageTitle": "Shaman AI",
-            "MessageText": [
-                "Shamans detected",
-                "Shamans in the area."
-            ]
-        },
-        {
-            "Spatial_Name": "Disabled",
-            "StartTime": 0.0,
-            "StopTime": 24.0,
-            "AgeTime": 10.0,
+            "AgeTime": 1.2999999523162842,
             "MessageType": 0,
             "MessageTitle": "Disabled",
             "MessageText": [

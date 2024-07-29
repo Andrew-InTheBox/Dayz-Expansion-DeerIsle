@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_headphones_black",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 20,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "MMG_ballistic_earcover_black",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 300,
+            "MaxPriceThreshold": 790,
+            "MinPriceThreshold": 790,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

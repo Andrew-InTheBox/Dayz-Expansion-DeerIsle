@@ -1,5 +1,5 @@
 {
-    "m_Version": 4,
+    "m_Version": 5,
     "EnableStatusTab": 1,
     "EnablePartyTab": 1,
     "EnableServerInfoTab": 1,
@@ -373,5 +373,6 @@
                 "improvisedsuppressor"
             ]
         }
-    ]
+    ],
+    "EnableCraftingRecipesTab": 0
 }

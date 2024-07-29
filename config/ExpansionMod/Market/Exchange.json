@@ -7,7 +7,7 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "expansionbanknotehryvnia",
+            "ClassName": "ExpansionBanknoteHryvnia",
             "MaxPriceThreshold": 1,
             "MinPriceThreshold": 1,
             "SellPricePercent": -1.0,

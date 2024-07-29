@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="VehicleHeliSpawn">
+        <nominal>4</nominal>
+        <min>6</min>
+        <max>8</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_LittleBird"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_LittleBird_Camo"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_LittleBird_Desert"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bo105m"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bo105m_blackcamo"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_KA26"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bell429"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bell429_Police"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bell429_Medic"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bell429_ZS"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Bell429_Uganda"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Mi2"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Mi2_Military"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Mi2_Hornet"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Apache"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Apache_Winter"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Apache_Desert"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Blackhawk"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Blackhawk_Cargo"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_Blackhawk_Woodland"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_CH53e"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_CH47"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_EC135"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_EC135_BlackCamo"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_UH1H"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_UH1H_Combat"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_S76"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_S76_WoodlandCamo"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="RFFSHeli_AS350"/>
+        </children>
+    </event>
+</events>

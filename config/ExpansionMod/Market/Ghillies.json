@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "ghilliehood_tan",
-            "MaxPriceThreshold": 440,
-            "MinPriceThreshold": 220,
+            "MaxPriceThreshold": 2320,
+            "MinPriceThreshold": 1160,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -22,8 +22,8 @@
         },
         {
             "ClassName": "ghilliebushrag_tan",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 400,
+            "MaxPriceThreshold": 4220,
+            "MinPriceThreshold": 2110,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -36,8 +36,8 @@
         },
         {
             "ClassName": "ghillietop_tan",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 600,
+            "MaxPriceThreshold": 6330,
+            "MinPriceThreshold": 3170,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -50,8 +50,8 @@
         },
         {
             "ClassName": "ghilliesuit_tan",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1000,
+            "MaxPriceThreshold": 10550,
+            "MinPriceThreshold": 5280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

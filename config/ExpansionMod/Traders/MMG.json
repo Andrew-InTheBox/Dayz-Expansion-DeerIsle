@@ -1,5 +1,5 @@
 {
-    "m_Version": 11,
+    "m_Version": 12,
     "DisplayName": "MMG Items",
     "MinRequiredReputation": 3000,
     "MaxRequiredReputation": 2147483647,
@@ -7,8 +7,10 @@
     "RequiredCompletedQuestID": -1,
     "TraderIcon": "Airdrop",
     "Currencies": [
-        "expansionbanknotehryvnia"
+        "ExpansionBanknoteHryvnia"
     ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
     "Categories": [
         "MMG_Armored_Helmet_Visor:1",
         "MMG_BackPacks:1",
