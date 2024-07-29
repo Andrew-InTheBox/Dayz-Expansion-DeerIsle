@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 1,
     "ObjectiveType": 3,
     "ObjectiveText": "Get to the outskirts of town and scope out the scene",
     "TimeLimit": -1,
+    "Active": 1,
     "Position": [
         7342.9599609375,
         33.925899505615237,

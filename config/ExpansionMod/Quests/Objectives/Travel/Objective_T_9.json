@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 9,
     "ObjectiveType": 3,
     "ObjectiveText": "Head towards the power plant",
     "TimeLimit": -1,
+    "Active": 1,
     "Position": [
         4753.08984375,
         16.120100021362306,
