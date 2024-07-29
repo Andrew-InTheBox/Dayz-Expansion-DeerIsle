@@ -41,7 +41,7 @@
                         },
                         {
                             "ClassName": "Mag_IJ70_8Rnd",
-                            "Chance": 0.30000001192092898,
+                            "Chance": 0.30000001192092896,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -54,7 +54,7 @@
                         },
                         {
                             "ClassName": "Mag_IJ70_8Rnd",
-                            "Chance": 0.20000000298023225,
+                            "Chance": 0.20000000298023224,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -147,14 +147,72 @@
                             "ClassName": "Ammo_762x39",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
+                                "Min": 0.3,
+                                "Max": 0.6
                             },
                             "Health": [],
                             "InventoryAttachments": [],
                             "InventoryCargo": [],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
+                        },
+                        {
+                            "ClassName": "Ammo_545x39",
+                            "Chance": 0.65,
+                            "Quantity": {
+                                "Min": 0.3,
+                                "Max": 0.6
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "AmmoBox_545x39_20Rnd",
+                            "Chance": 0.33,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "Ammo_308Win",
+                            "Chance": 0.65,
+                            "Quantity": {
+                                "Min": 0.3,
+                                "Max": 0.6
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "AmmoBox_308Win_20Rnd",
+                            "Chance": 0.33,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0
+                                }
+                            ]
                         }
                     ],
                     "ConstructionPartsBuilt": [],
@@ -358,7 +416,7 @@
         },
         {
             "ClassName": "BandageDressing",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -371,7 +429,7 @@
         },
         {
             "ClassName": "GasMask_Filter",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -705,7 +763,7 @@
                                         },
                                         {
                                             "ClassName": "AK_PlasticBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -718,7 +776,7 @@
                                         },
                                         {
                                             "ClassName": "AK_FoldingBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -796,7 +854,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -828,7 +886,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -884,7 +942,7 @@
                 },
                 {
                     "ClassName": "Mag_AK101_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -938,7 +996,7 @@
                                         },
                                         {
                                             "ClassName": "AK_PlasticBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -951,7 +1009,7 @@
                                         },
                                         {
                                             "ClassName": "AK_FoldingBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1042,7 +1100,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1074,7 +1132,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1130,7 +1188,7 @@
                 },
                 {
                     "ClassName": "Mag_AK74_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1253,7 +1311,7 @@
                 },
                 {
                     "ClassName": "Mag_AK74_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1320,7 +1378,7 @@
                                         },
                                         {
                                             "ClassName": "AK_PlasticBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1333,7 +1391,7 @@
                                         },
                                         {
                                             "ClassName": "AK_FoldingBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1411,7 +1469,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1443,7 +1501,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1499,7 +1557,7 @@
                 },
                 {
                     "ClassName": "Mag_AKM_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1553,7 +1611,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1609,7 +1667,7 @@
                 },
                 {
                     "ClassName": "Mag_SVD_10Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1676,7 +1734,7 @@
                                         },
                                         {
                                             "ClassName": "PistolSuppressor",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1689,7 +1747,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1745,7 +1803,7 @@
                 },
                 {
                     "ClassName": "Mag_PP19_64Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1825,7 +1883,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1838,7 +1896,7 @@
                                         },
                                         {
                                             "ClassName": "ReflexOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1894,7 +1952,7 @@
                 },
                 {
                     "ClassName": "Mag_FAL_20Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1954,7 +2012,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1967,7 +2025,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic_6x",
-                                            "Chance": 0.15000000596046449,
+                                            "Chance": 0.15000000596046448,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2100,7 +2158,7 @@
                 },
                 {
                     "ClassName": "Mag_Scout_5Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2184,7 +2242,7 @@
                 },
                 {
                     "ClassName": "Mag_FAMAS_25Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2309,7 +2367,7 @@
                                         },
                                         {
                                             "ClassName": "M4_CQBBttstck",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2322,7 +2380,7 @@
                                         },
                                         {
                                             "ClassName": "M4_MPBttstck",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2348,7 +2406,7 @@
                                         },
                                         {
                                             "ClassName": "M4_MPHndgrd",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2374,7 +2432,7 @@
                                         },
                                         {
                                             "ClassName": "M4_RISHndgrd",
-                                            "Chance": 0.33000001311302187,
+                                            "Chance": 0.33000001311302185,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2387,7 +2445,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2578,7 +2636,7 @@
                 },
                 {
                     "ClassName": "Mag_STANAG_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2662,7 +2720,7 @@
                 },
                 {
                     "ClassName": "Mag_Aug_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2722,7 +2780,7 @@
                                         },
                                         {
                                             "ClassName": "ACOGOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2900,7 +2958,7 @@
                 },
                 {
                     "ClassName": "Mag_Aug_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2947,7 +3005,7 @@
                                     "Items": [
                                         {
                                             "ClassName": "Mag_STANAG_60Rnd",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2997,7 +3055,7 @@
                 },
                 {
                     "ClassName": "Mag_STANAG_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0

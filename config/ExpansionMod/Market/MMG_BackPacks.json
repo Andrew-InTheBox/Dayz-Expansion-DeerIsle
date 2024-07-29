@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_carrier_backpack_black",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 7880,
+            "MinPriceThreshold": 7880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -29,8 +29,8 @@
         },
         {
             "ClassName": "MMG_supplybag_black",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 2000,
+            "MaxPriceThreshold": 10500,
+            "MinPriceThreshold": 10500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -50,8 +50,8 @@
         },
         {
             "ClassName": "MMG_assault_pack_black",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 7880,
+            "MinPriceThreshold": 7880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -71,8 +71,8 @@
         },
         {
             "ClassName": "MMG_camelback_black",
-            "MaxPriceThreshold": 1750,
-            "MinPriceThreshold": 1750,
+            "MaxPriceThreshold": 9190,
+            "MinPriceThreshold": 9190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -92,8 +92,8 @@
         },
         {
             "ClassName": "MMG_mmps_bag_black",
-            "MaxPriceThreshold": 1750,
-            "MinPriceThreshold": 1750,
+            "MaxPriceThreshold": 9190,
+            "MinPriceThreshold": 9190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -113,8 +113,8 @@
         },
         {
             "ClassName": "MMG_mmps_bag_atacs_black",
-            "MaxPriceThreshold": 1750,
-            "MinPriceThreshold": 1750,
+            "MaxPriceThreshold": 4590,
+            "MinPriceThreshold": 4590,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

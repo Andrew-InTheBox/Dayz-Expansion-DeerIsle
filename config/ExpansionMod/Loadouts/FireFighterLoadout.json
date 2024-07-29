@@ -351,7 +351,7 @@
             "Items": [
                 {
                     "ClassName": "FirefighterAxe",
-                    "Chance": 0.30000001192092898,
+                    "Chance": 0.30000001192092896,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0

@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "mmg_chestrig_green",
-            "MaxPriceThreshold": 750,
-            "MinPriceThreshold": 750,
+            "MaxPriceThreshold": 3940,
+            "MinPriceThreshold": 3940,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

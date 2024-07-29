@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "makarovij70",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 900,
+            "MinPriceThreshold": 500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -21,8 +21,8 @@
         },
         {
             "ClassName": "derringer_black",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 3170,
+            "MinPriceThreshold": 1060,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -35,8 +35,8 @@
         },
         {
             "ClassName": "cz75",
-            "MaxPriceThreshold": 270,
-            "MinPriceThreshold": 135,
+            "MaxPriceThreshold": 1050,
+            "MinPriceThreshold": 630,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -48,8 +48,8 @@
         },
         {
             "ClassName": "fnx45",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 175,
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -61,8 +61,8 @@
         },
         {
             "ClassName": "glock19",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 300,
+            "MaxPriceThreshold": 2330,
+            "MinPriceThreshold": 1160,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -74,8 +74,8 @@
         },
         {
             "ClassName": "mkii",
-            "MaxPriceThreshold": 640,
-            "MinPriceThreshold": 320,
+            "MaxPriceThreshold": 2710,
+            "MinPriceThreshold": 1350,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -87,8 +87,8 @@
         },
         {
             "ClassName": "colt1911",
-            "MaxPriceThreshold": 680,
-            "MinPriceThreshold": 340,
+            "MaxPriceThreshold": 3110,
+            "MinPriceThreshold": 1560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -100,8 +100,8 @@
         },
         {
             "ClassName": "engraved1911",
-            "MaxPriceThreshold": 680,
-            "MinPriceThreshold": 340,
+            "MaxPriceThreshold": 3480,
+            "MinPriceThreshold": 1740,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -113,8 +113,8 @@
         },
         {
             "ClassName": "magnum",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 400,
+            "MaxPriceThreshold": 3530,
+            "MinPriceThreshold": 1770,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -124,8 +124,8 @@
         },
         {
             "ClassName": "deagle",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 400,
+            "MaxPriceThreshold": 3530,
+            "MinPriceThreshold": 1770,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -139,8 +139,8 @@
         },
         {
             "ClassName": "deagle_gold",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
+            "MaxPriceThreshold": 5120,
+            "MinPriceThreshold": 2560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -152,8 +152,8 @@
         },
         {
             "ClassName": "p1",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 250,
+            "MaxPriceThreshold": 1550,
+            "MinPriceThreshold": 970,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -165,8 +165,8 @@
         },
         {
             "ClassName": "longhorn",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 1900,
+            "MinPriceThreshold": 950,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -176,8 +176,8 @@
         },
         {
             "ClassName": "expansion_m9",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 175,
+            "MaxPriceThreshold": 1900,
+            "MinPriceThreshold": 1460,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -185,98 +185,6 @@
             "SpawnAttachments": [
                 "mag_expansion_m9_15rnd"
             ],
-            "Variants": []
-        },
-		{
-            "ClassName": "tt_derringer",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 700,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "tt57tan",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "dtt57blk"
-            ]
-        },
-        {
-            "ClassName": "ttglock18c",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ttl35",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ttm9",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"ttm9_Gold"
-			]
-        },
-        {
-            "ClassName": "ttmakarov",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 1700,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ttmauser1914",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ttp38",
-            "MaxPriceThreshold": 1900,
-            "MinPriceThreshold": 1750,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": []
         }
     ]

@@ -1,9 +1,11 @@
 {
-    "m_Version": 2,
+    "m_Version": 4,
     "UseCategoryMenu": 0,
+    "ExcludedItems": [],
     "StorageLevels": {
         "1": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [
                 "Vest",
                 "Body",
@@ -15,6 +17,7 @@
         },
         "2": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [
                 "Vest",
                 "Body",
@@ -26,6 +29,7 @@
         },
         "3": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [
                 "Vest",
                 "Body",
@@ -37,6 +41,7 @@
         },
         "4": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [
                 "Vest",
                 "Body",
@@ -48,6 +53,7 @@
         },
         "5": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [
                 "Vest",
                 "Body",
@@ -59,26 +65,31 @@
         },
         "6": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [],
             "AllowAttachmentCargo": 0
         },
         "7": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [],
             "AllowAttachmentCargo": 0
         },
         "8": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [],
             "AllowAttachmentCargo": 0
         },
         "9": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [],
             "AllowAttachmentCargo": 0
         },
         "10": {
             "ReputationRequirement": -1,
+            "QuestID": 0,
             "ExcludedSlots": [],
             "AllowAttachmentCargo": 1
         }

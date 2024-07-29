@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "vss",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1600,
+            "MaxPriceThreshold": 16370,
+            "MinPriceThreshold": 8180,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -21,8 +21,8 @@
         },
         {
             "ClassName": "asval",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1600,
+            "MaxPriceThreshold": 16200,
+            "MinPriceThreshold": 8100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -34,8 +34,8 @@
         },
         {
             "ClassName": "b95",
-            "MaxPriceThreshold": 3400,
-            "MinPriceThreshold": 1700,
+            "MaxPriceThreshold": 15560,
+            "MinPriceThreshold": 7780,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -45,8 +45,8 @@
         },
         {
             "ClassName": "svd",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 2000,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 10500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -58,8 +58,8 @@
         },
         {
             "ClassName": "scout_chernarus",
-            "MaxPriceThreshold": 4200,
-            "MinPriceThreshold": 2100,
+            "MaxPriceThreshold": 21480,
+            "MinPriceThreshold": 10740,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -67,15 +67,12 @@
             "SpawnAttachments": [
                 "mag_scout_5rnd"
             ],
-            "Variants": [
-				"Scout_Chernarus",
-				"Scout_Livonia"
-			]
+            "Variants": []
         },
         {
             "ClassName": "expansion_awm",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 5000,
+            "MaxPriceThreshold": 26250,
+            "MinPriceThreshold": 13120,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

@@ -214,7 +214,7 @@
                     "InventoryCargo": [
                         {
                             "ClassName": "MakarovIJ70",
-                            "Chance": 0.20000000298023225,
+                            "Chance": 0.20000000298023224,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -504,7 +504,7 @@
                                 },
                                 {
                                     "ClassName": "KobraOptic",
-                                    "Chance": 0.20000000298023225,
+                                    "Chance": 0.20000000298023224,
                                     "Quantity": {
                                         "Min": 0.0,
                                         "Max": 0.0
@@ -541,7 +541,7 @@
         },
         {
             "ClassName": "BandageDressing",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0

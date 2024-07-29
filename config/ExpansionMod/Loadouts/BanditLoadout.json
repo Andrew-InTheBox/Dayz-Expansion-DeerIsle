@@ -1376,7 +1376,7 @@
                 },
                 {
                     "ClassName": "OMNOGloves_Brown",
-                    "Chance": 0.019999999552965165,
+                    "Chance": 0.019999999552965164,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1395,7 +1395,7 @@
                 },
                 {
                     "ClassName": "OMNOGloves_Gray",
-                    "Chance": 0.019999999552965165,
+                    "Chance": 0.019999999552965164,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1847,7 +1847,7 @@
             "Items": [
                 {
                     "ClassName": "MilitaryBelt",
-                    "Chance": 0.20000000298023225,
+                    "Chance": 0.20000000298023224,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2079,7 +2079,7 @@
                                         },
                                         {
                                             "ClassName": "AK_PlasticBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2092,7 +2092,7 @@
                                         },
                                         {
                                             "ClassName": "AK_FoldingBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2170,7 +2170,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2202,7 +2202,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2258,7 +2258,7 @@
                 },
                 {
                     "ClassName": "Mag_AK101_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2312,7 +2312,7 @@
                                         },
                                         {
                                             "ClassName": "AK_PlasticBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2325,7 +2325,7 @@
                                         },
                                         {
                                             "ClassName": "AK_FoldingBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2416,7 +2416,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2448,7 +2448,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2504,7 +2504,7 @@
                 },
                 {
                     "ClassName": "Mag_AK74_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2627,7 +2627,7 @@
                 },
                 {
                     "ClassName": "Mag_AK74_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2694,7 +2694,7 @@
                                         },
                                         {
                                             "ClassName": "AK_PlasticBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2707,7 +2707,7 @@
                                         },
                                         {
                                             "ClassName": "AK_FoldingBttstck",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2785,7 +2785,7 @@
                                         },
                                         {
                                             "ClassName": "KobraOptic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2817,7 +2817,7 @@
                                         },
                                         {
                                             "ClassName": "PSO1Optic",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -2873,7 +2873,7 @@
                 },
                 {
                     "ClassName": "Mag_AKM_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2979,7 +2979,7 @@
                                         },
                                         {
                                             "ClassName": "MP5_Compensator",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -3061,7 +3061,7 @@
                 },
                 {
                     "ClassName": "Mag_MP5_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3128,8 +3128,8 @@
                     "ClassName": "Ammo_762x54",
                     "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3141,8 +3141,8 @@
                     "ClassName": "Ammo_762x54",
                     "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3152,16 +3152,74 @@
                 },
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_545x39",
+                    "Chance": 0.65,
+                    "Quantity": {
+                        "Min": 0.3,
+                        "Max": 0.6
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "AmmoBox_545x39_20Rnd",
+                    "Chance": 0.33,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "Chance": 0.65,
+                    "Quantity": {
+                        "Min": 0.3,
+                        "Max": 0.6
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "AmmoBox_308Win_20Rnd",
+                    "Chance": 0.33,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0
+                        }
+                    ]
                 }
             ],
             "ConstructionPartsBuilt": [],
@@ -3193,7 +3251,7 @@
                                     "Items": [
                                         {
                                             "ClassName": "PUScopeOptic",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -3219,8 +3277,8 @@
                     "ClassName": "Ammo_762x39",
                     "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3232,8 +3290,8 @@
                     "ClassName": "Ammo_762x39",
                     "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3243,16 +3301,74 @@
                 },
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_545x39",
+                    "Chance": 0.65,
+                    "Quantity": {
+                        "Min": 0.3,
+                        "Max": 0.6
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "AmmoBox_545x39_20Rnd",
+                    "Chance": 0.33,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "Chance": 0.65,
+                    "Quantity": {
+                        "Min": 0.3,
+                        "Max": 0.6
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "AmmoBox_308Win_20Rnd",
+                    "Chance": 0.33,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0
+                        }
+                    ]
                 }
             ],
             "ConstructionPartsBuilt": [],
@@ -3347,7 +3463,7 @@
                 },
                 {
                     "ClassName": "Mag_Ruger1022_30Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3451,7 +3567,7 @@
                 },
                 {
                     "ClassName": "Mag_CZ550_10rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3529,7 +3645,7 @@
                 },
                 {
                     "ClassName": "Mag_P1_8Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3577,8 +3693,8 @@
                     "ClassName": "Ammo_12gaSlug",
                     "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3590,8 +3706,8 @@
                     "ClassName": "Ammo_12gaPellets",
                     "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3603,8 +3719,8 @@
                     "ClassName": "Ammo_12gaSlug",
                     "Chance": 0.5,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3616,14 +3732,72 @@
                     "ClassName": "Ammo_12gaPellets",
                     "Chance": 0.5,
                     "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
+                        "Min": 0.3,
+                        "Max": 0.6
                     },
                     "Health": [],
                     "InventoryAttachments": [],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_545x39",
+                    "Chance": 0.65,
+                    "Quantity": {
+                        "Min": 0.3,
+                        "Max": 0.6
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "AmmoBox_545x39_20Rnd",
+                    "Chance": 0.33,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "Chance": 0.65,
+                    "Quantity": {
+                        "Min": 0.3,
+                        "Max": 0.6
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ]
+                },
+                {
+                    "ClassName": "AmmoBox_308Win_20Rnd",
+                    "Chance": 0.33,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 1.0,
+                            "Max": 1.0
+                        }
+                    ]
                 }
             ],
             "ConstructionPartsBuilt": [],
@@ -3705,7 +3879,7 @@
                 },
                 {
                     "ClassName": "Mag_CZ527_5rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3815,7 +3989,7 @@
                 },
                 {
                     "ClassName": "Mag_UMP_25Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3893,7 +4067,7 @@
                 },
                 {
                     "ClassName": "Mag_CZ61_20Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -3971,7 +4145,7 @@
                 },
                 {
                     "ClassName": "Mag_FNX45_15Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -4049,7 +4223,7 @@
                 },
                 {
                     "ClassName": "Mag_MKII_10Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -4127,7 +4301,7 @@
                 },
                 {
                     "ClassName": "Mag_CZ75_15Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -4205,7 +4379,7 @@
                 },
                 {
                     "ClassName": "Mag_IJ70_8Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -4283,7 +4457,7 @@
                 },
                 {
                     "ClassName": "Mag_Glock_15Rnd",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
