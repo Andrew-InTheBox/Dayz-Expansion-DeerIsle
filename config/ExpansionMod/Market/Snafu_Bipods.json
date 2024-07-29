@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SHOTGUNS",
+    "DisplayName": "Snafu_Bipods",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "mp133shotgun",
-            "MaxPriceThreshold": 4580,
-            "MinPriceThreshold": 2290,
+            "ClassName": "SNAFU_Bipod",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -18,9 +18,9 @@
             "Variants": []
         },
         {
-            "ClassName": "izh43shotgun",
-            "MaxPriceThreshold": 6350,
-            "MinPriceThreshold": 3170,
+            "ClassName": "SNAFU_PKPBIPOD",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -29,9 +29,9 @@
             "Variants": []
         },
         {
-            "ClassName": "izh18shotgun",
-            "MaxPriceThreshold": 2110,
-            "MinPriceThreshold": 1060,
+            "ClassName": "SNAFU_NPKPBIPOD",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -40,23 +40,9 @@
             "Variants": []
         },
         {
-            "ClassName": "saiga",
-            "MaxPriceThreshold": 15020,
-            "MinPriceThreshold": 12010,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "saiga_bttstck",
-                "mag_saiga_8rnd"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansion_benellim4",
-            "MaxPriceThreshold": 7880,
-            "MinPriceThreshold": 6840,
+            "ClassName": "SNAFU_AtlasBipod",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -65,9 +51,9 @@
             "Variants": []
         },
         {
-            "ClassName": "expansion_dt11",
-            "MaxPriceThreshold": 4200,
-            "MinPriceThreshold": 2100,
+            "ClassName": "SNAFU_ModBipod",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

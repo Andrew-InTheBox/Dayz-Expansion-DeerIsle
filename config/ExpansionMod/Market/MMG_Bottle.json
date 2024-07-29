@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_bottle_black",
-            "MaxPriceThreshold": 370,
-            "MinPriceThreshold": 370,
+            "MaxPriceThreshold": 970,
+            "MinPriceThreshold": 770,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

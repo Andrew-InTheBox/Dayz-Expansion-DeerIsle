@@ -184,8 +184,8 @@
         },
         {
             "ClassName": "psilocybemushroom",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 20,
+            "MaxPriceThreshold": 90,
+            "MinPriceThreshold": 70,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

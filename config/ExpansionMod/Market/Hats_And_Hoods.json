@@ -39,6 +39,34 @@
             ]
         },
         {
+            "ClassName": "WinterCoif_Black",
+            "MaxPriceThreshold": 180,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "WinterCoif_Blue",
+                "WinterCoif_Green",
+                "WinterCoif_Skull"
+            ]
+        },
+        {
+            "ClassName": "OKZKCap_Green",
+            "MaxPriceThreshold": 180,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "OKZKCap_Beige"
+            ]
+        },
+        {
             "ClassName": "militaryberet_chdkz",
             "MaxPriceThreshold": 270,
             "MinPriceThreshold": 130,
@@ -255,6 +283,17 @@
             "ClassName": "nbchoodyellow",
             "MaxPriceThreshold": 1030,
             "MinPriceThreshold": 520,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "GasMask_Filter",
+            "MaxPriceThreshold": 950,
+            "MinPriceThreshold": 720,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

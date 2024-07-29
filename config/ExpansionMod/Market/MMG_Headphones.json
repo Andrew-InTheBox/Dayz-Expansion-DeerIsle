@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_headphones_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_carbine_red",
-            "MaxPriceThreshold": 3080,
-            "MinPriceThreshold": 2050,
+            "MaxPriceThreshold": 5080,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

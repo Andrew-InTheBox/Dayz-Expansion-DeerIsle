@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "makarovij70",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 500,
+            "MaxPriceThreshold": 1900,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -21,8 +21,8 @@
         },
         {
             "ClassName": "derringer_black",
-            "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1060,
+            "MaxPriceThreshold": 2270,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -35,8 +35,8 @@
         },
         {
             "ClassName": "cz75",
-            "MaxPriceThreshold": 1050,
-            "MinPriceThreshold": 630,
+            "MaxPriceThreshold": 3250,
+            "MinPriceThreshold": 2930,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -48,8 +48,8 @@
         },
         {
             "ClassName": "fnx45",
-            "MaxPriceThreshold": 1600,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 4200,
+            "MinPriceThreshold": 3900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -61,8 +61,8 @@
         },
         {
             "ClassName": "glock19",
-            "MaxPriceThreshold": 2330,
-            "MinPriceThreshold": 1160,
+            "MaxPriceThreshold": 2930,
+            "MinPriceThreshold": 2760,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -74,8 +74,8 @@
         },
         {
             "ClassName": "mkii",
-            "MaxPriceThreshold": 2710,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 3510,
+            "MinPriceThreshold": 3250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -100,8 +100,8 @@
         },
         {
             "ClassName": "engraved1911",
-            "MaxPriceThreshold": 3480,
-            "MinPriceThreshold": 1740,
+            "MaxPriceThreshold": 6580,
+            "MinPriceThreshold": 5540,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -114,7 +114,7 @@
         {
             "ClassName": "magnum",
             "MaxPriceThreshold": 3530,
-            "MinPriceThreshold": 1770,
+            "MinPriceThreshold": 3170,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -125,7 +125,7 @@
         {
             "ClassName": "deagle",
             "MaxPriceThreshold": 3530,
-            "MinPriceThreshold": 1770,
+            "MinPriceThreshold": 3170,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -140,7 +140,7 @@
         {
             "ClassName": "deagle_gold",
             "MaxPriceThreshold": 5120,
-            "MinPriceThreshold": 2560,
+            "MinPriceThreshold": 4860,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -152,8 +152,8 @@
         },
         {
             "ClassName": "p1",
-            "MaxPriceThreshold": 1550,
-            "MinPriceThreshold": 970,
+            "MaxPriceThreshold": 2550,
+            "MinPriceThreshold": 2270,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -165,8 +165,8 @@
         },
         {
             "ClassName": "longhorn",
-            "MaxPriceThreshold": 1900,
-            "MinPriceThreshold": 950,
+            "MaxPriceThreshold": 3200,
+            "MinPriceThreshold": 2950,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -176,8 +176,8 @@
         },
         {
             "ClassName": "expansion_m9",
-            "MaxPriceThreshold": 1900,
-            "MinPriceThreshold": 1460,
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -186,6 +186,19 @@
                 "mag_expansion_m9_15rnd"
             ],
             "Variants": []
+        },
+        {
+            "ClassName": "expansion_taser_yellow",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 3960,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "expansion_taser_black"
+            ]
         }
     ]
 }

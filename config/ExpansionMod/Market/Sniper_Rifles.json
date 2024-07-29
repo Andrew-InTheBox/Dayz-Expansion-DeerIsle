@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "vss",
-            "MaxPriceThreshold": 16370,
-            "MinPriceThreshold": 8180,
+            "MaxPriceThreshold": 15370,
+            "MinPriceThreshold": 12080,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -22,7 +22,7 @@
         {
             "ClassName": "asval",
             "MaxPriceThreshold": 16200,
-            "MinPriceThreshold": 8100,
+            "MinPriceThreshold": 14000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -35,7 +35,7 @@
         {
             "ClassName": "b95",
             "MaxPriceThreshold": 15560,
-            "MinPriceThreshold": 7780,
+            "MinPriceThreshold": 13080,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -45,8 +45,8 @@
         },
         {
             "ClassName": "svd",
-            "MaxPriceThreshold": 21000,
-            "MinPriceThreshold": 10500,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 12500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -58,8 +58,8 @@
         },
         {
             "ClassName": "scout_chernarus",
-            "MaxPriceThreshold": 21480,
-            "MinPriceThreshold": 10740,
+            "MaxPriceThreshold": 9980,
+            "MinPriceThreshold": 7740,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -71,8 +71,8 @@
         },
         {
             "ClassName": "expansion_awm",
-            "MaxPriceThreshold": 26250,
-            "MinPriceThreshold": 13120,
+            "MaxPriceThreshold": 19250,
+            "MinPriceThreshold": 17120,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

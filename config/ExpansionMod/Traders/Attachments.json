@@ -17,7 +17,15 @@
         "Bayonets",
         "Optics",
         "Buttstocks",
-        "Handguards"
+        "Handguards",
+        "Snafu_Bipods",
+        "Snafu_Extras",
+        "Snafu_Grips",
+        "Snafu_Handguards",
+        "Snafu_Scopes",
+        "Snafu_Mags",
+        "Snafu_Stocks",
+        "Snafu_Suppressors"
     ],
     "Items": {
         "universallight": 1,

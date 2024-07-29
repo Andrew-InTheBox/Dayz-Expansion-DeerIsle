@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "personalradio",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 40,
+            "MaxPriceThreshold": 180,
+            "MinPriceThreshold": 90,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -34,8 +34,8 @@
         },
         {
             "ClassName": "electronicrepairkit",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 120,
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -56,8 +56,8 @@
         },
         {
             "ClassName": "batterycharger",
-            "MaxPriceThreshold": 340,
-            "MinPriceThreshold": 170,
+            "MaxPriceThreshold": 740,
+            "MinPriceThreshold": 570,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -80,8 +80,8 @@
         },
         {
             "ClassName": "rangefinder",
-            "MaxPriceThreshold": 380,
-            "MinPriceThreshold": 190,
+            "MaxPriceThreshold": 580,
+            "MinPriceThreshold": 490,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -94,7 +94,7 @@
         {
             "ClassName": "nvgoggles",
             "MaxPriceThreshold": 4090,
-            "MinPriceThreshold": 2050,
+            "MinPriceThreshold": 3050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
