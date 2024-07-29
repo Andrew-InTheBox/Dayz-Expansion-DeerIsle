@@ -1,0 +1,45 @@
+Based on this more comprehensive transcript, here's an updated summary of the AI Patrol feature for roaming patrols, focusing on information provided by liquidrock and other confident observations:
+
+1. Behavior: Set "Behaviour": "ROAMING" in the configuration to enable roaming AI.
+
+2. Configuration: Settings are in AIPatrolSettings.json, located in mpmission/mapname/expansion/settings.
+
+3. Spawn Points:
+   - Only one spawn point is needed for roaming AI.
+   - Multiple waypoints can be used if "UseRandomWaypointAsStartPoint" is set to 1.
+   - AI will spawn at ground level on land, or on the water surface for water coordinates.
+
+4. Movement:
+   - AI will visit every location on the map if they survive long enough.
+   - They might get stuck occasionally, but this should be rare.
+   - After exploring the whole map, they'll revisit previously explored areas.
+
+5. Persistency:
+   - Enable with "Persist": 1 and a unique name for the patrol.
+   - Persistent AI continue from their last point with all acquired gear after server restarts.
+   - Persistence data is stored in mpmissions\mapname\storage_x\expansion\ai.
+
+6. Loadout: Suggested to spawn them with minimal gear and let them acquire items themselves.
+
+7. Respawn and Despawn:
+   - RespawnTime and DespawnTime settings work for all patrols.
+   - If respawn is off, they will respawn on the next server restart.
+
+8. Area Restrictions: Currently no way to restrict roaming AI to a specific area without custom mapping.
+
+9. Despawn Radius: Set a very large despawn radius to keep roaming AI active when no players are nearby.
+
+10. Looting: AI can get stuck in looting loops with each other. This might be addressed in future updates.
+
+11. Compatibility: Works with different maps, including Deer Isle.
+
+12. Configuration Tips:
+    - Ensure MinDist and MaxDist are set up sensibly.
+    - Patrol names must be unique for persistence to work.
+    - Spaces in names are allowed but may cause issues in some cases.
+
+13. Future Updates: Developers might make looting a separate option from roaming in the future.
+
+14. File Location: A file for Chernarus was provided to improve AI traversal, dealing with known map object bugs.
+
+This feature significantly enhances AI behavior, allowing for more dynamic and unpredictable NPC interactions. The system is still being refined, and users are encouraged to experiment and provide feedback.
