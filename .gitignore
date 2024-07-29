@@ -8,6 +8,7 @@
 *.pbo
 *.bin
 *.vdf
+*.mdmp
 /battlefield
 /bliss
 /dta
