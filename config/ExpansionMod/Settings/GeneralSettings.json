@@ -88,7 +88,7 @@
         ],
         "BuildingIvys": 0
     },
-    "EnableLamps": 3,
+    "EnableLamps": 2,
     "EnableGenerators": 0,
     "EnableLighthouses": 1,
     "EnableHUDNightvisionOverlay": 1,
