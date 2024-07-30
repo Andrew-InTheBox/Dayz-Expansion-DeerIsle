@@ -5743,10 +5743,10 @@
     <category name="food" />
   </type>
   <type name="ChildBag_Blue">
-    <nominal>25</nominal>
+    <nominal>10</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5760,10 +5760,10 @@
     <value name="Tier2" />
   </type>
   <type name="ChildBag_Green">
-    <nominal>25</nominal>
+    <nominal>10</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5777,10 +5777,10 @@
     <value name="Tier2" />
   </type>
   <type name="ChildBag_Red">
-    <nominal>25</nominal>
+    <nominal>10</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
