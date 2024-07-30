@@ -3,7 +3,7 @@ $basePath = $PSScriptRoot
 
 # Define the paths to remove
 $pathsToRemove = @(
-    "mpmissions\Expansion.chernarusplus\storage_1\*",
+    "mpmissions\Expansion.deerisle\storage_1\*",
     "config\ExpansionMod\ATM\*",
     "config\ExpansionMod\AI\Spatial\SpatialPlayerSettings.json",
     "config\ExpansionMod\Quests\PersistentServerData.json",
