@@ -3544,10 +3544,10 @@
     </type>
 	<!-- PISTOLS -->
 	<type name="Expansion_Taser_Yellow">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3849,10 +3849,10 @@
     </type>
 	<!-- AMMOBOXES -->
 	<type name="AmmoBox_Expansion_46x30_25rnd">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3865,10 +3865,10 @@
         <value name="Tier13" />
     </type>
 	<type name="AmmoBox_Expansion_338_15rnd">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3881,10 +3881,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Expansion_AmmoBox_8mm_15rnd">
-        <nominal>30</nominal>
+        <nominal>35</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>20</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3916,7 +3916,7 @@
         <value name="Tier13" />
     </type>
 	<type name="ExpansionAmmoRPG">
-        <nominal>8</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>10800</restock>
         <min>1</min>
@@ -3931,7 +3931,7 @@
         <value name="Tier13" />
     </type>
 	<type name="ExpansionAmmoLAW">
-        <nominal>8</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>10800</restock>
         <min>1</min>
@@ -3946,10 +3946,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_White">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3962,10 +3962,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_Red">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3978,10 +3978,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_Green">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3994,10 +3994,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_Yellow">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4010,10 +4010,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_Purple">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4026,10 +4026,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_Teargas">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4042,10 +4042,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Sticky_Smoke_White">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4058,10 +4058,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Sticky_Smoke_Red">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4074,10 +4074,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Sticky_Smoke_Green">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4090,10 +4090,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Sticky_Smoke_Yellow">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4106,10 +4106,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Sticky_Smoke_Purple">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4122,10 +4122,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_Sticky_Smoke_Teargas">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4138,10 +4138,10 @@
         <value name="Tier13" />
     </type>
 	<type name="Ammo_Expansion_M203_HE">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4153,10 +4153,10 @@
         <value name="Tier13" />
     </type>
     <type name="Ammo_Expansion_46x30">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>5</min>
         <quantmin>25</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4168,10 +4168,10 @@
         <value name="Tier13" />
     </type>
     <type name="Ammo_Expansion_338">
-        <nominal>20</nominal>
+        <nominal>40</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>25</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4183,7 +4183,7 @@
         <value name="Tier13" />
     </type>
     <type name="Expansion_Ammo_ArrowBolt">
-        <nominal>75</nominal>
+        <nominal>65</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>55</min>
@@ -4201,10 +4201,10 @@
     </type>
 	<!-- MAGAZINES -->
 	<type name="Mag_Expansion_Taser">
-        <nominal>30</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

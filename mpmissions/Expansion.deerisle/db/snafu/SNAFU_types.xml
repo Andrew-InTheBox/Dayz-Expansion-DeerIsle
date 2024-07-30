@@ -110,10 +110,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_Ammo_3006">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>35</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -137,10 +137,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_Ammo_408Chey">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -164,10 +164,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_Ammo_50Cal">
-    <nominal>1</nominal>
+    <nominal>30</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>25</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -191,10 +191,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_Ammo_762x51">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -218,10 +218,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_HK416_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2864,10 +2864,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_127x55mm">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2891,10 +2891,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_127x55mmAP">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2918,10 +2918,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_145Cal">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2945,10 +2945,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_300ACC">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2972,10 +2972,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_338">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2999,10 +2999,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_44">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3026,10 +3026,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_45_70mm">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3053,10 +3053,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_46x30">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3080,10 +3080,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_5_7x28mm">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3107,10 +3107,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_500_SW">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3134,10 +3134,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_762x25">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6077,10 +6077,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_MD_Ammo_556x45mm_M855A1">
-    <nominal>1</nominal>
+    <nominal>40</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
