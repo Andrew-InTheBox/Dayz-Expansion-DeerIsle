@@ -1,130 +1,129 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
 	<type name="RFFSHeli_LittleBird">
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="RFFSHeli_LittleBird_Camo">
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="RFFSHeli_LittleBird_Desert">
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="RFFSHeli_Bo105m">
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="RFFSHeli_Bo105m_blackcamo">
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="RFFSHeli_KA26">
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="RFFSHeli_Bell429">
 		<attachments chance="1.00">
-			<item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+			<item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_wiring_harness" chance="0.10" />
+			<item name="RFFSHeli_wiring_harness" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_igniter_plug" chance="0.10" />
+			<item name="RFFSHeli_igniter_plug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="RFFSHeli_aviation_battery" chance="0.10" />
+			<item name="RFFSHeli_aviation_battery" chance="0.80" />
 		</attachments>
 	</type>
     <type name="RFFSHeli_Bell429_Medic">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -141,7 +140,7 @@
     </type>
     <type name="RFFSHeli_Bell429_Police">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -158,7 +157,7 @@
     </type>
     <type name="RFFSHeli_Bell429_ZS">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -175,7 +174,7 @@
     </type>
     <type name="RFFSHeli_Bell429_Uganda">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -192,7 +191,7 @@
     </type>
     <type name="RFFSHeli_Mi2">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -209,7 +208,7 @@
     </type>
     <type name="RFFSHeli_Mi2_Military">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -226,7 +225,7 @@
     </type>
     <type name="RFFSHeli_Mi2_Hornet">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -243,7 +242,7 @@
 </type>
     <type name="RFFSHeli_Apache">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -260,7 +259,7 @@
 </type>
     <type name="RFFSHeli_Apache_Winter">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -277,7 +276,7 @@
 </type>
     <type name="RFFSHeli_Apache_Desert">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -294,7 +293,7 @@
 </type>
     <type name="RFFSHeli_Blackhawk">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -311,7 +310,7 @@
 </type>
     <type name="RFFSHeli_Blackhawk_Cargo">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -328,7 +327,7 @@
 </type>
     <type name="RFFSHeli_Blackhawk_Woodland">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -345,7 +344,7 @@
 </type>
     <type name="RFFSHeli_CH53e">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -362,7 +361,7 @@
 </type>
     <type name="RFFSHeli_CH47">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -382,7 +381,7 @@
 </type>
     <type name="RFFSHeli_EC135">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
@@ -402,7 +401,7 @@
 </type>
     <type name="RFFSHeli_EC135_BlackCamo">
         <attachments chance="1.00">
-            <item name="RFFSHeli_hydraulic_hoses" chance="0.10" />
+            <item name="RFFSHeli_hydraulic_hoses" chance="0.80" />
         </attachments>
         <attachments chance="1.00">
             <item name="RFFSHeli_wiring_harness" chance="0.40" />
