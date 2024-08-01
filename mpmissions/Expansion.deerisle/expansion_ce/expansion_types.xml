@@ -1411,7 +1411,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1423,7 +1423,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1435,7 +1435,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1447,7 +1447,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1459,7 +1459,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1471,7 +1471,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1495,7 +1495,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood_Yellow">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1507,7 +1507,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor_Yellow">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1519,7 +1519,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor_Yellow">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1531,7 +1531,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left_Yellow">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1543,7 +1543,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right_Yellow">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1555,7 +1555,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk_Yellow">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -2002,10 +2002,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionHelicopterBattery">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2028,10 +2028,10 @@
 		<usage name="Military"/>
     </type>
 	<type name="ExpansionIgniterPlug">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2041,10 +2041,10 @@
 		<usage name="Military"/>
     </type>
 	<type name="ExpansionHydraulicHoses">
-        <nominal>20</nominal>
+        <nominal>1</nominal>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4669,10 +4669,10 @@
         <usage name="Military"/>
     </type>
 	<type name="ExpansionCodeLock">
-        <nominal>45</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

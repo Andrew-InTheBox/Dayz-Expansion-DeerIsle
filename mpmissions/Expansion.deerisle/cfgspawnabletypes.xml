@@ -1142,30 +1142,35 @@
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_White">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Beige">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1173,6 +1178,7 @@
 	<type name="ZmbF_CitizenANormal_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1180,6 +1186,7 @@
 	<type name="ZmbF_CitizenANormal_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1187,6 +1194,7 @@
 	<type name="ZmbF_CitizenBSkinny">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1194,6 +1202,7 @@
 	<type name="ZmbF_JournalistNormal_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
@@ -1232,6 +1241,7 @@
 	<type name="ZmbF_ShortSkirt_brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1239,6 +1249,7 @@
 	<type name="ZmbF_ShortSkirt_checks">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1246,6 +1257,7 @@
 	<type name="ZmbF_ShortSkirt_green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1253,6 +1265,7 @@
 	<type name="ZmbF_ShortSkirt_grey">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1260,6 +1273,7 @@
 	<type name="ZmbF_ShortSkirt_red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1804,7 +1818,7 @@
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.10">
+		<cargo chance="0.20">
 			<item name="Mag_SSG82_5rnd" chance="1.0" />	
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -1812,7 +1826,7 @@
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.10">
+		<cargo chance="0.20">
 			<item name="Mag_SSG82_5rnd" chance="1.0" />		
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -1853,81 +1867,97 @@
 	<type name="ZmbF_HikerSkinny_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Grey">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Red">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Grey">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Red">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Beige">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Black">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Red">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Yellow">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HunterOld_Autumn">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="glassesVillage" />
@@ -1936,6 +1966,7 @@
 	<type name="ZmbM_HunterOld_Spring">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="glassesVillage" />
@@ -1944,6 +1975,7 @@
 	<type name="ZmbM_HunterOld_Summer">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="glassesVillage" />
@@ -1961,22 +1993,27 @@
 	<type name="ZmbF_MilkMaidOld_Beige">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Black">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Green">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 	</type>
 	<type name="ZmbF_MilkMaidOld_Grey">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 	</type>
 	<type name="ZmbF_VillagerOld_Blue">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -1984,6 +2021,7 @@
 	<type name="ZmbF_VillagerOld_Green">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -1991,6 +2029,7 @@
 	<type name="ZmbF_VillagerOld_Red">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -1998,6 +2037,7 @@
 	<type name="ZmbF_VillagerOld_White">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -2005,6 +2045,7 @@
 	<type name="ZmbF_JoggerSkinny_Blue">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -2012,6 +2053,7 @@
 	<type name="ZmbF_JoggerSkinny_Brown">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -2019,6 +2061,7 @@
 	<type name="ZmbF_JoggerSkinny_Green">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -2026,6 +2069,7 @@
 	<type name="ZmbF_JoggerSkinny_Red">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -2033,27 +2077,32 @@
 	<type name="ZmbM_FarmerFat_Beige">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="bagsVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Blue">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Brown">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 	</type>
 	<type name="ZmbM_FarmerFat_Green">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Blue">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
@@ -2061,6 +2110,7 @@
 	<type name="ZmbM_JoggerSkinny_Green">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />

@@ -17,7 +17,7 @@
             "Container": "ExpansionAirdropContainer",
             "FallSpeed": 4.5,
             "Usage": 0,
-            "Weight": 20.0,
+            "Weight": 15.0,
             "Infected": [
                 "ZmbM_HermitSkinny_Beige",
                 "ZmbM_HermitSkinny_Black",
@@ -2532,7 +2532,7 @@
             "Container": "ExpansionAirdropContainer_Medical",
             "FallSpeed": 4.5,
             "Usage": 0,
-            "Weight": 2.0,
+            "Weight": 5.0,
             "Infected": [
                 "ZmbM_HermitSkinny_Beige",
                 "ZmbM_HermitSkinny_Black",
@@ -3177,7 +3177,7 @@
             "Container": "ExpansionAirdropContainer_Military",
             "FallSpeed": 4.5,
             "Usage": 0,
-            "Weight": 20.0,
+            "Weight": 15.0,
             "Infected": [
                 "ZmbM_usSoldier_normal_Woodland",
                 "ZmbM_SoldierNormal",

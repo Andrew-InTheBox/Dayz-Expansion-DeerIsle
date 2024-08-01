@@ -150,7 +150,7 @@
             <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Blue"/>
         </children>
     </event>
-	<!-- HELICOPTERS -->
+	<!-- HELICOPTERS
 	<event name="VehicleMH6Helicopter">
         <nominal>2</nominal>
         <min>1</min>
@@ -241,6 +241,7 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionGyrocopter"/>
         </children>
     </event>
+    -->
 	<!-- BOATS -->
 	<event name="VehicleUtilityBoat">
         <nominal>3</nominal>

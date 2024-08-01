@@ -89,6 +89,21 @@
             ]
         },
         {
+            "CategoryName": "Territory Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Territory.UseWholeMapForInviteList",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        },
+        {
             "CategoryName": "Map Settings",
             "Settings": [
                 {
@@ -113,21 +128,6 @@
                 },
                 {
                     "SettingTitle": "Expansion.Settings.Party.UseWholeMapForInviteList",
-                    "SettingText": "",
-                    "SettingValue": ""
-                }
-            ]
-        },
-        {
-            "CategoryName": "Territory Settings",
-            "Settings": [
-                {
-                    "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
-                    "SettingText": "",
-                    "SettingValue": ""
-                },
-                {
-                    "SettingTitle": "Expansion.Settings.Territory.UseWholeMapForInviteList",
                     "SettingText": "",
                     "SettingValue": ""
                 }
@@ -374,5 +374,5 @@
             ]
         }
     ],
-    "EnableCraftingRecipesTab": 0
+    "EnableCraftingRecipesTab": 1
 }

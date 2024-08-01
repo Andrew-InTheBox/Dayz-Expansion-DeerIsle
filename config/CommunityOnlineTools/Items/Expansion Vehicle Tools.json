@@ -1,0 +1,56 @@
+{
+    "Name": "Expansion Vehicle Tools",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "TireRepairKit",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "PipeWrench",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "EpoxyPutty",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "CarBattery",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "CarRadiator",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "SparkPlug",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "CanisterGasoline",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Canteen",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Canteen",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "Canteen",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        }
+    ]
+}
