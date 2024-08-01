@@ -1,0 +1,66 @@
+{
+    "Name": "Expansion Market Money",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "ExpansionGoldBar",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionGoldBar",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionGoldBar",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionSilverdBar",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionSilverdBar",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionSilverdBar",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionGoldNugget",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionGoldNugget",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionGoldNugget",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionSilverNugget",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionSilverNugget",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        },
+        {
+            "ItemName": "ExpansionSilverNugget",
+            "NumberOfStacks": 1,
+            "StackSize": 100
+        }
+    ]
+}

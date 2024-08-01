@@ -824,10 +824,10 @@
     <value name="Tier6" />
   </type>
   <type name="AmmoBox_357_20Rnd">
-    <nominal>20</nominal>
+    <nominal>35</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>25</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2659,10 +2659,10 @@
     <category name="clothes" />
   </type>
   <type name="ArmyPouch_Beige">
-    <nominal>8</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2678,10 +2678,10 @@
     <value name="Tier2" />
   </type>
   <type name="ArmyPouch_Black">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2697,7 +2697,7 @@
     <value name="Tier2" />
   </type>
   <type name="ArmyPouch_Camo">
-    <nominal>5</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -2716,10 +2716,10 @@
     <value name="Tier2" />
   </type>
   <type name="ArmyPouch_Green">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4997,10 +4997,10 @@
     <category name="tools" />
   </type>
   <type name="Chips">
-    <nominal>40</nominal>
+    <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5048,10 +5048,10 @@
     <usage name="Village" />
   </type>
   <type name="Crackers">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6501,10 +6501,10 @@
     <value name="Tier10" />
   </type>
   <type name="CombinationLock">
-    <nominal>40</nominal>
+    <nominal>10</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>20</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6514,10 +6514,10 @@
     <usage name="Farm" />
   </type>
   <type name="CombinationLock4">
-    <nominal>20</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

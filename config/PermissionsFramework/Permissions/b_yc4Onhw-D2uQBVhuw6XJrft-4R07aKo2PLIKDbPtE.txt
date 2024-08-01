@@ -41,9 +41,6 @@ Admin.Player.Teleport 0
 Admin.Player.Teleport.Cursor 0
 Admin.Player.Teleport.Cursor.NoLog 0
 Admin.Player.Teleport.Location 0
-Admin.Player.Teleport.Location.Add 0
-Admin.Player.Teleport.Location.Refresh 0
-Admin.Player.Teleport.Location.Remove 0
 Admin.Player.Teleport.Position 0
 Admin.Player.Teleport.Previous 0
 Admin.Player.Teleport.SenderTo 0
@@ -69,11 +66,11 @@ ESP.Object.BaseBuilding.Repair 0
 ESP.Object.Car 0
 ESP.Object.Car.Key 0
 ESP.Object.Car.Refuel 0
+ESP.Object.Car.Repair 0
 ESP.Object.Car.Unstuck 0
 ESP.Object.Delete 0
 ESP.Object.DeleteAll 0
 ESP.Object.DuplicateAll 0
-ESP.Object.Heal 0
 ESP.Object.MoveToCursor 0
 ESP.Object.SetHealth 0
 ESP.Object.SetOrientation 0
@@ -143,12 +140,6 @@ Weather.Preset 0
 Weather.Preset.Create 0
 Weather.Preset.Remove 0
 Weather.Preset.Update 0
-Weather.Preset.Use 0
-Weather.QuickAction 0
-Weather.QuickAction.Clear 0
-Weather.QuickAction.Cloudy 0
-Weather.QuickAction.Date 0
-Weather.QuickAction.Storm 0
 Weather.Rain 0
 Weather.Rain.Thresholds 0
 Weather.Storm 0
