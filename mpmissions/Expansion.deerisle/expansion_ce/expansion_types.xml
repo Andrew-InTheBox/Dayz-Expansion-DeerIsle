@@ -777,292 +777,6 @@
         <usage name="Industrial"/>
     </type>
     <!-- HELICOPTERS -->
-	<type name="ExpansionMh6">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Blueline">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Digital">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Elliptical">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Furious">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_GrayWatcher">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Jeans">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Resistance">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Shadow">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Sheriff">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Speedy">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Sunset">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Vrana">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Wasp">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6_Wave">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ExpansionUh1h">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ExpansionUh1h_Civilian">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ExpansionUh1h_Medical">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ExpansionUh1h_Resistance">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ExpansionUh1h_Uber">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlin">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlin_Dahoman">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlin_Ion">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlin_President">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlin_Vrana">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlin_Wave">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionGyrocopter">
-        <nominal>0</nominal>
-        <lifetime>3888000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMh6Wreck">
-        <lifetime>120</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ExpansionUh1hWreck">
-        <lifetime>120</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionMerlinWreck">
-        <lifetime>120</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-	<type name="ExpansionGyrocopterWreck">
-        <lifetime>120</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
 	<!-- BOATS -->
 	<type name="ExpansionUtilityBoat">
         <nominal>0</nominal>
@@ -1390,7 +1104,7 @@
         <nominal>25</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1579,7 +1293,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood_Orange">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1591,7 +1305,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor_Orange">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1603,7 +1317,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor_Orange">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1615,7 +1329,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left_Orange">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1627,7 +1341,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right_Orange">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1639,7 +1353,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk_Orange">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1663,7 +1377,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood_Red">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1675,7 +1389,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor_Red">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1687,7 +1401,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor_Red">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1699,7 +1413,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left_Red">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1711,7 +1425,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right_Red">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1723,7 +1437,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk_Red">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1747,7 +1461,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood_Blue">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1759,7 +1473,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor_Blue">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1771,7 +1485,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor_Blue">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1783,7 +1497,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left_Blue">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1795,7 +1509,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right_Blue">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1807,7 +1521,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk_Blue">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1831,7 +1545,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood_Grey">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1843,7 +1557,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor_Grey">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1855,7 +1569,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor_Grey">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1867,7 +1581,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left_Grey">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1879,7 +1593,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right_Grey">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1891,7 +1605,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk_Grey">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1915,7 +1629,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Hood_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1927,7 +1641,7 @@
         <usage name="Industrial" />
     </type>
     <type name="Expansion_Landrover_Driverdoor_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1939,7 +1653,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Codriverdoor_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1951,7 +1665,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Left_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1963,7 +1677,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Right_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1975,7 +1689,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Trunk_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -2000,58 +1714,6 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Industrial"/>
-    </type>
-	<type name="ExpansionHelicopterBattery">
-        <nominal>1</nominal>
-        <lifetime>43200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
-		<usage name="Military"/>
-    </type>
-	<type name="ExpansionAircraftBattery">
-        <nominal>0</nominal>
-        <lifetime>43200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
-		<usage name="Military"/>
-    </type>
-	<type name="ExpansionIgniterPlug">
-        <nominal>1</nominal>
-        <lifetime>43200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
-		<usage name="Military"/>
-    </type>
-	<type name="ExpansionHydraulicHoses">
-        <nominal>1</nominal>
-        <lifetime>43200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Industrial"/>
-		<usage name="Military"/>
     </type>
 	<type name="ExpansionBusWheel">
         <nominal>5</nominal>
@@ -3473,10 +3135,10 @@
     </type>
 	<!-- CROSSBOWS -->
     <type name="Expansion_Crossbow">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

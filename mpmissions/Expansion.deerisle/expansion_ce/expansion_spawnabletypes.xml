@@ -238,22 +238,22 @@
 			<item name="HeadlightH7" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_1_1_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_1_1_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_1_2_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_1_2_BanditKitty" chance="1.000" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_2_1_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_2_1_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_2_2_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_2_2_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Hood_BanditKitty" chance="0.20" />
+			<item name="Hatchback_02_Hood_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Trunk_BanditKitty" chance="0.20" />
+			<item name="Hatchback_02_Trunk_BanditKitty" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="OffroadHatchback_WhiteRust">

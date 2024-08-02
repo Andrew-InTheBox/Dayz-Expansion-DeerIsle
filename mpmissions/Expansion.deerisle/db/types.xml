@@ -15451,10 +15451,10 @@
     <value name="Tier3" />
   </type>
   <type name="MountainBag_Blue">
-    <nominal>10</nominal>
+    <nominal>12</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15470,10 +15470,10 @@
     <usage name="Industrial" />
   </type>
   <type name="MountainBag_Green">
-    <nominal>5</nominal>
+    <nominal>12</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>3</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15489,10 +15489,10 @@
     <usage name="Industrial" />
   </type>
   <type name="MountainBag_Orange">
-    <nominal>10</nominal>
+    <nominal>15</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15508,10 +15508,10 @@
     <usage name="Industrial" />
   </type>
   <type name="MountainBag_Red">
-    <nominal>10</nominal>
+    <nominal>15</nominal>
     <lifetime>21600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -18154,10 +18154,10 @@
     <usage name="Medic" />
   </type>
   <type name="Rope">
-    <nominal>100</nominal>
+    <nominal>30</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>50</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
