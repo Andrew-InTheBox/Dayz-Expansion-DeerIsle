@@ -1100,6 +1100,7 @@
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
 		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
 		<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Convoy">
@@ -1107,12 +1108,14 @@
 			<item name="MedicalScrubsHat_Green" chance="1.0" />
 		</attachments>
 		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
 		<cargo chance="1.0">
 			<item name="PunchedCard" chance="0.4" />
 		</cargo>
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
-		<cargo preset="foodArmy" />		
+		<cargo preset="foodArmy" />	
+		<cargo preset="ammoArmy" />	
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
