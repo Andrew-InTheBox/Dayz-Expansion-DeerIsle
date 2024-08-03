@@ -20,14 +20,32 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 15000,
+            "ClassName": "RFFSHeli_hydraulic_fluid",
+            "Amount": 4,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
             "Chance": 1.0
-        }
+        },
+        {
+            "ClassName": "RFFSHeli_hydraulic_hoses",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "RFFSHeli_wiring_harness",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        } 
     ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,

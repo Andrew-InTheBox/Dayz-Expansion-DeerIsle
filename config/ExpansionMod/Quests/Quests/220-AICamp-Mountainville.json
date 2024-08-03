@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 210,
+    "ID": 220,
     "Type": 1,
-    "Title": "Clear Police Imposter Camp - Oldfield",
+    "Title": "Clear Mountainville of bandit camp",
     "Descriptions": [
-        "Some police impersonators have settled at Gorka have been shooting up the nearby towns. They need to be dealt with.",
-        "Head up to Gorka and clear the bastards out. They are a small group but they are well armed and dangerous. Be careful.",
+        "Some bandits have set up in Mountainville. They need to be dealt with.",
+        "Head up to Moutainville and clear the bastards out. They are a small group but they are well armed and dangerous. Be careful.",
         "Nice work, we could use more people like you. Here is your reward."
     ],
-    "ObjectiveText": "Kill all units of the group at the marked location.",
+    "ObjectiveText": "Kill all 5 units of the group at the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 1,
@@ -20,8 +20,20 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10000,
+            "ClassName": "ACR_Gun",
+            "Amount": 1,
+            "Attachments": [
+                "SNAFU_Leupold_Mark8",
+                "Mag_STANAG_30Rnd"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_556x45_20Rnd",
+            "Amount": 3,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -35,21 +47,21 @@
     "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        1
+        5
     ],
     "QuestTurnInIDs": [
-        1
+        5
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 5,
+            "ID": 7,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
-            "ID": 2,
+            "ID": 4,
             "ObjectiveType": 8
         }
     ],
