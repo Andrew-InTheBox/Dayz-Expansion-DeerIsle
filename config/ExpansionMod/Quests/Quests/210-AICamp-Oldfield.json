@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 900,
+    "ID": 210,
     "Type": 1,
-    "Title": "Clear out the power plant",
+    "Title": "Clear Police Imposter Camp - Oldfield",
     "Descriptions": [
-        "Mercenaries and infected have taken over the power plant, get it back.",
-        "Eliminate all of the mercenaries & infected.",
-        "Nice work! Hopefully thats the last of those fuckers, here is your payment."
+        "Some police impersonators have settled at Gorka have been shooting up the nearby towns. They need to be dealt with.",
+        "Head up to Gorka and clear the bastards out. They are a small group but they are well armed and dangerous. Be careful.",
+        "Nice work, we could use more people like you. Here is your reward."
     ],
-    "ObjectiveText": "Kill all mercenaries at the marked locations.",
+    "ObjectiveText": "Kill all units of the group at the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 1,
@@ -16,12 +16,21 @@
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
-    "ObjectSetFileName": "bandit2",
+    "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 20000,
+            "ClassName": "Aug",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_556x45_20Rnd",
+            "Amount": 3,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -35,36 +44,26 @@
     "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        5
+        1
     ],
     "QuestTurnInIDs": [
-        5
+        1
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 9,
+            "ID": 5,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
-            "ID": 3,
-            "ObjectiveType": 7
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 32,
-            "ObjectiveType": 2
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 5,
+            "ID": 2,
             "ObjectiveType": 8
         }
     ],
     "QuestColor": 0,
-    "ReputationReward": 100,
+    "ReputationReward": 50,
     "ReputationRequirement": 0,
     "PreQuestIDs": [],
     "RequiredFaction": "",

@@ -2,6 +2,13 @@ import os
 import json
 import glob
 
+# Get the path to the parent directory of custom_scripts
+base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Function to create the correct path
+def get_config_path(*args):
+    return os.path.join(base_path, 'config', 'ExpansionMod', 'Quests', *args)
+
 def find_positions_and_waypoints(data):
     positions = []
     waypoints = []
@@ -27,27 +34,29 @@ def load_json(file_path):
         return json.load(f)
 
 def find_objective_file(objective_id, objective_type):
-    for obj_file in glob.glob('./config/ExpansionMod/Quests/Objectives/**/*.json', recursive=True):
+    for obj_file in glob.glob(get_config_path('Objectives', '**', '*.json'), recursive=True):
         data = load_json(obj_file)
         if data.get('ID') == objective_id and data.get('ObjectiveType') == objective_type:
             return data
     return None
 
 def find_npc_file(npc_id):
-    for npc_file in glob.glob('./config/ExpansionMod/Quests/NPCs/*.json'):
-        data = load_json(npc_file)
+    for npc_file in glob.glob(get_config_path('NPCs', '*.json')):
+        data = load_json(npc_file)  # Changed obj_file to npc_file
         if data.get('ID') == npc_id:
             return data
     return None
 
+
 def analyze_quests():
     report = []
     
-    for quest_file in glob.glob('./config/ExpansionMod/Quests/Quests/*.json'):
+    for quest_file in glob.glob(get_config_path('Quests', '*.json')):
         quest_data = load_json(quest_file)
         quest_id = quest_data.get('ID')
+        quest_title = quest_data.get('Title', 'Untitled')  # Get the title, default to 'Untitled' if not found
         
-        report.append(f"Quest ID: {quest_id}")
+        report.append(f"Quest ID: {quest_id} - Title: {quest_title}")  # Add title to the report
         
         # NPC information
         npc_ids = quest_data.get('QuestGiverIDs', [])
@@ -81,7 +90,8 @@ def analyze_quests():
         report.append("\n")  # Add a blank line between quests
     
     # Write report to file
-    with open('quest_analysis_report.txt', 'w') as f:
+    with open(os.path.join(base_path, 'custom_scripts', 'quest_analysis_report.txt'), 'w') as f:
         f.write('\n'.join(report))
+
 
 analyze_quests()

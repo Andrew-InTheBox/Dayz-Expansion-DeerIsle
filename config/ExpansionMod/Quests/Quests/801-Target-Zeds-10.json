@@ -20,14 +20,23 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 2000,
+            "ClassName": "CanOpener",
+            "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
             "Chance": 1.0
-        }
+        },
+        {
+            "ClassName": "Bandage",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        } 
     ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,

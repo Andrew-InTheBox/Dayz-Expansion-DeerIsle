@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 220,
+    "ID": 320,
     "Type": 1,
-    "Title": "Clear Mountainville of bandit camp",
+    "Title": "Clear out the power plant",
     "Descriptions": [
-        "Some bandits have set up in Mountainville. They need to be dealt with.",
-        "Head up to Moutainville and clear the bastards out. They are a small group but they are well armed and dangerous. Be careful.",
-        "Nice work, we could use more people like you. Here is your reward."
+        "Mercenaries and infected have taken over the power plant, get it back.",
+        "Eliminate all of the mercenaries & infected.",
+        "Nice work! Hopefully thats the last of those fuckers, here is your payment."
     ],
-    "ObjectiveText": "Kill all 5 units of the group at the marked location.",
+    "ObjectiveText": "Kill all mercenaries at the marked locations.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 1,
@@ -16,12 +16,25 @@
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
-    "ObjectSetFileName": "",
+    "ObjectSetFileName": "bandit2",
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10000,
+            "ClassName": "Snafu_pkp_Black_GUN",
+            "Amount": 1,
+            "Attachments": [
+                "Snafu_pkp_250RND_Mag",
+                "SNAFU_PKPBIPOD",
+                "SNAFU_AKEOTech_EXPS3"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_762x54_20Rnd",
+            "Amount": 4,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -44,17 +57,27 @@
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 7,
+            "ID": 9,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
-            "ID": 4,
+            "ID": 3,
+            "ObjectiveType": 7
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 32,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 5,
             "ObjectiveType": 8
         }
     ],
     "QuestColor": 0,
-    "ReputationReward": 50,
+    "ReputationReward": 100,
     "ReputationRequirement": 0,
     "PreQuestIDs": [],
     "RequiredFaction": "",

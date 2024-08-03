@@ -20,9 +20,22 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10000,
-            "Attachments": [],
+            "ClassName": "SNAFUKivaari_Black_GUN",
+            "Amount": 1,
+            "Attachments": [
+                "SNAFUKivaari_25rdMag"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SNAFU_Ammo_338",
+            "Amount": 3,
+            "Attachments": [
+                "SNAFUKivaari_25rdMag"
+            ],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
