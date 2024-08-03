@@ -18,16 +18,16 @@ for type_elem in root.findall('type'):
     name = type_elem.get('name')
     
     # Check if 'Gun' is in the name attribute
-    if 'Gun' in name:
+    if 'Mag' in name:
         # Find and update the 'nominal' element
         nominal_elem = type_elem.find('nominal')
         if nominal_elem is not None:
-            nominal_elem.text = '3'
+            nominal_elem.text = '5'
         
         # Find and update the 'min' element
         min_elem = type_elem.find('min')
         if min_elem is not None:
-            min_elem.text = '2'
+            min_elem.text = '3'
 
 # Prepare the output file path
 output_path = os.path.join(os.path.dirname(file_path), 'SNAFU_types_modified.xml')

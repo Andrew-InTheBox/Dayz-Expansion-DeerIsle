@@ -56,10 +56,10 @@
     <value name="Tier18" />
   </type>
   <type name="AA12_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -221,7 +221,7 @@
     <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>5</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -326,10 +326,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_M110_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -488,10 +488,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_M200_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -569,10 +569,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_M249_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -650,10 +650,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_M700_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -704,10 +704,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_M82_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -758,10 +758,10 @@
     <value name="Tier18" />
   </type>
   <type name="GCGN_Mag_FAL_50Rnd">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1217,10 +1217,10 @@
     <value name="Tier18" />
   </type>
   <type name="SA58_DrumMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1352,10 +1352,10 @@
     <value name="Tier18" />
   </type>
   <type name="SG550_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1379,10 +1379,10 @@
     <value name="Tier18" />
   </type>
   <type name="SN_Auto_Shotgun_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1487,10 +1487,10 @@
     <value name="Tier18" />
   </type>
   <type name="SN_M9_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1541,10 +1541,10 @@
     <value name="Tier18" />
   </type>
   <type name="SN_Mp443_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1595,10 +1595,10 @@
     <value name="Tier18" />
   </type>
   <type name="SN_Springfield_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1649,10 +1649,10 @@
     <value name="Tier18" />
   </type>
   <type name="SN_USP_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1973,10 +1973,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Agram_32rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2189,10 +2189,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_AK103_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2243,10 +2243,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_AK12_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2378,10 +2378,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_AK308_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3269,10 +3269,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_AS50_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3350,10 +3350,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_AWM_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4025,10 +4025,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Fort12_12rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4079,10 +4079,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_FRF2_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4727,10 +4727,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_KAC_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4997,10 +4997,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_M14_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5078,10 +5078,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_M1918A2_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5483,10 +5483,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_M300Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5753,10 +5753,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_M76_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -5861,10 +5861,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Mar10_15rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6617,10 +6617,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_MP9_30rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6671,10 +6671,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_MPX_30rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7076,10 +7076,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_PDW_45ACP_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7130,10 +7130,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_PDW_9mm_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7238,10 +7238,10 @@
     <value name="Tier18" />
   </type>
   <type name="Snafu_pkp_250RND_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7481,10 +7481,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_RPK16_Black_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7535,10 +7535,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_RPK16_Green_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7589,10 +7589,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_RPK16_Tan_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7697,10 +7697,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Saint_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7778,10 +7778,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_ScarH_100RND_Mag_Black">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7805,10 +7805,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_ScarH_100RND_Mag_Tan">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7832,10 +7832,10 @@
     <value name="Tier18" />
   </type>
   <type name="Snafu_ScarH_25RND_Mag_BK">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7859,10 +7859,10 @@
     <value name="Tier18" />
   </type>
   <type name="Snafu_ScarH_25RND_Mag_DKMC">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7886,10 +7886,10 @@
     <value name="Tier18" />
   </type>
   <type name="Snafu_ScarH_25RND_Mag_OD">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7913,10 +7913,10 @@
     <value name="Tier18" />
   </type>
   <type name="Snafu_ScarH_25RND_Mag_Snow">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7940,10 +7940,10 @@
     <value name="Tier18" />
   </type>
   <type name="Snafu_ScarH_25RND_Mag_Tan">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8183,10 +8183,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_SKS_10Rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8210,10 +8210,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_SKS_30Rnd_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8345,10 +8345,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_SR25_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8453,10 +8453,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_SR3Vikhr_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8885,10 +8885,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_U100_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9047,10 +9047,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAlligator_5rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9101,10 +9101,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAPS_20rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9182,10 +9182,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAR15_SPR_100RND_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9209,10 +9209,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAR15_SPR_30RND_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9236,10 +9236,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAR15_SPR_40RND_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9263,10 +9263,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAR15_SPR_60RND_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9344,10 +9344,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUASh12_20rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9398,10 +9398,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAUG_30rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9506,10 +9506,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUAX50_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9587,10 +9587,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUDVL10M2_5rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9668,10 +9668,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUGevar_10rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9857,10 +9857,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUGM6Lynx_5rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9911,10 +9911,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUHoneyBadger_30rdMag_Black">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9938,10 +9938,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUHoneyBadger_30rdMag_Tan">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10019,10 +10019,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUKH9_30rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10073,10 +10073,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUKivaari_10rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10100,10 +10100,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUKivaari_25rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10262,10 +10262,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUM1A_20rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10397,10 +10397,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUM24_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10424,10 +10424,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUM96_5rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10559,10 +10559,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUM98B_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10667,10 +10667,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUMagnum500">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10721,10 +10721,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUMk12_20rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10802,10 +10802,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUP90_50rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10856,10 +10856,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUPPSh_71rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10910,10 +10910,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUPPSKN_30rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10964,10 +10964,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFURPD_100rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11045,10 +11045,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFURSASS_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11234,10 +11234,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUSRSA2_10rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11288,10 +11288,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUSten_32rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11396,10 +11396,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUT5000_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11477,10 +11477,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUTac21_5rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11612,10 +11612,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUThompsonMk2_30rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11693,10 +11693,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUUzi_32rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11720,10 +11720,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUUzi_72rdMag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11801,10 +11801,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUVECTOR_45acp_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11855,10 +11855,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUVECTOR_9mm_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11936,10 +11936,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNHK417_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12071,10 +12071,10 @@
     <value name="Tier18" />
   </type>
   <type name="Tec9_Mag">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12125,10 +12125,10 @@
     <value name="Tier18" />
   </type>
   <type name="VR80_Magazine_10rd">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12152,10 +12152,10 @@
     <value name="Tier18" />
   </type>
   <type name="VR80_Magazine_5rd">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12584,10 +12584,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_PL14HQP_Mag">
-    <nominal>30</nominal>
+    <nominal>5</nominal>
     <restock>0</restock>
     <lifetime>7200</lifetime>
-    <min>10</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12881,10 +12881,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUVSSK_5rdMag">
-    <nominal>30</nominal>
+    <nominal>5</nominal>
     <restock>0</restock>
     <lifetime>7200</lifetime>
-    <min>10</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12935,10 +12935,10 @@
     <value name="Tier18" />
   </type>
   <type name="SR3_Vikhr_Mag">
-    <nominal>30</nominal>
+    <nominal>5</nominal>
     <restock>0</restock>
     <lifetime>7200</lifetime>
-    <min>10</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
