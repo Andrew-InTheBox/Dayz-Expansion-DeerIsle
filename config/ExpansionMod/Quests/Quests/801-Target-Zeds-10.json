@@ -29,7 +29,7 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "Bandage",
+            "ClassName": "BandageDressing",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,

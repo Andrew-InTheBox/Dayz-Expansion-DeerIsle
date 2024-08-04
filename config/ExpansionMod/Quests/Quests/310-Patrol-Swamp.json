@@ -11,17 +11,29 @@
     "ObjectiveText": "Kill all units of the bandit patrol group near the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
-    "IsDailyQuest": 0,
-    "IsWeeklyQuest": 1,
-    "CancelQuestOnPlayerDeath": 0,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 15000,
+            "ClassName": "UMP45",
+            "Amount": 1,
+            "Attachments": [
+                "Mag_UMP_25Rnd",
+                "ReflexOptic"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_45ACP_25rnd",
+            "Amount": 3,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,

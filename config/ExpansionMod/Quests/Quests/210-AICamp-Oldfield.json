@@ -13,7 +13,7 @@
     "Repeatable": 1,
     "IsDailyQuest": 1,
     "IsWeeklyQuest": 0,
-    "CancelQuestOnPlayerDeath": 0,
+    "CancelQuestOnPlayerDeath": 1,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
     "ObjectSetFileName": "",
@@ -22,7 +22,9 @@
         {
             "ClassName": "Aug",
             "Amount": 1,
-            "Attachments": [],
+            "Attachments": [
+                "Mag_Aug_30Rnd"
+            ],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,

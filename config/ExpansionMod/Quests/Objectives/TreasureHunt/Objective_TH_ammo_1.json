@@ -74,6 +74,15 @@
             "Max": -1,
             "Min": 0,
             "Variants": []
-        }
+        },
+        {
+            "Name": "AmmoBox_Expansion_338_15rnd",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        }        
     ]
 }
