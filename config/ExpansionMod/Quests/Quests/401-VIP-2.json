@@ -20,8 +20,17 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 5000,
+            "ClassName": "ElectronicRepairKit",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TireRepairKit",
+            "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
