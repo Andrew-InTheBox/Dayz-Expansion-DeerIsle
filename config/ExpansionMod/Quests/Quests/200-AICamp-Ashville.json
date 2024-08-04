@@ -11,8 +11,8 @@
     "ObjectiveText": "Kill all Bandits at the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
-    "IsDailyQuest": 0,
-    "IsWeeklyQuest": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 1,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
@@ -32,10 +32,8 @@
         },
         {
             "ClassName": "SNAFU_Ammo_338",
-            "Amount": 3,
-            "Attachments": [
-                "SNAFUKivaari_25rdMag"
-            ],
+            "Amount": 40,
+            "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
