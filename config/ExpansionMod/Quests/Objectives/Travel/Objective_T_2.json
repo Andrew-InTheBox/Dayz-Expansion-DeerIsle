@@ -2,16 +2,16 @@
     "ConfigVersion": 28,
     "ID": 2,
     "ObjectiveType": 3,
-    "ObjectiveText": "Get to the Village",
+    "ObjectiveText": "Get to the City",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        6564.6298828125,
-        44.54249954223633,
-        3859.639892578125
+        4560.00,
+        10.0,
+        2728.00
     ],
     "MaxDistance": 20.0,
-    "MarkerName": "Get to the Village",
+    "MarkerName": "Get to the City",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0

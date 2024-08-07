@@ -83,6 +83,24 @@
             "Max": -1,
             "Min": 0,
             "Variants": []
-        }        
+        },
+        {
+            "Name": "AmmoBox_545x39Tracer_20Rnd",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "AmmoBox_22_50Rnd",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        }               
     ]
 }
