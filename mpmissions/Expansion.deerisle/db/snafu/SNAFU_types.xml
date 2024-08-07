@@ -2999,58 +2999,30 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_44">
-    <nominal>40</nominal>
+    <nominal>50</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>30</min>
+    <min>40</min>
     <quantmin>10</quantmin>
     <quantmax>30</quantmax>
     <cost>100</cost>
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
+    <usage name="Hunting" />
   </type>
   <type name="SNAFU_Ammo_45_70mm">
-    <nominal>40</nominal>
+    <nominal>60</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>30</min>
+    <min>45</min>
     <quantmin>10</quantmin>
     <quantmax>30</quantmax>
     <cost>100</cost>
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
+    <usage name="Hunting" />
   </type>
   <type name="SNAFU_Ammo_46x30">
     <nominal>40</nominal>
@@ -3107,31 +3079,16 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_500_SW">
-    <nominal>40</nominal>
+    <nominal>60</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>30</min>
+    <min>45</min>
     <quantmin>10</quantmin>
     <quantmax>30</quantmax>
     <cost>100</cost>
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
+    <usage name="Hunting" />
   </type>
   <type name="SNAFU_Ammo_762x25">
     <nominal>40</nominal>
@@ -9111,48 +9068,18 @@
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
   <type name="SNAFUAPS">
-    <nominal>1</nominal>
+    <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
   <type name="SNAFUAR15_AFG">
     <nominal>1</nominal>
@@ -9533,31 +9460,16 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUChiappaRhino">
-    <nominal>1</nominal>
+    <nominal>3</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>1</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
+    <usage name="Hunting" />
   </type>
   <type name="SNAFUDSASA58_Stock">
     <nominal>1</nominal>
@@ -10667,6 +10579,18 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFUMagnum500">
+    <nominal>10</nominal>
+    <restock>1800</restock>
+    <lifetime>7200</lifetime>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Hunting" />
+  </type>
+  <type name="SNAFUMarlin1895">
     <nominal>5</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
@@ -10677,48 +10601,7 @@
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
-  </type>
-  <type name="SNAFUMarlin1895">
-    <nominal>1</nominal>
-    <restock>1800</restock>
-    <lifetime>7200</lifetime>
-    <min>1</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
-    <category name="weapons" />
-    <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
+    <usage name="Hunting" />
   </type>
   <type name="SNAFUMk12_20rdMag">
     <nominal>5</nominal>
@@ -11351,22 +11234,7 @@
     <cost>100</cost>
     <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
-    <value name="Tier1" />
-    <value name="Tier5" />
-    <value name="Tier6" />
-    <value name="Tier7" />
-    <value name="Tier8" />
-    <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
+    <usage name="Hunting" />
   </type>
   <type name="SNAFUT5000_Dkmcc_GUN">
     <nominal>1</nominal>

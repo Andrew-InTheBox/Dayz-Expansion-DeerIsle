@@ -72,7 +72,7 @@
   </cargo>
   <cargo chance="0.2" name="toolsVillage">
     <item name="DuctTape" chance="0.07" />
-    <item name="Battery9V" chance="0.07" />
+    <item name="Battery9V" chance="0.15" />
     <item name="Matchbox" chance="0.07" />
     <item name="SewingKit" chance="0.07" />
     <item name="CanOpener" chance="0.05" />
@@ -83,7 +83,7 @@
   <cargo chance="0.2" name="toolsCity">
     <!--same as the one above - just preparing -->
     <item name="DuctTape" chance="0.07" />
-    <item name="Battery9V" chance="0.07" />
+    <item name="Battery9V" chance="0.15" />
     <item name="Matchbox" chance="0.07" />
     <item name="SewingKit" chance="0.07" />
     <item name="CanOpener" chance="0.05" />
@@ -133,7 +133,7 @@
     <item name="Crowbar" chance="0.07" />
     <item name="Rope" chance="0.1" />
     <item name="DuctTape" chance="0.1" />
-    <item name="Battery9V" chance="0.2" />
+    <item name="Battery9V" chance="0.25" />
     <item name="Flashlight" chance="0.2" />
   </cargo>
   <cargo chance="0.20" name="ammoCivil">
@@ -161,9 +161,11 @@
     <item name="AmmoBox_762x39_20Rnd" chance="0.05" />
     <item name="Ammo_762x54" chance="0.25" />
     <item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+    <item name="WeaponCleaningKit" chance="0.15" />
   </cargo>
   <cargo chance="0.1" name="mixVillage">
     <item name="DuctTape" chance="0.07" />
+    <item name="WeaponCleaningKit" chance="0.15" />
     <item name="Battery9V" chance="0.07" />
     <item name="Paper" chance="0.1" />
     <item name="Flashlight" chance="0.1" />
