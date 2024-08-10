@@ -1074,8 +1074,25 @@
     <input name="UAExpansion3DMarkerToggle">
         <btn name="kK" />
     </input>
+    <input name="UAExpansionPersonalMarkersToggle">
+        <btn name="kLShift">
+            <btn name="kK" />
+        </btn>
+    </input>
     <input name="UAExpansionServerMarkersToggle">
-        <btn name="kMultiply" />
+        <btn name="kLControl">
+            <btn name="kK" />
+        </btn>
+    </input>
+    <input name="UAExpansionGroupMarkersToggle">
+        <btn name="kLMenu">
+            <btn name="kK" />
+        </btn>
+    </input>
+    <input name="UAExpansionPlayerMarkersToggle">
+        <btn name="kLMenu">
+            <btn name="kK" />
+        </btn>
     </input>
     <input name="UAExpansionQuickMarker">
         <btn name="kH" />
