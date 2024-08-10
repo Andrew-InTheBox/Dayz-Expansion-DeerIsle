@@ -1,5 +1,5 @@
 {
-    "m_Version": 10,
+    "m_Version": 11,
     "Enabled": 0,
     "FrameRateCheckSafeZoneInMs": 0,
     "CircleZones": [
@@ -39,6 +39,7 @@
     "PolygonZones": [],
     "CylinderZones": [],
     "ActorsPerTick": 5,
+    "DisablePlayerCollision": 0,
     "DisableVehicleDamageInSafeZone": 1,
     "EnableForceSZCleanup": 1,
     "ItemLifetimeInSafeZone": 6000.0,

@@ -1,5 +1,5 @@
 {
-    "m_Version": 20,
+    "m_Version": 21,
     "Enabled": 1,
     "DespawnTime": 1200.0,
     "RespawnTime": -1.0,
@@ -34,6 +34,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.0,
@@ -66,6 +67,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.0,
@@ -98,6 +100,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.0,
@@ -130,6 +133,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.0,
@@ -162,6 +166,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.0,
@@ -196,6 +201,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": 5.0,
             "MaxDistRadius": 15000.0,
             "DespawnRadius": 15000.0,
@@ -204,13 +210,13 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": 1200,
+            "RespawnTime": 1200.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8992.29,
-                    2.20769,
-                    3292.21
+                    8992.2900390625,
+                    2.2076900005340578,
+                    3292.2099609375
                 ]
             ]
         },
@@ -235,6 +241,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": 5.0,
             "MaxDistRadius": 15000.0,
             "DespawnRadius": 15000.0,
@@ -243,13 +250,13 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": 1200,
+            "RespawnTime": 1200.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    3287.89,
-                    19.3428,
-                    6398.42
+                    3287.889892578125,
+                    19.34280014038086,
+                    6398.419921875
                 ]
             ]
         },
@@ -274,6 +281,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": 5.0,
             "MaxDistRadius": 15000.0,
             "DespawnRadius": 15000.0,
@@ -282,13 +290,13 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": 1200,
+            "RespawnTime": 1200.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    10145,
-                    5.76109,
-                    12065.6
+                    10145.0,
+                    5.76108980178833,
+                    12065.599609375
                 ]
             ]
         },
@@ -313,6 +321,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": 5.0,
             "MaxDistRadius": 15000.0,
             "DespawnRadius": 15000.0,
@@ -321,13 +330,13 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": 1200,
+            "RespawnTime": 1200.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    10034,
-                    36.2072,
-                    6824.97
+                    10034.0,
+                    36.20719909667969,
+                    6824.97021484375
                 ]
             ]
         },
@@ -352,6 +361,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": 5.0,
             "MaxDistRadius": 15000.0,
             "DespawnRadius": 15000.0,
@@ -360,13 +370,13 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": 1200,
+            "RespawnTime": 1200.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4555.74,
-                    2.78945,
-                    2732.94
+                    4555.740234375,
+                    2.78944993019104,
+                    2732.93994140625
                 ]
             ]
         },
@@ -391,6 +401,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -404,18 +415,18 @@
             "Waypoints": [
                 [
                     2670.25,
-                    22.63,
-                    4465.17
+                    22.6299991607666,
+                    4465.169921875
                 ],
                 [
-                    2550.81,
-                    22.45,
-                    4134.64
+                    2550.81005859375,
+                    22.450000762939454,
+                    4134.64013671875
                 ],
                 [
-                    2479.52,
-                    22.4625,
-                    4001.66
+                    2479.52001953125,
+                    22.462499618530275,
+                    4001.659912109375
                 ]
             ]
         },
@@ -440,6 +451,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -529,6 +541,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -593,6 +606,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -737,6 +751,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -1036,6 +1051,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -1260,6 +1276,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -1484,6 +1501,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -2033,6 +2051,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -2337,6 +2356,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -2349,37 +2369,37 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2771.65,
-                    22.4625,
-                    3521.86
+                    2771.64990234375,
+                    22.462499618530275,
+                    3521.860107421875
                 ],
                 [
-                    2864.79,
-                    22.4625,
-                    3610.53
+                    2864.7900390625,
+                    22.462499618530275,
+                    3610.530029296875
                 ],
                 [
-                    3020.05,
-                    22.45,
-                    3811.16
+                    3020.050048828125,
+                    22.450000762939454,
+                    3811.159912109375
                 ],
                 [
-                    3009.07,
-                    22.4625,
-                    3860.48
+                    3009.070068359375,
+                    22.462499618530275,
+                    3860.47998046875
                 ],
                 [
-                    3080.37,
-                    22.45,
-                    3952.8
+                    3080.3701171875,
+                    22.450000762939454,
+                    3952.800048828125
                 ],
                 [
-                    3122.06,
-                    22.4625,
-                    4056.42
+                    3122.06005859375,
+                    22.462499618530275,
+                    4056.419921875
                 ]
             ]
-        },        
+        },
         {
             "Name": "SwampAltar",
             "Persist": 0,
@@ -2401,6 +2421,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -2815,6 +2836,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -3504,6 +3526,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -4578,6 +4601,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -4682,6 +4706,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -4756,6 +4781,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -4880,6 +4906,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
@@ -5014,6 +5041,7 @@
             "NoiseInvestigationDistanceLimit": 0.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
