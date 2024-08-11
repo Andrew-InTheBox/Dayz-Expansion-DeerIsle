@@ -511,7 +511,7 @@
             "triggercylheight": 0.0,
             "notification": "",
             "notificationtime": 2,
-            "triggerdelay": 2400,
+            "triggerdelay": 3600,
             "spawnerpos": [
                 "4894.86 5.33979 7163.15",
                 "4891.97 5.3398 7170.33",
@@ -546,11 +546,13 @@
                 "4946.87 13.2927 7114.41"
             ],
             "spawnradius": 0.0,
-            "bubaknum": 1,
+            "bubaknum": 20,
             "onlyfilluptobubaknum": 0,
             "itemrandomdmg": 1,
             "bubaci": [
-                "ZmbM_usSoldier_Heavy_Woodland"
+                "ZmbM_usSoldier_Heavy_Woodland",
+                "InfectedSoldierHardJMC",
+                "ZmbM_usSoldier_normal_Woodland"
             ]
         },
         {
@@ -564,7 +566,7 @@
             "triggercylheight": 0.0,
             "notification": "",
             "notificationtime": 2,
-            "triggerdelay": 2400,
+            "triggerdelay": 3600,
             "spawnerpos": [
                 "4921.35 10.1279 7120.89",
                 "4901.95 1.31182 7134.22",
@@ -584,11 +586,13 @@
                 "4929.66 8.74046 7127.66"
             ],
             "spawnradius": 0.0,
-            "bubaknum": 1,
+            "bubaknum": 20,
             "onlyfilluptobubaknum": 0,
             "itemrandomdmg": 1,
             "bubaci": [
-                "ZmbM_usSoldier_Heavy_Woodland"
+                "ZmbM_usSoldier_Heavy_Woodland",
+                "InfectedSoldierHardJMC",
+                "ZmbM_usSoldier_normal_Woodland"
             ]
         }
     ]
