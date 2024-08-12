@@ -414,7 +414,7 @@
             "Items": [
                 {
                     "ClassName": "AKM",
-                    "Chance": 0.1,
+                    "Chance": 0.01,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -557,7 +557,7 @@
     "Sets": [
         {
             "ClassName": "SKS",
-            "Chance": 0.66,
+            "Chance": 1.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -575,7 +575,7 @@
                     "Items": [
                         {
                             "ClassName": "SKS",
-                            "Chance": 0.9,
+                            "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
