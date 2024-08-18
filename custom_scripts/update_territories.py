@@ -28,7 +28,7 @@ def update_xml_values(file_path, multiplier, circle_x, circle_z, circle_radius):
 
 # Example usage
 file_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\mpmissions\Expansion.deerisle\env\zombie_territories.xml'
-multiplier = 1.4  # Set your desired multiplier here
+multiplier = 1.1  # Set your desired multiplier here
 
 # Define the circle (center point and radius)
 circle_x = 9450  # Example center x-coordinate
