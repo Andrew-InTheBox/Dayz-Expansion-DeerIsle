@@ -12,9 +12,9 @@
     "MarkerVisibility": 4,
     "Positions": [
         [
-            7616.6201171875,
-            14.191000175476075,
-            4002.570068359375
+            7620.91,
+            12.7749,
+            4005.32
         ],
         [
             7940.27001953125,
@@ -28,7 +28,7 @@
         ]
     ],
     "LootItemsAmount": 6,
-    "MaxDistance": 15.0,
+    "MaxDistance": 20.0,
     "Loot": [
         {
             "Name": "AmmoBox_9x19_25rnd",
