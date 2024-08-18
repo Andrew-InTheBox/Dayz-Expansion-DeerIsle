@@ -2972,10 +2972,10 @@
     <value name="Tier18" />
   </type>
   <type name="SNAFU_Ammo_338">
-    <nominal>40</nominal>
+    <nominal>2</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
-    <min>30</min>
+    <min>1</min>
     <quantmin>10</quantmin>
     <quantmax>30</quantmax>
     <cost>100</cost>

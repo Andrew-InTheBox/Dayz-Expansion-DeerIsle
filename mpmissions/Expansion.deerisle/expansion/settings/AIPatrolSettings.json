@@ -2,7 +2,7 @@
     "m_Version": 21,
     "Enabled": 1,
     "DespawnTime": 1200.0,
-    "RespawnTime": -1.0,
+    "RespawnTime": 1800,
     "MinDistRadius": 180.0,
     "MaxDistRadius": 1000.0,
     "DespawnRadius": 1500.0,
@@ -427,6 +427,76 @@
                     2479.52001953125,
                     22.462499618530275,
                     4001.659912109375
+                ]
+            ]
+        },
+        {
+            "Name": "Swamp-II",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "GorkaLoadout",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 0.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3778.41,
+                    26.6267,
+                    9287.64
+                ],
+                [
+                    3778.52,
+                    16,
+                    9131.39
+                ],
+                [
+                    3813.08,
+                    16.0125,
+                    9101.94
+                ],
+                [
+                    3779.6,
+                    16.0682,
+                    9050.06
+                ],
+                [
+                    3706.72,
+                    13.4783,
+                    9010.15
+                ],
+                [
+                    3705.14,
+                    13.2146,
+                    8945.48
+                ],
+                [
+                    3718.61,
+                    9.74067,
+                    8894.71
                 ]
             ]
         },

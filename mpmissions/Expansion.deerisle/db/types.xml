@@ -22106,10 +22106,10 @@
     <usage name="Village" />
   </type>
   <type name="Whetstone">
-    <nominal>40</nominal>
+    <nominal>50</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>40</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

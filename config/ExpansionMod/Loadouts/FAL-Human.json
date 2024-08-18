@@ -4739,6 +4739,21 @@
                                             "Max": 1.0
                                         }
                                     ]
+                                },
+                                {
+                                    "ClassName": "ammo_expansion_338",
+                                    "Chance": 0.45,
+                                    "Quantity": {
+                                        "Min": 0.2,
+                                        "Max": 0.5
+                                    },
+                                    "Health": [
+                                        {
+                                            "Min": 1.0,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -4890,6 +4905,21 @@
                                             "Max": 1.0
                                         }
                                     ]
+                                },
+                                {
+                                    "ClassName": "ammo_expansion_338",
+                                    "Chance": 0.45,
+                                    "Quantity": {
+                                        "Min": 0.2,
+                                        "Max": 0.5
+                                    },
+                                    "Health": [
+                                        {
+                                            "Min": 1.0,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -5039,6 +5069,21 @@
                                         {
                                             "Min": 1.0,
                                             "Max": 1.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ClassName": "ammo_expansion_338",
+                                    "Chance": 0.45,
+                                    "Quantity": {
+                                        "Min": 0.2,
+                                        "Max": 0.5
+                                    },
+                                    "Health": [
+                                        {
+                                            "Min": 1.0,
+                                            "Max": 1.0,
+                                            "Zone": ""
                                         }
                                     ]
                                 }
