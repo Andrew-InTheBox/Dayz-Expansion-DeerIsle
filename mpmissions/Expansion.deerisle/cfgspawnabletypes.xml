@@ -308,28 +308,16 @@
 		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="Bear_Beige">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+		<cargo preset="ammoCivil" />
 	</type>
 	<type name="Bear_Dark">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+		<cargo preset="ammoCivil" />
 	</type>
 	<type name="Bear_Pink">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+		<cargo preset="ammoArmy" />
 	</type>
 	<type name="Bear_White">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+		<cargo preset="ammoArmy" />
 	</type>
 	<type name="ShortJeans_Black">
 		<cargo preset="foodVillage" />
@@ -1312,6 +1300,7 @@
 	<type name="ZmbF_SkaterYoung_Striped">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
 		<attachments preset="bagsCity" />
@@ -1319,6 +1308,7 @@
 	<type name="ZmbF_SkaterYoung_Violet">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
 		<attachments preset="bagsCity" />
@@ -1326,6 +1316,7 @@
 	<type name="ZmbF_SurvivorNormal_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1333,6 +1324,7 @@
 	<type name="ZmbF_SurvivorNormal_Orange">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1340,6 +1332,7 @@
 	<type name="ZmbF_SurvivorNormal_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />

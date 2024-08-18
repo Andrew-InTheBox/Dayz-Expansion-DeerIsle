@@ -136,7 +136,7 @@
     <item name="Battery9V" chance="0.25" />
     <item name="Flashlight" chance="0.2" />
   </cargo>
-  <cargo chance="0.20" name="ammoCivil">
+  <cargo chance="0.25" name="ammoCivil">
     <item name="Ammo_380" chance="0.22" />
     <item name="AmmoBox_380_35Rnd" chance="0.08" />
     <item name="Ammo_9x19" chance="0.15" />
@@ -144,6 +144,7 @@
     <item name="Ammo_762x39" chance="0.12" />
     <item name="AmmoBox_762x39_20Rnd" chance="0.02" />
     <item name="Ammo_762x54" chance="0.08" />
+    <item name="Ammo_Expansion_338" chance="0.08" />
     <item name="AmmoBox_762x54_20Rnd" chance="0.02" />
   </cargo>
   <cargo chance="0.30" name="ammoPolice">
@@ -161,6 +162,7 @@
     <item name="AmmoBox_762x39_20Rnd" chance="0.05" />
     <item name="Ammo_762x54" chance="0.25" />
     <item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+    <item name="Ammo_Expansion_338" chance="0.15" />
     <item name="WeaponCleaningKit" chance="0.15" />
   </cargo>
   <cargo chance="0.1" name="mixVillage">
