@@ -1,0 +1,9 @@
+//Players not included in the whitelist.txt won't be able to connect to this server.
+//Players can be added/removed while the server is running and change will come in effect immediately, kicking the removed player.
+//---------------------------------------------------------------------------------------------------------------------------------
+//To whitelist a player, add his player ID (44 characters long ID) which can be found in the admin log file (.ADM).
+//To whitelist a player, add the player's name.
+//---------------------------------------------------------------------------------------------------------------------------------
+//For comments use the // prefix. It can be used after an inserted ID, to easily mark it.
+
+1111111111112222222222222333333333XXXXXXAAAA	//Example of a character ID

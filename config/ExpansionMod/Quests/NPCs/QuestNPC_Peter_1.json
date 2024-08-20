@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 5,
+    "ConfigVersion": 6,
     "ID": 1,
     "ClassName": "ExpansionQuestNPCAIDenis",
     "Position": [
@@ -29,5 +29,6 @@
     "NPCQuestStartEmoteID": 0,
     "NPCQuestCompleteEmoteID": 0,
     "NPCFaction": "",
-    "NPCType": 2
+    "NPCType": 2,
+    "Active": 1
 }

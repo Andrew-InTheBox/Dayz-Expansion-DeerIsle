@@ -29,6 +29,8 @@ The setup utilizes the following mods:
 - **MMG-MightysMilitaryGear**
 - **PvZmoD_CustomizableZombies**
 - **NoForceWeaponRaise**
+- **RedFalconHelis**
+- **SNAFUWeapons**
 - **_DayZ-Dynamic-AI-Addon** (server-side)
 
 MMG mod types.xml files are set for military & all tiers *except* tiers 2 and 3.   Meaning, no MMG gear should spawn on starting islands.

@@ -1,11 +1,11 @@
 {
-    "m_Version": 18,
+    "m_Version": 19,
     "VehicleSync": 0,
     "VehicleRequireKeyToStart": 0,
-    "VehicleRequireAllDoors": 1,
+    "VehicleRequireAllDoors": 0,
     "VehicleLockedAllowInventoryAccess": 0,
     "VehicleLockedAllowInventoryAccessWithoutDoors": 1,
-    "MasterKeyPairingMode": 2,
+    "MasterKeyPairingMode": 0,
     "MasterKeyUses": 2,
     "CanPickLock": 0,
     "PickLockTools": [
@@ -46,6 +46,7 @@
     "CFToolsHeliCoverIconName": "helicopter",
     "CFToolsBoatCoverIconName": "ship",
     "CFToolsCarCoverIconName": "car",
+    "ShowVehicleOwners": 0,
     "VehiclesConfig": [
         {
             "ClassName": "ExpansionUAZCargoRoofless",

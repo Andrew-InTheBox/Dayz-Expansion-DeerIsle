@@ -1,0 +1,53 @@
+{
+    "Version": 2,
+    "notification": [
+        {
+            "Spatial_Name": "East",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 1,
+            "MessageTitle": "East AI",
+            "MessageText": [
+                "Enemies nearby",
+                "AI Detected: East",
+                "Example 3"
+            ]
+        },
+        {
+            "Spatial_Name": "West",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 2.5,
+            "MessageType": 3,
+            "MessageTitle": "West AI",
+            "MessageText": [
+                "Enemies nearby",
+                "AI Detected: West"
+            ]
+        },
+        {
+            "Spatial_Name": "Guard",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 4.5,
+            "MessageType": 5,
+            "MessageTitle": "Guard AI",
+            "MessageText": [
+                "Guards detected",
+                "Friendlies in the area, guns down."
+            ]
+        },
+        {
+            "Spatial_Name": "Disabled",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 10.0,
+            "MessageType": 0,
+            "MessageTitle": "Disabled",
+            "MessageText": [
+                "Disabled"
+            ]
+        }
+    ]
+}

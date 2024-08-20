@@ -1,0 +1,2085 @@
+Question Configuration
+
+Quest Files
+
+File Information:
+You can name a quest configuration file to whatever you want as long as it has the .json file extension and is placed in the quest configurations folder it will get loaded by the quest system.
+
+Configuration Parameters:
+"ConfigVersion"
+Integer.
+
+Current config file version. Please don't change this unless you know what you are doing!
+
+"ID"
+Integer.
+
+Unique quest ID. Make sure this ID is different for every single quest.
+
+"Type"
+Integer.
+
+Quest type from ExpansionQuestType enumeration. Only use type 1 for all quests.
+
+NORMAL = 1
+"Title"
+String.
+
+Quest title.
+
+"Descriptions"
+Array.
+
+Should have only max. 3 entries in the array! Each index has its own use in the system.
+
+0 - Description of getting the quest.
+1 - Description while the quest is active (only visible at the given quest NPCs).
+2 - Description when taking in quest. (only visible at the given quest turn-in NPC).
+"ObjectiveText"
+String.
+
+Short objective description text.
+
+"FollowUpQuest"
+Integer.
+
+Follow-up Quest ID. If this quest has a follow quest you need to add the quest ID of the follow-up quest here so it will be automatically shared with the player when he completes the pre-quest.
+
+"Repeatable"
+Boolean.
+
+Quest is a repeatable quest.
+
+"IsDailyQuest"
+Boolean.
+
+Quest is a daily quest and has a daily reset.
+
+"IsWeeklyQuest"
+Boolean.
+
+Quest is a weekly quest and has a weekly cooldown.
+
+"CancelQuestOnPlayerDeath"
+Bolean.
+
+The quest will be canceled if the quest player (or one of his group members when it's a group quest) dies.
+
+"Autocomplete"
+Boolean.
+
+Quest will be autocompleted when all quest objectives are completed.
+
+"IsGroupQuest"
+Boolean.
+
+Quest is a group quest.
+
+"ObjectSetFileName"
+String.
+
+Can be used to spawn a set of objects when a quest player starts a certain quest. Add the file name of the .map file that will get loaded without the .map extension.
+
+The .map file need to be located in the mission directory at: MISSION.MAPNAME/expansion/quests/objects.
+
+"QuestItems"
+Array<ExpansionQuestItemConfig>.
+
+Quest items that the player will receive when starting the quest. These items get deleted from the quest player/s when the quest is canceled/completed or the player logs out/server restarts. If the player reconnects the items get added back to the quest players as long as the quest is not completed.
+
+{
+    "ClassName": "SledgeHammer",
+    "Amount": 1
+}
+"ClassName" String. The class name of the quest item.
+"Amount" Integer. How many units/items should the player get of the item?
+"Rewards"
+Array<ExpansionQuestRewardConfig>.
+
+Quest rewards that the player will receive when turning in the quest and all objectives are completed.
+
+{
+  "ClassName": "TaloonBag_Blue",
+  "Amount": 1,
+  "Attachments": [],
+  "DamagePercent": 0,
+  "QuestID": -1,
+  "Chance": 1.0
+}
+"ClassName" String. The class name of the reward item.
+"Amount" Integer. How many units/items should the player get of the item?
+"Attachments" Array. Attachments that will be applied to the main reward item given.
+"DamagePercent" Integer. The damage percent value of the reward item the player will get. Damage is also applied to the attachments.
+"QuestID" Integer. If the item should be usable and turn out a certain quest then add the quest ID of that quest here to make the reward item a quest giver item.
+"Chance" Float. Only used if the "RandomReward" parameter is set to 1 (true). Sets the chance of the reward to be selected when the quest is completed and the rewards are selected randomly.
+"NeedToSelectReward"
+Boolean.
+
+If enabled and there are multiple rewards for the quest in the rewards array the player needs to select one reward when he turns in the quest from the given rewards.
+
+"RandomReward"
+Boolean.
+
+If enabled and there are multiple rewards for the quest in the rewards array then random rewards will be selected on quest completion based on the given reward chances and the amount of reward items to spawn set in the "RandomRewardAmount" parameter.
+
+"RandomRewardAmount"
+Integer.
+
+Amount of randomly selected reward items each quest player will get on quest completion when the "RandomReward" parameter is enabled and there are multiple rewards for the quest in the rewards array.
+
+"RewardsForGroupOwnerOnly"
+Boolean.
+
+If enabled and the quest is a group quest only the group owner (quest owner) will receive the rewards added to the Rewards array.
+
+"QuestGiverIDs"
+Array.
+
+Unique quest NPC IDs from the quest NPC configuration of the NPCs that will head out the quest.
+
+"QuestTurnInIDs"
+Array.
+
+Unique quest NPC IDs from the quest NPC configuration of the NPCs that will turn in the quest when completed.
+
+"IsAchivement"
+Bolean.
+
+Quest is an achievement quest and gets added to new players when they join the server for the first time automatically.
+
+"Objectives"
+Array<ExpansionQuestObjectiveConfigBase>.
+
+Quest objectives that the player needs to complete to complete the whole quest and to get the quest rewards if there is a reward defined. Take a look at the objectives configuration page for further information.
+
+{
+    "ConfigVersion": 21,
+    "ID": 3,
+    "ObjectiveType": 3
+}
+"ConfigVersion" Integer. The same configuration version is used in the quest objective configuration files.
+"ID" Integer. Objective ID from the objective configuration.
+"ObjectiveType" Integer. Objective Type from the objective configuration.
+TARGET = 2
+TRAVEL = 3
+COLLECT = 4
+DELIVERY = 5
+TREASUREHUNT = 6
+AIPATROL = 7
+AICAMP = 8
+AIESCORT = 9
+ACTION = 10
+CRAFTING = 11
+"QuestColor"
+Integer. The main color of the quest will be used to display it in the menus and quest HUD.
+
+"ReputationReward"
+Integer.
+
+Only used if the Hardline mod is loaded and the "UseReputation" setting in the HardlineSettings.JSON is enabled. Reputation reward the quest players will receive on quest completion.
+
+"ReputationRequirement"
+Integer.
+
+Only used if the Hardline mod is loaded and the "UseReputation" setting in the HardlineSettings.JSON is enabled. Reputation points are needed to see and accept the quest next to other requirements like completed pre-quests.
+
+"PreQuestIDs"
+Array.
+
+Pre-Quest Quest IDs. If this quest requires other quests to be completed before it can be displayed/accepted add the quest IDs of the quests that have to be completed first here.
+
+"RequiredFaction"
+String.
+
+Only used if the AI mod is loaded. Name of the Expansion-AI faction the player needs to be in to see/accept/complete this quest.
+
+"FactionReward"
+String.
+
+Only used if the AI mod is loaded. Name of the Expansion-AI faction the player will join as a reward for completing this quest.
+
+"PlayerNeedQuestItems"
+Boolean.
+
+Controls if the quest will be canceled if the quest players are missing one of the quest items on relog/reconnection.
+
+"DeleteQuestItems"
+Boolean.
+
+Controls if the quest items will be deleted when the quest is completed or not. They still always get deleted when the quest is canceled!
+
+"SequentialObjectives"
+Boolean.
+
+Controls if the configured quest objectives need to be completed in sequential order or if they are all active and can be completed all the time when the quest is active.
+
+"FactionReputationRequirements"
+Map<String, integer>.
+
+This map controls how many reputation points are needed for certain factions to see and start the quest.
+
+"FactionReputationRequirements": {
+        "Survivors": 500
+    },
+"FactionReputationRewards"
+Map<String, integer>.
+
+This map controls how many reputation points the player gets for certain factions on quest completion as a reward.
+
+"FactionReputationRewards": {
+        "Survivors": 500
+    }
+"SuppressQuestLogOnCompetion"
+Boolean.
+
+Suppressed display of the quest log on quest completion when the quest configuration has no "QuestGiverIDs" set.
+
+"Active"
+Boolean.
+
+Enable/disable this configuration file from being loaded my the quest system.
+
+Example configuration JSON file:
+
+{
+    "ConfigVersion": 21,
+    "ID": 2,
+    "Type": 1,
+    "Title": "A favor for Steve...",
+    "Descriptions": [
+        "So, Peter sends you, hmm? Well I have what he wants, although he still owes me something... But I'm also not a bad guy. Let's say if you do me a favor, too, I'll give you what Peter wants and even more. I gotta keep watch and make sure no shit happens around here. I want you to take this sledgehammer and clean up the village with it. There are a few Infected that have to be eliminated before they start moving into the camp.",
+        "You are not done yet? How hard can it be to smash some heads with that hammer... Come back when the job is done!",
+        "Oh there you are! I thought the Infected got your ass and killed you... Well, here is your reward."
+    ],
+    "ObjectiveText": "Kill 10 civilian Infected with Steve's sledgehammer.",
+    "FollowUpQuest": 3,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "SledgeHammer",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "WaterBottle",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TunaCan",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 1,
+    "QuestGiverIDs": [
+        2
+    ],
+    "QuestTurnInIDs": [
+        2
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 26,
+            "ID": 2,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 26,
+            "ID": 1,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        1
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
+Special Quest Configurations:
+There are certain different quest configurations that change the behavior or handling of the quest with different results.
+
+Auto-Start Quest
+An Auto-start quest will be added to the player on the first server connection.
+
+We need to have the following parameter values to work as intended:
+
+"QuestGiverIDs": [], //! Make sure the quest has no "QuestGiverIDs" in the array!
+"IsAchivement": 0, //! Make sure the quest is not flagged as an achievement quest!
+"IsGroupQuest": 0, //! Make sure the quest is not flagged as a group quest!
+"PreQuestIDs": [] //! Make sure the quest has no "PreQuestIDs" in the array!
+Achievement Quest
+An Achievement quest will get added to the player on the first server connection but the difference here is that the player will never be notified about this quest except when he completes the quest (all quest objectives completed).
+
+We need to have the following parameter values to work as intended:
+
+"QuestGiverIDs": [], //! Make sure the quest has no quest giver IDs!
+"IsAchivement": 1, //! Make sure the quest is flagged as an achievement quest!
+"Autocomplete": 1, //! Make sure the quest is auto-completed when all quest objectives are completed!
+"IsGroupQuest": 0, //! Make sure the quest is not flagged as a group quest!
+"PreQuestIDs": [] //! Make sure the quest has no "PreQuestIDs" in the array!
+Daily Quest
+Daily quests can be completed once per day and then set on a cooldown until the server's daily quest reset happens the next day. The server's daily reset time is controlled by the quest settings [LINK TO SETTING].
+
+We need to have the following parameter values to work as intended:
+
+"Repeatable": 1, //! Make sure the quest is repeatable!
+"IsDailyQuest": 1,
+"IsWeeklyQuest": 0, //! Make sure it's only a daily or weekly quest!
+Weekly Quest
+Weekly quests can be completed once per week and then set on a cooldown until the server's weekly quest reset happens on the next week. The server's weekly reset time and day are controlled by the quest settings [LINK TO SETTING].
+
+We need to have the following parameter values to work as intended:
+
+"Repeatable": 1, //! Make sure the quest is repeatable!
+"IsDailyQuest": 0, //! Make sure it's only a daily or weekly quest!
+"IsWeeklyQuest": 1,
+
+Objective Files and configuration
+
+File Information:
+You can name an objective configuration file to whatever you want as long as it has the .json file extension and is placed in the related objective configurations folder.
+
+Main Objective Configuration Parameters:
+"ConfigVersion"
+Integer.
+
+Current config file version. NEVER CHANGE THIS!
+
+"ID"
+Integer.
+
+Unique objective ID. Make sure this ID is different for every single objective in this objective category! You can use the same ID for a different objective configuration in a different objective category but never use the same ID in the same category twice!
+
+"ObjectiveType"
+Integer.
+
+Objective Type of this objective configuration. As every objective type uses and handles different parameters and values we need to tell the system what kind of objective this is. It always needs to be the category where the config file is located.
+
+TARGET = 2
+TRAVEL = 3
+COLLECT = 4
+DELIVERY = 5
+TREASUREHUNT = 6
+AIPATROL = 7
+AICAMP = 8
+AIVIP = 9
+ACTION = 10
+CRAFTING = 11
+There are different objective types that all do something different when added to a quest and every objective has a different configuration depending on the objective type:
+
+TARGET = Quest player/s will need to kill a certain amount of mobs/players. (Optional: With a special weapon).
+TRAVEL = Quest player/s will need to go to location XY.
+COLLECT = Quest player/s will need to collect/find a certain amount of items.
+DELIVERY = The Quest player/s will need to deliver given items to a certain position and NPC.
+TREASUREHUNT = Quest player/s will need to find a location containing a stashed treasure.
+AIPATROL = Quest player/s will need to clear an AI patrol. (Optional: With a special weapon).
+AICAMP = Quest player/s will need to clear an AI Camp. (Optional: With a special weapon).
+AIVIP = Quest player/s will need to protect and escort an AI to a certain location.
+ACTION = Quest player/s will need to execute a certain Action.
+CRAFTING  = Quest player/s will need to craft certain items.
+"ObjectiveText"
+String.
+
+The objective text will be displayed in the quest log and quest hud when the objective is active and displayed.
+
+"TimeLimit"
+Integer.
+
+The time limit in seconds the quest player/s has to complete this objective. This should be set and added in the quest configuration file containing this objective in its objectives array as it allows you to reuse it in other quests with different time limit values or without one.
+
+"Active"
+Boolean.
+
+Enable/disable this objective configuration file from being loaded by the quest system.
+
+Action Objective
+
+Return to the quest objectives
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 10,
+    "ObjectiveText": "Lockpick a vehicle",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ActionNames": [
+        "ExpansionVehicleActionPickLock",
+        "ExpansionActionPickVehicleLockBase",
+        "ExpansionActionPickVehicleLock"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}
+"ActionNames"
+Array[String].
+
+Class names of the action classes that will trigger this objective.
+
+"AllowedClassNames"
+Array[String].
+
+Class names of items/entities that are allowed for this action objective. Example: If we would add the name "PotatoSeed" in here and the player would need to execute the "Plant seed" action then the objective would only be completed when the player used a "PotatoSeed" for the plant action.
+
+"ExcludedClassNames"
+Array[String].
+
+Class names of items/entities that are not allowed for this action objective. Example: If we add the name "PotatoSeed" in here and the player would need to execute the "Plant seed" action then the objective would only be completed when the player used any seed but not when he used "PotatoSeed" for the plant action.
+
+"ExecutionAmount"
+Integer.
+
+Controls how many times the action needs to be executed to complete this objective.
+
+AI Camp Objective
+
+AI Camp Objective Configuration
+Steve edited this page on Jan 13 · 4 revisions
+Return to the quest objectives
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill all 10 bandits at the marked location",
+    "TimeLimit": -1,
+    "Active": 1,
+    "InfectedDeletionRadius": 500.0,
+    "AISpawns": [
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4351.330078125,
+                    307.0679931640625,
+                    6400.52001953125
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4389.02978515625,
+                    302.802001953125,
+                    6391.77001953125
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4416.669921875,
+                    301.97698974609377,
+                    6395.7001953125
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4431.81982421875,
+                    298.9010009765625,
+                    6452.22021484375
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4418.52001953125,
+                    299.6000061035156,
+                    6441.919921875
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4475.16015625,
+                    295.2200012207031,
+                    6461.56982421875
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4485.009765625,
+                    295.2200012207031,
+                    6466.97021484375
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4435.5400390625,
+                    297.74700927734377,
+                    6470.2998046875
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4556.2998046875,
+                    289.2749938964844,
+                    6390.83984375
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    4523.009765625,
+                    290.427001953125,
+                    6448.2998046875
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "West",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 150.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
+            "DespawnRadius": 880.0
+        }
+    ],
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": []
+}
+"InfectedDeletionRadius"
+Float.
+
+Deletion radius for infected/zombies within the objective area. Set to 0 to disable the deletion of infected.
+
+"AISpawns"
+array.
+
+An array of AI unit spawn entries. Each entry is for one AI unit and every unit can be configured individually. The following parameters can be set for each entry:
+
+"NumberOfAI"
+Integer.
+
+Amount of spawned AI units for this certain spawn entry, will and should always be 1.
+
+"NPCName"
+String.
+
+Name of the NPC that will be displayed in all name tags and tooltips for the spawned AI unit.
+
+"Waypoints"
+array.
+
+Waypoints that will be used for the spawned AI unit to follow. The first entry should always be the initial spawn position.
+
+"Behaviour"
+eAIWaypointBehavior.
+
+Waypoint behavior that will be used for the spawned AI unit.
+
+0 = HALT
+1 = LOOP
+2 = ALTERNATE,
+3 = HALT_OR_LOOP
+4 = HALT_OR_ALTERNATE
+"Formation"
+eAuFormation.
+
+Formation used for the spawned AI unit. Should be always "RANDOM" as the spawned unit is not in a group with any of the other units.
+
+"Faction"
+String.
+
+Faction used for the spawned AI unit.
+
+"Loadout"
+String.
+
+AI unit loadout file used from the AI loaded folder. Same as for AI patrol settings.
+
+"Faction"
+String.
+
+eAIFaction type used for the spawned AI unit.
+
+"Speed"
+String.
+
+Min. speed of the spawned AI unit.
+
+"ThreatSpeed"
+Float.
+
+Max. speed of spawned AI unit when in threat mode.
+
+"MinAccuracy"
+Float.
+
+Min. weapon accuracy of the spawned AI unit.
+
+"MaxAccuracy"
+Float.
+
+Max. weapon accuracy of the spawned AI unit.
+
+"CanBeLooted"
+Boolean.
+
+Enable/disable if the spawned AI unit can be looted or not.
+
+"UnlimitedReload"
+Boolean.
+
+Enable/disable if the spawned AI unit has unlimited reloads with weapons.
+
+"ThreatDistanceLimit"
+Float.
+
+Max. distance from the AI unit`s spawn position the AI unit can be away from before it will lose its current threat target.
+
+"DamageMultiplier"
+Float.
+
+Damage multiplier the AI will have for all its damage dealt on hit targets. Can also be a negative value to reduce the damage dealt on target.
+
+"DamageReceivedMultiplier"
+Float.
+
+Damage multiplier the AI will have for all its damage received. Can also be a negative value to reduce incoming damage.
+
+"ClassNames"
+Array[String].
+
+Class names that will be used to spawn the AI, have to be a valid eAIBase entity type.
+
+"SniperProneDistanceThreshold"
+Float.
+
+Distance to a current target the AI can have within the unit will use the prone stance to increase its accuracy.
+
+"RespawnTime"
+Float.
+
+Respawn time of the AI unit when no player is within the defined proximity range defined by the "MinDistanceRadius" and "MaxDistanceRadius" parameters.
+
+"DespawnTime"
+Float.
+
+Despawn time of the AI unit when no player is within the defined proximity range defined by the "MinDistanceRadius" and "MaxDistanceRadius" parameters.
+
+"MinDistanceRadius"
+Float.
+
+"MaxDistanceRadius"
+Float.
+
+Spawns AI unit when a player is not within the defined proximity range defined by the "MinDistanceRadius" and "MaxDistanceRadius" parameters from the AI unit spawn position.
+
+"DespawnRadius"
+Float.
+
+Despawns AI unit when a player is outside the defined proximity range from the AI unit's spawn position.
+
+"MaxDistance"
+Float.
+
+Min. distance a player can have to an executed AI unit to count the kill for the objective.
+
+"MinDistance"
+Float.
+
+Max. distance a player can have to an executed AI unit to count the kill for the objective.
+
+"AllowedWeapons"
+Array[String].
+
+If not empty then this array controls the allowed weapons the quest players can and need to use to kill certain objective targets. Leave empty to disable this check.
+
+"AllowedDamageZones"
+Array[String].
+
+If not empty then you can define valid hit zones where the player needs to hit to execute an AI unit to count the kill for the objective.
+
+Valid AI/Players and infected damage zones:
+
+Head
+Brain
+LeftArm
+RightArm
+LeftLeg
+RightLeg
+LeftFoot
+RightFoot
+Torso
+For all other entities check the certain RV CfgVehicles configuration class (config.cpp) of the entity and look up the children of the DamageZones class of that type. The children's class names are the damage zone names used for this parameter.
+
+AI Patrol Objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Kill all 4 units of the bandit patrol at the marked location",
+    "TimeLimit": -1,
+    "Active": 1,
+    "AISpawn": {
+        "NumberOfAI": 4,
+        "NPCName": "Quest Target",
+        "Waypoints": [
+            [
+                6914.7001953125,
+                403.0270080566406,
+                11381.7001953125
+            ],
+            [
+                6931.27001953125,
+                399.8599853515625,
+                11456.7001953125
+            ],
+            [
+                6891.919921875,
+                397.4549865722656,
+                11496.099609375
+            ],
+            [
+                6850.8798828125,
+                399.1470031738281,
+                11468.099609375
+            ],
+            [
+                6883.97998046875,
+                403.1919860839844,
+                11380.7998046875
+            ]
+        ],
+        "Behaviour": 0,
+        "Formation": "RANDOM",
+        "Loadout": "BanditLoadout",
+        "Faction": "West",
+        "Speed": 1.0,
+        "ThreatSpeed": 3.0,
+        "MinAccuracy": 0.0,
+        "MaxAccuracy": 0.0,
+        "CanBeLooted": 1,
+        "UnlimitedReload": 1,
+        "ThreatDistanceLimit": 150.0,
+        "DamageMultiplier": 1.0,
+        "DamageReceivedMultiplier": 1.0,
+        "ClassNames": [
+            "eAI_SurvivorF_Eva",
+            "eAI_SurvivorF_Frida",
+            "eAI_SurvivorF_Gabi",
+            "eAI_SurvivorF_Helga",
+            "eAI_SurvivorF_Irena",
+            "eAI_SurvivorF_Judy",
+            "eAI_SurvivorF_Keiko",
+            "eAI_SurvivorF_Linda",
+            "eAI_SurvivorF_Maria",
+            "eAI_SurvivorF_Naomi",
+            "eAI_SurvivorF_Baty",
+            "eAI_SurvivorM_Boris",
+            "eAI_SurvivorM_Cyril",
+            "eAI_SurvivorM_Denis",
+            "eAI_SurvivorM_Elias",
+            "eAI_SurvivorM_Francis",
+            "eAI_SurvivorM_Guo",
+            "eAI_SurvivorM_Hassan",
+            "eAI_SurvivorM_Indar",
+            "eAI_SurvivorM_Jose",
+            "eAI_SurvivorM_Kaito",
+            "eAI_SurvivorM_Lewis",
+            "eAI_SurvivorM_Manua",
+            "eAI_SurvivorM_Mirek",
+            "eAI_SurvivorM_Niki",
+            "eAI_SurvivorM_Oliver",
+            "eAI_SurvivorM_Peter",
+            "eAI_SurvivorM_Quinn",
+            "eAI_SurvivorM_Rolf",
+            "eAI_SurvivorM_Seth",
+            "eAI_SurvivorM_Taiki"
+        ],
+        "SniperProneDistanceThreshold": 300.0,
+        "RespawnTime": 1.0,
+        "DespawnTime": 1.0,
+        "MinDistanceRadius": 50.0,
+        "MaxDistanceRadius": 150.0,
+        "DespawnRadius": 880.0
+    },
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": []
+}
+"NumberOfAI"
+Integer.
+
+Amount of spawned AI units for this patrol group.
+
+"NPCName"
+String.
+
+Name of the AI units that will be displayed in all name tags and tooltips for the spawned AI unit.
+
+"Waypoints"
+array.
+
+Waypoints that will be used for the spawned AI patrol to follow. The first entry should always be the initial spawn position.
+
+"Behaviour"
+eAIWaypointBehavior.
+
+Waypoint behavior that will be used for the spawned AI patrol.
+
+0 = HALT
+1 = LOOP
+2 = ALTERNATE,
+3 = HALT_OR_LOOP
+4 = HALT_OR_ALTERNATE
+"Formation"
+eAuFormation.
+
+The eAIFormation used for the spawned AI patrol.
+
+"Faction"
+String.
+
+Faction used for the spawned AI patrol.
+
+"Loadout"
+String.
+
+AI unit loadout file used from the AI loaded folder. Same as for AI patrol settings.
+
+"Faction"
+String.
+
+eAIFaction type used for the spawned AI unit.
+
+"Speed"
+String.
+
+Min. speed of the spawned AI patrol.
+
+"ThreatSpeed"
+Float.
+
+Max. speed of spawned AI patrol when in threat mode.
+
+"MinAccuracy"
+Float.
+
+Min. weapon accuracy of the spawned AI patrol.
+
+"MaxAccuracy"
+Float.
+
+Max. weapon accuracy of the spawned AI patrol.
+
+"CanBeLooted"
+Boolean.
+
+Enable/disable if the spawned AI patrol can be looted or not.
+
+"UnlimitedReload"
+Boolean.
+
+Enable/disable if the spawned AI patrol has unlimited reloads with weapons.
+
+"ThreatDistanceLimit"
+Float.
+
+Max. distance from the AI patrol`s spawn position the AI unit can be away from before it loses its current threat target.
+
+"DamageMultiplier"
+Float.
+
+Damage multiplier the AI units will have for all its damage dealt on hit targets. Can also be a negative value to reduce the damage dealt on target.
+
+"DamageReceivedMultiplier"
+Float.
+
+Damage multiplier the AI units will have for all its damage received. Can also be a negative value to reduce incoming damage.
+
+"ClassNames"
+Array[String].
+
+Class names that will be used to spawn the AI patrol units, have to be a valid eAIBase entity type.
+
+"SniperProneDistanceThreshold"
+Float.
+
+Distance to a current target the AI patrol units can have within the units will use the prone stance to increase there accuracy.
+
+"RespawnTime"
+Float.
+
+Respawn time of the AI units when no player is within the defined proximity range defined by the "MinDistanceRadius" and "MaxDistanceRadius" parameters.
+
+"DespawnTime"
+Float.
+
+Despawn time of the AI units when no player is within the defined proximity range defined by the "MinDistanceRadius" and "MaxDistanceRadius" parameters.
+
+"MinDistanceRadius"
+Float.
+
+"MaxDistanceRadius"
+Float.
+
+Spawns AI patrol units when a player is not within the defined proximity range defined by the "MinDistanceRadius" and "MaxDistanceRadius" parameters from the AI unit spawn position.
+
+"DespawnRadius"
+Float.
+
+Despawns AI patrol units when a player is outside the defined proximity range from the AI unit's spawn position.
+
+"MaxDistance"
+Float.
+
+Min. distance a player can have to an executed AI unit to count the kill for the objective.
+
+"MinDistance"
+Float.
+
+Max. distance a player can have to an executed AI unit to count the kill for the objective.
+
+"AllowedWeapons"
+Array[String].
+
+If not empty then this array controls the allowed weapons the quest players can and need to use to kill certain objective targets. Leave empty to disable this check.
+
+"AllowedDamageZones"
+Array[String].
+
+If not empty then you can define valid hit zones where the player needs to hit to execute an AI unit to count the kill for the objective.
+
+Valid AI/Players and infected damage zones:
+
+Head
+Brain
+LeftArm
+RightArm
+LeftLeg
+RightLeg
+LeftFoot
+RightFoot
+Torso
+For all other entities check the certain RV CfgVehicles configuration class (config.cpp) of the entity and look up the children of the DamageZones class of that type. The children's class names are the damage zone names used for this parameter.
+
+AI VIP Objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 9,
+    "ObjectiveText": "Bring the VIP to the marked location.",
+    "TimeLimit": 180,
+    "Active": 1,
+    "Position": [
+        3193.590087890625,
+        296.7070007324219,
+        6090.56982421875
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Escort VIP",
+    "ShowDistance": 1,
+    "CanLootAI": 0,
+    "NPCLoadoutFile": "BanditLoadout",
+    "NPCClassName": "",
+    "NPCName": "Survivor"
+}
+"Position"
+Vector.
+
+Objective position to where the VIP AI needs to be escorted.
+
+"MaxDistance"
+Float.
+
+If the escorted AI is within the given range from the objective position the objective will be triggered as completed.
+
+"MarkerName"
+String.
+
+Text for the objective quest marker. Leave empty to create no marker.
+
+"ShowDistance"
+Boolean.
+
+Controls whether the distance to the objective position will be displayed in the quest HUD.
+
+"CanLootAI"
+Boolean.
+
+Controls if spawned AI can be looted or not.
+
+"NPCLoadoutFile"
+String.
+
+NPC loadout file. Same as for AI patrol settings.
+
+"NPCClassName"
+String.
+
+NPC class name of the eAI entity that should be used to spawn in the VIP NPC. Leave the field empty to get a random AI unit.
+
+"NPCName"
+String.
+
+Name of the AI units that will be displayed in all name tags and tooltips for the spawned AI unit.
+
+Collection objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Collect 5 apples",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 5,
+            "ClassName": "Apple",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}
+"Collections"
+Array[ExpansionQuestObjectiveDelivery].
+
+Items the quest players need to/can collect for this objective.
+
+"Amount"
+Integer.
+
+Amount needed for the objective item.
+
+"ClassName"
+String.
+
+Class name of the item needed.
+
+"QuantityPercent"
+Integer.
+
+Max. quantity percentage of the item so it gets counted by the objective.
+
+"MinQuantityPercent"
+Integer.
+
+Min. quantity percentage of the item so it gets counted by the objective.
+
+"ShowDistance"
+Boolean.
+
+Controls whether the distance to the objective position will be displayed in the quest HUD.
+
+"AddItemsToNearbyMarketZone"
+Boolean.
+
+Only used when the market mod is loaded and the quest turn-in NPC is within a market zone. Controls if the objective items get added to the nearby market zone after the quest with this objective has been completed. The stock and items given in the "Collections" array will then be added to the related market zone on the next server restart.
+
+"NeedAnyCollection"
+Boolean.
+
+Controls if the quest players need to collect all the items defined in the "Collections" array or only one. If this parameter is enabled and players still have more than one objective item then they will need to select the item they want to use to complete this quest when turning the quest in.
+
+Crafting Objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 11,
+    "ObjectiveText": "Craft an improvised fishing rod",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ItemNames": [
+        "ImprovisedFishingRod"
+    ],
+    "ExecutionAmount": 1
+}
+"ItemNames"
+Array[String].
+
+Class names of the items the player can craft to complete this objective.
+
+"ExecutionAmount"
+Integer.
+
+How many times does the crafting action need to be executed to complete the objective?
+
+Delivery Objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 5,
+    "ObjectiveText": "Deliver the note to Steve",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionQuestItemPaper",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
+}
+"Collections"
+Array[ExpansionQuestObjectiveDelivery].
+
+Items the quest players need to deliver for this objective and that will be spawned on the main quest player when the quest with this objective is accepted/started. There is always a class name and amount needed to define an entry correctly. "QuantityPercent" is needed when the player delivers items such as ammo or pills that can be stacked, "QuantityPercent" controls the stack size amount that gets spawned on the quest player when starting the quest. 10 should be used here as a value when the item has a quantity to match with the needed amount.
+
+"Amount"
+Integer.
+
+Amount needed for the objective item.
+
+"ClassName"
+String.
+
+Class name of the item needed.
+
+"QuantityPercent"
+Integer.
+
+Max. quantity percentage of the item so it gets counted by the objective.
+
+"MinQuantityPercent"
+Integer.
+
+Min. quantity percentage of the item so it gets counted by the objective.
+
+"ShowDistance"
+Boolean.
+
+Controls whether the distance to the objective position will be displayed in the quest HUD.
+
+"AddItemsToNearbyMarketZone"
+Boolean.
+
+Only used when the market mod is loaded and the quest turn-in NPC is within a market zone. Controls if the objective items get added to the nearby market zone after the quest with this objective has been completed. The stock and items given in the "Collections" array will then be added to the related market zone on the next server restart.
+
+"MaxDistance"
+Float.
+
+Max. distance to the turn-in NPC position to complete the distance check for the objective.
+
+"MarkerName"
+String.
+
+Given text is used for the quest objective marker when the Expansion-Navigation mod is loaded and 2D or 3D markers are enabled.
+
+Target Objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Kill 10 Infected with a sledgehammer",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        2596.699951171875,
+        306.1000061035156,
+        6378.47021484375
+    ],
+    "MaxDistance": 150.0,
+    "MinDistance": -1.0,
+    "Amount": 10,
+    "ClassNames": [
+        "ZmbM_CitizenASkinny_Base",
+        "ZmbM_CitizenASkinny_LT_Base",
+        "ZmbM_CitizenBFat_Base",
+        "ZmbM_ClerkFat_Base",
+        "ZmbM_ClerkFat_LT_Base",
+        "ZmbM_CommercialPilotOld_Base",
+        "ZmbM_CommercialPilotOld_LT_Base",
+        "ZmbM_ConstrWorkerNormal_Base",
+        "ZmbM_DoctorFat_Base",
+        "ZmbM_FarmerFat_Base",
+        "ZmbM_FarmerFat_LT_Base",
+        "ZmbM_FirefighterNormal_Base",
+        "ZmbM_FishermanOld_Base",
+        "ZmbM_HandymanNormal_Base",
+        "ZmbM_HeavyIndustryWorker_Base",
+        "ZmbM_HermitSkinny_Base",
+        "ZmbM_HikerSkinny_Base",
+        "ZmbM_HunterOld_Base",
+        "ZmbM_Jacket_Base",
+        "ZmbM_Jacket_LT_Base",
+        "ZmbM_JoggerSkinny_Base",
+        "ZmbM_Runner_Base",
+        "ZmbM_JournalistSkinny_Base",
+        "ZmbM_MechanicSkinny_Base",
+        "ZmbM_MotobikerFat_Base",
+        "ZmbM_OffshoreWorker_Base",
+        "ZmbM_ParamedicNormal_Base",
+        "ZmbM_PatientSkinny_Base",
+        "ZmbM_PolicemanFat_Base",
+        "ZmbM_PolicemanSpecForce_Base",
+        "ZmbM_priestPopSkinny_Base",
+        "ZmbM_PrisonerSkinny_Base",
+        "ZmbM_SkaterYoung_Base",
+        "ZmbM_SkaterYoung_LT_Base",
+        "ZmbM_SurvivorDean_Base",
+        "ZmbM_VillagerOld_Base",
+        "ZmbM_VillagerOld_LT_Base",
+        "ZmbF_BlueCollarFat_Base",
+        "ZmbF_CitizenANormal_Base",
+        "ZmbF_CitizenANormal_LT_Base",
+        "ZmbF_CitizenBSkinny_Base",
+        "ZmbF_Clerk_Normal_Base",
+        "ZmbF_ClerkFat_Base",
+        "ZmbF_Clerk_Normal_LT_Base",
+        "ZmbF_DoctorSkinny_Base",
+        "ZmbF_HikerSkinny_Base",
+        "ZmbF_JoggerSkinny_Base",
+        "ZmbF_Runner_Base",
+        "ZmbF_JournalistNormal_Base",
+        "ZmbF_JournalistNormal_LT_Base",
+        "ZmbF_MechanicNormal_Base",
+        "ZmbF_MilkMaidOld_Base",
+        "ZmbF_MilkMaidOld_LT_Base",
+        "ZmbF_NurseFat_Base",
+        "ZmbF_ParamedicNormal_Base",
+        "ZmbF_PatientOld_Base",
+        "ZmbF_PoliceWomanNormal_Base",
+        "ZmbF_ShortSkirt_Base",
+        "ZmbF_ShortSkirt_LT_Base",
+        "ZmbF_SkaterYoung_Base",
+        "ZmbF_SkaterYoung_LT_Base",
+        "ZmbF_SurvivorNormal_Base",
+        "ZmbF_SurvivorNormal_LT_Base",
+        "ZmbF_VillagerOld_Base",
+        "ZmbF_VillagerOld_LT_Base"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [
+        "SledgeHammer"
+    ],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}
+"Position"
+Vector.
+
+Objective positions where the given entities need to be eliminated. Leave empty or set to vector 0 to disable this condition.
+
+"MaxDistance"
+Float.
+
+If an objective position is defined then the quest players need to be outside the given range when they eliminate a target to count it for the objective.
+
+"MinDistance"
+Float.
+
+If an objective position is defined then the quest players need to be within the given range when they eliminate a target to count it for the objective.
+
+"Amount"
+Integer.
+
+Amount of eliminations that need to be executed on given entities to complete this objective.
+
+"ClassNames"
+Array[String].
+
+Class names that will be used to control kills. If a unit gets killed that is not in this array the kill will not count for this objective.
+
+"CountSelfKill"
+Boolean.
+
+If the target entity is a type of player this parameter controls if player suicides or eliminations on the quest players will count towards the quest objective.
+
+"AllowedWeapons"
+Array[String].
+
+If not empty then this array controls the allowed weapons the quest players can and need to use to kill certain objective targets. If empty this check is disabled.
+
+"ExcludedClassNames"
+Array[String].
+
+Class names of entities that will not count towards the objective when eliminated.
+
+"CountAIPlayers"
+Boolean.
+
+If the target entity is a type of expansion AI unit this parameter controls if AI eliminations will count towards the quest objective.
+
+"AllowedTargetFactions"
+Array[String].
+
+Names of the factions a kill target can be in when it is a player or AI. Kills will be only counted when the target is in one of the given factions.
+
+"AllowedDamageZones"
+Array[String].
+
+If not empty then you can define valid hit zones where the player needs to hit to execute an AI unit to count the kill for the objective.
+
+Valid AI/Players and infected damage zones:
+
+Head
+Brain
+LeftArm
+RightArm
+LeftLeg
+RightLeg
+LeftFoot
+RightFoot
+Torso
+For all other entities check the certain RV CfgVehicles configuration class (config.cpp) of the entity and look up the children of the DamageZones class of that type. The children's class names are the damage zone names used for this parameter.
+
+Travel Objective
+
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get to the Village",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        4333.3701171875,
+        311.77899169921877,
+        6299.8798828125
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Get to the Village",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
+"Position"
+Vector.
+
+Objective positions where the quest players need to travel to.
+
+"MaxDistance"
+Float.
+
+If a quest player is within the given range to the objective position the objective will get triggered as completed.
+
+"MarkerName"
+String.
+
+Text for the objective quest marker. Leave empty to create no marker.
+
+"ShowDistance"
+Boolean.
+
+Controls whether the distance to the objective position will be displayed in the quest HUD.
+
+"TriggerOnEnter"
+Bolean.
+
+Controls if the distance check will trigger when entering the defined objective area. Should always be enabled as this objective type will not be complete otherwise!
+
+"TriggerOnExit"
+Boolean.
+
+Controls if the distance check will trigger and set the objective to incomplete when leaving the defined objective area.
+
+Treasure Hunt Objective
+Example Configuration:
+
+{
+    "ConfigVersion": 26,
+    "ID": 1,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Find the location of the treasure",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 1,
+    "MarkerName": "???",
+    "MarkerVisibility": 4,
+    "Positions": [
+        [
+            2936.47998046875,
+            350.6139831542969,
+            6369.39013671875
+        ],
+        [
+            3143.35009765625,
+            365.7760009765625,
+            6942.0400390625
+        ],
+        [
+            5233.509765625,
+            290.8810119628906,
+            6246.3701171875
+        ]
+    ],
+    "Loot": [
+        {
+            "Name": "AKM",
+            "Attachments": [
+                "AK_WoodBttstck",
+                "AK_WoodHndgrd",
+                "Mag_AKM_30Rnd"
+            ],
+            "Chance": 1.0,
+            "QuantityPercent": -2,
+            "Max": 1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "Mag_AKM_30Rnd",
+            "Attachments": [],
+            "Chance": 1.0,
+            "QuantityPercent": -2,
+            "Max": 2,
+            "Min": 2,
+            "Variants": []
+        }
+    ],
+    "LootItemsAmount": 3,
+    "MaxDistance": 10.0
+}
+"ShowDistance"
+Boolean.
+
+Controls whether the distance to the objective position will be displayed in the quest HUD.
+
+"ContainerName"
+String.
+
+Container entity class name that will be used for this objective. The entity class always needs to inherit from "ExpansionQuestContainerBase".
+
+"DigInStash"
+Boolean.
+
+Controls if the container will be dug into an underground stash or not.
+
+"MarkerName"
+String.
+
+Text for the objective quest marker. Leave empty to create no marker.
+
+"MarkerVisibility"
+Integer.
+
+Defines the visibility of the objective quest marker. (4 - visible on map | 2 - visible in world | 6 - visible on map and in world.)
+
+"ShowDistance"
+Boolean.
+
+Controls whether the distance to the objective position will be displayed in the quest HUD.
+
+"Positions"
+Array[Vector].
+
+A random position from this array will be selected when the quest with this objective is started and set as the stash and objective position.
+
+"Loot"
+Array[ExpansionLoot].
+
+Loot reward items that will get spawned/attached into/on the stash.
+
+"LootItemsAmount"
+Integer.
+
+Max amount of loot items that will get selected and spawned into the stash from the defined expansion loot configuration.
+
+"MaxDistance"
+Float.
+
+If a quest player is within a given range of the objective position the stash will be created and spawned.

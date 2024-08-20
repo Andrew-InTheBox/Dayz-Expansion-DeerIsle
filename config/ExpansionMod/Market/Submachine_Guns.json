@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "cz61",
-            "MaxPriceThreshold": 1400,
-            "MinPriceThreshold": 700,
+            "MaxPriceThreshold": 6410,
+            "MinPriceThreshold": 3200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -21,8 +21,8 @@
         },
         {
             "ClassName": "ump45",
-            "MaxPriceThreshold": 1600,
-            "MinPriceThreshold": 800,
+            "MaxPriceThreshold": 7880,
+            "MinPriceThreshold": 3940,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -34,8 +34,8 @@
         },
         {
             "ClassName": "mp5k",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1000,
+            "MaxPriceThreshold": 9690,
+            "MinPriceThreshold": 4850,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -49,8 +49,8 @@
         },
         {
             "ClassName": "aks74u",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1100,
+            "MaxPriceThreshold": 10310,
+            "MinPriceThreshold": 5150,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -63,8 +63,8 @@
         },
         {
             "ClassName": "pp19",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1100,
+            "MaxPriceThreshold": 11020,
+            "MinPriceThreshold": 5510,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -77,8 +77,8 @@
         },
         {
             "ClassName": "expansion_kedr",
-            "MaxPriceThreshold": 1400,
-            "MinPriceThreshold": 700,
+            "MaxPriceThreshold": 3680,
+            "MinPriceThreshold": 1840,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -90,8 +90,8 @@
         },
         {
             "ClassName": "expansion_mpx",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 4720,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -103,8 +103,8 @@
         },
         {
             "ClassName": "expansion_mp5",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1100,
+            "MaxPriceThreshold": 5780,
+            "MinPriceThreshold": 2890,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -116,8 +116,8 @@
         },
         {
             "ClassName": "expansion_mp5sd",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 1300,
+            "MaxPriceThreshold": 6560,
+            "MinPriceThreshold": 3410,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -129,8 +129,8 @@
         },
         {
             "ClassName": "expansion_mp7",
-            "MaxPriceThreshold": 2400,
-            "MinPriceThreshold": 1200,
+            "MaxPriceThreshold": 6300,
+            "MinPriceThreshold": 3150,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -142,8 +142,8 @@
         },
         {
             "ClassName": "expansion_vityazsn",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 1400,
+            "MaxPriceThreshold": 7350,
+            "MinPriceThreshold": 3680,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -153,52 +153,6 @@
                 "ak_plastichndgrd",
                 "mag_expansion_vityaz_30rnd"
             ],
-            "Variants": []
-        },
-		{
-            "ClassName": "ttar9",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "ttp90",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 2000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"ttp90_Tan"
-			]
-        },
-		{
-            "ClassName": "ots71",
-            "MaxPriceThreshold": 3500,
-            "MinPriceThreshold": 1900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "ttagram",
-            "MaxPriceThreshold": 2400,
-            "MinPriceThreshold": 1200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": []
         }
     ]

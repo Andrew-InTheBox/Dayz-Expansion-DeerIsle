@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 4,
     "ObjectiveType": 3,
     "ObjectiveText": "Find the patrol",
     "TimeLimit": -1,
+    "Active": 1,
     "Position": [
         6990.52001953125,
         383.99200439453127,

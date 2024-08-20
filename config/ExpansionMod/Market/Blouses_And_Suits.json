@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "blouse_blue",
-            "MaxPriceThreshold": 32,
-            "MinPriceThreshold": 16,
+            "MaxPriceThreshold": 170,
+            "MinPriceThreshold": 80,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "blouse_green",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
+            "MaxPriceThreshold": 190,
+            "MinPriceThreshold": 90,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -34,8 +34,8 @@
         },
         {
             "ClassName": "mansuit_beige",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 80,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -53,8 +53,8 @@
         },
         {
             "ClassName": "womansuit_beige",
-            "MaxPriceThreshold": 36,
-            "MinPriceThreshold": 18,
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 80,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

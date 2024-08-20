@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "fal",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1700,
+            "MaxPriceThreshold": 10230,
+            "MinPriceThreshold": 8700,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -22,8 +22,8 @@
         },
         {
             "ClassName": "akm",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 12550,
+            "MinPriceThreshold": 9880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -36,9 +36,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ak101",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 1500,
+            "ClassName": "AK101",
+            "MaxPriceThreshold": 10290,
+            "MinPriceThreshold": 8790,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "ak74",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1600,
+            "MaxPriceThreshold": 15020,
+            "MinPriceThreshold": 8010,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -67,8 +67,8 @@
         },
         {
             "ClassName": "m4a1",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 1600,
+            "MaxPriceThreshold": 12750,
+            "MinPriceThreshold": 8400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -83,8 +83,8 @@
         },
         {
             "ClassName": "m16a2",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 16110,
+            "MinPriceThreshold": 9550,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -96,8 +96,8 @@
         },
         {
             "ClassName": "famas",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 16370,
+            "MinPriceThreshold": 9670,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -109,8 +109,8 @@
         },
         {
             "ClassName": "aug",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1600,
+            "MaxPriceThreshold": 16800,
+            "MinPriceThreshold": 12000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -122,8 +122,8 @@
         },
         {
             "ClassName": "augshort",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 16370,
+            "MinPriceThreshold": 11070,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -135,8 +135,8 @@
         },
         {
             "ClassName": "expansion_m16",
-            "MaxPriceThreshold": 2560,
-            "MinPriceThreshold": 1860,
+            "MaxPriceThreshold": 9470,
+            "MinPriceThreshold": 8620,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -148,8 +148,8 @@
         },
         {
             "ClassName": "expansion_g36",
-            "MaxPriceThreshold": 560,
-            "MinPriceThreshold": 160,
+            "MaxPriceThreshold": 6470,
+            "MinPriceThreshold": 6020,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -157,14 +157,12 @@
             "SpawnAttachments": [
                 "mag_expansion_g36_30rnd"
             ],
-            "Variants": [
-				"ESP_G36C"
-			]
+            "Variants": []
         },
-		{
+        {
             "ClassName": "SKS",
-            "MaxPriceThreshold": 950,
-            "MinPriceThreshold": 650,
+            "MaxPriceThreshold": 7060,
+            "MinPriceThreshold": 6140,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -174,59 +172,10 @@
             ],
             "Variants": []
         },
-		{
-            "ClassName": "ttak458",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 1900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"ttak458_Gold",
-				"ttak458poli"
-			]
-        },
-		{
-            "ClassName": "ttbar",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1850,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "ttrpd",
-            "MaxPriceThreshold": 2100,
-            "MinPriceThreshold": 1850,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "ttscarl",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"ttscarl_Tan"
-			]
-        },
-		{
-            "ClassName": "ttsok94",
-            "MaxPriceThreshold": 3100,
-            "MinPriceThreshold": 2950,
+        {
+            "ClassName": "SV98",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -235,25 +184,16 @@
             "Variants": []
         },
         {
-            "ClassName": "ttstg44",
-            "MaxPriceThreshold": 1900,
-            "MinPriceThreshold": 1700,
+            "ClassName": "Vikhr",
+            "MaxPriceThreshold": 8950,
+            "MinPriceThreshold": 7790,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-		{
-            "ClassName": "aek",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 1625,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "Mag_Vikhr_30Rnd"
+            ],
             "Variants": []
         }
     ]

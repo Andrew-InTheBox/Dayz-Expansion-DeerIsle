@@ -1,0 +1,9 @@
+//Players added to the ban.txt won't be able to connect to this server.
+//Bans can be added/removed while the server is running and will come in effect immediately, kicking the player.
+//-----------------------------------------------------------------------------------------------------
+//To ban a player, add his player ID (44 characters long ID) which can be found in the admin log file (.ADM).
+//To ban a player, add the player's name. This affects only the NAME, it won't prevent the player from connecting under a different name.
+//-----------------------------------------------------------------------------------------------------
+//For comments use the // prefix. It can be used after an inserted ID, to easily mark it.
+
+1111111111112222222222222333333333XXXXXXAAAA	//Example of a character ID

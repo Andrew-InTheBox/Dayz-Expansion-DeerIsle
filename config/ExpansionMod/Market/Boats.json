@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "expansionutilityboat",
-            "MaxPriceThreshold": 44000,
-            "MinPriceThreshold": 22000,
+            "MaxPriceThreshold": 115500,
+            "MinPriceThreshold": 57750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -22,8 +22,8 @@
         },
         {
             "ClassName": "expansionzodiacboat",
-            "MaxPriceThreshold": 44000,
-            "MinPriceThreshold": 22000,
+            "MaxPriceThreshold": 115500,
+            "MinPriceThreshold": 57750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -36,8 +36,8 @@
         },
         {
             "ClassName": "expansionlhd",
-            "MaxPriceThreshold": 600000000,
-            "MinPriceThreshold": 300000000,
+            "MaxPriceThreshold": 1575000000,
+            "MinPriceThreshold": 787500000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

@@ -1,0 +1,31 @@
+{
+    "Name": "Expansion Wood Floor",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "ExpansionFloorKit",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "WoodenPlank",
+            "NumberOfStacks": 1,
+            "StackSize": 10
+        },
+        {
+            "ItemName": "ExpansionLumber3",
+            "NumberOfStacks": 1,
+            "StackSize": 4
+        },
+        {
+            "ItemName": "Nail",
+            "NumberOfStacks": 1,
+            "StackSize": 30
+        },
+        {
+            "ItemName": "Hatchet",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        }
+    ]
+}
