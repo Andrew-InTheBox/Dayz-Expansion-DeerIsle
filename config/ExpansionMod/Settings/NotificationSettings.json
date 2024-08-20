@@ -1,5 +1,5 @@
 {
-    "m_Version": 4,
+    "m_Version": 5,
     "EnableNotification": 1,
     "ShowPlayerJoinServer": 1,
     "JoinMessageType": 1,
@@ -41,6 +41,7 @@
     "KillFeedBarehands": 1,
     "KillFeedInfected": 1,
     "KillFeedAnimal": 1,
+    "KillFeedAI": 1,
     "KillFeedKilledUnknown": 1,
     "KillFeedDiedUnknown": 1,
     "EnableKillFeedDiscordMsg": 0

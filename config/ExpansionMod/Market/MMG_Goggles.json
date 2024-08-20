@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "mmg_tac_goggles_red_green",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 1050,
+            "MinPriceThreshold": 1050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

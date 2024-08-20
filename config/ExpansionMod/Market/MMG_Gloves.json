@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "mmg_tactical_gloves_black",
-            "MaxPriceThreshold": 130,
-            "MinPriceThreshold": 130,
+            "MaxPriceThreshold": 680,
+            "MinPriceThreshold": 680,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

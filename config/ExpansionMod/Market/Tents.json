@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "partytent",
-            "MaxPriceThreshold": 5200,
-            "MinPriceThreshold": 2600,
+            "MaxPriceThreshold": 2620,
+            "MinPriceThreshold": 2210,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "mediumtent",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 3000,
+            "MaxPriceThreshold": 3050,
+            "MinPriceThreshold": 2420,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -37,7 +37,7 @@
         },
         {
             "ClassName": "largetent",
-            "MaxPriceThreshold": 12000,
+            "MaxPriceThreshold": 7000,
             "MinPriceThreshold": 6000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
@@ -48,8 +48,8 @@
         },
         {
             "ClassName": "cartent",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 7000,
+            "MaxPriceThreshold": 12110,
+            "MinPriceThreshold": 9050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -59,8 +59,8 @@
         },
         {
             "ClassName": "expansioncamotentkit",
-            "MaxPriceThreshold": 5200,
-            "MinPriceThreshold": 2600,
+            "MaxPriceThreshold": 8950,
+            "MinPriceThreshold": 7920,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -70,8 +70,8 @@
         },
         {
             "ClassName": "expansioncamoboxkit",
-            "MaxPriceThreshold": 5200,
-            "MinPriceThreshold": 2600,
+            "MaxPriceThreshold": 9650,
+            "MinPriceThreshold": 7820,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

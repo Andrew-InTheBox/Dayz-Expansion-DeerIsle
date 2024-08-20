@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawnabletypes>
+<damage min="0.3" max="0.7" />
+	<type name="Rev_Taser_Yellow">
+	</type>
+	<type name="Rev_Taser_Black">
+	</type>
+	<type name="Rev_BowRecurve">
+	</type>
+	<type name="Rev_Crossbow">
+		<attachments chance="0.50">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_WA2000">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_WA2000_5rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_ARX160">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_ARX160_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_Tac21">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_Tac21_5rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Tac21_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+<!--	<type name="Rev_HoneyBadger_Black">
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_20Rnd" chance="0.75" />
+			<item name="Mag_CMAG_20Rnd_Black" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger_Green">
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_20Rnd" chance="0.75" />
+			<item name="Mag_CMAG_20Rnd_Black" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger_GreenCamo">
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_20Rnd" chance="0.75" />
+			<item name="Mag_CMAG_20Rnd_Black" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger_Tan">
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_20Rnd" chance="0.75" />
+			<item name="Mag_CMAG_20Rnd_Black" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger_TanCamo">
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_20Rnd" chance="0.75" />
+			<item name="Mag_CMAG_20Rnd_Black" chance="0.25" />
+		</attachments>
+	</type> -->
+	<type name="Rev_HoneyBadger300BO_Black">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HoneyBadger_30rnd" chance="0.60" />
+			<item name="Rev_Mag_HoneyBadger_50rnd" chance="0.30" />
+			<item name="Rev_Mag_HoneyBadger_100rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger300BO_Green">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HoneyBadger_30rnd" chance="0.60" />
+			<item name="Rev_Mag_HoneyBadger_50rnd" chance="0.30" />
+			<item name="Rev_Mag_HoneyBadger_100rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger300BO_GreenCamo">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HoneyBadger_30rnd" chance="0.60" />
+			<item name="Rev_Mag_HoneyBadger_50rnd" chance="0.30" />
+			<item name="Rev_Mag_HoneyBadger_100rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger300BO_Tan">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HoneyBadger_30rnd" chance="0.60" />
+			<item name="Rev_Mag_HoneyBadger_50rnd" chance="0.30" />
+			<item name="Rev_Mag_HoneyBadger_100rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Rev_HoneyBadger300BO_TanCamo">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HoneyBadger_30rnd" chance="0.60" />
+			<item name="Rev_Mag_HoneyBadger_50rnd" chance="0.30" />
+			<item name="Rev_Mag_HoneyBadger_100rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Rev_M200">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_M200_7rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_M200_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_M200_Black">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_M200_7rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_M200_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_R700">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_R700_7rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_R700_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AK15">
+		<attachments chance="0.50">
+			<item name="Mag_AKM_Palm30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AKU15">
+		<attachments chance="0.50">
+			<item name="Mag_AKM_Palm30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AK12">
+		<attachments chance="0.50">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AKU12">
+		<attachments chance="0.50">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AK19">
+		<attachments chance="0.50">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AKU19">
+		<attachments chance="0.50">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_RPK16_762">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_AK15_30rnd" chance="0.70" />
+			<item name="Rev_Mag_RPK16_75rnd_762" chance="0.30" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_RPK16">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_AK12_30rnd" chance="0.70" />
+			<item name="Rev_Mag_RPK16_96rnd" chance="0.30" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_RPK16_556">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_AK19_30rnd" chance="0.70" />
+			<item name="Rev_Mag_RPK16_96rnd_556" chance="0.30" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="Rev_AK_Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_AR15">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_ACR_Black">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_ACR_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_ACR_Tan">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_ACR_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_M110_Tan">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_M110_10rnd" chance="0.70" />
+			<item name="Rev_Mag_M110_20rnd" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Rev_M110_Black">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_M110_10rnd" chance="0.70" />
+			<item name="Rev_Mag_M110_20rnd" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Rev_M134">
+		<attachments chance="1.00">
+			<item name="Rev_Mag_M134_250rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_Beowulf">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_Beowulf_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_SRSA2">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_SRSA2_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_Spas12">
+	</type>
+	<type name="Rev_SR25_Tan">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_SR25_10rnd" chance="0.50" />
+			<item name="Rev_Mag_SR25_20rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Rev_SR25_Black">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_SR25_10rnd" chance="0.50" />
+			<item name="Rev_Mag_SR25_20rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Rev_ACR17">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_ACR17_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_MG3">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_MG3_75rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_FALTactical">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Fal_Oebttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_M1Garand">
+	</type>
+	<type name="Rev_HT76">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HT76_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_HK417">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Rev_Mag_HK417_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_GoldenFang">
+	</type>
+	<type name="JebsGuns_M1A_Sneaks">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="JebsGuns_Mag_M1A_20rnd_45_70" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_MBR_Black">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_MBR_Tan">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_L85A2_Black">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="JebsGuns_Mag_L85A2_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_KrissVector_Black">
+		<attachments chance="0.50">
+			<item name="JebsGuns_Mag_KrissVector_30rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="JebsGuns_KrissVector_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_VSSK">
+		<attachments chance="0.50">
+			<item name="JebsGuns_Mag_VSSK_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="REV_FAMAS">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="REV_Mag_FAMAS_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_M96">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_M96_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_CDX50">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_CDX50_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="JebsGuns_MDRX_Tan">
+		<attachments chance="0.50">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="JebsGuns_Mag_MDRX_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Rev_M2010_Tan">
+		<attachments chance="0.50">
+			<item name="Rev_Mag_M2010_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

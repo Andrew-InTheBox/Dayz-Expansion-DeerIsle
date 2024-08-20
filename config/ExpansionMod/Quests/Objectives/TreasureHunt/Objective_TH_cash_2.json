@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 2,
     "ObjectiveType": 6,
     "ObjectiveText": "Find the location of the treasure",
     "TimeLimit": -1,
+    "Active": 1,
     "ShowDistance": 1,
     "ContainerName": "ExpansionQuestSeaChest",
     "DigInStash": 1,
@@ -26,11 +27,13 @@
             8775.8896484375
         ]
     ],
+    "LootItemsAmount": 4,
+    "MaxDistance": 10.0,
     "Loot": [
         {
             "Name": "ExpansionBanknoteHryvnia",
-            "Attachments": [],
             "Chance": 0.5,
+            "Attachments": [],
             "QuantityPercent": 10,
             "Max": -1,
             "Min": 0,
@@ -38,14 +41,12 @@
         },
         {
             "Name": "ExpansionBanknoteHryvnia",
-            "Attachments": [],
             "Chance": 0.5,
+            "Attachments": [],
             "QuantityPercent": 5,
             "Max": -1,
             "Min": 0,
             "Variants": []
         }
-    ],
-    "LootItemsAmount": 4,
-    "MaxDistance": 10.0
+    ]
 }

@@ -89,7 +89,7 @@
 		<Attack_Stopped_Vehicles	Attack_Speed_Factor		= "1.0"	/>	<!-- decimal [0.01 to 3.0] more than 3 will make no difference -->
 		<Attack_Stopped_Vehicles	Activate_Sounds	 		= "1"	/>	<!-- Integer [0 or 1] (deactivate if desync problems) -->
 		<Attack_Stopped_Vehicles	Player_Inside_Can_Be_Hit= "1"	/>	<!-- Integer [0 or 1] -->
-		<Attack_Stopped_Vehicles	Physics_Force_Apply		= "1000"/>	<!-- decimal [0 to infinite] -->
+		<Attack_Stopped_Vehicles	Physics_Force_Apply		= "500"/>	<!-- decimal [0 to infinite] -->
     </type>	
 	
 	<type name="Zombies_Throw_Stones">
@@ -113,7 +113,12 @@
         <Debug_Mod 	Activated = "0"/>	<!-- [0 1 or 2] keep to 0 to save server resources : refresh xml modifications each 1 second if debug mod > 0 and each 30 seconds if debug mod = 0 (when change from 0 to 1 the curent 30s timer have to finished before begin to refresh at 1s rate) / if set to 2 damage messages will be shown when hitting zombies -->
 	</type>		
 	
+	
 	<type name="NewFeatures">		<!-- New feautures, you should move them in the right section (not mandatory but cleaner structure is easier for you to tweak) -->        
+		<Zombies_Stun_By_Bullet_Resistance_Activated		Day = "1"	Night = "1"/>	<!-- [0 or 1] is new feauture should be in "Features_Activation" section  -->
+		<Zombies_Stun_By_Bullet_Resistance_Ratio	Day	= "1.0"	Night = "1.0"/> <!-- [Decimal 0.01 to infinite] is new feauture should be in "Zombies_Caracteristics" section -->
+		<Attack_Stopped_Vehicles	Moving_Vehicles_Too		= "1"		/>	<!-- Integer [0 or 1] -->
+ 
   	</type>
 </types>
 <!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->

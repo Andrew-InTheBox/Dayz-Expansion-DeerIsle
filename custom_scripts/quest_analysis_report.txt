@@ -1,0 +1,453 @@
+Quest ID: 100 - Title: Field Medic - Bandage
+Objective ID: 1
+Objective Type: 10
+
+
+Quest ID: 101 - Title: Field Medic - Give Blood to another Player
+Objective ID: 2
+Objective Type: 10
+
+
+Quest ID: 103 - Title: Field Medic - Defibrilate another Player
+Objective ID: 3
+Objective Type: 10
+
+
+Quest ID: 104 - Title: Field Medic - CPR
+Objective ID: 4
+Objective Type: 10
+
+
+Quest ID: 105 - Title: Field Medic - Disinfect
+Objective ID: 5
+Objective Type: 10
+
+
+Quest ID: 106 - Title: Field Medic - CharcoalTablets
+Objective ID: 6
+Objective Type: 10
+
+
+Quest ID: 107 - Title: Field Medic - Painkillers
+Objective ID: 7
+Objective Type: 10
+
+
+Quest ID: 108 - Title: Field Medic - Purification Tablets
+Objective ID: 8
+Objective Type: 10
+
+
+Quest ID: 109 - Title: Field Medic - Antibiotics
+Objective ID: 9
+Objective Type: 10
+
+
+Quest ID: 11 - Title: Lockpick your first vehicle
+Objective ID: 1
+Objective Type: 10
+
+
+Quest ID: 110 - Title: Field Medic - Vitamins
+Objective ID: 10
+Objective Type: 10
+
+
+Quest ID: 111 - Title: Field Medic - Saline
+Objective ID: 11
+Objective Type: 10
+
+
+Quest ID: 112 - Title: Field Medic - Morphine
+Objective ID: 12
+Objective Type: 10
+
+
+Quest ID: 113 - Title: Field Medic - Stitches
+Objective ID: 13
+Objective Type: 10
+
+
+Quest ID: 114 - Title: Field Medic - Splint
+Objective ID: 14
+Objective Type: 10
+
+
+Quest ID: 115 - Title: Field Medic - Blood Test
+Objective ID: 15
+Objective Type: 10
+
+
+Quest ID: 116 - Title: Field Medic - Epinephrine
+Objective ID: 16
+Objective Type: 10
+
+
+Quest ID: 117 - Title: Field Medic - Injection
+Objective ID: 17
+Objective Type: 10
+
+
+Quest ID: 118 - Title: Green Thumb - Planting Seeds
+Objective ID: 18
+Objective Type: 10
+
+
+Quest ID: 119 - Title: Green Thumb - Removed Plant
+Objective ID: 19
+Objective Type: 10
+
+
+Quest ID: 12 - Title: Apple Juice
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 1
+Objective Type: 4
+
+
+Quest ID: 120 - Title: Green Thumb - Watered Garden
+Objective ID: 20
+Objective Type: 10
+
+
+Quest ID: 121 - Title: Green Thumb - Watered Plant
+Objective ID: 21
+Objective Type: 10
+
+
+Quest ID: 122 - Title: Green Thumb - Dug a Garden Plot
+Objective ID: 22
+Objective Type: 10
+
+
+Quest ID: 123 - Title: Green Thumb - Disinfect Plant
+Objective ID: 23
+Objective Type: 10
+
+
+Quest ID: 124 - Title: Green Thumb - Fertilize Garden
+Objective ID: 24
+Objective Type: 10
+
+
+Quest ID: 13 - Title: Catch a Fish
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 1
+Objective Type: 11
+Objective ID: 2
+Objective Type: 4
+
+
+Quest ID: 14 - Title: Welcome to Hell
+Objective ID: 3
+Objective Type: 3
+Position: X=7533.10986328125, Y=87.69999694824219, Z=4616.7001953125
+
+
+Quest ID: 15 - Title: Plant a Pumpkin
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 2
+Objective Type: 10
+
+
+Quest ID: 16 - Title: For the Lich... I mean Yellow King!
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 3
+Objective Type: 4
+
+
+Quest ID: 17 - Title: In Service of the Yellow King
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 4
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 18 - Title: The Endless Hunger
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 19 - Title: Where Kings Walk
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 4
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 20 - Title: For the Honor
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 200 - Title: Clear Bandit Camp - Ashville
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 1
+Objective Type: 3
+Position: X=7342.9599609375, Y=33.925899505615234, Z=2786.85009765625
+Objective ID: 1
+Objective Type: 8
+Waypoints:
+  Waypoint 1: X=7304.0, Y=45.70240020751953, Z=2587.43994140625
+  Waypoint 2: X=7329.22998046875, Y=45.9213981628418, Z=2585.449951171875
+  Waypoint 3: X=7345.0, Y=51.470001220703125, Z=2598.7099609375
+  Waypoint 4: X=7271.85009765625, Y=42.16360092163086, Z=2597.840087890625
+  Waypoint 5: X=7338.60986328125, Y=45.8025016784668, Z=2541.169921875
+  Waypoint 6: X=7300.81982421875, Y=44.85919952392578, Z=2521.760009765625
+
+
+Quest ID: 21 - Title: You need the Honor (requires 3000 rep to start)
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 210 - Title: Clear Police Imposter Camp - Oldfield
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 5
+Objective Type: 3
+Position: X=6266.06982421875, Y=22.265399932861328, Z=6840.759765625
+Objective ID: 2
+Objective Type: 8
+Waypoints:
+  Waypoint 1: X=6101.169921875, Y=32.83890151977539, Z=6890.89013671875
+  Waypoint 2: X=6043.669921875, Y=32.90769958496094, Z=6882.43017578125
+  Waypoint 3: X=6049.93017578125, Y=33.21440124511719, Z=6918.31982421875
+  Waypoint 4: X=6020.7900390625, Y=31.729700088500977, Z=7008.1298828125
+  Waypoint 5: X=6038.25, Y=31.321300506591797, Z=7003.77978515625
+
+
+Quest ID: 22 - Title: Killed 50 Infected
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 220 - Title: Clear Mountainville of bandit camp
+NPC Name: Quest Board
+NPC Position: [5118.4599609375, 60.5, 7977.06005859375]
+Objective ID: 7
+Objective Type: 3
+Position: X=7158.0, Y=7.0, Z=8667.0
+Objective ID: 4
+Objective Type: 8
+Waypoints:
+  Waypoint 1: X=7279.56005859375, Y=6.662499904632568, Z=8613.7998046875
+  Waypoint 2: X=7299.9501953125, Y=6.662499904632568, Z=8544.4501953125
+  Waypoint 3: X=7317.2099609375, Y=6.940470218658447, Z=8523.9501953125
+  Waypoint 4: X=7318.77001953125, Y=7.265769958496094, Z=8478.9697265625
+  Waypoint 5: X=7364.2900390625, Y=6.662499904632568, Z=8459.2197265625
+
+
+Quest ID: 300 - Title: Clear Patrol - Sunset Cross Valley
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 6
+Objective Type: 3
+Position: X=4286.330078125, Y=30.732500076293945, Z=7978.4599609375
+Objective ID: 1
+Objective Type: 7
+Waypoints:
+  Waypoint 1: X=5813.330078125, Y=148.5449981689453, Z=6032.02978515625
+  Waypoint 2: X=5871.64013671875, Y=128.59800720214844, Z=5643.5400390625
+  Waypoint 3: X=6088.02001953125, Y=170.27000427246094, Z=5743.31982421875
+
+
+Quest ID: 310 - Title: Clear Patrol - Swamp Bandits
+NPC Name: Quest Board
+NPC Position: [5118.4599609375, 60.5, 7977.06005859375]
+Objective ID: 6
+Objective Type: 3
+Position: X=4286.330078125, Y=30.732500076293945, Z=7978.4599609375
+Objective ID: 2
+Objective Type: 7
+Waypoints:
+  Waypoint 1: X=3859.580078125, Y=11.462499618530273, Z=8082.1201171875
+  Waypoint 2: X=3971.27001953125, Y=11.449999809265137, Z=8232.650390625
+  Waypoint 3: X=4220.990234375, Y=11.449999809265137, Z=8425.0302734375
+
+
+Quest ID: 4 - Title: Treasure Hunt - Ammo
+NPC Name: Quest Board
+NPC Position: [7519.64013671875, 88.68250274658203, 4631.27001953125]
+Objective ID: 1
+Objective Type: 6
+
+
+Quest ID: 400 - Title: Lost Survivor - Escort to The Spire
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 1
+Objective Type: 9
+Position: X=5122.990234375, Y=59.21900177001953, Z=7974.4599609375
+
+
+Quest ID: 401 - Title: Fucked around and found out - escort to Groots Hill
+NPC Name: Paul
+NPC Position: [5122.990234375, 59.21900177001953, 7974.4599609375]
+Objective ID: 2
+Objective Type: 9
+Position: X=7527.0, Y=87.68250274658203, Z=4624.89013671875
+
+
+Quest ID: 5 - Title: Treasure Hunt - Cash
+NPC Name: Paul
+NPC Position: [5122.990234375, 59.21900177001953, 7974.4599609375]
+Objective ID: 2
+Objective Type: 6
+
+
+Quest ID: 500 - Title: Apple Pie
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 1
+Objective Type: 4
+
+
+Quest ID: 501 - Title: Fish Stew
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 2
+Objective Type: 4
+
+
+Quest ID: 502 - Title: Fried Chicken
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 3
+Objective Type: 4
+
+
+Quest ID: 503 - Title: Bear Pelt
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 4
+Objective Type: 4
+
+
+Quest ID: 504 - Title: Deer Pelt
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 5
+Objective Type: 4
+
+
+Quest ID: 505 - Title: Mushroom Stew
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 6
+Objective Type: 4
+
+
+Quest ID: 7 - Title: Kill - Civilian Infected
+NPC Name: Quest Board
+NPC Position: [7519.64013671875, 88.68250274658203, 4631.27001953125]
+Objective ID: 31
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 700 - Title: A dirty rats job
+NPC Name: Peter
+NPC Position: [7524.7998046875, 87.68250274658203, 4618.89013671875]
+Objective ID: 1
+Objective Type: 5
+
+
+Quest ID: 701 - Title: Peter's package
+NPC Name: Steve
+NPC Position: [7504.68994140625, 22.136699676513672, 4151.9599609375]
+Objective ID: 2
+Objective Type: 5
+
+
+Quest ID: 8 - Title: Killed 10 Infected
+Objective ID: 2
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 800 - Title: Zombie Detail
+NPC Name: Quest Board
+NPC Position: [7519.64013671875, 88.68250274658203, 4631.27001953125]
+Objective ID: 2
+Objective Type: 3
+Position: X=6564.6298828125, Y=44.54249954223633, Z=3859.639892578125
+Objective ID: 1
+Objective Type: 2
+Position: X=6564.6298828125, Y=44.54249954223633, Z=3859.639892578125
+
+
+Quest ID: 801 - Title: Zombie Detail
+NPC Name: Quest Board
+NPC Position: [7519.64013671875, 88.68250274658203, 4631.27001953125]
+Objective ID: 2
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 802 - Title: Zombie Detail
+NPC Name: Quest Board
+NPC Position: [7519.64013671875, 88.68250274658203, 4631.27001953125]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 803 - Title: Zombie Detail
+NPC Name: Quest Board
+NPC Position: [7519.64013671875, 88.68250274658203, 4631.27001953125]
+Objective ID: 4
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 9 - Title: Killed 100 civilian Infected
+Objective ID: 31
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 900 - Title: Clear out the power plant
+NPC Name: Quest Board
+NPC Position: [5118.4599609375, 60.5, 7977.06005859375]
+Objective ID: 9
+Objective Type: 3
+Position: X=4753.08984375, Y=16.120100021362305, Z=7477.93017578125
+Objective ID: 3
+Objective Type: 7
+Waypoints:
+  Waypoint 1: X=4487.35986328125, Y=33.354801177978516, Z=7559.72021484375
+  Waypoint 2: X=4548.06005859375, Y=28.333900451660156, Z=7561.35986328125
+  Waypoint 3: X=4591.68994140625, Y=22.41010093688965, Z=7580.06005859375
+Objective ID: 32
+Objective Type: 2
+Position: X=4673.60986328125, Y=20.38629913330078, Z=7340.35986328125
+Objective ID: 5
+Objective Type: 8
+Waypoints:
+  Waypoint 1: X=4886.75, Y=24.06399917602539, Z=7049.8798828125
+  Waypoint 2: X=4838.1298828125, Y=20.478200912475586, Z=7049.2998046875
+  Waypoint 3: X=4909.97021484375, Y=20.67009925842285, Z=7099.02978515625
+  Waypoint 4: X=4770.919921875, Y=20.488399505615234, Z=7200.0
+  Waypoint 5: X=4790.93994140625, Y=46.39189910888672, Z=7083.169921875
+  Waypoint 6: X=4766.85986328125, Y=20.49139976501465, Z=7188.64013671875
+  Waypoint 7: X=4819.64013671875, Y=20.70170021057129, Z=7093.27978515625
+  Waypoint 8: X=4764.06005859375, Y=46.334999084472656, Z=7138.81005859375
+  Waypoint 9: X=4896.47998046875, Y=20.67009925842285, Z=7132.39013671875
+

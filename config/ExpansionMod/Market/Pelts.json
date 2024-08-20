@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "BearPelt",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 3000,
+            "MaxPriceThreshold": 26380,
+            "MinPriceThreshold": 15830,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "DeerPelt",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 1500,
+            "MaxPriceThreshold": 15830,
+            "MinPriceThreshold": 7920,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "WolfPelt",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 600,
+            "MaxPriceThreshold": 5280,
+            "MinPriceThreshold": 3170,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "GoatPelt",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 2640,
+            "MinPriceThreshold": 1060,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

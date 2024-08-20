@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "MMG_combatpants_black",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 150,
+            "MaxPriceThreshold": 790,
+            "MinPriceThreshold": 790,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -31,8 +31,8 @@
         },
         {
             "ClassName": "mmg_tactical_pants_black",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 1050,
+            "MinPriceThreshold": 1050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

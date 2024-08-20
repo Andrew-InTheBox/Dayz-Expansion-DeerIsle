@@ -6,6 +6,14 @@
             "Address": "",
             "Types": [
                 {
+                    "Name": "ExpansionCOTTerritoriesModule",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "ExpansionCOTGroupModule",
+                    "Enabled": 0
+                },
+                {
                     "Name": "COTModule",
                     "Enabled": 0
                 },
@@ -39,6 +47,14 @@
                 },
                 {
                     "Name": "JMPlayerModuleKick",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleMessage",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMPlayerModuleBan",
                     "Enabled": 0
                 },
                 {
@@ -94,6 +110,18 @@
                     "Enabled": 0
                 },
                 {
+                    "Name": "JMESPModuleVehicle_Unstuck",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleRepair",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMESPModuleVehicle_Refuel",
+                    "Enabled": 0
+                },
+                {
                     "Name": "JMESPModuleMakeItemSet",
                     "Enabled": 0
                 },
@@ -106,11 +134,7 @@
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMESPModuleMoveToCursorRelative",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMESPModuleMoveToCursorAbsolute",
+                    "Name": "JMESPModuleMoveToCursor",
                     "Enabled": 0
                 },
                 {
@@ -130,6 +154,10 @@
                     "Enabled": 0
                 },
                 {
+                    "Name": "JMWeatherModule",
+                    "Enabled": 0
+                },
+                {
                     "Name": "JMVehicleSpawnerModule",
                     "Enabled": 0
                 },
@@ -143,34 +171,6 @@
                 },
                 {
                     "Name": "JMItemSetSpawnerModulePlayer",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModule",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModuleDate",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModuleWind",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModuleOvercast",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModuleFog",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModuleRain",
-                    "Enabled": 0
-                },
-                {
-                    "Name": "JMWeatherOldModuleStorm",
                     "Enabled": 0
                 },
                 {

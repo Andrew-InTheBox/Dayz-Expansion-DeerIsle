@@ -1,0 +1,50 @@
+{
+    "Version": 2,
+    "notification": [
+        {
+            "Spatial_Name": "Outpost",
+            "StartTime": 7.0,
+            "StopTime": 18.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "Nearby Outpost",
+            "MessageText": [
+                "Army Nearby",
+                "Guards Detected nearby"
+            ]
+        },
+        {
+            "Spatial_Name": "Security",
+            "StartTime": 7.0,
+            "StopTime": 18.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "Security",
+            "MessageText": [
+                "Private Security radio detected"
+            ]
+        },
+        {
+            "Spatial_Name": "Night Security",
+            "StartTime": 18.0,
+            "StopTime": 7.0,
+            "AgeTime": 2.5,
+            "MessageType": 5,
+            "MessageTitle": "Security",
+            "MessageText": [
+                "Private Security radio detected"
+            ]
+        },
+        {
+            "Spatial_Name": "Chem team",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 2.5,
+            "MessageType": 5,
+            "MessageTitle": "Chem team",
+            "MessageText": [
+                "Local Cleanup team Detected"
+            ]
+        }
+    ]
+}

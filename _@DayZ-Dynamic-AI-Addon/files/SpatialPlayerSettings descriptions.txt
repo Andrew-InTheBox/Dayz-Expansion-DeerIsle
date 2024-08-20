@@ -1,0 +1,2 @@
+            UID = player UID
+            Player_Birthday = Timestamp of respawn/spawn time to calculate minimumtime setting time.

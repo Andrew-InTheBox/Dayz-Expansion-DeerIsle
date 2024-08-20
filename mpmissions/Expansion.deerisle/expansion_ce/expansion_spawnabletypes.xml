@@ -238,22 +238,22 @@
 			<item name="HeadlightH7" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_1_1_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_1_1_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_1_2_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_1_2_BanditKitty" chance="1.000" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_2_1_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_2_1_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Door_2_2_BanditKitty" chance="0.30" />
+			<item name="Hatchback_02_Door_2_2_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Hood_BanditKitty" chance="0.20" />
+			<item name="Hatchback_02_Hood_BanditKitty" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Hatchback_02_Trunk_BanditKitty" chance="0.20" />
+			<item name="Hatchback_02_Trunk_BanditKitty" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="OffroadHatchback_WhiteRust">
@@ -1048,7 +1048,7 @@
 		<hoarder />
 	</type>
 	<!-- EXPANSION VEHICLES -->
-	<!-- HELICOPTERS -->
+	<!-- HELICOPTERS
 	<type name="ExpansionMh6">
 		<attachments chance="1.00">
 			<item name="ExpansionHelicopterBattery" chance="0.60" />
@@ -1635,6 +1635,7 @@
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 	</type>
+	 -->
 	<!-- CARS -->
 	<type name="ExpansionUAZ">
 		<attachments chance="1.00">
@@ -2199,16 +2200,16 @@
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
+			<item name="ExpansionVodnikWheel" chance="0.85" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
+			<item name="ExpansionVodnikWheel" chance="0.85" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
+			<item name="ExpansionVodnikWheel" chance="0.85" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionVodnikWheel" chance="0.80" />
+			<item name="ExpansionVodnikWheel" chance="0.85" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionVodnikDoorDriver" chance="0.30" />

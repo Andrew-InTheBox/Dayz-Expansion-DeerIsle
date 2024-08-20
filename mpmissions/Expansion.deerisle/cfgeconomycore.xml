@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <economycore>
 	<classes>
-		<!--
+<!--
 These are rootclasses to be used by economy.
 Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
 Do not forget to add attribute act="car", if root class represents moveable vehicles
 -->
-		<rootclass name="DefaultWeapon" />
-		<!-- weapons -->
-		<rootclass name="DefaultMagazine" />
-		<!-- magazines -->
-		<rootclass name="Inventory_Base" />
-		<!-- inventory items -->
-		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" />
-		<!-- houses, wrecks -->
-		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" />
-		<!-- player characters -->
-		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" />
-		<!-- infected, animals -->
-		<rootclass name="CarScript" act="car" reportMemoryLOD="no" />
-		<!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
 	</classes>
 	<defaults>
 		<default name="dyn_radius" value="30" />
@@ -43,18 +36,20 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
 	
-	<!-- Expansion files --->
+		<!-- Expansion Material -->
 	<ce folder="expansion_ce">
 		<file name="expansion_types.xml" type="types" />
 		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
 		<file name="expansion_events.xml" type="events" />
 	</ce>
+	<!-- End expansion material -->
 	
-	<!-- MMG items files --->
+	<!-- MMG military gear -->
 	<ce folder="db/mmg">
 		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
 		<file name="mmg_types_ADMINGEAR.xml" type="types" />
 		<file name="mmg_types_alpine.xml" type="types" />
+		<file name="mmg_types_atacs.xml" type="types" />
 		<file name="mmg_types_black.xml" type="types" />
 		<file name="mmg_types_carbines.xml" type="types" />
 		<file name="mmg_types_dark_woodland.xml" type="types" />
@@ -62,10 +57,26 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="mmg_types_green.xml" type="types" />
 		<file name="mmg_types_multicam.xml" type="types" />
 		<file name="mmg_types_multicamblack.xml" type="types" />
-		<file name="mmg_types_multicamblack_digital.xml" type="types" />
 		<file name="mmg_types_multicam_tropic.xml" type="types" />
 		<file name="mmg_types_NBC+NVG.xml" type="types" />
 		<file name="mmg_types_tan.xml" type="types" />
 		<file name="mmg_types_ucp.xml" type="types" />
 	</ce>
+	<!-- End mmg material -->
+	
+	<!-- snafu guns -->
+	<ce folder="db/snafu">
+		<file name="snafuspawnabletypes25percent.xml" type="spawnabletypes" />
+		<file name="SNAFU_types.xml" type="types" />
+	</ce>
+	<!-- end of snafu guns -->
+
+		<!-- red falcon heli -->
+	<ce folder="db/rfheli">
+		<file name="rfheli_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="rfheli_types.xml" type="types" />
+		<file name="rfheli_events.xml" type="events" />
+	</ce>
+	<!-- end of red falcon heli -->
+	
 </economycore>

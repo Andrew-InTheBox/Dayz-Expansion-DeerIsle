@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "battery9v",
-            "MaxPriceThreshold": 20,
-            "MinPriceThreshold": 10,
+            "MaxPriceThreshold": 40,
+            "MinPriceThreshold": 20,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "carbattery",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
+            "MaxPriceThreshold": 640,
+            "MinPriceThreshold": 320,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "truckbattery",
-            "MaxPriceThreshold": 360,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 1650,
+            "MinPriceThreshold": 820,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "expansionhelicopterbattery",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 250,
+            "MaxPriceThreshold": 1310,
+            "MinPriceThreshold": 660,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

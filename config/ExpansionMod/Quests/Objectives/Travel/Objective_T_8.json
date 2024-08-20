@@ -1,9 +1,10 @@
 {
-    "ConfigVersion": 22,
+    "ConfigVersion": 28,
     "ID": 8,
     "ObjectiveType": 3,
     "ObjectiveText": "Scout around and find the bandit camp location nearby",
     "TimeLimit": -1,
+    "Active": 1,
     "Position": [
         4256.0,
         11.5,

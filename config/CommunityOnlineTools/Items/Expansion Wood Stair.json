@@ -1,0 +1,31 @@
+{
+    "Name": "Expansion Wood Stair",
+    "ContainerClassName": "SeaChest",
+    "Items": [
+        {
+            "ItemName": "ExpansionStairKit",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        },
+        {
+            "ItemName": "WoodenPlank",
+            "NumberOfStacks": 1,
+            "StackSize": 15
+        },
+        {
+            "ItemName": "ExpansionLumber3",
+            "NumberOfStacks": 1,
+            "StackSize": 4
+        },
+        {
+            "ItemName": "Nail",
+            "NumberOfStacks": 1,
+            "StackSize": 45
+        },
+        {
+            "ItemName": "Hatchet",
+            "NumberOfStacks": 1,
+            "StackSize": 1
+        }
+    ]
+}

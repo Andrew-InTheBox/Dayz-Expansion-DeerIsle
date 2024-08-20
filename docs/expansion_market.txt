@@ -1,0 +1,524 @@
+Market General Settings
+
+Unlike most other settings that may not be map-specific, you can find the MarketSettings.json in your mpmission\dayzOffline.<mapname>\expansion\settings folder.
+
+"m_Version"
+Integer.
+
+Contains the current setting version number, never change this value unless you really know what you are doing as it's used internally for automatic conversion of old settings whenever we change something.
+
+"MarketSystemEnabled"
+Boolean.
+
+0 = Disables the Market system.
+1 = Enables the Market system.
+"MaxVehicleDistanceToTrader"
+Maximum distance of a normal size vehicle (car/heli/boat) you own or have driven for it to show in a vehicle trader as sellable, and max distance of vehicle spawn zone.
+
+"MaxLargeVehicleDistanceToTrader"
+Maximum distance of a large size vehicle (e.g. aircraft carrier) you own or have driven for it to show in a vehicle trader as sellable, and max distance of vehicle spawn zone.
+
+"LargeVehicles"
+Array of vehicle class names that should use MaxLargeVehicleDistanceToTrader instead of MaxVehicleDistanceToTrader.
+
+"LandSpawnPositions"
+Array of spawn positions and orientations for land vehicle spawn zones (e.g. cars). Needs to have at least one entry in a radius of no more than <MaxVehicleDistanceToTrader> or <MaxLargeVehicleDistanceToTrader> from a vehicle trader.
+
+Example
+
+            "Position": [
+                11903.400390625,
+                140.0,
+                12455.099609375
+            ],
+            "Orientation": [
+                24.0,
+                0.0,
+                0.0
+            ]
+"AirSpawnPositions"
+Array of spawn positions and orientations for air vehicle spawn zones (e.g. helis). Needs to have at least one entry in a radius of no more than <MaxVehicleDistanceToTrader> or <MaxLargeVehicleDistanceToTrader> from a vehicle trader.
+
+Example
+
+            "Position": [
+                11903.400390625,
+                140.0,
+                12455.099609375
+            ],
+            "Orientation": [
+                24.0,
+                0.0,
+                0.0
+            ]
+"WaterSpawnPositions"
+Array of spawn positions and orientations for water vehicle spawn zones (e.g. boats). Needs to have at least one entry in a radius of no more than <MaxVehicleDistanceToTrader> or <MaxLargeVehicleDistanceToTrader> from a vehicle trader.
+
+Example
+
+            "Position": [
+                11903.400390625,
+                140.0,
+                12455.099609375
+            ],
+            "Orientation": [
+                24.0,
+                0.0,
+                0.0
+            ]
+"NetworkCategories"
+Used only internally.
+
+Don't touch this setting as it's automatically generated and will be overwritten if changed.
+
+"MarketMenuColors"
+Colors to be used for the market menu.
+
+If you would like to customize the style of the menu you can do that by changing the color values in this section. The format is hexadecimal RRGGBBAA, hexadecimal RGBA, or decimal R G B A with range 0-255 (alpha is optional in all cases).
+
+"BaseColorVignette": Vignette background color of the menu
+"BaseColorHeaders": Color for all the header elements
+"BaseColorLabels": Color for all the label backgrounds
+"BaseColorText": Color for all text elements within the menu
+"BaseColorInfoSectionBackground": Background color for the item info section
+"BaseColorTooltipsCorners": Color of the tooltip elements corners
+"BaseColorTooltipsSeperatorLine": Color of the tooltip element separator line
+"BaseColorTooltipsBackground": Color of the tooltip element background
+"ColorDecreaseQuantityButton": Decrease quantity button color
+"ColorSetQuantityButton": Set quantity button color
+"ColorIncreaseQuantityButton": Increase quantity button color
+"ColorSellPanel": Sell panel background color
+"ColorSellButton": Sell button color
+"ColorBuyPanel": Buy panel background color
+"ColorBuyButton": Buy button color
+"ColorMarketIcon": Controls main market trader icon color. The icon gets displayed next to the trader type name on the upper left corner.
+"ColorFilterOptionsButton": Hover color when hovering over the weapon filter button (if visible)
+"ColorFilterOptionsIcon": Icon color of the weapon filter button.
+"ColorSearchFilterButton": Search filter button color when hovering over it.
+"ColorCategoryButton": Button color for the market category buttons when hovering over it.
+"ColorCategoryCollapseIcon": Icon color of the market category arrow icon when the category is collapsed.
+"ColorItemButton": Market item entry button color when hovering over the element
+"ColorItemInfoIcon": Icon color of the info icon that get displayed on a item entry when it has a special condition
+"ColorItemInfoHasContainerItems": Info text color for the text that get displayed in the item info tooltip when the item has other items in its container.
+"ColorItemInfoHasAttachments": **Info text color for the text that get displayed in the item info tooltip when the item has attachments.
+"ColorItemInfoHasBullets": Info text color for the text that get displayed in the item info tooltip when the item is a magazine and has bullets in it.
+"ColorItemInfoIsAttachment": Info text color for the text that get displayed in the item info tooltip when the item attached to an other item.
+"ColorItemInfoIsEquipped": Info text color for the text that get displayed in the item info tooltip when the item is on inventory slot.
+"ColorItemInfoAttachments": Info text color for the text that get displayed in the detailed item view tooltip when the item has default attachment items that can be bought.
+"ColorToggleCategoriesText": Toggle categories button text color
+"ColorCategoryCorners": Category element corners color
+"ColorCategoryBackground": Category element background color
+You can use this site to generate the hex color values for these settings: https://color.adobe.com/de/create/color-wheel (if you want alpha transparency, you have to add it manually after the first six digits)
+
+"CurrencyIcon":
+String.
+
+Path to the icon that will be used as the currency icon within the market menu.
+
+(Default: "DayZExpansion/Market/GUI/icons/coinstack2_64x64.edds")
+
+"ATMSystemEnabled"
+Boolean.
+
+0 = Disables ATM lockers.
+1 = Enables ATM lockers.
+"MaxDepositMoney"
+Integer.
+
+Max amount of money the players can deposit in the ATM Locker.
+
+"DefaultDepositMoney"
+Integer.
+
+Default money the player will get added to his ATM account when he joins the server for the first time.
+
+"ATMPlayerTransferEnabled"
+Boolean.
+
+0 = Disables ATM player to player money transfer.
+1 = Enables ATM player to player money transfer.
+"ATMPartyLockerEnabled"
+Boolean.
+
+0 = Disables ATM party money account/deposit.
+1 = Enables ATM party money account/deposit.
+"MaxPartyDepositMoney"
+Integer.
+
+Max amount of money the players can deposit in the ATM party account/deposit.
+
+"SellPricePercent"
+Float.
+
+Controls the global sell price difference of all market items. By default this value is 75% of the buy price. Note that you can also configure sell price percentage individually for each market zone (see zone settings) or even individual items (see market categories and items settings) to override the global value individually.
+
+"Currencies"
+Array. A list of currencies which can be stored in the player bank account from a ATM
+
+"Currencies": [
+    "expansiongoldbar",
+    "expansiongoldnugget",
+    "expansionsilverbar",
+    "expansionsilvernugget"
+]
+
+Market Category settings
+"m_Version"
+Integer.
+
+Contains the current setting version number, never change this value unless you really know what you are doing as it's used internally for automatic conversion of old settings whenever we change something.
+
+"DisplayName"
+String.
+
+Display name of the market category that will be used within the market menu.
+
+You can use Localized strings #STR_BLABLA or raw text Hello World !. Here are two examples:
+
+"DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_AMMOBOXES",
+"DisplayName": "Ammo Boxes",
+"Icon"
+String.
+
+Icon of the category that will be displayed. You can find a list of valid icon names at https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BServer-Hosting%5D-List-of-default-icon-names
+
+"Icon": "Deliver",
+"Color"
+String.
+
+The Hex color code for this category.
+
+You can find many online tools and softwares to find the desired color like this website for example https://www.color-hex.com/ (without the # )
+
+"Color": "FBFCFEFF",
+"IsExchange"
+Bool.
+
+Is this category (this file) used for any type of currencies players will use to buy and sell items.
+
+Keep in mind enabling this setting (to 1) will make ALL the items in this file flagged as currency items. Make sure this file contain only currency items.
+
+"IsExchange": 0,
+"InitStockPercent"
+Float.
+
+Percentage of max stock that each item will be initialized to in each zone on first server start (will only take effect for new zone files or zone files that did not have the item yet, or if you remove the item's existing entry from the existing zone file).
+
+"InitStockPercent": 75.0,
+"Items"
+Array of items.
+
+Contains all the items and associated information for price and stock control.
+
+"ClassName": String. Class name of the item/object you want to add to this category.
+"MaxPriceThreshold": Integer. Maximum price the item can have (when stock is at minimum).
+"MinPriceThreshold": Integer. Minimal price the item can have (when stock is at maximum).
+"SellPricePercent": Float. Percentage of the price to use as sell price. Special value -1 means use zone setting. Note that unlike for zones, the encoding used here is bfloat16 to optimize network performance, so precision is limited to around two to three decimal digits.
+"MaxStockThreshold": Integer. Maximum stock the item can have overall in the market.
+"MinStockThreshold": Integer. Minimal stock the item can have in the market.
+"QuantityPercent": Integer. From 0 to 100 will be the percentage of the quantity of the item (mag, liquid, ammo, etc). -1 will default to 100%
+"SpawnAttachments": Array [String]. Contains all the class names of items that will be attached by default when the player decides to buy the item with its default attachments. This also works with weapons if you want to create default weapon loadouts.
+"Variants": Array [String]. Contains all the class names of the items that will be displayed as a variant for this base item. If you have for example different color variations for an item, then you can add these items into this array and they will be displayed in a dropdown menu in the detailed market item section whenever the base item has been selected. By default a variant will take over the configuration of the base item. If you want to have a different min/max price or min/max stock threshold configuration for a variant, then it also needs its own entry in the "Items" array with the desired configuration.
+If you want an item to have static (infinite) stock, set both MinStockThreshold and MaxStockThreshold to 1.
+
+If you want an item to have static price, set both MinPriceThreshold and MaxPriceThreshold to the same value.
+
+a few examples:
+
+{
+    "ClassName": "ammobox_00buck_10rnd",
+    "MaxPriceThreshold": 80,
+    "MinPriceThreshold": 40,
+    "SellPricePercent": -1.0,
+    "MaxStockThreshold": 250,
+    "MinStockThreshold": 1,
+    "QuantityPercent": -1,
+    "SpawnAttachments": [],
+    "Variants": []
+},
+{
+    "ClassName": "childbag_red",
+    "MaxPriceThreshold": 40,
+    "MinPriceThreshold": 20,
+    "SellPricePercent": -1.0,
+    "MaxStockThreshold": 100,
+    "MinStockThreshold": 1,
+    "QuantityPercent": -1,
+    "SpawnAttachments": [],
+    "Variants": [
+        "childbag_blue",
+        "childbag_green"
+    ]
+},
+{
+    "ClassName": "childbag_green",
+    "MaxPriceThreshold": 50,
+    "MinPriceThreshold": 25,
+    "SellPricePercent": -1.0,
+    "MaxStockThreshold": 100,
+    "MinStockThreshold": 1,
+    "QuantityPercent": -1,
+    "SpawnAttachments": [],
+    "Variants": []
+},
+{
+    "ClassName": "fal",
+    "MaxPriceThreshold": 2000,
+    "MinPriceThreshold": 1700,
+    "SellPricePercent": -1.0,
+    "MaxStockThreshold": 100,
+    "MinStockThreshold": 1,
+    "QuantityPercent": -1,
+    "SpawnAttachments": [
+        "fal_oebttstck",
+        "mag_fal_20rnd"
+    ],
+    "Variants": []
+},
+
+Trader settings
+
+NOTE that traders will only act as traders if they are within the radius of a traderzone. See Market Zones Settings
+
+"m_Version"
+Integer.
+
+Contains the current setting version number, never change this value unless you really know what you are doing as it's used internally for automatic conversion of old settings whenever we change something.
+
+"DisplayName"
+String.
+
+Display name of the trader that will be displayed on the top of the market menu when using this trader.
+
+You can use Localized strings #STR_BLABLA or raw text Hello World !. Here are two examples:
+
+"DisplayName": "#STR_EXPANSION_MARKET_TRADER_VEHICLE_PARTS",
+"DisplayName": "Vehicle Parts",
+"MinRequiredReputation" - Only if you have Expansion Hardline !
+Integer.
+
+The Minimum Reputation Required from the player to be able to interact with this trader.
+
+"MinRequiredReputation": 0,
+"MaxRequiredReputation" - Only if you have Expansion Hardline !
+Integer.
+
+The Maximum Reputation Required from the player to be able to interact with this trader.
+
+"MaxRequiredReputation": 2147483647,
+"TraderIcon"
+String.
+
+Icon of the trader that will be displayed on the top of the market menu when using this trader, see List of default icon names.
+
+"TraderIcon": "Gas",
+"Currencies"
+Array [String].
+
+Classnames of the currencies this trader will accept. This currencies will need to be first configured in your Market folder. For more informations please read this guide: https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BServer-Hosting%5D-Setting-up-Custom-Market-Currencies
+
+"Currencies": [
+    "ExpansionBanknoteHryvnia",
+    "expansionbanknoteeuro"
+],
+"Categories"
+Array [String].
+
+Filenames (without JSON extension) of market categories in ExpansionMod\Market that this trader should show. Can be used instead of or in addition to Items. Also supports the same buy/sell integers (see below) as Items, but has to be entered in a slightly different way (instead of "CategoryFilename", use "CategoryFilename:<value>").
+
+0 = Can only be bought from this trader, but not sold
+1 = Buy and Sell
+2 = Can only be sold to this trader, but not bought
+3 = Not visible but still available for item customisation (weapons, vests, backpacks) and attachments (vehicles)
+Example:
+
+    "Categories": {
+        "Cars:1",
+        "Vehicle_Parts:3"
+    }
+"Items"
+Map [String, Integer].
+
+A list of items the trader can sell/buy. The integer value controls whether an item can be only be bought (0), bought and sold (1), or only sold (2) at this specific trader. A special value of 3 is also possible, which means the item should not be shown in the trader menu normally and is only sellable/purchasable as attachment.
+
+0 = Can only be bought from this trader, but not sold
+1 = Buy and Sell
+2 = Can only be sold to this trader, but not bought
+3 = Not visible but still available for item customisation (weapons, vests, backpacks) and attachments
+Example:
+
+    "Items": {
+        "expansioncarkey": 0,
+        "engineoil": 2
+    }
+For further information please take a look at the setup guide for the trader entities/NPCs:
+
+Trader and NPC Entities setup
+All trader entities/NPCs need to be configured using .map files in the following directory:
+
+mpmissions/dayzoffline.<MapName>/expansion/traders/MyTrader.map
+
+If you want to use the DayZ-Expansion-AI for trader NPCs, be aware that AI traders have a higher performance impact than static NPCs.
+
+The file is a simple text file that needs to follow our .map file format (see below).
+The file name can be what ever you want.
+Every trader entity/NPC needs an entry (one line per trader entity) in one or several .map files in the following format:
+
+<TraderEntityClassName>.<TraderFileName>|<Position>|<Orientation>|<Gear>
+Example:
+
+ExpansionTraderDenis.Weapons|11833.576 140.605 12469.492|110 0 0|Jeans_Blue,TSHirt_Blue
+TraderEntityClassName
+
+This is the entity/NPC classname (in this example ExpansionTraderDenis).
+
+Scroll down to see a list of all the default expansion trader npc's we provide.
+
+TraderFileName
+
+This is the trader configuration file name (in this example Weapons), without the JSON extension, that controls what the trader sells/buys. It is separated from the trader entity class name with a dot (.), much like a file extensions, but is the trader file's base name instead. The TraderFileName parameter here needs to be the same as one of the configured trader JSON files from the trader settings folder (ExpansionMod\Traders). For further information, please take a look at our Wiki page about the trader settings: https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BServer-Hosting%5D-Trader-Settings
+
+trader file name showcase
+
+Position
+
+Either a single position vector or a list of vectors (delimited by commas ,) aka waypoints. Waypoints will only work if the entity is an AI trader.
+
+Reminder, dayz 3d world use the Y axis as the height/elevation axis. Use tools such as dayz editor, community online tools, vanilla plus plus admin tools to get this 3d positions.
+
+
+
+Orientation
+
+Single vector.
+
+The direction the trader entity/NPC will be facing.
+
+Gear
+
+List of items that should be in the trader entity's inventory (i.e. clothes), delimited by comma (,). Attachments on items are possible by separating them from the main item with plus signs +. E.g.
+
+ExpansionTraderDenis.Weapons|11833.576 140.605 12469.492|110 0 0|Jeans_Blue,TSHirt_Blue,AKM+Mag_AKM_30Rnd+KobraOptic
+You can use special keywords instead of or in addition to gear to influence some properties of a trader. Example to set trader name to "Mark" and use the loadout "MyTraderLoadout":
+
+ExpansionTraderDenis.Weapons|11833.576 140.605 12469.492|110 0 0|name:Mark,loadout:MyTraderLoadout
+For AI traders, you can also assign a different faction:
+
+ExpansionTraderAIDenis.Weapons|11833.576 140.605 12469.492|110 0 0|name:Mark,loadout:MyTraderLoadout,faction:Guards
+List of default static trader entities:
+
+ExpansionTraderPumpkin
+ExpansionTraderZucchini
+ExpansionExchangeMachine
+ExpansionTraderLockerClosedBlueV1
+ExpansionTraderLockerClosedBlueV2
+ExpansionTraderLockerClosedBlueV3
+ExpansionTraderLockerClosedV1
+ExpansionTraderLockerClosedV2
+ExpansionTraderLockerClosedV3
+List of default static trader NPCs:
+
+ExpansionTraderMirek
+ExpansionTraderDenis
+ExpansionTraderBoris
+ExpansionTraderCyril
+ExpansionTraderElias
+ExpansionTraderFrancis
+ExpansionTraderGuo
+ExpansionTraderHassan
+ExpansionTraderIndar
+ExpansionTraderJose
+ExpansionTraderKaito
+ExpansionTraderLewis
+ExpansionTraderManua
+ExpansionTraderNiki
+ExpansionTraderOliver
+ExpansionTraderPeter
+ExpansionTraderQuinn
+ExpansionTraderRolf
+ExpansionTraderSeth
+ExpansionTraderTaiki
+ExpansionTraderLinda
+ExpansionTraderMaria
+ExpansionTraderFrida
+ExpansionTraderGabi
+ExpansionTraderHelga
+ExpansionTraderIrena
+ExpansionTraderJudy
+ExpansionTraderKeiko
+ExpansionTraderEva
+ExpansionTraderNaomi
+ExpansionTraderBaty
+List of default AI trader NPCs:
+
+ExpansionTraderAIMirek
+ExpansionTraderAIDenis
+ExpansionTraderAIBoris
+ExpansionTraderAICyril
+ExpansionTraderAIElias
+ExpansionTraderAIFrancis
+ExpansionTraderAIGuo
+ExpansionTraderAIHassan
+ExpansionTraderAIIndar
+ExpansionTraderAIJose
+ExpansionTraderAIKaito
+ExpansionTraderAILewis
+ExpansionTraderAIManua
+ExpansionTraderAINiki
+ExpansionTraderAIOliver
+ExpansionTraderAIPeter
+ExpansionTraderAIQuinn
+ExpansionTraderAIRolf
+ExpansionTraderAISeth
+ExpansionTraderAITaiki
+ExpansionTraderAILinda
+ExpansionTraderAIMaria
+ExpansionTraderAIFrida
+ExpansionTraderAIGabi
+ExpansionTraderAIHelga
+ExpansionTraderAIIrena
+ExpansionTraderAIJudy
+ExpansionTraderAIKeiko
+ExpansionTraderAIEva
+ExpansionTraderAINaomi
+ExpansionTraderAIBaty
+
+TraderZones settings
+Unlike most other settings that may not be map-specific, you can find the traderzones folder in your mpmission\dayzOffline.<mapname>\expansion folder.
+
+Traders will only act as traders if they are within the radius of a traderzone. NOTE that zones are spheres, so altitude for Position needs to be set correctly!
+
+"m_Version"
+Integer.
+
+Contains the current setting version number, never change this value unless you really know what you are doing as it's used internally for automatic conversion of old settings whenever we change something.
+
+"m_DisplayName"
+String.
+
+Market zone display name, can be what ever you want. Used for logging.
+
+"Position"
+Vector.
+
+Center position of the market zone in the game world.
+
+"Radius"
+Float.
+
+Used to define the size of the trader zone in the game world.
+
+"BuyPricePercent"
+Float.
+
+This controls the buy price for all market items in this specific zone. By default this value is 100% of the buy price as calculated from an item's stock, min price, max price, and min/max stock thresholds (see market categories settings).
+
+"SellPricePercent"
+Float.
+
+This controls the sell price for all market items in this specific zone. By default this value is -1.0, meaning the global value from market settings will be used, but can be overridden by setting this to the desired percentage.
+
+"Stock"
+Map<String, Integer>.
+
+Contains all the items that can be purchased in this market zone and the current stock of each item. You can set the stock for each individual item or set it to 0 (meaning traders in this zone will only start selling the item after players have sold at least one of the respective item to the trader).

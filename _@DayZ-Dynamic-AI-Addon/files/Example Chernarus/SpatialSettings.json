@@ -1,0 +1,525 @@
+{
+    "Version": 20,
+    "Spatial_MinTimer": 45,
+    "Spatial_MaxTimer": 50,
+    "MinDistance": 160,
+    "MaxDistance": 280,
+    "HuntMode": 6,
+    "Points_Enabled": 1,
+    "Locations_Enabled": 2,
+    "Audio_Enabled": 2,
+    "EngageTimer": 8,
+    "CleanupTimer": 10,
+    "PlayerChecks": -2,
+    "MaxAI": 20,
+    "GroupDifficulty": 1,
+    "MinimumPlayerDistance": 150,
+    "MaxSoloPlayers": 4,
+    "MinimumAge": 45,
+    "ActiveHoursEnabled": 1,
+    "ActiveStartTime": 9.0,
+    "ActiveStopTime": 17.0,
+    "TargetBone": "Neck",
+    "MessageType": 5,
+    "MessageTitle": "Spatial AI",
+    "MessageText": "AI Spotted in the Area. Be Careful.",
+    "LootWhitelist": [],
+    "Spatial_InVehicle": 0,
+    "Spatial_IsBleeding": 0,
+    "Spatial_IsRestrained": 0,
+    "Spatial_IsUnconscious": 0,
+    "Spatial_IsInSafeZone": 0,
+    "Spatial_TPSafeZone": 0,
+    "Spatial_InOwnTerritory": 0,
+    "Group": [
+        {
+            "Spatial_MinCount": 0,
+            "Spatial_MaxCount": 2,
+            "Spatial_Weight": 300.0,
+            "Spatial_Loadout": "HumanLoadout.json",
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Name": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.3,
+            "Spatial_MinAccuracy": 0.45,
+            "Spatial_MaxAccuracy": 0.70,
+            "Spatial_UnlimitedReload": 1
+        }
+    ],
+    "Point": [
+        {
+            "Spatial_Name": "Chem team",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "NBCLoadout.json"
+            ],
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 3,
+            "Spatial_HuntMode": 5,
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.75,
+            "Spatial_MaxAccuracy": 0.95,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                2133.22,
+                91.5869,
+                3353.77
+            ]
+        },
+        {
+            "Spatial_Name": "Chem team",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "NBCLoadout.json"
+            ],
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 3,
+            "Spatial_HuntMode": 5,
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.75,
+            "Spatial_MaxAccuracy": 0.95,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                2488,
+                193.25,
+                5138.24
+            ]
+        },
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 2,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                1805.72,
+                435.794,
+                13806.6
+            ]
+        },
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 2,
+            "Spatial_MaxCount": 2,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                1674.14,
+                451.73,
+                14275.7
+            ]
+        },
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 3,
+            "Spatial_MaxCount": 3,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                1410.99,
+                459.647,
+                14470.9
+            ]
+        },
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 2,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                11605.4,
+                148.948,
+                12431.3
+            ]
+        },        
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 4,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                11919.8,
+                140,
+                12525
+            ]
+        },
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 5,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                12454.5,
+                140.507,
+                12525.7
+            ]
+        },
+        {
+            "Spatial_Name": "Raiders",
+            "Spatial_Safe": 0,
+            "Spatial_Radius": 100.0,
+            "Spatial_ZoneLoadout": [
+                "HumanLoadout.json"
+            ],
+            "Spatial_MinCount": 3,
+            "Spatial_MaxCount": 3,
+            "Spatial_HuntMode": 1,
+            "Spatial_Faction": "Raiders",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_UnlimitedReload": 0,
+            "Spatial_Position": [
+                11475.6,
+                221.012,
+                7498.42
+            ]
+        }
+    ],
+    "Location": [
+        {
+            "Spatial_Name": "Outpost",
+            "Spatial_TriggerRadius": 185.0,
+            "Spatial_ZoneLoadout": "WestLoadout.json",
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_HuntMode": 3,
+            "Spatial_Faction": "Guards",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.8,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.80,
+            "Spatial_Timer": 20.0,
+            "Spatial_SpawnMode": 1,
+            "Spatial_UnlimitedReload": 1,
+            "Spatial_TriggerPosition": [
+                5793.46,
+                93.8175,
+                3066.21
+            ],
+            "Spatial_SpawnPosition": [
+                [
+                    5792.21,
+                    93.7841,
+                    3083.21
+                ],
+                [
+                    5777.37,
+                    93.8031,
+                    3067.61
+                ],
+                [
+                    5791.72,
+                    93.5738,
+                    3056.17
+                ],
+                [
+                    5793.46,
+                    93.8175,
+                    3066.21
+                ]
+            ]
+        },
+        {
+            "Spatial_Name": "Security",
+            "Spatial_TriggerRadius": 250.0,
+            "Spatial_ZoneLoadout": "EastLoadout.json",
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_HuntMode": 3,
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.8,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.80,
+            "Spatial_Timer": 20.0,
+            "Spatial_SpawnMode": 1,
+            "Spatial_UnlimitedReload": 1,
+            "Spatial_TriggerPosition": [
+                4522.78, 
+                316.401, 
+                8295.01
+            ],
+            "Spatial_SpawnPosition": [
+                [
+                    4552.39, 
+                    317.971, 
+                    8305.2
+                ],
+                [
+                    4521.65, 
+                    317.691, 
+                    8315.12
+                ],
+                [
+                    4586.86, 
+                    319.056, 
+                    8271.38
+                ],
+                [
+                    4593, 
+                    318.726, 
+                    8233.02
+                ],
+                [
+                    4482.85, 
+                    314.341, 
+                    8274.36
+                ],
+                [
+                    4425.55, 
+                    313.384, 
+                    8271.19
+                ],
+                [
+                    4576.68, 
+                    318.365, 
+                    8373.21
+                ]
+            ]
+        },
+        {
+            "Spatial_Name": "Security",
+            "Spatial_TriggerRadius": 250.0,
+            "Spatial_ZoneLoadout": "EastLoadout.json",
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_HuntMode": 3,
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.8,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.80,
+            "Spatial_Timer": 20.0,
+            "Spatial_SpawnMode": 1,
+            "Spatial_UnlimitedReload": 1,
+            "Spatial_TriggerPosition": [
+                951.071, 
+                181.007, 
+                7640.73
+            ],
+            "Spatial_SpawnPosition": [
+                [
+                    979.905, 
+                    181.151, 
+                    7664.35
+                ],
+                [
+                    930.663, 
+                    182.366, 
+                    7627.67
+                ],
+                [
+                    933.576, 
+                    180.662, 
+                    7723.21
+                ],
+                [
+                    1048.12, 
+                    185.04, 
+                    7582.36
+                ],
+                [
+                    1027.22, 
+                    185.071, 
+                    7635.36
+                ],
+                [
+                    1007.04, 
+                    181.239, 
+                    7635.77
+                ]
+            ]
+        }
+    ],
+    "Audio": [
+        {
+            "Spatial_Name": "Night Security",
+            "Spatial_TriggerRadius": 250.0,
+            "Spatial_ZoneLoadout": "HumanLoadout.json",
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_HuntMode": 3,
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_Timer": 20.0,
+            "Spatial_Sensitivity": 3.0,
+            "Spatial_SpawnMode": 1,
+            "Spatial_UnlimitedReload": 1,
+            "Spatial_TriggerPosition": [
+                7936.07, 
+                5.7696, 
+                3031.23
+            ],
+            "Spatial_SpawnPosition": [
+                [
+                    7910.62, 
+                    5.94247, 
+                    2995.96
+                ],
+                [
+                    7901.43, 
+                    5.94243, 
+                    2986.09
+                ],
+                [
+                    7948.67, 
+                    5.56763, 
+                    2947.92
+                ],
+                [
+                    8020.43, 
+                    5.66151, 
+                    3023.11
+                ],
+                [
+                    8018.1, 
+                    6.38283, 
+                    3097.07
+                ],
+                [
+                    7918.3, 
+                    6.16488, 
+                    3084.49
+                ],
+                [
+                    7836.89, 
+                    5.79341, 
+                    3075.19
+                ]
+            ]
+        },
+        {
+            "Spatial_Name": "Night Security",
+            "Spatial_TriggerRadius": 200.0,
+            "Spatial_ZoneLoadout": "HumanLoadout.json",
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_HuntMode": 3,
+            "Spatial_Faction": "Mercenaries",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 1.0,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.65,
+            "Spatial_Timer": 20.0,
+            "Spatial_Sensitivity": 3.0,
+            "Spatial_SpawnMode": 1,
+            "Spatial_UnlimitedReload": 1,
+            "Spatial_TriggerPosition": [
+                13096.7, 
+                6.01248, 
+                7073.41
+            ],
+            "Spatial_SpawnPosition": [
+                [
+                    13088.7, 
+                    6.00246, 
+                    7007.46
+                ],
+                [
+                    13144.8, 
+                    6.01244, 
+                    7009.57
+                ],
+                [
+                    13119.4, 
+                    6.00501, 
+                    7068.72
+                ],
+                [
+                    13108, 
+                    7.24689, 
+                    7119
+                ],
+                [
+                    13091.4, 
+                    6.14141, 
+                    7184.42
+                ],
+                [
+                    13042.9, 
+                    6.37117, 
+                    7135.29
+                ],
+                [
+                    13064.2, 
+                    6.01239, 
+                    7053.4
+                ]
+            ]
+        }
+    ]
+}
