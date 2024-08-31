@@ -1,9 +1,9 @@
 {
     "ClassName": "",
-    "Chance": 1,
+    "Chance": 1.0,
     "Quantity": {
-        "Min": 0,
-        "Max": 0
+        "Min": 0.0,
+        "Max": 0.0
     },
     "Health": [],
     "InventoryAttachments": [
@@ -12,15 +12,15 @@
             "Items": [
                 {
                     "ClassName": "MMG_tactical_shirt_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -30,15 +30,15 @@
                 },
                 {
                     "ClassName": "MMG_operatorshirt_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -48,15 +48,15 @@
                 },
                 {
                     "ClassName": "MMG_combatshirt_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -71,15 +71,15 @@
             "Items": [
                 {
                     "ClassName": "MMG_facemask_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -89,15 +89,15 @@
                 },
                 {
                     "ClassName": "MMG_balaclava_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -112,306 +112,38 @@
             "Items": [
                 {
                     "ClassName": "MMG_combatpants_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
                     "InventoryAttachments": [],
-                    "InventoryCargo": [
-                        {
-                            "ClassName": "Ammo_762x54",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_308",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_556x45",
-                            "Chance": 0.75,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_762x39",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_545x39",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "AmmoBox_545x39_20Rnd",
-                            "Chance": 0.33,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_308Win",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "AmmoBox_308Win_20Rnd",
-                            "Chance": 0.33,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "ammo_expansion_338",
-                            "Chance": 0.45,
-                            "Quantity": {
-                                "Min": 0.2,
-                                "Max": 0.5
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ]
-                        }
-                    ],
+                    "InventoryCargo": [],
                     "ConstructionPartsBuilt": []
                 },
                 {
                     "ClassName": "mmg_tactical_pants_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
                     "InventoryAttachments": [],
-                    "InventoryCargo": [
-                        {
-                            "ClassName": "Ammo_762x54",
-                            "Chance": 0.6,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_308",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_556x45",
-                            "Chance": 0.75,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_762x39",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1,
-                                    "Max": 1,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_545x39",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "AmmoBox_545x39_20Rnd",
-                            "Chance": 0.33,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "Ammo_308Win",
-                            "Chance": 0.65,
-                            "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "AmmoBox_308Win_20Rnd",
-                            "Chance": 0.33,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0
-                                }
-                            ]
-                        },
-                        {
-                            "ClassName": "ammo_expansion_338",
-                            "Chance": 0.45,
-                            "Quantity": {
-                                "Min": 0.2,
-                                "Max": 0.5
-                            },
-                            "Health": [
-                                {
-                                    "Min": 1.0,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ]
-                        }
-                    ],
+                    "InventoryCargo": [],
                     "ConstructionPartsBuilt": []
                 }
             ]
@@ -421,15 +153,15 @@
             "Items": [
                 {
                     "ClassName": "MMG_boots_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -446,13 +178,13 @@
                     "ClassName": "MMG_carrier_backpack_tan",
                     "Chance": 0.6000000238418579,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -462,8 +194,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -474,8 +206,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -486,8 +218,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -498,8 +230,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -513,13 +245,13 @@
                     "ClassName": "MMG_mmps_bag_tan",
                     "Chance": 0.6000000238418579,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -529,8 +261,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -541,8 +273,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -553,8 +285,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -565,8 +297,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -578,15 +310,15 @@
                 },
                 {
                     "ClassName": "MMG_supplybag_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -596,8 +328,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -608,8 +340,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -620,8 +352,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -632,8 +364,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -645,15 +377,15 @@
                 },
                 {
                     "ClassName": "MMG_assault_pack_mct",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -663,8 +395,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -675,8 +407,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -687,8 +419,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -699,8 +431,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -712,15 +444,15 @@
                 },
                 {
                     "ClassName": "MMG_camelback_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -730,8 +462,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -742,8 +474,8 @@
                             "ClassName": "BandageDressing",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -754,8 +486,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -766,8 +498,8 @@
                             "ClassName": "Chemlight_Green",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0,
-                                "Max": 0
+                                "Min": 0.0,
+                                "Max": 0.0
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -783,16 +515,16 @@
             "SlotName": "Vest",
             "Items": [
                 {
-                    "ClassName": "MMG_JPC_Vest_tan",
-                    "Chance": 1,
+                    "ClassName": "MMG_MK_III_Armor_tan",
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -804,8 +536,8 @@
                                     "ClassName": "MMG_triple_magpouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -816,8 +548,8 @@
                                     "ClassName": "MMG_tactical_pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -828,8 +560,8 @@
                                     "ClassName": "MMG_Med_Pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -840,8 +572,8 @@
                                     "ClassName": "rgd5grenade",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -855,16 +587,16 @@
                     "ConstructionPartsBuilt": []
                 },
                 {
-                    "ClassName": "MMG_tt_vest_tan",
-                    "Chance": 1,
+                    "ClassName": "MMG_MK_V_Armor_tan",
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -876,8 +608,8 @@
                                     "ClassName": "MMG_mk5_grenade_pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -886,10 +618,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "rgd5grenade",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -898,10 +630,10 @@
                                                 },
                                                 {
                                                     "ClassName": "rgd5grenade",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -910,10 +642,10 @@
                                                 },
                                                 {
                                                     "ClassName": "m67grenade",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -922,10 +654,10 @@
                                                 },
                                                 {
                                                     "ClassName": "m67grenade",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -942,8 +674,8 @@
                                     "ClassName": "MMG_mk5_utility_pouch_black",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -954,8 +686,8 @@
                                     "ClassName": "MMG_double_magpouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -966,8 +698,8 @@
                                     "ClassName": "MMG_double_magpouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -978,8 +710,8 @@
                                     "ClassName": "MMG_sheath_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -990,8 +722,8 @@
                                     "ClassName": "MMG_Holster_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1006,15 +738,15 @@
                 },
                 {
                     "ClassName": "MMG_tt_Vest_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1026,8 +758,8 @@
                                     "ClassName": "MMG_double_magpouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1038,8 +770,8 @@
                                     "ClassName": "MMG_double_magpouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1050,8 +782,8 @@
                                     "ClassName": "MMG_Med_Pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1062,8 +794,8 @@
                                     "ClassName": "MMG_tactical_pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1074,8 +806,8 @@
                                     "ClassName": "MMG_bottle_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1086,8 +818,8 @@
                                     "ClassName": "rgd5grenade",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1098,8 +830,8 @@
                                     "ClassName": "rgd5grenade",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1114,15 +846,15 @@
                 },
                 {
                     "ClassName": "MMG_JPC_Vest_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1134,8 +866,8 @@
                                     "ClassName": "MMG_triple_magpouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1146,8 +878,8 @@
                                     "ClassName": "MMG_Med_Pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1158,8 +890,8 @@
                                     "ClassName": "MMG_ammo_pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0.3,
-                                        "Max": 0.6
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1170,8 +902,8 @@
                                     "ClassName": "MMG_sheath_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1182,8 +914,8 @@
                                     "ClassName": "MMG_bottle_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1194,8 +926,8 @@
                                     "ClassName": "rgd5grenade",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1206,8 +938,8 @@
                                     "ClassName": "Ammo_545x39",
                                     "Chance": 0.65,
                                     "Quantity": {
-                                        "Min": 0.3,
-                                        "Max": 0.6
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -1235,8 +967,8 @@
                                     "ClassName": "Ammo_308Win",
                                     "Chance": 0.65,
                                     "Quantity": {
-                                        "Min": 0.3,
-                                        "Max": 0.6
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -1265,7 +997,7 @@
                                     "Chance": 0.45,
                                     "Quantity": {
                                         "Min": 0.2,
-                                        "Max": 0.5
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -1288,15 +1020,15 @@
             "Items": [
                 {
                     "ClassName": "MMG_tactical_helmet_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1308,13 +1040,13 @@
                                     "ClassName": "mmg_gp_nvg_green",
                                     "Chance": 0.4000000059604645,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [
                                         {
                                             "Min": 0.699999988079071,
-                                            "Max": 1,
+                                            "Max": 1.0,
                                             "Zone": ""
                                         }
                                     ],
@@ -1324,10 +1056,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -1348,15 +1080,15 @@
                 },
                 {
                     "ClassName": "MMG_striker_helmet_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1368,13 +1100,13 @@
                                     "ClassName": "mmg_gp_nvg_green",
                                     "Chance": 0.4000000059604645,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [
                                         {
                                             "Min": 0.699999988079071,
-                                            "Max": 1,
+                                            "Max": 1.0,
                                             "Zone": ""
                                         }
                                     ],
@@ -1384,10 +1116,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -1413,15 +1145,15 @@
             "Items": [
                 {
                     "ClassName": "mmg_tactical_gloves_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1431,15 +1163,15 @@
                 },
                 {
                     "ClassName": "TacticalGloves_Black",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1449,15 +1181,15 @@
                 },
                 {
                     "ClassName": "TacticalGloves_Green",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1467,15 +1199,15 @@
                 },
                 {
                     "ClassName": "",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1490,15 +1222,15 @@
             "Items": [
                 {
                     "ClassName": "MMG_falcon_b1_belt_tan",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1510,8 +1242,8 @@
                                     "ClassName": "MMG_Holster_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1522,8 +1254,8 @@
                                     "ClassName": "MMG_tactical_pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1534,8 +1266,8 @@
                                     "ClassName": "MMG_Med_Pouch_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1546,8 +1278,8 @@
                                     "ClassName": "MMG_sheath_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1558,8 +1290,8 @@
                                     "ClassName": "MMG_bottle_tan",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1570,8 +1302,8 @@
                                     "ClassName": "MMG_carbine_green",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -1582,8 +1314,8 @@
                                                     "ClassName": "mmg_tactical_gloves_tan",
                                                     "Chance": 0.75,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -1600,8 +1332,8 @@
                                     "ClassName": "Morphine",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1612,8 +1344,8 @@
                                     "ClassName": "Epinephrine",
                                     "Chance": 0.75,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1633,15 +1365,15 @@
             "Items": [
                 {
                     "ClassName": "Scout",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1651,10 +1383,10 @@
                             "Items": [
                                 {
                                     "ClassName": "Mag_Scout_5Rnd",
-                                    "Chance": 1,
+                                    "Chance": 1.0,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1665,8 +1397,8 @@
                                     "ClassName": "ACOGOptic",
                                     "Chance": 0.30000001192092896,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1677,8 +1409,8 @@
                                     "ClassName": "ACOGOptic_6x",
                                     "Chance": 0.15000000596046448,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1689,8 +1421,8 @@
                                     "ClassName": "ReflexOptic",
                                     "Chance": 0.07500000298023224,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -1699,10 +1431,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -1719,8 +1451,8 @@
                                     "ClassName": "M68Optic",
                                     "Chance": 0.07500000298023224,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -1729,10 +1461,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -1749,8 +1481,8 @@
                                     "ClassName": "StarlightOptic",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -1759,10 +1491,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -1783,15 +1515,15 @@
                 },
                 {
                     "ClassName": "FAMAS",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1801,10 +1533,10 @@
                             "Items": [
                                 {
                                     "ClassName": "Mag_FAMAS_25Rnd",
-                                    "Chance": 1,
+                                    "Chance": 1.0,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1819,15 +1551,15 @@
                 },
                 {
                     "ClassName": "M4A1",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -1839,8 +1571,8 @@
                                     "ClassName": "Mag_STANAG_30Rnd",
                                     "Chance": 0.6000000238418579,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1851,8 +1583,8 @@
                                     "ClassName": "Mag_STANAG_60Rnd",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1863,8 +1595,8 @@
                                     "ClassName": "Mag_CMAG_10Rnd",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1875,8 +1607,8 @@
                                     "ClassName": "Mag_CMAG_20Rnd",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1887,8 +1619,8 @@
                                     "ClassName": "Mag_CMAG_30Rnd",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1899,8 +1631,8 @@
                                     "ClassName": "Mag_CMAG_40Rnd",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1911,8 +1643,8 @@
                                     "ClassName": "M4_CQBBttstck",
                                     "Chance": 0.33000001311302185,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1923,8 +1655,8 @@
                                     "ClassName": "M4_MPBttstck",
                                     "Chance": 0.33000001311302185,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1935,8 +1667,8 @@
                                     "ClassName": "M4_OEBttstck",
                                     "Chance": 0.33000001311302185,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1947,8 +1679,8 @@
                                     "ClassName": "M4_MPHndgrd",
                                     "Chance": 0.33000001311302185,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1959,8 +1691,8 @@
                                     "ClassName": "M4_PlasticHndgrd",
                                     "Chance": 0.33000001311302185,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1971,8 +1703,8 @@
                                     "ClassName": "M4_RISHndgrd",
                                     "Chance": 0.33000001311302185,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1983,8 +1715,8 @@
                                     "ClassName": "ACOGOptic",
                                     "Chance": 0.30000001192092896,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -1995,8 +1727,8 @@
                                     "ClassName": "ACOGOptic_6x",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2007,8 +1739,8 @@
                                     "ClassName": "ReflexOptic",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2017,10 +1749,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2037,8 +1769,8 @@
                                     "ClassName": "M68Optic",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2047,10 +1779,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2067,8 +1799,8 @@
                                     "ClassName": "M4_T3NRDSOptic",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2077,10 +1809,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2097,8 +1829,8 @@
                                     "ClassName": "StarlightOptic",
                                     "Chance": 0.009999999776482582,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2107,10 +1839,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2125,10 +1857,10 @@
                                 },
                                 {
                                     "ClassName": "M4_CarryHandleOptic",
-                                    "Chance": 1,
+                                    "Chance": 1.0,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2143,15 +1875,15 @@
                 },
                 {
                     "ClassName": "Aug",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -2161,10 +1893,10 @@
                             "Items": [
                                 {
                                     "ClassName": "Mag_Aug_30Rnd",
-                                    "Chance": 1,
+                                    "Chance": 1.0,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2179,15 +1911,15 @@
                 },
                 {
                     "ClassName": "AugShort",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -2197,10 +1929,10 @@
                             "Items": [
                                 {
                                     "ClassName": "Mag_Aug_30Rnd",
-                                    "Chance": 1,
+                                    "Chance": 1.0,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2211,8 +1943,8 @@
                                     "ClassName": "ACOGOptic",
                                     "Chance": 0.30000001192092896,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2223,8 +1955,8 @@
                                     "ClassName": "ACOGOptic_6x",
                                     "Chance": 0.05000000074505806,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2235,8 +1967,8 @@
                                     "ClassName": "ReflexOptic",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2245,10 +1977,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2265,8 +1997,8 @@
                                     "ClassName": "M68Optic",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2275,10 +2007,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2295,8 +2027,8 @@
                                     "ClassName": "M4_T3NRDSOptic",
                                     "Chance": 0.10000000149011612,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2305,10 +2037,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2325,8 +2057,8 @@
                                     "ClassName": "StarlightOptic",
                                     "Chance": 0.009999999776482582,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [
@@ -2335,10 +2067,10 @@
                                             "Items": [
                                                 {
                                                     "ClassName": "Battery9V",
-                                                    "Chance": 1,
+                                                    "Chance": 1.0,
                                                     "Quantity": {
-                                                        "Min": 0,
-                                                        "Max": 0
+                                                        "Min": 0.0,
+                                                        "Max": 0.0
                                                     },
                                                     "Health": [],
                                                     "InventoryAttachments": [],
@@ -2359,15 +2091,15 @@
                 },
                 {
                     "ClassName": "M16A2",
-                    "Chance": 1,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0,
-                        "Max": 0
+                        "Min": 0.0,
+                        "Max": 0.0
                     },
                     "Health": [
                         {
                             "Min": 0.699999988079071,
-                            "Max": 1,
+                            "Max": 1.0,
                             "Zone": ""
                         }
                     ],
@@ -2379,8 +2111,8 @@
                                     "ClassName": "Mag_STANAG_60Rnd",
                                     "Chance": 0.20000000298023224,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2389,10 +2121,10 @@
                                 },
                                 {
                                     "ClassName": "Mag_STANAG_30Rnd",
-                                    "Chance": 1,
+                                    "Chance": 1.0,
                                     "Quantity": {
-                                        "Min": 0,
-                                        "Max": 0
+                                        "Min": 0.0,
+                                        "Max": 0.0
                                     },
                                     "Health": [],
                                     "InventoryAttachments": [],
@@ -2408,32 +2140,6 @@
             ]
         }
     ],
-    "InventoryCargo": [
-        {
-            "ClassName": "Apple",
-            "Chance": 0.10000000149011612,
-            "Quantity": {
-                "Min": 0,
-                "Max": 0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": []
-        },
-        {
-            "ClassName": "BandageDressing",
-            "Chance": 0.15000000596046448,
-            "Quantity": {
-                "Min": 0,
-                "Max": 0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": []
-        }
-    ],
-    "ConstructionPartsBuilt": [],
-    "Sets": []
+    "InventoryCargo": [],
+    "ConstructionPartsBuilt": []
 }

@@ -1406,7 +1406,7 @@
     <value name="Tier18" />
   </type>
   <type name="SN_Auto_Shotgun">
-    <nominal>1</nominal>
+    <nominal>2</nominal>
     <restock>1800</restock>
     <lifetime>7200</lifetime>
     <min>1</min>
