@@ -3,9 +3,9 @@
     "Enabled": 1,
     "DespawnTime": 600.0,
     "RespawnTime": 1800.0,
-    "MinDistRadius": 180.0,
-    "MaxDistRadius": 1000.0,
-    "DespawnRadius": 1500.0,
+    "MinDistRadius": 150.0,
+    "MaxDistRadius": 1500.0,
+    "DespawnRadius": 1600.0,
     "AccuracyMin": -1.0,
     "AccuracyMax": -1.0,
     "ThreatDistanceLimit": -1.0,
@@ -19,7 +19,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "ASVAL-MMG",
+            "Loadout": "MMG",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -49,10 +49,10 @@
         {
             "Name": "Wreck-MI8-Crashed",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "ASVAL-MMG",
+            "Loadout": "MMG",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -82,7 +82,7 @@
         {
             "Name": "Wreck-police-1",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "PoliceLoadout",
@@ -436,7 +436,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "GorkaLoadout",
+            "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -506,7 +506,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "AK101-MMG",
+            "Loadout": "MMG",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -596,7 +596,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "AK74-Human",
+            "Loadout": "GorkaLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -658,7 +658,7 @@
         {
             "Name": "Portland",
             "Persist": 0,
-            "Faction": "West",
+            "Faction": "SurvivorLoadout",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "Scout-Human",
@@ -806,7 +806,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "SSG82-East",
+            "Loadout": "SurvivorLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -1106,7 +1106,7 @@
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "SVD-Human",
+            "Loadout": "HumanLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -1128,201 +1128,41 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
+            "WaypointInterpolation": "NaturalCubic",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    5105.29296875,
-                    74.88314819335938,
-                    3407.41357421875
+                    5729.67,
+                    74.0125,
+                    3118.04
                 ],
                 [
-                    4937.2431640625,
-                    74.82136535644531,
-                    3224.987548828125
+                    5199.15,
+                    79.6037,
+                    3052.83
                 ],
                 [
-                    4966.65283203125,
-                    74.88308715820313,
-                    3180.755126953125
+                    4869.06,
+                    67.1479,
+                    3060.67
                 ],
                 [
-                    4997.5859375,
-                    74.88321685791016,
-                    3182.841796875
+                    5123.68,
+                    74.0125,
+                    3528.75
                 ],
                 [
-                    5026.47412109375,
-                    74.88297271728516,
-                    3186.96484375
+                    5301.81,
+                    74.0125,
+                    3922.92
                 ],
                 [
-                    5177.35302734375,
-                    74.883056640625,
-                    3076.269287109375
-                ],
-                [
-                    5240.54736328125,
-                    74.88310241699219,
-                    3116.733154296875
-                ],
-                [
-                    5278.296875,
-                    74.883056640625,
-                    3148.326904296875
-                ],
-                [
-                    5316.4931640625,
-                    74.88308715820313,
-                    3160.389892578125
-                ],
-                [
-                    5364.88916015625,
-                    74.88308715820313,
-                    3168.323974609375
-                ],
-                [
-                    5407.13525390625,
-                    74.883056640625,
-                    3164.797119140625
-                ],
-                [
-                    5469.9052734375,
-                    74.8831787109375,
-                    3131.442626953125
-                ],
-                [
-                    5520.9931640625,
-                    74.88308715820313,
-                    3122.51123046875
-                ],
-                [
-                    5588.9599609375,
-                    74.8830795288086,
-                    3113.8935546875
-                ],
-                [
-                    5688.47412109375,
-                    74.88307189941406,
-                    3087.17333984375
-                ],
-                [
-                    5702.4599609375,
-                    74.8831787109375,
-                    3091.44091796875
-                ],
-                [
-                    5740.86328125,
-                    74.88311767578125,
-                    3137.692138671875
-                ],
-                [
-                    5766.6435546875,
-                    74.88311767578125,
-                    3226.10205078125
-                ],
-                [
-                    5794.341796875,
-                    74.883056640625,
-                    3316.956787109375
-                ],
-                [
-                    5835.802734375,
-                    74.88311767578125,
-                    3410.853515625
-                ],
-                [
-                    5885.87255859375,
-                    74.88320922851563,
-                    3507.269775390625
-                ],
-                [
-                    5927.3076171875,
-                    74.88336181640625,
-                    3533.771240234375
-                ],
-                [
-                    5986.23486328125,
-                    74.8829345703125,
-                    3568.775146484375
-                ],
-                [
-                    6025.8994140625,
-                    74.8829345703125,
-                    3600.790771484375
-                ],
-                [
-                    6044.97216796875,
-                    74.88314819335938,
-                    3630.97705078125
-                ],
-                [
-                    6047.193359375,
-                    74.88275146484375,
-                    3671.8056640625
-                ],
-                [
-                    6028.59326171875,
-                    73.35308837890625,
-                    3852.787109375
-                ],
-                [
-                    6008.88427734375,
-                    74.24689483642578,
-                    3863.177978515625
-                ],
-                [
-                    5941.529296875,
-                    74.88314056396485,
-                    3868.817626953125
-                ],
-                [
-                    5846.3037109375,
-                    74.88298797607422,
-                    3859.514892578125
-                ],
-                [
-                    5756.65869140625,
-                    74.88319396972656,
-                    3844.45849609375
-                ],
-                [
-                    5666.50537109375,
-                    74.88311767578125,
-                    3847.94580078125
-                ],
-                [
-                    5503.78955078125,
-                    74.88304138183594,
-                    3840.066162109375
-                ],
-                [
-                    5282.43017578125,
-                    74.88288879394531,
-                    3924.535400390625
-                ],
-                [
-                    5185.62646484375,
-                    74.883056640625,
-                    3928.957275390625
-                ],
-                [
-                    5163.81640625,
-                    74.88308715820313,
-                    3919.25439453125
-                ],
-                [
-                    5030.32080078125,
-                    74.88284301757813,
-                    3596.252685546875
-                ],
-                [
-                    5041.3623046875,
-                    74.88301086425781,
-                    3572.34228515625
-                ]
+                    6032.09,
+                    71.8096,
+                    3865.04
+                ]                
             ]
         },
         {
@@ -1331,7 +1171,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "FAL-East",
+            "Loadout": "GorkaLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -1556,7 +1396,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "VSS-East",
+            "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -2106,7 +1946,7 @@
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "Scout Military-East",
+            "Loadout": "EastLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -2411,7 +2251,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "M4A1-East",
+            "Loadout": "WestLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -2476,7 +2316,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "SKS-Human",
+            "Loadout": "HumanLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -2891,7 +2731,7 @@
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "SSG82-Human",
+            "Loadout": "EastLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -3581,7 +3421,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "HumanLoadout",
+            "Loadout": "MMG",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -4961,7 +4801,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "Scout-Human",
+            "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -5096,7 +4936,7 @@
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "SVD-MMG",
+            "Loadout": "SurvivorLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
