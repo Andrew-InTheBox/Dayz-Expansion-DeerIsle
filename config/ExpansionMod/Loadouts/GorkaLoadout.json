@@ -409,8 +409,8 @@
                             "ClassName": "Ammo_762x39",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -422,8 +422,8 @@
                             "ClassName": "Ammo_545x39",
                             "Chance": 0.65,
                             "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -451,8 +451,8 @@
                             "ClassName": "Ammo_308Win",
                             "Chance": 0.65,
                             "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -481,7 +481,7 @@
                             "Chance": 0.45,
                             "Quantity": {
                                 "Min": 0.2,
-                                "Max": 0.5
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -632,8 +632,8 @@
                             "ClassName": "Ammo_762x39",
                             "Chance": 0.10000000149011612,
                             "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -645,8 +645,8 @@
                             "ClassName": "Ammo_545x39",
                             "Chance": 0.65,
                             "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -674,8 +674,8 @@
                             "ClassName": "Ammo_308Win",
                             "Chance": 0.65,
                             "Quantity": {
-                                "Min": 0.3,
-                                "Max": 0.6
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -704,7 +704,7 @@
                             "Chance": 0.45,
                             "Quantity": {
                                 "Min": 0.2,
-                                "Max": 0.5
+                                "Max": 0.4
                             },
                             "Health": [
                                 {

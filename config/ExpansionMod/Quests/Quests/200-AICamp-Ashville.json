@@ -31,7 +31,7 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "SNAFU_Ammo_338",
+            "ClassName": "ammo_expansion_338",
             "Amount": 40,
             "Attachments": [],
             "DamagePercent": 0,
