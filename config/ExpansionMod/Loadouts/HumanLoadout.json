@@ -253,7 +253,7 @@
                         },
                         {
                             "ClassName": "Ammo_762x39",
-                            "Chance": 0.10000000149011612,
+                            "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
                                 "Max": 0.4
@@ -266,7 +266,7 @@
                         },
                         {
                             "ClassName": "Ammo_545x39",
-                            "Chance": 0.65,
+                            "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
                                 "Max": 0.4
@@ -295,7 +295,7 @@
                         },
                         {
                             "ClassName": "Ammo_308Win",
-                            "Chance": 0.65,
+                            "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
                                 "Max": 0.4
@@ -324,7 +324,7 @@
                         },
                         {
                             "ClassName": "Ammo_12gaSlug",
-                            "Chance": 0.45,
+                            "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
                                 "Max": 0.5
@@ -339,7 +339,7 @@
                         },
                         {
                             "ClassName": "Ammo_12gaPellets",
-                            "Chance": 0.45,
+                            "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
                                 "Max": 0.5
@@ -354,7 +354,7 @@
                         },
                         {
                             "ClassName": "ammo_expansion_338",
-                            "Chance": 0.45,
+                            "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
                                 "Max": 0.4

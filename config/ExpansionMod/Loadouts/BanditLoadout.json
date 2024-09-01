@@ -3126,7 +3126,7 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3139,7 +3139,7 @@
                 },
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3152,7 +3152,7 @@
                 },
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.15000000596046448,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3165,7 +3165,7 @@
                 },
                 {
                     "ClassName": "Ammo_545x39",
-                    "Chance": 0.65,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3194,7 +3194,7 @@
                 },
                 {
                     "ClassName": "Ammo_308Win",
-                    "Chance": 0.65,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3223,7 +3223,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.5
@@ -3238,7 +3238,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.5
@@ -3253,7 +3253,7 @@
                 },
                 {
                     "ClassName": "ammo_expansion_338",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3320,7 +3320,7 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3333,7 +3333,7 @@
                 },
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3346,7 +3346,7 @@
                 },
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 0.15000000596046448,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3359,7 +3359,7 @@
                 },
                 {
                     "ClassName": "Ammo_545x39",
-                    "Chance": 0.65,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3388,7 +3388,7 @@
                 },
                 {
                     "ClassName": "Ammo_308Win",
-                    "Chance": 0.65,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3417,7 +3417,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.5
@@ -3432,7 +3432,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.5
@@ -3447,7 +3447,7 @@
                 },
                 {
                     "ClassName": "ammo_expansion_338",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3781,7 +3781,7 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3794,7 +3794,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3807,7 +3807,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.5,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3820,7 +3820,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.5,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3833,7 +3833,7 @@
                 },
                 {
                     "ClassName": "Ammo_545x39",
-                    "Chance": 0.65,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3862,7 +3862,7 @@
                 },
                 {
                     "ClassName": "Ammo_308Win",
-                    "Chance": 0.65,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
@@ -3891,7 +3891,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.5
@@ -3906,7 +3906,7 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.5
@@ -3921,7 +3921,7 @@
                 },
                 {
                     "ClassName": "ammo_expansion_338",
-                    "Chance": 0.45,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4
