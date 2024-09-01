@@ -250,6 +250,122 @@
                             "InventoryCargo": [],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
+                        },
+                        {
+                            "ClassName": "Ammo_762x39",
+                            "Chance": 0.10000000149011612,
+                            "Quantity": {
+                                "Min": 0.2,
+                                "Max": 0.4
+                            },
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Ammo_545x39",
+                            "Chance": 0.65,
+                            "Quantity": {
+                                "Min": 0.2,
+                                "Max": 0.4
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "AmmoBox_545x39_20Rnd",
+                            "Chance": 0.33,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "Ammo_308Win",
+                            "Chance": 0.65,
+                            "Quantity": {
+                                "Min": 0.2,
+                                "Max": 0.4
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "AmmoBox_308Win_20Rnd",
+                            "Chance": 0.33,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "Ammo_12gaSlug",
+                            "Chance": 0.45,
+                            "Quantity": {
+                                "Min": 0.2,
+                                "Max": 0.5
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "Ammo_12gaPellets",
+                            "Chance": 0.45,
+                            "Quantity": {
+                                "Min": 0.2,
+                                "Max": 0.5
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
+                        },
+                        {
+                            "ClassName": "ammo_expansion_338",
+                            "Chance": 0.45,
+                            "Quantity": {
+                                "Min": 0.2,
+                                "Max": 0.4
+                            },
+                            "Health": [
+                                {
+                                    "Min": 1.0,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ]
                         }
                     ],
                     "ConstructionPartsBuilt": [],
