@@ -1187,10 +1187,10 @@
     <value name="Tier6" />
   </type>
   <type name="Ammo_12gaPellets">
-    <nominal>60</nominal>
+    <nominal>75</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>50</min>
+    <min>60</min>
     <quantmin>10</quantmin>
     <quantmax>30</quantmax>
     <cost>100</cost>
@@ -1214,8 +1214,8 @@
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>4</min>
-    <quantmin>10</quantmin>
-    <quantmax>30</quantmax>
+    <quantmin>20</quantmin>
+    <quantmax>40</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -1233,12 +1233,12 @@
     <value name="Tier2" />
   </type>
   <type name="Ammo_12gaSlug">
-    <nominal>60</nominal>
+    <nominal>75</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>50</min>
-    <quantmin>10</quantmin>
-    <quantmax>30</quantmax>
+    <min>60</min>
+    <quantmin>20</quantmin>
+    <quantmax>40</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />

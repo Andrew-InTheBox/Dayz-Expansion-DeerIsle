@@ -120,7 +120,7 @@
                         {
                             "ClassName": "Mag_IJ70_8Rnd",
                             "Include": "",
-                            "Chance": 0.30000001192092898,
+                            "Chance": 0.30000001192092896,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -134,7 +134,7 @@
                         {
                             "ClassName": "Mag_IJ70_8Rnd",
                             "Include": "",
-                            "Chance": 0.20000000298023225,
+                            "Chance": 0.20000000298023224,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -468,7 +468,7 @@
         {
             "ClassName": "BandageDressing",
             "Include": "",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -598,7 +598,7 @@
                 {
                     "ClassName": "Mag_AK74_30Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -670,7 +670,7 @@
                                         {
                                             "ClassName": "AK_PlasticBttstck",
                                             "Include": "",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -684,7 +684,7 @@
                                         {
                                             "ClassName": "AK_FoldingBttstck",
                                             "Include": "",
-                                            "Chance": 0.30000001192092898,
+                                            "Chance": 0.30000001192092896,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -768,7 +768,7 @@
                                         {
                                             "ClassName": "KobraOptic",
                                             "Include": "",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -802,7 +802,7 @@
                                         {
                                             "ClassName": "PSO1Optic",
                                             "Include": "",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -861,7 +861,7 @@
                 {
                     "ClassName": "Mag_AKM_30Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -933,7 +933,7 @@
                                         {
                                             "ClassName": "PistolSuppressor",
                                             "Include": "",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -947,7 +947,7 @@
                                         {
                                             "ClassName": "KobraOptic",
                                             "Include": "",
-                                            "Chance": 0.20000000298023225,
+                                            "Chance": 0.20000000298023224,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -1006,7 +1006,7 @@
                 {
                     "ClassName": "Mag_PP19_64Rnd",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -1083,7 +1083,7 @@
                 {
                     "ClassName": "Ammo_762x39",
                     "Include": "",
-                    "Chance": 0.15000000596046449,
+                    "Chance": 0.15000000596046448,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0

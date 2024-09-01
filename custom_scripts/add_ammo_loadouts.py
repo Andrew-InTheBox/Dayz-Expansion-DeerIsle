@@ -8,7 +8,7 @@ def add_ammo_entry(json_file):
 
     # New ammo entry to add
     new_ammo = {
-        "ClassName": "ammo_expansion_338",
+        "ClassName": "Ammo_12gaSlug",
         "Chance": 0.45,
         "Quantity": {
             "Min": 0.2,
