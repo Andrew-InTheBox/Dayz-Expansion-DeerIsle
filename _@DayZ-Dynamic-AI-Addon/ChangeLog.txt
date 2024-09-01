@@ -1,0 +1,21 @@
+times now in minutes instead of ms as requested. 
+
+audio locations triggered by firing weapons, and movement.
+sensitivity can be adjusted per audio location. lower is more sensitive.
+
+
+a time based system has been added to people can control when things can spawn based on ingame time.
+(see settings/examples/descriptions on how to use.)
+
+
+point loadouts are now arrays as requested for easier defining multiple gear per area.
+
+location/audio Spatial_SpawnPosition is now an array for multiple spots ai can spawn at.
+(see settings/examples/descriptions on it's two modes.)
+
+
+lots more debugging messages in debug mode.
+markers added in debug mode if expansion navigation/bundle is installed.
+
+
+last workshop version given so people have more time to upgrade their files to keep server up.
