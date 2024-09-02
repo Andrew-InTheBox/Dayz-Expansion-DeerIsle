@@ -10183,7 +10183,7 @@
 						<point pos="6.554823 0.428795 -0.249204" range="1.062500" height="2.001121" />
 				</container>
 		</group>
-		<group name="Land_Prison_Main" lootmax="50">
+		<group name="Land_Prison_Main" lootmax="60">
 				<usage name="Prison" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -10536,7 +10536,7 @@
 						<point pos="8.127930 -5.866852 8.353514" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Prison_Wall_Large" lootmax="8">
+		<group name="Land_Prison_Wall_Large" lootmax="12">
 				<usage name="Prison" />
 				<container name="lootFloor">
 						<category name="tools" />

@@ -5,7 +5,7 @@
     "RespawnTime": 1800.0,
     "MinDistRadius": 150.0,
     "MaxDistRadius": 1500.0,
-    "DespawnRadius": 1600.0,
+    "DespawnRadius": 1550.0,
     "AccuracyMin": -1.0,
     "AccuracyMax": -1.0,
     "ThreatDistanceLimit": -1.0,
@@ -4987,8 +4987,128 @@
                     337.935,
                     15.2981,
                     969.943
+                ]  
+            ]
+        },
+        {
+            "Name": "WestOfDeepwater",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "SurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 0.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    [
+                        898.303,
+                        7,
+                        12825.8
+                    ],
+                    [
+                        963.997,
+                        40.3764,
+                        12325.9
+                    ],
+                    [
+                        888.633,
+                        51.18,
+                        11920
+                    ],
+                    [
+                        896.14,
+                        37.936,
+                        11317.1
+                    ],
+                    [
+                        1079.08,
+                        53.8171,
+                        10691.5
+                    ]
                 ]
-                
+            ]
+        },
+        {
+            "Name": "NewHaven",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "MMG",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 0.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    [
+                        [
+                            564.741,
+                            8.12,
+                            15357.4
+                        ],
+                        [
+                            1072.44,
+                            15.5053,
+                            15336.7
+                        ],
+                        [
+                            1373.51,
+                            8.32,
+                            15387.3
+                        ],
+                        [
+                            1733.72,
+                            7.48516,
+                            15788.5
+                        ]
+                    ]                    
+                ]
             ]
         }
     ]

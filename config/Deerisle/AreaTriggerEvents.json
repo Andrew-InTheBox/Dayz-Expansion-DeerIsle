@@ -594,6 +594,86 @@
                 "InfectedSoldierHardJMC",
                 "ZmbM_usSoldier_normal_Woodland"
             ]
+        },
+        {
+            "name": "Underground-Prison",
+            "workinghours": "0-24",
+            "triggerpos": "5858.44 45.0365 4856.89",
+            "triggermins": "-5 -0.2 -5",
+            "triggermaxs": "5 5 5",
+            "triggerradius": 0.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 3600,
+            "spawnerpos": [
+                "5865.2 29.7064 4851.15",
+                "5850.95 29.7064 4863.43",
+                "5849.13 29.7064 4868.41",
+                "5875.09 29.7065 4869.96",
+                "5859.13 26.1495 4864.32",
+                "5851.87 26.1495 4858.57",
+                "5849.53 26.1495 4869.14",
+                "5855.26 26.153 4841.51",
+                "5865.06 26.1495 4854.63",
+                "5859.24 22.5099 4864.33",
+                "5878.29 22.5099 4868.02",
+                "5907.48 22.5739 4847.83",
+                "5907.43 22.4793 4825.47",
+                "5921.26 22.4257 4805.62",
+                "5939.68 22.4447 4792.21",
+                "5928.17 22.5197 4785.2"
+            ],
+            "spawnradius": 0.0,
+            "bubaknum": 15,
+            "onlyfilluptobubaknum": 0,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "ZmbM_usSoldier_Heavy_Woodland",
+                "InfectedSoldierHardJMC",
+                "ZmbM_usSoldier_normal_Woodland"
+            ]
+        },
+        {
+            "name": "Underground-Prison-Trg2",
+            "workinghours": "0-24",
+            "triggerpos": "5949.32 21.4491 4761.89",
+            "triggermins": "-5 -0.2 -5",
+            "triggermaxs": "5 5 5",
+            "triggerradius": 0.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 3600,
+            "spawnerpos": [
+                "5865.2 29.7064 4851.15",
+                "5850.95 29.7064 4863.43",
+                "5849.13 29.7064 4868.41",
+                "5875.09 29.7065 4869.96",
+                "5859.13 26.1495 4864.32",
+                "5851.87 26.1495 4858.57",
+                "5849.53 26.1495 4869.14",
+                "5855.26 26.153 4841.51",
+                "5865.06 26.1495 4854.63",
+                "5859.24 22.5099 4864.33",
+                "5878.29 22.5099 4868.02",
+                "5907.48 22.5739 4847.83",
+                "5907.43 22.4793 4825.47",
+                "5921.26 22.4257 4805.62",
+                "5939.68 22.4447 4792.21",
+                "5928.17 22.5197 4785.2"
+            ],
+            "spawnradius": 0.0,
+            "bubaknum": 15,
+            "onlyfilluptobubaknum": 0,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "ZmbM_usSoldier_Heavy_Woodland",
+                "InfectedSoldierHardJMC",
+                "ZmbM_usSoldier_normal_Woodland"
+            ]
         }
     ]
 }
