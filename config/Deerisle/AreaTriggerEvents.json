@@ -626,7 +626,7 @@
                 "5928.17 22.5197 4785.2"
             ],
             "spawnradius": 0.0,
-            "bubaknum": 15,
+            "bubaknum": 10,
             "onlyfilluptobubaknum": 0,
             "itemrandomdmg": 1,
             "bubaci": [
@@ -666,7 +666,7 @@
                 "5928.17 22.5197 4785.2"
             ],
             "spawnradius": 0.0,
-            "bubaknum": 15,
+            "bubaknum": 10,
             "onlyfilluptobubaknum": 0,
             "itemrandomdmg": 1,
             "bubaci": [
