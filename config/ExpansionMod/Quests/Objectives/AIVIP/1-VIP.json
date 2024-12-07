@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": 28,
+    "ID": 1,
+    "ObjectiveType": 9,
+    "ObjectiveText": "Bring the survivor to the Spire.",
+    "TimeLimit": -1,
+    "Active": 0,
+    "Position": [
+        5122.990234375,
+        59.21900177001953,
+        7974.4599609375
+    ],
+    "MaxDistance": 25.0,
+    "MarkerName": "Escort VIP",
+    "ShowDistance": 1,
+    "CanLootAI": 0,
+    "NPCLoadoutFile": "BanditLoadout",
+    "NPCClassName": "",
+    "NPCName": "Survivor"
+}

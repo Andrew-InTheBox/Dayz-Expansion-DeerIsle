@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4,
+    "ClassName": "ExpansionQuestNPCAIDenis",
+    "Position": [
+        5122.990234375,
+        59.21900177001953,
+        7974.4599609375
+    ],
+    "Orientation": [
+        36.099998474121097,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Paul",
+    "DefaultNPCText": "Hmm?",
+    "Waypoints": [
+        [
+            5122.990234375,
+            59.21900177001953,
+            7974.4599609375
+        ]
+    ],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "BanditLoadout",
+    "NPCInteractionEmoteID": 0,
+    "NPCQuestCancelEmoteID": 0,
+    "NPCQuestStartEmoteID": 0,
+    "NPCQuestCompleteEmoteID": 0,
+    "NPCFaction": "",
+    "NPCType": 2,
+    "Active": 1
+}
