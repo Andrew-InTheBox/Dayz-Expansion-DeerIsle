@@ -11,12 +11,12 @@
 		<file path="env/roe_deer_territories.xml" />
 		<file path="env/wild_boar_territories.xml" />
 		<file path="env/wolf_territories.xml" />
-		<file path="env/arcticwolf_territories.xml" />
-		<file path="env/crab_territories.xml" />
+		<file path="env/arcticwolf_territories.xml" />		
 		<file path="env/bear_territories.xml" /> 
 		<file path="env/polarbear_territories.xml" /> 
 		<file path="env/hen_territories.xml" />		
 		<file path="env/pig_territories.xml" />
+		<file path="env/reindeer_territories.xml" />
 		
 		<!-- <file path="env/hare_territories.xml" /> -->
 		
@@ -43,11 +43,7 @@
 				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
 			</agent>
 
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
 		</territory>
 
 		<!-- HARE -->
@@ -61,11 +57,7 @@
 				<spawn configName="Animal_LepusEuropaeus" chance="1" />
 			</agent>
 
-			<item name="globalCountMax" val="0" />
-			<item name="zoneCountMin" val="3" />
-			<item name="zoneCountMax" val="5" />
-			<item name="playerSpawnRadiusNear" val="15" />
-			<item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
 		</territory>
 		
 		<!-- INFECTED -->
@@ -98,11 +90,7 @@
 				<spawn configName="Animal_UrsusArctos" chance="1" />
 			</agent>
 
-			<item name="globalCountMax" val="30" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="100" />
-			<item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
 		</territory>
 		
 		<!-- Polarbär -->
@@ -116,11 +104,7 @@
                 <spawn configName="Animal_Polarbear" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="1" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 		
 		<!-- Kuh / Stier -->
@@ -138,11 +122,7 @@
 				<spawn configName="Animal_BosTaurusF_White" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="2" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 		
 		<!-- Hirsch -->
@@ -156,11 +136,7 @@
                 <spawn configName="Animal_CervusElaphusF" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="2" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 		
 		<!-- Reh -->
@@ -174,11 +150,7 @@
                 <spawn configName="Animal_CapreolusCapreolusF" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="2" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 		
 		<!-- Ziege -->
@@ -194,11 +166,7 @@
                 <spawn configName="Animal_CapraHircusF" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="3" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 
 		<!-- Schwein -->
@@ -212,11 +180,7 @@
                 <spawn configName="Animal_SusDomesticus" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="3" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 		
 		<!-- Schaf -->
@@ -230,11 +194,7 @@
                 <spawn configName="Animal_OvisAriesF" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="3" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 
 		<!-- Wildschwein -->
@@ -248,11 +208,7 @@
                 <spawn configName="Animal_SusScrofa" chance="1" />
             </agent>
 
-            <item name="globalCountMax" val="30" />
-            <item name="zoneCountMin" val="1" />
-            <item name="zoneCountMax" val="3" />
-            <item name="playerSpawnRadiusNear" val="100" />
-            <item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
         </territory>
 	</territories>
 </env>
