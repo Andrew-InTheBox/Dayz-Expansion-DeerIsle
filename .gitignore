@@ -9,6 +9,7 @@
 *.bin
 *.vdf
 *.mdmp
+*.ebo
 /battlefield
 /bliss
 /dta
@@ -17,4 +18,4 @@
 /mpmissions/Expansion.deerisle/storage_1/*
 /appcache
 /logs
-mpmissions/Expansion.deerisle/storage_1/players.db
+mpmissions/Expansion.deerisle/storage_1/players.db'
