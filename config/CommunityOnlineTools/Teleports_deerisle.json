@@ -1,0 +1,629 @@
+{
+    "Types": [
+        "ALL",
+        "",
+        "Airport",
+        "CityCapi",
+        "CityCapita",
+        "Hill",
+        "Loca",
+        "Local",
+        "RockArea",
+        "StrongpointArea",
+        "ViewPoint",
+        "Vill",
+        "Villag"
+    ],
+    "Locations": [
+        {
+            "Type": "Airport",
+            "Name": "Airfield",
+            "Position": [
+                5508.0498046875,
+                0.0,
+                3555.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Archipelago",
+            "Position": [
+                2258.340087890625,
+                0.0,
+                13599.9501953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Area 42",
+            "Position": [
+                13379.0498046875,
+                0.0,
+                9849.6396484375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Asheville",
+            "Position": [
+                7311.22998046875,
+                0.0,
+                2607.06005859375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Baren Fall",
+            "Position": [
+                7632.4501953125,
+                0.0,
+                9823.98046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Bayville",
+            "Position": [
+                10178.3603515625,
+                0.0,
+                12011.759765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Camp Bear",
+            "Position": [
+                8865.9296875,
+                0.0,
+                5988.39990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Camp Eagle",
+            "Position": [
+                8778.01953125,
+                0.0,
+                3733.2900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Camp Wolf",
+            "Position": [
+                5478.759765625,
+                0.0,
+                1056.6300048828126
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Crotch Island",
+            "Position": [
+                10812.1103515625,
+                0.0,
+                2584.110107421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Deepwater",
+            "Position": [
+                1668.18994140625,
+                0.0,
+                12694.2001953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "RockArea",
+            "Name": "Devils Eye",
+            "Position": [
+                6654.22998046875,
+                0.0,
+                3472.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Villag",
+            "Name": "Duskar",
+            "Position": [
+                7841.8798828125,
+                0.0,
+                8061.18017578125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "East Harbor",
+            "Position": [
+                11363.580078125,
+                0.0,
+                10103.3701171875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Eastbrook",
+            "Position": [
+                10417.400390625,
+                0.0,
+                7851.9501953125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Fairfield",
+            "Position": [
+                9978.330078125,
+                0.0,
+                6825.93994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Fishers Camp",
+            "Position": [
+                10343.419921875,
+                0.0,
+                5586.740234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Georgestown",
+            "Position": [
+                4716.6298828125,
+                0.0,
+                4469.669921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Greenville",
+            "Position": [
+                4744.7099609375,
+                0.0,
+                1492.5
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Groots Hill",
+            "Position": [
+                7618.2998046875,
+                0.0,
+                4822.97998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Hazelands",
+            "Position": [
+                4538.47998046875,
+                0.0,
+                2693.840087890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Horizon",
+            "Position": [
+                4139.5,
+                0.0,
+                15461.2998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Industrial",
+            "Position": [
+                6787.0498046875,
+                0.0,
+                2376.030029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Loca",
+            "Name": "KMUC",
+            "Position": [
+                7226.10986328125,
+                0.0,
+                11625.58984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Kushville",
+            "Position": [
+                7533.60009765625,
+                0.0,
+                3910.2099609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Vill",
+            "Name": "Milo",
+            "Position": [
+                6545.97998046875,
+                0.0,
+                3922.5400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Loca",
+            "Name": "Mine",
+            "Position": [
+                11148.4599609375,
+                0.0,
+                2273.530029296875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Montville",
+            "Position": [
+                9370.8896484375,
+                0.0,
+                8062.240234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Mountainville",
+            "Position": [
+                7291.0400390625,
+                0.0,
+                8511.830078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "North Haven",
+            "Position": [
+                519.6900024414063,
+                0.0,
+                15113.509765625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Oceanville",
+            "Position": [
+                10258.6298828125,
+                0.0,
+                4879.9599609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Old Town",
+            "Position": [
+                1840.6099853515626,
+                0.0,
+                9070.5595703125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Oldfield",
+            "Position": [
+                6114.18994140625,
+                0.0,
+                6921.68994140625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Paris Island",
+            "Position": [
+                2880.639892578125,
+                0.0,
+                3903.840087890625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Pauls View",
+            "Position": [
+                9561.75,
+                0.0,
+                3716.429931640625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Pear Plantation",
+            "Position": [
+                9570.5400390625,
+                0.0,
+                7613.580078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "CityCapi",
+            "Name": "Portland",
+            "Position": [
+                6100.009765625,
+                0.0,
+                14802.419921875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Powerplant",
+            "Position": [
+                4790.47998046875,
+                0.0,
+                7051.89013671875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Prison",
+            "Position": [
+                5470.16015625,
+                0.0,
+                657.9600219726563
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "RCFI",
+            "Position": [
+                3732.699951171875,
+                0.0,
+                8812.9697265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Rockenheim Circuit",
+            "Position": [
+                10060.0400390625,
+                0.0,
+                11060.91015625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "StrongpointArea",
+            "Name": "Rogue Wave",
+            "Position": [
+                2144.840087890625,
+                0.0,
+                14620.2900390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Sandy Bay",
+            "Position": [
+                5347.7099609375,
+                0.0,
+                7584.4599609375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Scouts Camp",
+            "Position": [
+                4930.43994140625,
+                0.0,
+                2049.25
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Scouts Camp",
+            "Position": [
+                4930.43994140625,
+                0.0,
+                2049.25
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Sheep Island",
+            "Position": [
+                11941.830078125,
+                0.0,
+                3882.22998046875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Smallville",
+            "Position": [
+                10355.0400390625,
+                0.0,
+                4360.0
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "ViewPoint",
+            "Name": "Starks Castle",
+            "Position": [
+                5771.419921875,
+                0.0,
+                2372.25
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "CityCapita",
+            "Name": "Stonington",
+            "Position": [
+                6829.419921875,
+                0.0,
+                1860.6800537109376
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Stonington Harbor",
+            "Position": [
+                6839.2998046875,
+                0.0,
+                1422.0400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Suburbs North",
+            "Position": [
+                6335.52978515625,
+                0.0,
+                2043.489990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Suburbs South",
+            "Position": [
+                7206.72021484375,
+                0.0,
+                1492.3599853515626
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Sunset Cross",
+            "Position": [
+                6580.81982421875,
+                0.0,
+                6382.89990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Local",
+            "Name": "Swamp",
+            "Position": [
+                3801.860107421875,
+                0.0,
+                9049.3203125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Swansisland",
+            "Position": [
+                1120.0,
+                0.0,
+                15363.080078125
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "Hill",
+            "Name": "Swanville",
+            "Position": [
+                5289.25,
+                0.0,
+                12384.2197265625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Threepwood",
+            "Position": [
+                9072.8896484375,
+                0.0,
+                7738.64990234375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Waldoboro",
+            "Position": [
+                8730.990234375,
+                0.0,
+                9163.400390625
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Warren Cove",
+            "Position": [
+                7050.68017578125,
+                0.0,
+                5360.81982421875
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Westbrook",
+            "Position": [
+                3302.840087890625,
+                0.0,
+                6372.33984375
+            ],
+            "Radius": 4.0
+        },
+        {
+            "Type": "",
+            "Name": "Woodworking Industrial",
+            "Position": [
+                4446.97021484375,
+                0.0,
+                12078.1396484375
+            ],
+            "Radius": 4.0
+        }
+    ]
+}

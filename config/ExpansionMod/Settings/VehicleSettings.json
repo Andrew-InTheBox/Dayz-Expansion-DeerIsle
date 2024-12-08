@@ -1,5 +1,5 @@
 {
-    "m_Version": 19,
+    "m_Version": 20,
     "VehicleSync": 0,
     "VehicleRequireKeyToStart": 0,
     "VehicleRequireAllDoors": 0,
@@ -50,52 +50,42 @@
     "VehiclesConfig": [
         {
             "ClassName": "ExpansionUAZCargoRoofless",
-            "CanPlayerAttach": 1,
             "LockComplexity": 1.0
         },
         {
             "ClassName": "ExpansionUAZ",
-            "CanPlayerAttach": 0,
             "LockComplexity": 1.0
         },
         {
             "ClassName": "ExpansionBus",
-            "CanPlayerAttach": 1,
             "LockComplexity": 1.5
         },
         {
             "ClassName": "ExpansionVodnik",
-            "CanPlayerAttach": 1,
             "LockComplexity": 2.0
         },
         {
             "ClassName": "ExpansionUtilityBoat",
-            "CanPlayerAttach": 1,
             "LockComplexity": 1.25
         },
         {
             "ClassName": "ExpansionZodiacBoat",
-            "CanPlayerAttach": 1,
             "LockComplexity": 0.5
         },
         {
             "ClassName": "ExpansionLHD",
-            "CanPlayerAttach": 1,
             "LockComplexity": 100.0
         },
         {
             "ClassName": "ExpansionMerlin",
-            "CanPlayerAttach": 1,
             "LockComplexity": 4.0
         },
         {
             "ClassName": "ExpansionMh6",
-            "CanPlayerAttach": 0,
             "LockComplexity": 3.0
         },
         {
             "ClassName": "ExpansionUh1h",
-            "CanPlayerAttach": 0,
             "LockComplexity": 2.5
         }
     ]

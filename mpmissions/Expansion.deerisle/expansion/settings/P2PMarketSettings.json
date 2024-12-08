@@ -1,5 +1,5 @@
 {
-    "m_Version": 2,
+    "m_Version": 3,
     "Enabled": 1,
     "MaxListingTime": 691200,
     "MaxListings": 20,
@@ -584,5 +584,6 @@
             ]
         }
     ],
-    "SalesDepositTime": 691200
+    "SalesDepositTime": 691200,
+    "DisallowUnpersisted": 0
 }

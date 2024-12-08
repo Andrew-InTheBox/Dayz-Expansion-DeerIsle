@@ -1,0 +1,85 @@
+{
+    "Master_ConfigVersion": 12,
+    "HUD_ForceMetric": 0,
+    "HUD_ForceImperial": 0,
+    "HUD_Allow1PP": 1,
+    "HUD_Allow3PP": 1,
+    "HUD_RequiresPilotHelmet": 0,
+    "Control_AllowTakeCommand": 0,
+    "Control_SimpleCollective": 0,
+    "Control_AllowRecoveryMode": 1,
+    "Control_Grounded": 0,
+    "Sound_EngineVolume": 100.0,
+    "Damage_AllowWeaponDamage": 1,
+    "Damage_AllowCollisionDamage": 1,
+    "Damage_Collision2DamageCoeff": 100.0,
+    "Damage_AllowHydraulicDamage": 1,
+    "Storage_AllowRemovalofFlightCase": 1,
+    "Storage_DisplayInventoryCategory": 1,
+    "Crashsite_CreateOnHeliRuined": 1,
+    "Crashsite_ScatterHeliInventory": 1,
+    "Crashsite_DamageScatteredInventory": 1,
+    "Crashsite_SpawnZombies": 1,
+    "Crashsite_ZombieDistance": 12.0,
+    "Crashsite_ZombieMax": 8,
+    "Crashsite_ZombieMin": 2,
+    "Crashsite_LootDistance": 4.0,
+    "Crashsite_LootMinDamage": 0,
+    "Crashsite_LootMaxDamage": 100,
+    "Crashsite_Zombies": [
+        {
+            "ClassName": "ZmbM_PatrolNormal_Autumn"
+        },
+        {
+            "ClassName": "ZmbM_PatrolNormal_Flat"
+        },
+        {
+            "ClassName": "ZmbM_PatrolNormal_PautRev"
+        },
+        {
+            "ClassName": "ZmbM_PatrolNormal_Summer"
+        },
+        {
+            "ClassName": "ZmbM_SoldierNormal"
+        },
+        {
+            "ClassName": "ZmbM_usSoldier_Heavy_Woodland"
+        },
+        {
+            "ClassName": "ZmbM_usSoldier_Officer_Desert"
+        },
+        {
+            "ClassName": "ZmbM_usSoldier_normal_Desert"
+        },
+        {
+            "ClassName": "ZmbM_usSoldier_normal_Woodland"
+        },
+        {
+            "ClassName": "ZmbM_CommercialPilotOld_Olive"
+        },
+        {
+            "ClassName": "ZmbM_CommercialPilotOld_Brown"
+        },
+        {
+            "ClassName": "ZmbM_CommercialPilotOld_Blue"
+        },
+        {
+            "ClassName": "ZmbM_JournalistSkinny"
+        },
+        {
+            "ClassName": "ZmbF_JournalistNormal_White"
+        },
+        {
+            "ClassName": "ZmbM_CommercialPilotOld_Grey"
+        },
+        {
+            "ClassName": "ZmbM_FirefighterNormal"
+        },
+        {
+            "ClassName": "ZmbM_NBC_Yellow"
+        },
+        {
+            "ClassName": "ZmbM_PolicemanSpecForce_Heavy"
+        }
+    ]
+}

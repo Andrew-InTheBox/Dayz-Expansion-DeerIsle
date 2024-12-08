@@ -58,7 +58,7 @@
 			<item name="MMG_ammo_pouch_dark_woodland" 	chance="0.20" />
 			<item name="MMG_bottle_dark_woodland" 		chance="0.20" />
 			<item name="MMG_sheath_dark_woodland" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 					hance="0.05" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
 		</attachments>
 	</type>
 	<type name="MMG_JPC_Vest_erdl">
@@ -274,7 +274,7 @@
 			<item name="MMG_ammo_pouch_dark_woodland" 	chance="0.20" />
 			<item name="MMG_bottle_dark_woodland" 		chance="0.20" />
 			<item name="MMG_sheath_dark_woodland" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 					hance="0.05" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
 		</attachments>
 	</type>
 	<type name="MMG_chestrig_erdl">
@@ -757,10 +757,10 @@
 			<item name="Chemlight_Red" 			chance="0.05" />
 			<item name="Chemlight_White" 		chance="0.05" />
 			<item name="Chemlight_yellow" 		chance="0.05" />
-			<cargo preset="mixArmy" />
-		    <cargo preset="mixArmy" />
-		    <cargo preset="foodVillage" />
-		    </attachments>
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
 	</type>
 	<type name="MMG_carrier_backpack_multicamblack">
 		<attachments chance="1.00">
@@ -1106,7 +1106,7 @@
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
 			<item name="Chemlight_Red" 		chance="0.05" />
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
@@ -1119,7 +1119,7 @@
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
 			<item name="Chemlight_Red" 		chance="0.05" />
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
@@ -1132,7 +1132,7 @@
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
 			<item name="Chemlight_Red" 		chance="0.05" />
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
@@ -1233,7 +1233,6 @@
 			<item name="MMG_Med_Pouch_dark_woodland" 	chance="0.20" />
 			<item name="MMG_bottle_dark_woodland" 		chance="0.20" />
 			<item name="MMG_nbc_pouch" 					chance="0.05" />
-		</attachments>
 		</attachments>
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
@@ -1428,7 +1427,7 @@
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
 			<item name="Chemlight_Red" 		chance="0.05" />
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
@@ -1441,7 +1440,7 @@
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
 			<item name="Chemlight_Red" 		chance="0.05" />
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
@@ -1454,7 +1453,7 @@
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
 			<item name="Chemlight_Red" 		chance="0.05" />
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />

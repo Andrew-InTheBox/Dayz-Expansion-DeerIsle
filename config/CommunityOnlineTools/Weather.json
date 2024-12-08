@@ -1,0 +1,272 @@
+{
+    "Presets": [
+        {
+            "Name": "No Rain",
+            "Time": 0.0,
+            "PDate": {
+                "Year": -1,
+                "Month": -1,
+                "Day": -1,
+                "Hour": -1,
+                "Minute": -1
+            },
+            "Storm": {
+                "Density": -1.0,
+                "Threshold": -1.0,
+                "MinTimeBetweenLightning": -1.0
+            },
+            "POvercast": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PFog": {
+                "Forecast": 0.0,
+                "Time": 0.0,
+                "MinDuration": 0.0
+            },
+            "PDynFog": {
+                "Distance": 0.0,
+                "Height": 0.0,
+                "Bias": 0.0,
+                "Time": 0.0
+            },
+            "PRain": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "RainThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PSnow": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "SnowThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PWindMagnitude": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PWindDirection": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "WindFunc": {
+                "Min": -1.0,
+                "Max": -1.0,
+                "Speed": -1.0
+            }
+        },
+        {
+            "Name": "No Snow",
+            "Time": 0.0,
+            "PDate": {
+                "Year": -1,
+                "Month": -1,
+                "Day": -1,
+                "Hour": -1,
+                "Minute": -1
+            },
+            "Storm": {
+                "Density": -1.0,
+                "Threshold": -1.0,
+                "MinTimeBetweenLightning": -1.0
+            },
+            "POvercast": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PFog": {
+                "Forecast": 0.0,
+                "Time": 0.0,
+                "MinDuration": 0.0
+            },
+            "PDynFog": {
+                "Distance": 0.0,
+                "Height": 0.0,
+                "Bias": 0.0,
+                "Time": 0.0
+            },
+            "PRain": {
+                "Forecast": -1.0,
+                "Time": -1.0,
+                "MinDuration": -1.0
+            },
+            "RainThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PSnow": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "SnowThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PWindMagnitude": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PWindDirection": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "WindFunc": {
+                "Min": -1.0,
+                "Max": -1.0,
+                "Speed": -1.0
+            }
+        },
+        {
+            "Name": "No Fog",
+            "Time": 0.0,
+            "PDate": {
+                "Year": -1,
+                "Month": -1,
+                "Day": -1,
+                "Hour": -1,
+                "Minute": -1
+            },
+            "Storm": {
+                "Density": -1.0,
+                "Threshold": -1.0,
+                "MinTimeBetweenLightning": -1.0
+            },
+            "POvercast": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PFog": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PDynFog": {
+                "Distance": 0.0,
+                "Height": 0.0,
+                "Bias": 0.0,
+                "Time": 0.0
+            },
+            "PRain": {
+                "Forecast": -1.0,
+                "Time": -1.0,
+                "MinDuration": -1.0
+            },
+            "RainThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PSnow": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "SnowThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PWindMagnitude": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PWindDirection": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "WindFunc": {
+                "Min": -1.0,
+                "Max": -1.0,
+                "Speed": -1.0
+            }
+        },
+        {
+            "Name": "No Rain and Fog",
+            "Time": 0.0,
+            "PDate": {
+                "Year": -1,
+                "Month": -1,
+                "Day": -1,
+                "Hour": -1,
+                "Minute": -1
+            },
+            "Storm": {
+                "Density": -1.0,
+                "Threshold": -1.0,
+                "MinTimeBetweenLightning": -1.0
+            },
+            "POvercast": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PFog": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PDynFog": {
+                "Distance": 0.0,
+                "Height": 0.0,
+                "Bias": 0.0,
+                "Time": 0.0
+            },
+            "PRain": {
+                "Forecast": -1.0,
+                "Time": -1.0,
+                "MinDuration": -1.0
+            },
+            "RainThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PSnow": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "SnowThreshold": {
+                "OvercastMin": -1.0,
+                "OvercastMax": -1.0,
+                "Time": -1.0
+            },
+            "PWindMagnitude": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "PWindDirection": {
+                "Forecast": 0.0,
+                "Time": 120.0,
+                "MinDuration": 21600.0
+            },
+            "WindFunc": {
+                "Min": -1.0,
+                "Max": -1.0,
+                "Speed": -1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- !!! SERVER RESTART NEEDED TO APPLY CHANGES !!! -->
+
+<types>	
+	<type name="PvZmoD_Information_Panel">
+        <Custom_Server_Link	 							Value = ""/>	<!-- https://...  --> 
+        <PvZmoD_Information_Panel_Enable_In_Main_Menu	Value = "1"/>	<!-- [Integer 0 or 1] "0" only work AFTER the player have joined the server --> 
+        <PvZmoD_Information_Panel_Enable_In_Game_Menu	Value = "1"/>	<!-- [Integer 0 or 1]  --> 
+	</type>
+	
+	<type name="NewFeatures">		<!-- New feautures, you should move them in the right section (not mandatory but cleaner structure is easier for you to tweak) -->    
+	</type>
+</types>
+
+<!-- Remember you can join my PvZmoD discord here: https://discord.gg/UWwYp4Cb5C --> 
+<!-- Cheers, Liven --> 

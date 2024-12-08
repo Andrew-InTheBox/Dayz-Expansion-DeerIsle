@@ -1,5 +1,5 @@
 {
-    "m_Version": 21,
+    "m_Version": 22,
     "Enabled": 1,
     "DespawnTime": 600.0,
     "RespawnTime": 1800.0,
@@ -23,6 +23,7 @@
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -56,6 +57,7 @@
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -89,6 +91,7 @@
             "Units": [],
             "NumberOfAI": -2,
             "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -122,6 +125,7 @@
             "Units": [],
             "NumberOfAI": -2,
             "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -155,6 +159,7 @@
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -190,6 +195,7 @@
             "Units": [],
             "NumberOfAI": 4,
             "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -215,7 +221,7 @@
             "Waypoints": [
                 [
                     8992.2900390625,
-                    2.4076900005340578,
+                    2.4076900482177736,
                     3292.2099609375
                 ]
             ]
@@ -230,6 +236,7 @@
             "Units": [],
             "NumberOfAI": 4,
             "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -255,7 +262,7 @@
             "Waypoints": [
                 [
                     3287.889892578125,
-                    19.54280014038086,
+                    19.542800903320314,
                     6398.419921875
                 ]
             ]
@@ -270,6 +277,7 @@
             "Units": [],
             "NumberOfAI": 4,
             "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -295,7 +303,7 @@
             "Waypoints": [
                 [
                     10145.0,
-                    5.96108980178833,
+                    5.961089611053467,
                     12065.599609375
                 ]
             ]
@@ -310,6 +318,7 @@
             "Units": [],
             "NumberOfAI": 4,
             "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -335,7 +344,7 @@
             "Waypoints": [
                 [
                     10034.0,
-                    36.40719909667969,
+                    36.40719985961914,
                     6824.97021484375
                 ]
             ]
@@ -350,6 +359,7 @@
             "Units": [],
             "NumberOfAI": 4,
             "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -374,9 +384,9 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4568.12,
-                    2.8625,
-                    2704.15
+                    4568.1201171875,
+                    2.862499952316284,
+                    2704.14990234375
                 ]
             ]
         },
@@ -390,6 +400,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -440,6 +451,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -464,39 +476,39 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    3778.41,
-                    26.6267,
-                    9287.64
+                    3778.409912109375,
+                    26.626699447631837,
+                    9287.6396484375
                 ],
                 [
-                    3778.52,
-                    16,
-                    9131.39
+                    3778.52001953125,
+                    16.0,
+                    9131.3896484375
                 ],
                 [
-                    3813.08,
-                    16.0125,
-                    9101.94
+                    3813.080078125,
+                    16.012500762939454,
+                    9101.9404296875
                 ],
                 [
-                    3779.6,
-                    16.0682,
-                    9050.06
+                    3779.60009765625,
+                    16.068199157714845,
+                    9050.0595703125
                 ],
                 [
-                    3706.72,
-                    13.4783,
-                    9010.15
+                    3706.719970703125,
+                    13.478300094604493,
+                    9010.150390625
                 ],
                 [
-                    3705.14,
-                    13.2146,
-                    8945.48
+                    3705.139892578125,
+                    13.214599609375,
+                    8945.48046875
                 ],
                 [
-                    3718.61,
-                    9.74067,
-                    8894.71
+                    3718.610107421875,
+                    9.740670204162598,
+                    8894.7099609375
                 ]
             ]
         },
@@ -510,6 +522,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -600,6 +613,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -665,6 +679,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -810,6 +825,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -1110,6 +1126,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -1134,35 +1151,35 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    5729.67,
-                    74.0125,
-                    3118.04
+                    5729.669921875,
+                    74.01249694824219,
+                    3118.0400390625
                 ],
                 [
-                    5199.15,
-                    79.6037,
-                    3052.83
+                    5199.14990234375,
+                    79.60369873046875,
+                    3052.830078125
                 ],
                 [
-                    4869.06,
-                    67.1479,
-                    3060.67
+                    4869.06005859375,
+                    67.14790344238281,
+                    3060.669921875
                 ],
                 [
-                    5123.68,
-                    74.0125,
+                    5123.68017578125,
+                    74.01249694824219,
                     3528.75
                 ],
                 [
-                    5301.81,
-                    74.0125,
-                    3922.92
+                    5301.81005859375,
+                    74.01249694824219,
+                    3922.919921875
                 ],
                 [
-                    6032.09,
-                    71.8096,
-                    3865.04
-                ]                
+                    6032.08984375,
+                    71.80960083007813,
+                    3865.0400390625
+                ]
             ]
         },
         {
@@ -1175,6 +1192,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -1400,6 +1418,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -1950,6 +1969,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -2255,6 +2275,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -2320,6 +2341,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -2735,6 +2757,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -3425,6 +3448,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -4500,6 +4524,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -4605,6 +4630,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -4680,6 +4706,7 @@
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -4805,6 +4832,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -4940,6 +4968,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -4964,30 +4993,30 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    626.141,
-                    13.362,
-                    556.108
+                    626.1409912109375,
+                    13.362000465393067,
+                    556.1079711914063
                 ],
                 [
-                    546.2,
-                    17.1779,
-                    700.512
+                    546.2000122070313,
+                    17.177900314331056,
+                    700.5120239257813
                 ],
                 [
-                    485.248,
-                    15.9389,
-                    795.457
+                    485.24798583984377,
+                    15.938899993896485,
+                    795.4569702148438
                 ],
                 [
-                    473.604,
-                    17.8092,
-                    942.883
+                    473.60400390625,
+                    17.809200286865236,
+                    942.8829956054688
                 ],
                 [
-                    337.935,
-                    15.2981,
-                    969.943
-                ]  
+                    337.93499755859377,
+                    15.298100471496582,
+                    969.9429931640625
+                ]
             ]
         },
         {
@@ -5000,6 +5029,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -5024,28 +5054,28 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    898.303,
-                    7.00,
-                    12825.8
+                    898.302978515625,
+                    7.0,
+                    12825.7998046875
                 ],
                 [
-                    963.997,
-                    40.3764,
-                    12325.9
+                    963.9970092773438,
+                    40.376399993896487,
+                    12325.900390625
                 ],
                 [
-                    888.633,
-                    51.18,
-                    11920
+                    888.6329956054688,
+                    51.18000030517578,
+                    11920.0
                 ],
                 [
-                    896.14,
-                    37.936,
-                    11317.1
+                    896.1400146484375,
+                    37.93600082397461,
+                    11317.099609375
                 ],
                 [
-                    1079.08,
-                    53.8171,
+                    1079.0799560546876,
+                    53.817100524902347,
                     10691.5
                 ]
             ]
@@ -5060,6 +5090,7 @@
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
             "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
@@ -5084,23 +5115,23 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    564.741,
-                    8.12,
-                    15357.4
+                    564.7410278320313,
+                    8.119999885559082,
+                    15357.400390625
                 ],
                 [
-                    1072.44,
-                    15.5053,
-                    15336.7
+                    1072.43994140625,
+                    15.50529956817627,
+                    15336.7001953125
                 ],
                 [
-                    1373.51,
-                    8.32,
-                    15387.3
+                    1373.510009765625,
+                    8.319999694824219,
+                    15387.2998046875
                 ],
                 [
-                    1733.72,
-                    7.48516,
+                    1733.719970703125,
+                    7.485159873962402,
                     15788.5
                 ]
             ]

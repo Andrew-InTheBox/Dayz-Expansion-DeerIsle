@@ -1,7 +1,7 @@
 {
     "Version": 20,
-    "Spatial_MinTimer": 35.0,
-    "Spatial_MaxTimer": 45.0,
+    "Spatial_MinTimer": 60.0,
+    "Spatial_MaxTimer": 75.0,
     "MinDistance": 120,
     "MaxDistance": 220,
     "HuntMode": 1,
@@ -15,7 +15,7 @@
     "GroupDifficulty": 0,
     "MinimumPlayerDistance": 0,
     "MaxSoloPlayers": 0,
-    "MinimumAge": 120,
+    "MinimumAge": 150,
     "ActiveHoursEnabled": 1,
     "ActiveStartTime": 5.5,
     "ActiveStopTime": 18.5,
@@ -41,8 +41,8 @@
             "Spatial_Name": "HumanLoadout",
             "Spatial_Lootable": 2,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -54,8 +54,8 @@
             "Spatial_Name": "MMG",
             "Spatial_Lootable": 2,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -67,8 +67,8 @@
             "Spatial_Name": "EastLoadout",
             "Spatial_Lootable": 2,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -80,8 +80,8 @@
             "Spatial_Name": "WestLoadout",
             "Spatial_Lootable": 2,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -93,8 +93,8 @@
             "Spatial_Name": "SurvivorLoadout",
             "Spatial_Lootable": 2,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -106,8 +106,8 @@
             "Spatial_Name": "GorkaLoadout",
             "Spatial_Lootable": 2,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         }
     ],

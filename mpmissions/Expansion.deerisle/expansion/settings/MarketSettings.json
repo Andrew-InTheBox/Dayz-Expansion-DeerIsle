@@ -1,5 +1,5 @@
 {
-    "m_Version": 13,
+    "m_Version": 15,
     "MarketSystemEnabled": 0,
     "NetworkCategories": [],
     "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
@@ -115,5 +115,7 @@
     "VehicleKeys": [],
     "MaxSZVehicleParkingTime": 1800.0,
     "SZVehicleParkingTicketFine": 0,
-    "TrainSpawnPositions": []
+    "SZVehicleParkingFineUseKey": 1,
+    "TrainSpawnPositions": [],
+    "DisallowUnpersisted": 0
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<inputs version="140">
+    <preset name="#STR_USER" file="dayz_preset_User.xml" main="true" />
+    <options>
+        <item name="IRTracker_VScale" value="2.000000" />
+        <item name="IRTracker_HScale" value="2.000000" />
+        <item name="IRTracker" value="true" />
+        <item name="RazerChroma" value="false" />
+        <item name="MouseButtonsSwapped" value="false" />
+        <item name="PS4GuiConfirmationButtonsSwapped" value="false" />
+        <item name="InvertYAxis" value="false" />
+    </options>
+</inputs>

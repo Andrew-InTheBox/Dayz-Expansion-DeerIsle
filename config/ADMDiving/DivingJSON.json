@@ -1,0 +1,71 @@
+{
+    "m_PlayerDivingInfo": [
+        {
+            "ClassName": "DivingPlayerSetting",
+            "DisableDivingMode": 0,
+            "MaxLungCapacity": 1000.0,
+            "LungBurnMultiplier": 1.0,
+            "SprintLungBurnMultiplier": 2.0,
+            "MaxDiveDepth": 350.0,
+            "SwimSpeed": 0.699999988079071,
+            "SwimVerticleSpeed": 0.05000000074505806
+        }
+    ],
+    "m_GearDivingInfo": [
+        {
+            "ClassName": "ADM_Divinghelmet",
+            "m_IsDivingHelmet": 1,
+            "m_IsDivingSuit": 0,
+            "m_IsDivingTank": 0,
+            "m_IsSnorkel": 0,
+            "m_IsFlippers": 0,
+            "m_GearSwimSpeedMulti": 0.0,
+            "m_GearSprintSwimSpeedMulti": 0.0,
+            "m_MaxTankCapacity": 0
+        },
+        {
+            "ClassName": "ADM_Divingsuit",
+            "m_IsDivingHelmet": 0,
+            "m_IsDivingSuit": 1,
+            "m_IsDivingTank": 0,
+            "m_IsSnorkel": 0,
+            "m_IsFlippers": 0,
+            "m_GearSwimSpeedMulti": 0.0,
+            "m_GearSprintSwimSpeedMulti": 0.0,
+            "m_MaxTankCapacity": 0
+        },
+        {
+            "ClassName": "ADM_Divingtank",
+            "m_IsDivingHelmet": 0,
+            "m_IsDivingSuit": 0,
+            "m_IsDivingTank": 1,
+            "m_IsSnorkel": 0,
+            "m_IsFlippers": 0,
+            "m_GearSwimSpeedMulti": 0.0,
+            "m_GearSprintSwimSpeedMulti": 0.0,
+            "m_MaxTankCapacity": 80000
+        },
+        {
+            "ClassName": "ADM_Snorkel",
+            "m_IsDivingHelmet": 0,
+            "m_IsDivingSuit": 0,
+            "m_IsDivingTank": 0,
+            "m_IsSnorkel": 1,
+            "m_IsFlippers": 0,
+            "m_GearSwimSpeedMulti": 0.0,
+            "m_GearSprintSwimSpeedMulti": 0.0,
+            "m_MaxTankCapacity": 0
+        },
+        {
+            "ClassName": "ADM_Flippers",
+            "m_IsDivingHelmet": 0,
+            "m_IsDivingSuit": 0,
+            "m_IsDivingTank": 0,
+            "m_IsSnorkel": 0,
+            "m_IsFlippers": 1,
+            "m_GearSwimSpeedMulti": 3.0,
+            "m_GearSprintSwimSpeedMulti": 6.0,
+            "m_MaxTankCapacity": 0
+        }
+    ]
+}
