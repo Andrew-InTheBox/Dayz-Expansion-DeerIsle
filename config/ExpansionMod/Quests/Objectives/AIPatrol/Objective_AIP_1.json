@@ -52,7 +52,7 @@
         "NumberOfAI": 4,
         "Behaviour": "HALT",
         "Speed": "WALK",
-        "UnderThreatSpeed": "SPRINT",
+        "UnderThreatSpeed": "JOG",
         "CanBeLooted": 1,
         "UnlimitedReload": 1,
         "SniperProneDistanceThreshold": 300.0,

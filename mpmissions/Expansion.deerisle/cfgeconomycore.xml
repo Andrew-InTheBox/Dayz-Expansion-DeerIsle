@@ -37,4 +37,43 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 		<default name="randomloot_deloot_perevent" value="3" />
 	</defaults>
+
+			<!-- Expansion Material -->
+	<ce folder="expansion_ce">
+		<file name="expansion_types.xml" type="types" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_events.xml" type="events" />
+	</ce>
+	<!-- End expansion material -->
+	
+	<!-- MMG military gear -->
+	<ce folder="db/mmg">
+		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="mmg_types_ADMINGEAR.xml" type="types" />
+		<file name="mmg_bare_types.xml" type="types" />
+	</ce>
+	<!-- End mmg material -->
+	
+	<!-- snafu guns -->
+	<ce folder="db/snafu">
+		<file name="snafuspawnabletypes25percent.xml" type="spawnabletypes" />
+		<file name="SNAFU_bare_types.xml" type="types" />
+	</ce>
+	<!-- end of snafu guns -->
+
+		<!-- red falcon heli -->
+	<ce folder="db/rfheli">
+		<file name="rfheli_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="rfheli_types.xml" type="types" />
+		<file name="rfheli_events.xml" type="events" />
+	</ce>
+	<!-- end of red falcon heli -->
+
+
+	<!-- metro watch mod -->
+	<ce folder="db/metro_watch">
+		<file name="spawnabletypes.xml" type="spawnabletypes" />
+		<file name="MetroWatch_types.xml" type="types" />
+	</ce>
+	<!-- end of metro watch mod -->
 </economycore>

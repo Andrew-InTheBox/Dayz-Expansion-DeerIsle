@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <event name="VehicleHeliSpawn">
-        <nominal>4</nominal>
-        <min>7</min>
+        <nominal>7</nominal>
+        <min>6</min>
         <max>9</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
