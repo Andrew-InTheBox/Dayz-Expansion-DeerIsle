@@ -30,14 +30,14 @@
 		Don't forget .xml extension
 
 	Features_Activation	
-		Disable_All_Features / Zombies_Health_Activated / Zombies_Resistance_Activated (DEPRECATED)
-			These features was not working properly
-			
-		Zombies_Speed_Activated / Zombies_Vision_Activated...
+		Disable_All_Features
+			This will disable all feature of the mod
+			Useful if you encounter problems (but it shouldn't happen ;-))
+		Zombies_Health_Activated / Zombies_Resistance_Activated / Zombies_Speed_Activated / Zombies_Vision_Activated...
 			This disable the feature one by one
 			It is the more efficient way to disable a feature (more that modify characteristics) 
 			All my code will be skipped so no bug or resource consume from a disabled feature that way
-			Note that disable "Bleeding_Chance_Activated" can solve solve some conflict with other mods that make player systematically sick when hit by zombies.
+			Note the disable "Bleeding_Chance_Activated" can solve solve some conflict with other mods that make player systematically sick when hit by zombies.
 			
 		Zombies_Hearing_Doors_Player_Standing_Activated
 			Activate/Deactivate zombies hearing the players opening or closing doors when he is standing.
@@ -48,9 +48,9 @@
 			Activate/Deactivate zombies ability to hit unconscious players.
 			
 		Zombies_Fight_Wolves_Activated / Zombies_Fight_Bears_Activated
-			This Feature is deprecated, now wolves/bears never fight with zombies.
-			If you want them to fight you will have to load this addon:
-			https://steamcommunity.com/sharedfiles/filedetails/?id=3141653378
+			If set to 0 the animal concerned will not fight with zombies.
+			Note that the "Friendly_Wolves" (details in "other" section bellow) never fight the zombies.
+			Remember these last features can be server resource consuming (if set to 1).
 		
 		Zombies_Breaking_Doors_Activated
 			If set to 0 no zombies will be able to break the closed doors.
@@ -106,9 +106,6 @@
 			Limits the size of zombies when they are in a building to avoid them glitching through the roof.
 			It doesn't work in some custom structures if their not identify as buildings by the game engine.	
 			
-		Zombies_Stun_By_Bullet_Resistance_Ratio
-			Ratio (%) applied to all zombies "Resistance_to_Stun_Bullets" from Characteristics.xml
-			
 ////////////////////////	
 
 	Players_Caracteristics :
@@ -144,7 +141,7 @@
 				SkinInfected mod : https://steamcommunity.com/sharedfiles/filedetails/?id=1668199233
 				I do not recommend to you to use xml files provided by these mods because I can't guarantee that they are up to date.		
 		Special_Mask_Type_Of_Slot
-			Possible values : Mask/HeadGear/Shoulder/Melee/Headgear/Eyewear/Gloves/Armband/Vest/Body/Back/Hips/Legs/Feet/Splint_Right/Hands
+			Possible values : Mask/Head/Shoulder/Melee/Headgear/Eyewear/Gloves/Armband/Vest/Body/Back/Hips/Legs/Feet/Splint_Right/Hands
 			You can only set ONE slot.
 			This will allow to use another item type than mask to hide from zombies.
 		Special_Mask_Lifetime
@@ -185,10 +182,6 @@
 		
 		Activated
 			0 to deactivate / 1 to activate this feature.
-		
-		Moving_Vehicles_Too
-			[Integer: 1 or 0]
-			If activated it allows zombies to try to attack vehicles even if the vehicle is moving.
 		
 		Vehicle_Type_Resistance
 			This allow to have different resistance for each type of vehicle.
@@ -391,8 +384,6 @@
 	
 	Health_Points : 
 		The number of heath point of the zombie
-		If you need to set a very high value because player use weapon with very high damage you will have to increase the "Resistance_to_Bullets" or the zombie will stay pretty weak against these weapons
-		Note that you can set the "Debug_Mod Activated" value to 2 in PvZmoD_CustomisableZombies_Globals.xml to see red debug messages about damage zombies receive.
 
 	Resistance_to_Bullets /  Melees / Vehicles / Explosions / HeadShots	:	
 		Inferior to 1 	: Weak from damages
@@ -422,10 +413,9 @@
 		And the if you increase too much it, zombies will look like sliding on the ground.
 	
 	Animation_Type :
-		0 or 1 or 3 : Force the type moving animation used.
+		0 or 1 or 2 or 3 : Force the type moving animation used.
 		-9 : Choose random move animation.
 		Note that the zombies are a little bit faster when walking while using animation 1.
-		Note that the value 2 is not avalable because it bugs when zombies have a jogging speed.
 	
 	Chance_To_Spawn_Crawling : 
 		-1 	: Never Crawling even when been shooted in legs
@@ -469,7 +459,6 @@
 		Chance (%) for the player to bleed when hit by the zombie
 		Note that you can let the vanilla system dealing the bleeding chance by setting the value to -1
 		The vanilla bleeding chance are 10% for all attacks types
-		This feature is deactivated by default in the globals.xml because it conflicts with some medic mods that make player systematically sick when hit by zombies.
 	
 	Damage_Blood :
 		QUANTITY of blood the player loose when hit by the zombie
@@ -493,12 +482,11 @@
 	
 	LightAttack_Blocked
 		Value (ratio or quantity) applied when zombie perform a LIGHT attack and the player BLOCK it
-		If you set a value superior to 0 (whatever it is for Ratio_Damage_Health/_Shock/Bleeding_Chance...) zombies attacks will damage the clothes even if the player is in blocking stand.
 	
-	HeavyAttack_NotBlocked - DEPRECATED : DayZ devs had disable heavy attacks.
+	HeavyAttack_NotBlocked
 		Value (ratio or quantity) applied when zombie perform a HEAVY attack and the player does NOT BLOCK it
 	
-	HeavyAttack_Blocked - DEPRECATED : DayZ devs had disable heavy attacks.
+	HeavyAttack_Blocked
 		Value (ratio or quantity) applied when zombie perform a HEAVY attack and the player BLOCK it
 	
 	NightRatio
@@ -562,18 +550,10 @@
 		Apply a ratio to the vanilla size of zombies.
 		Modifications of these value are only applied to new spawned zombies.
 
-////////////////////////
 
-	Resistance_to_Stun_Bullets
-		[0.01 to 2.0]
-		Zombies have three way to react to a bullet impact : No stun animation / Light stun animation / Heavy stun animation
-		The animation played depends on the zombie stun resistance and the bullet shock damage.
-		Examples:
-		If set to 1.0 zombies will play no animation for most bullets impact but can time to time play a light animation when hit by high caliber weapon
-		If you want the zombie to never play stun animation at all (or if you use very high caliber from modded weapons) you can increase the value to 2.0
-		If you set to 0.5 the zombie will play no or light stun animation for small caliber and light or heavy stun animation for medium caliber and heavy stun animation for big caliber
-		The bullet caliber and stun animation keep some random relationship (a given caliber will not always have the exact same effect) 
-		This makes things more natural but it make the value more difficult to tweak (make several tests to find the result you want).
+
+
+
 
 ////////////////////////
 	
@@ -586,14 +566,13 @@
 		Resistance_to_Melees		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
 		Resistance_to_Vehicles		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
 		Resistance_to_Explosions	Decimal (Ratio) 	[0.0 to infinite]	(or "-99")
-		Resistance_to_Stun_Bullets	Decimal (Ratio) 	[0.0 to 2.0]		(or "-99")
 		Resistance_to_HeadShots		Decimal (Ratio) 	[0.0 to infinite]	(or "-99")	
 		Special_HeadShot_Weapons	Integer (On/Off) 	[0 or 1]			(or "-99")	
 		
 		Move_Speed_Min				Decimal (Quantity) 	[0.0 to 3.0]		(or "-99")
 		Move_Speed_Max				Decimal (Quantity) 	[1.0 to 3.0]		(or "-99")	
 		Move_Speed_Adjust_Max		Decimal (Quantity) 	[-0.5 to 0.5]		(or "-99")	
-		Animation_Type				Integer (Selection)	[0, 1, 3 or -9]		(or "-99")
+		Animation_Type				Integer (Selection)	[0 to 3 or -9]		(or "-99")
 		
 		Chance_To_Spawn_Crawling	Decimal (Ratio) 	[0.0 to 1.0 or -1.0](or "-99")
 		
