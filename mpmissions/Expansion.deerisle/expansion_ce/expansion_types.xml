@@ -3278,10 +3278,10 @@
         <value name="Tier9" />
         </type>
     <type name="Expansion_Taser_Yellow">
-        <nominal>24</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>12</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3750,7 +3750,7 @@
         <usage name="Police" />
         </type>
     <type name="Ammo_Expansion_M203_Smoke_Yellow">
-        <nominal>12</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -3917,10 +3917,10 @@
         <usage name="Hunting" />
         </type>
     <type name="Mag_Expansion_Taser">
-        <nominal>36</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>18</min>
+        <min>2</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

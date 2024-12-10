@@ -2184,8 +2184,11 @@
 		</attachments>
 	</type>
 	<type name="ExpansionVodnik">
-		<attachments chance="1.00">
+		<attachments chance="0.60">
 			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />

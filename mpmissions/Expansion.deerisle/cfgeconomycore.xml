@@ -61,14 +61,13 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	<!-- end of snafu guns -->
 
-		<!-- red falcon heli -->
+	<!-- red falcon heli -->
 	<ce folder="db/rfheli">
 		<file name="rfheli_spawnabletypes.xml" type="spawnabletypes" />
 		<file name="rfheli_types.xml" type="types" />
 		<file name="rfheli_events.xml" type="events" />
 	</ce>
 	<!-- end of red falcon heli -->
-
 
 	<!-- metro watch mod -->
 	<ce folder="db/metro_watch">
