@@ -1852,6 +1852,9 @@
 	<!--Religious-->
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="foodHermit" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
 	</type>
 	<!--Solitude-->
 	<type name="ZmbF_HikerSkinny_Blue">
