@@ -3065,10 +3065,10 @@
 		<value name="Tier9" />
 	</type>
 	<type name="ExpansionHAMROptic">
-		<nominal>12</nominal>
+		<nominal>18</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>8</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

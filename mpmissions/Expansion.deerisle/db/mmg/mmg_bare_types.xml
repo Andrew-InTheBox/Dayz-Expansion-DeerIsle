@@ -14,6 +14,7 @@
         <value name="Tier4" />
         <value name="Tier5" />
         <value name="Tier6" />
+        <value name="Tier7" />
     </type>
     <type name="MMG_tt_Vest_alpine">
         <nominal>3</nominal>
@@ -29,6 +30,7 @@
         <value name="Tier4" />
         <value name="Tier5" />
         <value name="Tier6" />
+        <value name="Tier7" />
     </type>
         <type name="MMG_camelback_alpine">
         <nominal>5</nominal>
@@ -44,5 +46,6 @@
         <value name="Tier4" />
         <value name="Tier5" />
         <value name="Tier6" />
+        <value name="Tier7" />
     </type>
 </types>

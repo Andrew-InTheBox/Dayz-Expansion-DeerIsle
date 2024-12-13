@@ -15730,7 +15730,7 @@
     <nominal>10</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15748,7 +15748,7 @@
     <nominal>10</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15766,7 +15766,7 @@
     <nominal>10</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15781,10 +15781,10 @@
     <value name="Tier4" />
   </type>
   <type name="MountainBag_Red">
-    <nominal>10</nominal>
+    <nominal>15</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
