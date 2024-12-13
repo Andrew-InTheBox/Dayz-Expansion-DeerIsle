@@ -142,7 +142,7 @@
                             ]
                         },
                         {
-                            "ClassName": "Ammo_308",
+                            "ClassName": "Ammo_308Win",
                             "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
@@ -325,7 +325,7 @@
                             ]
                         },
                         {
-                            "ClassName": "Ammo_308",
+                            "ClassName": "Ammo_308Win",
                             "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
@@ -508,7 +508,7 @@
                             ]
                         },
                         {
-                            "ClassName": "Ammo_308",
+                            "ClassName": "Ammo_308Win",
                             "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
@@ -691,7 +691,7 @@
                             ]
                         },
                         {
-                            "ClassName": "Ammo_308",
+                            "ClassName": "Ammo_308Win",
                             "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,
@@ -874,7 +874,7 @@
                             ]
                         },
                         {
-                            "ClassName": "Ammo_308",
+                            "ClassName": "Ammo_308Win",
                             "Chance": 0.33,
                             "Quantity": {
                                 "Min": 0.2,

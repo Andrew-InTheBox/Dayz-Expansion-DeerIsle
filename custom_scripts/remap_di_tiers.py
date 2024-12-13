@@ -10,11 +10,11 @@ def map_tiers_to_new_system(old_tiers: Set[int]) -> List[int]:
         if old_tier == 1:
             new_tiers.add(1)
         elif old_tier == 2:
-            new_tiers.update([2, 3])
+            new_tiers.add(2)
         elif old_tier == 3:
-            new_tiers.add(4)
+            new_tiers.add(3)
         elif old_tier == 4:
-            new_tiers.update([5, 6, 7, 8, 9])
+            new_tiers.update([4, 5, 6, 7, 8, 9])
     return sorted(new_tiers)
 
 def indent_xml(elem: ET.Element, level: int = 0):

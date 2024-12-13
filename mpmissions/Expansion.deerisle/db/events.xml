@@ -866,8 +866,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban1_police"/>
-            <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban2_police"/>
+            <child lootmax="5" lootmin="3" max="6" min="5" type="Land_Wreck_sed01_aban1_police"/>
+            <child lootmax="5" lootmin="3" max="6" min="5" type="Land_Wreck_sed01_aban2_police"/>
         </children>
     </event>
     <event name="TrajectoryApple">

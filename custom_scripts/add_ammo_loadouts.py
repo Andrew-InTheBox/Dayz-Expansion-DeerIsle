@@ -13,7 +13,7 @@ def create_ammo_entry(classname):
     return {
         "ClassName": classname,
         "Include": "",
-        "Chance": 1.0,  # You can adjust this value
+        "Chance": 0.05,  # You can adjust this value
         "Quantity": {
             "Min": 1.0,  # You can adjust this value
             "Max": 1.0   # You can adjust this value
@@ -105,6 +105,6 @@ def process_directory(directory_path, ammo_list_file):
                     print(f"Error processing {json_file}: {str(e)}")
 
 # Usage
-directory_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerSakhal\config\ExpansionMod\Loadouts'
-ammo_list_file = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerSakhal\custom_scripts\ammo_list.txt'
+directory_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\config\ExpansionMod\Loadouts'
+ammo_list_file = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\custom_scripts\ammo_list.txt'
 process_directory(directory_path, ammo_list_file)
