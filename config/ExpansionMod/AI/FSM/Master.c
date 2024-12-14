@@ -2091,6 +2091,8 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2185,7 +2187,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2241,6 +2243,8 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2335,7 +2339,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2391,6 +2395,8 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2485,7 +2491,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2541,6 +2547,8 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2635,7 +2643,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2691,6 +2699,8 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2785,7 +2795,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2858,6 +2868,8 @@ class Expansion_Master_Idle_TakeItemToInventory_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
@@ -2927,6 +2939,8 @@ class Expansion_Master_Flank_TakeItemToInventory_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
@@ -2996,6 +3010,8 @@ class Expansion_Master_Fighting_TakeItemToInventory_Transition_0: eAITransition 
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;

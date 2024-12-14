@@ -3042,8 +3042,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionEXPS3HoloOptic">
 		<nominal>12</nominal>
@@ -3061,8 +3059,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionHAMROptic">
 		<nominal>18</nominal>
@@ -3080,8 +3076,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_PMII25Optic">
 		<nominal>12</nominal>
@@ -3099,8 +3093,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionReflexMRSOptic">
 		<nominal>24</nominal>
@@ -3134,8 +3126,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_ANPEQ15_Red">
 		<nominal>18</nominal>
@@ -3153,8 +3143,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_Kar98_Bayonet">
 		<nominal>18</nominal>
@@ -3189,8 +3177,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_Crossbow">
 		<nominal>36</nominal>
@@ -3224,8 +3210,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionLAW">
 		<nominal>6</nominal>
@@ -3243,8 +3227,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_M79">
 		<nominal>0</nominal>
@@ -3262,8 +3244,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionFlaregun">
 		<nominal>0</nominal>
@@ -3281,8 +3261,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_Taser_Yellow">
 		<nominal>24</nominal>
@@ -3341,8 +3319,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_G36">
 		<nominal>18</nominal>
@@ -3389,8 +3365,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_MP5SD">
 		<nominal>24</nominal>
@@ -3408,8 +3382,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_MP5_RailAtt">
 		<nominal>16</nominal>
@@ -3422,14 +3394,11 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier2" />
 		<value name="Tier3" />
 		<value name="Tier4" />
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_MP7">
 		<nominal>24</nominal>
@@ -3447,8 +3416,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_Kedr">
 		<nominal>24</nominal>
@@ -3481,8 +3448,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_M16">
 		<nominal>12</nominal>
@@ -3500,8 +3465,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_M1A">
 		<nominal>11</nominal>
@@ -3519,8 +3482,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_M14">
 		<nominal>15</nominal>
@@ -3551,8 +3512,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_BenelliM4">
 		<nominal>12</nominal>
@@ -3570,8 +3529,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_AWM">
 		<nominal>4</nominal>
@@ -3589,8 +3546,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_Kar98">
 		<nominal>30</nominal>
@@ -3626,8 +3581,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="AmmoBox_Expansion_338_15rnd">
 		<nominal>16</nominal>
@@ -3646,8 +3599,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Expansion_AmmoBox_8mm_15rnd">
 		<nominal>36</nominal>
@@ -3697,8 +3648,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionAmmoLAW">
 		<nominal>10</nominal>
@@ -3716,8 +3665,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Ammo_Expansion_M203_Smoke_White">
 		<nominal>2</nominal>
@@ -3957,8 +3904,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Mag_Expansion_M14_20Rnd">
 		<nominal>10</nominal>
@@ -3977,8 +3922,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Mag_Expansion_M14_10Rnd">
 		<nominal>15</nominal>
@@ -4067,8 +4010,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="Mag_Expansion_AWM_5Rnd">
 		<nominal>24</nominal>
@@ -4085,8 +4026,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionGoldBar">
 		<nominal>0</nominal>
@@ -4585,8 +4524,6 @@
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
-		<value name="Tier8" />
-		<value name="Tier9" />
 	</type>
 	<type name="ExpansionBoltCutters">
 		<nominal>0</nominal>
