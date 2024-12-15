@@ -1,1 +1,1 @@
-whetstone
+Ammo_12gaPellets,Ammo_12gaSlug,Ammo_308Win,Ammo_545x39,Ammo_762x39,Ammo_762x54,Ammo_9x19,Ammo_45ACP
