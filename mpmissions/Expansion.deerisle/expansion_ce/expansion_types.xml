@@ -3551,7 +3551,7 @@
 		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>900</restock>
-		<min>12</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3583,10 +3583,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="AmmoBox_Expansion_338_15rnd">
-		<nominal>16</nominal>
+		<nominal>25</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>11</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3601,7 +3601,7 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_AmmoBox_8mm_15rnd">
-		<nominal>36</nominal>
+		<nominal>30</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
 		<min>24</min>
@@ -3617,10 +3617,10 @@
 		<value name="Tier2" />
 	</type>
 	<type name="Expansion_Ammo_8mm">
-		<nominal>48</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>36</min>
+		<min>45</min>
 		<quantmin>10</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -3706,7 +3706,7 @@
 		<usage name="Police" />
 	</type>
 	<type name="Ammo_Expansion_M203_Smoke_Yellow">
-		<nominal>12</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>1</min>
@@ -3847,10 +3847,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="Ammo_Expansion_338">
-		<nominal>24</nominal>
+		<nominal>65</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>15</min>
+		<min>55</min>
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -3873,10 +3873,10 @@
 		<usage name="Hunting" />
 	</type>
 	<type name="Mag_Expansion_Taser">
-		<nominal>36</nominal>
+		<nominal>6</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>18</min>
+		<min>3</min>
 		<quantmin>100</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3906,10 +3906,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Mag_Expansion_M14_20Rnd">
-		<nominal>10</nominal>
+		<nominal>20</nominal>
 		<lifetime>10800</lifetime>
 		<restock>800</restock>
-		<min>5</min>
+		<min>12</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3924,10 +3924,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Mag_Expansion_M14_10Rnd">
-		<nominal>15</nominal>
+		<nominal>20</nominal>
 		<lifetime>10800</lifetime>
 		<restock>800</restock>
-		<min>10</min>
+		<min>12</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -4012,10 +4012,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Mag_Expansion_AWM_5Rnd">
-		<nominal>24</nominal>
+		<nominal>30</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>18</min>
+		<min>22</min>
 		<quantmin>15</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>

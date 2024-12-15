@@ -2,7 +2,7 @@
     "Version": 20,
     "Spatial_MinTimer": 60.0,
     "Spatial_MaxTimer": 75.0,
-    "MinDistance": 120,
+    "MinDistance": 130,
     "MaxDistance": 220,
     "HuntMode": 1,
     "Points_Enabled": 0,

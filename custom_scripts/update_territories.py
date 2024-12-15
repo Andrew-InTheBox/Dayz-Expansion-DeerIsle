@@ -8,6 +8,9 @@ def is_inside_circle(x, z, circle_x, circle_z, circle_radius):
 def update_xml_values(file_path, multiplier, circle_x, circle_z, circle_radius):
     tree = ET.parse(file_path)
     root = tree.getroot()
+    
+    skipped_count = 0
+    adjusted_count = 0
 
     for zone in root.findall('.//zone'):
         x = float(zone.get('x'))
@@ -23,17 +26,24 @@ def update_xml_values(file_path, multiplier, circle_x, circle_z, circle_radius):
 
             zone.set('dmin', str(new_dmin))
             zone.set('dmax', str(new_dmax))
+            adjusted_count += 1
+        else:
+            skipped_count += 1
 
     tree.write(file_path, encoding='UTF-8', xml_declaration=True)
+    return skipped_count, adjusted_count
 
 # Example usage
 file_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\mpmissions\Expansion.deerisle\env\zombie_territories.xml'
-multiplier = 1.1  # Set your desired multiplier here
+multiplier = 1.25  # Set your desired multiplier here
 
 # Define the circle (center point and radius)
-circle_x = 9450  # Example center x-coordinate
-circle_z = 4400  # Example center z-coordinate
-circle_radius = 1700  # Example radius
+circle_x = 6900  # Example center x-coordinate
+circle_z = 1400  # Example center z-coordinate
+circle_radius = 1500  # Example radius
 
-update_xml_values(file_path, multiplier, circle_x, circle_z, circle_radius)
-print(f"XML file updated with multiplier {multiplier}, skipping points inside the specified circle")
+skipped, adjusted = update_xml_values(file_path, multiplier, circle_x, circle_z, circle_radius)
+print(f"XML file updated with multiplier {multiplier}")
+print(f"Zones inside circle (skipped): {skipped}")
+print(f"Zones outside circle (adjusted): {adjusted}")
+print(f"Total zones processed: {skipped + adjusted}")
