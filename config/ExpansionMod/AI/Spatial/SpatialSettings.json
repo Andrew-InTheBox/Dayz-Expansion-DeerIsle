@@ -35,7 +35,7 @@
         {
             "Spatial_MinCount": 1,
             "Spatial_MaxCount": 2,
-            "Spatial_Weight": 23.0,
+            "Spatial_Weight": 50.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "East",
             "Spatial_Name": "AI",
@@ -48,7 +48,7 @@
 		{
             "Spatial_MinCount": 1,
             "Spatial_MaxCount": 2,
-            "Spatial_Weight": 23.0,
+            "Spatial_Weight": 10.0,
             "Spatial_Loadout": "EastLoadout.json",
             "Spatial_Faction": "East",
             "Spatial_Name": "AI",
@@ -61,8 +61,21 @@
 		{
             "Spatial_MinCount": 1,
             "Spatial_MaxCount": 2,
-            "Spatial_Weight": 23.0,
+            "Spatial_Weight": 30.0,
             "Spatial_Loadout": "SurvivorLoadout.json",
+            "Spatial_Faction": "East",
+            "Spatial_Name": "AI",
+            "Spatial_Lootable": 2,
+            "Spatial_Chance": 0.99,
+            "Spatial_MinAccuracy": 0.70,
+            "Spatial_MaxAccuracy": 0.85,
+            "Spatial_UnlimitedReload": 0
+        },
+        {
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 2,
+            "Spatial_Weight": 10.0,
+            "Spatial_Loadout": "WestLoadout.json",
             "Spatial_Faction": "East",
             "Spatial_Name": "AI",
             "Spatial_Lootable": 2,

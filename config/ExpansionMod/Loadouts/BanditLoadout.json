@@ -9209,7 +9209,7 @@
                     ]
                 },
                 {
-                    "ClassName": "ammo_expansion_338",
+                    "ClassName": "Ammo_Expansion_338",
                     "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
@@ -9403,7 +9403,7 @@
                     ]
                 },
                 {
-                    "ClassName": "ammo_expansion_338",
+                    "ClassName": "Ammo_Expansion_338",
                     "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
@@ -9877,7 +9877,7 @@
                     ]
                 },
                 {
-                    "ClassName": "ammo_expansion_338",
+                    "ClassName": "Ammo_Expansion_338",
                     "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.2,
