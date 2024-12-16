@@ -932,10 +932,10 @@
     <usage name="Military" />
   </type>
   <type name="AmmoBox_9x19_25rnd">
-    <nominal>50</nominal>
+    <nominal>65</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>40</min>
+    <min>50</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1192,10 +1192,10 @@
     <usage name="Military" />
   </type>
   <type name="Ammo_40mm_Smoke_Black">
-    <nominal>10</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>1</min>
     <quantmin>100</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -1210,10 +1210,10 @@
     <usage name="Police" />
   </type>
   <type name="Ammo_40mm_Smoke_Green">
-    <nominal>10</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>1</min>
     <quantmin>100</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -1228,10 +1228,10 @@
     <usage name="Police" />
   </type>
   <type name="Ammo_40mm_Smoke_Red">
-    <nominal>10</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>1</min>
     <quantmin>100</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -1246,10 +1246,10 @@
     <usage name="Police" />
   </type>
   <type name="Ammo_40mm_Smoke_White">
-    <nominal>10</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>1</min>
     <quantmin>100</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -1425,8 +1425,8 @@
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>90</min>
-    <quantmin>10</quantmin>
-    <quantmax>50</quantmax>
+    <quantmin>30</quantmin>
+    <quantmax>70</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -11625,10 +11625,10 @@
     <value name="Tier4" />
   </type>
   <type name="HuntingJacket_Summer">
-    <nominal>10</nominal>
+    <nominal>25</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11671,10 +11671,10 @@
     <usage name="Hunting" />
   </type>
   <type name="HuntingOptic">
-    <nominal>20</nominal>
+    <nominal>30</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>15</min>
+    <min>22</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11716,10 +11716,10 @@
     <value name="Tier8" />
   </type>
   <type name="Iceaxe">
-    <nominal>14</nominal>
+    <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>1200</restock>
-    <min>9</min>
+    <min>22</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13409,10 +13409,10 @@
     <usage name="Military" />
   </type>
   <type name="M18SmokeGrenade_Green">
-    <nominal>15</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13428,10 +13428,10 @@
     <value name="Tier9" />
   </type>
   <type name="M18SmokeGrenade_Purple">
-    <nominal>15</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13445,10 +13445,10 @@
     <usage name="Police" />
   </type>
   <type name="M18SmokeGrenade_Red">
-    <nominal>15</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13462,10 +13462,10 @@
     <usage name="Police" />
   </type>
   <type name="M18SmokeGrenade_White">
-    <nominal>15</nominal>
+    <nominal>3</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13479,10 +13479,10 @@
     <usage name="Police" />
   </type>
   <type name="M18SmokeGrenade_Yellow">
-    <nominal>15</nominal>
+    <nominal>3</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -18098,10 +18098,10 @@
     <category name="clothes" />
   </type>
   <type name="RDG2SmokeGrenade_Black">
-    <nominal>12</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -18116,10 +18116,10 @@
     <usage name="Police" />
   </type>
   <type name="RDG2SmokeGrenade_White">
-    <nominal>12</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26320,19 +26320,6 @@
     <usage name="Military" />
     <value name="Tier9" />
   </type>
-  <type name="tantosword_Simple">
-    <nominal>1</nominal>
-    <lifetime>28800</lifetime>
-    <restock>3600</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="weapons" />
-    <usage name="Military" />
-    <value name="Tier9" />
-  </type>
   <type name="ttak458">
     <nominal>8</nominal>
     <lifetime>28800</lifetime>
@@ -27813,10 +27800,10 @@
     <usage name="Military" />
   </type>
   <type name="STAG_Clothing_DryBag">
-    <nominal>30</nominal>
+    <nominal>35</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
-    <min>20</min>
+    <min>22</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -27913,10 +27900,10 @@
     <usage name="Military" />
   </type>
   <type name="STAG_Clothing_MountainBag">
-    <nominal>15</nominal>
+    <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>17</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
