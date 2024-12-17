@@ -852,10 +852,10 @@
         <children/>
     </event>	
     <event name="StaticPoliceCar">
-        <nominal>5</nominal>
-        <min>2</min>
-        <max>7</max>
-        <lifetime>1200</lifetime>
+        <nominal>7</nominal>
+        <min>4</min>
+        <max>9</max>
+        <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -866,8 +866,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="3" max="6" min="5" type="Land_Wreck_sed01_aban1_police"/>
-            <child lootmax="5" lootmin="3" max="6" min="5" type="Land_Wreck_sed01_aban2_police"/>
+            <child lootmax="5" lootmin="3" max="7" min="5" type="Land_Wreck_sed01_aban1_police"/>
+            <child lootmax="5" lootmin="3" max="7" min="5" type="Land_Wreck_sed01_aban2_police"/>
         </children>
     </event>
     <event name="TrajectoryApple">
@@ -1321,9 +1321,9 @@
         <children/>            
     </event>  
 	<event name="StaticPoliceCheckpoints">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <min>4</min>
-        <max>4</max>
+        <max>7</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
