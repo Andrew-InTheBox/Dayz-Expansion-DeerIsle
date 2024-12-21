@@ -7721,10 +7721,10 @@
     <usage name="Farm" />
   </type>
   <type name="ElectronicRepairKit">
-    <nominal>40</nominal>
+    <nominal>45</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>20</min>
+    <min>35</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7998,10 +7998,10 @@
     <usage name="Medic" />
   </type>
   <type name="FNP45_MRDSOptic">
-    <nominal>10</nominal>
+    <nominal>25</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>5</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8016,10 +8016,10 @@
     <value name="Tier6" />
   </type>
   <type name="FNX45">
-    <nominal>20</nominal>
+    <nominal>30</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
-    <min>15</min>
+    <min>22</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -22000,10 +22000,10 @@
     <usage name="Village" />
   </type>
   <type name="TireRepairKit">
-    <nominal>35</nominal>
+    <nominal>45</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>25</min>
+    <min>35</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

@@ -1693,61 +1693,6 @@
 		<tag name="shelves" />
 		<usage name="Industrial" />
 	</type>
-  
-  &lt;type name="ExpansionHelicopterBattery"&gt;
-    &lt;nominal&gt;24&lt;/nominal&gt;
-    &lt;lifetime&gt;43200&lt;/lifetime&gt;
-    &lt;restock&gt;0&lt;/restock&gt;
-    &lt;min&gt;12&lt;/min&gt;
-    &lt;quantmin&gt;-1&lt;/quantmin&gt;
-    &lt;quantmax&gt;-1&lt;/quantmax&gt;
-    &lt;cost&gt;100&lt;/cost&gt;
-    &lt;flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" /&gt;
-    &lt;category name="tools" /&gt;
-    &lt;usage name="Industrial" /&gt;
-    &lt;usage name="Military" /&gt;
-  &lt;/type&gt;
-  &lt;type name="ExpansionAircraftBattery"&gt;
-    &lt;nominal&gt;0&lt;/nominal&gt;
-    &lt;lifetime&gt;43200&lt;/lifetime&gt;
-    &lt;restock&gt;0&lt;/restock&gt;
-    &lt;min&gt;0&lt;/min&gt;
-    &lt;quantmin&gt;-1&lt;/quantmin&gt;
-    &lt;quantmax&gt;-1&lt;/quantmax&gt;
-    &lt;cost&gt;100&lt;/cost&gt;
-    &lt;flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" /&gt;
-    &lt;category name="tools" /&gt;
-    &lt;usage name="Industrial" /&gt;
-    &lt;usage name="Military" /&gt;
-  &lt;/type&gt;
-  &lt;type name="ExpansionIgniterPlug"&gt;
-    &lt;nominal&gt;24&lt;/nominal&gt;
-    &lt;lifetime&gt;43200&lt;/lifetime&gt;
-    &lt;restock&gt;0&lt;/restock&gt;
-    &lt;min&gt;12&lt;/min&gt;
-    &lt;quantmin&gt;-1&lt;/quantmin&gt;
-    &lt;quantmax&gt;-1&lt;/quantmax&gt;
-    &lt;cost&gt;100&lt;/cost&gt;
-    &lt;flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" /&gt;
-    &lt;category name="tools" /&gt;
-    &lt;usage name="Industrial" /&gt;
-    &lt;usage name="Military" /&gt;
-  &lt;/type&gt;
-  &lt;type name="ExpansionHydraulicHoses"&gt;
-    &lt;nominal&gt;24&lt;/nominal&gt;
-    &lt;lifetime&gt;43200&lt;/lifetime&gt;
-    &lt;restock&gt;0&lt;/restock&gt;
-    &lt;min&gt;12&lt;/min&gt;
-    &lt;quantmin&gt;-1&lt;/quantmin&gt;
-    &lt;quantmax&gt;-1&lt;/quantmax&gt;
-    &lt;cost&gt;100&lt;/cost&gt;
-    &lt;flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" /&gt;
-    &lt;category name="tools" /&gt;
-    &lt;usage name="Industrial" /&gt;
-    &lt;usage name="Military" /&gt;
-  &lt;/type&gt;
-  
-  
 	<type name="ExpansionBusWheel">
 		<nominal>6</nominal>
 		<lifetime>2700</lifetime>
