@@ -5135,6 +5135,57 @@
                     15788.5
                 ]
             ]
+        },
+        {
+            "Name": "Bayville-Military",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationLooseness": 25.0,
+            "Loadout": "WestLoadout",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    9938.93,
+                    26.7472,
+                    12758.8
+                ],
+                [
+                    10101.5,
+                    22.7991,
+                    12738
+                ],
+                [
+                    10291.2,
+                    6.30005,
+                    12507.1
+                ]
+            ]
         }
     ]
 }

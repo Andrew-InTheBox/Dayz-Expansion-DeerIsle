@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <types>
   <type name="ACOGOptic">
-    <nominal>15</nominal>
+    <nominal>22</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>18</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -18,10 +18,10 @@
     <usage name="Military" />
   </type>
   <type name="ACOGOptic_6x">
-    <nominal>15</nominal>
+    <nominal>22</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>17</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12232,10 +12232,10 @@
     <usage name="Military" />
   </type>
   <type name="KashtanOptic">
-    <nominal>15</nominal>
+    <nominal>25</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

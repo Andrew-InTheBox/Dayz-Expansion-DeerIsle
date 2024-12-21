@@ -120,7 +120,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover"/>
 			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Yellow"/>
