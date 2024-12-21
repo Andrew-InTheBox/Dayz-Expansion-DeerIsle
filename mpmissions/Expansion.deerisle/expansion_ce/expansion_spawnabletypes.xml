@@ -2290,32 +2290,6 @@
 			<item name="ExpansionBusWheelDouble" chance="0.80" />
 		</attachments>
 	</type>
-	<type name="ExpansionTractor">
-		<attachments chance="1.00">
-			<item name="ExpansionTractorFrontWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorFrontWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorBackWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorBackWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorDoorsDriver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorDoorsCodriver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
-		</attachments>
-	</type>
 	<type name="Expansion_Landrover">
 		<attachments chance="1.00">
 			<item name="Expansion_Landrover_Wheel" chance="0.80" />

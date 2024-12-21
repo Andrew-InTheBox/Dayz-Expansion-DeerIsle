@@ -7,4 +7,27 @@
         <text>Welcome to #name, watch out for police wreck, heli wreck, and hunter killer bots.  If you survive 2.5 hrs, you may be hunted.</text>
 </message>
 
+<message>
+
+        <!-- no delay -->
+        <delay>0</delay>
+
+        <!-- if the value is larger than 0, then flag Repeat is enabled -->
+        <repeat>0</repeat>
+
+        <!-- if the value is larger than 0, then flag Countdown is enabled,
+                        countdown reaches zero in 10 hours --> 
+        <deadline>600</deadline>
+
+        <!-- disable On connect flag -->
+        <onConnect>0</onConnect>
+
+        <!-- enable Shutdown flag -->
+        <shutdown>1</shutdown>
+
+        <!-- message itself with placeholders -->
+        <text>Hello, #name will shutdown in #tmin minutes.</text>
+
+</message>
+
 </messages>
