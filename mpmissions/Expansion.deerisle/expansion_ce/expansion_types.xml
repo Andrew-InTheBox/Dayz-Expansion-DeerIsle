@@ -3439,10 +3439,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Kar98">
-		<nominal>30</nominal>
+		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>900</restock>
-		<min>18</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3451,6 +3451,7 @@
 		<usage name="Town" />
 		<usage name="Village" />
 		<usage name="Hunting" />
+		<usage name="Military" />
 		<value name="Tier1" />
 		<value name="Tier2" />
 		<value name="Tier3" />
@@ -3728,28 +3729,39 @@
 		<usage name="Military" />
 	</type>
 	<type name="Ammo_Expansion_46x30">
-		<nominal>24</nominal>
+		<nominal>35</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>15</min>
+		<min>25</min>
 		<quantmin>25</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+		<value name="Tier5" />
+		<value name="Tier6" />
+		<value name="Tier7" />
 	</type>
 	<type name="Ammo_Expansion_338">
-		<nominal>65</nominal>
+		<nominal>80</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>55</min>
+		<min>65</min>
 		<quantmin>20</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+		<value name="Tier5" />
+		<value name="Tier6" />
+		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Ammo_ArrowBolt">
 		<nominal>91</nominal>

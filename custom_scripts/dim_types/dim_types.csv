@@ -705,8 +705,8 @@ HeadCover_Improvised,types,0,14400,0,0,100,clothes,1,0
 Hammer,types,75,7200,0,65,100,tools,0,0
 HandDrillKit,types,0,7200,0,0,100,tools,1,0
 HandSaw,types,90,7200,0,75,100,tools,0,0
-HandcuffKeys,types,20,7200,0,10,100,tools,0,0
-Handcuffs,types,30,7200,0,20,100,tools,0,0
+HandcuffKeys,types,15,7200,0,8,100,tools,0,0
+Handcuffs,types,15,7200,0,10,100,tools,0,0
 HandcuffsLocked,types,0,1800,0,0,100,tools,1,0
 HatchbackDoors_CoDriver,types,0,10800,0,0,100,lootdispatch,0,0
 HatchbackDoors_CoDriver_Blue,types,0,10800,0,0,100,lootdispatch,0,0
@@ -2368,7 +2368,7 @@ Expansion_M14,expansion,15,10800,1800,8,100,weapons,0,0
 Expansion_DT11,expansion,18,7200,1200,6,100,weapons,0,0
 Expansion_BenelliM4,expansion,12,10800,3600,4,100,weapons,0,0
 Expansion_AWM,expansion,9,7200,28800,5,100,weapons,0,1
-Expansion_Kar98,expansion,30,7200,900,18,100,weapons,0,0
+Expansion_Kar98,expansion,35,7200,900,25,100,weapons,0,0
 AmmoBox_Expansion_46x30_25rnd,expansion,24,10800,0,12,100,weapons,0,0
 AmmoBox_Expansion_338_15rnd,expansion,25,10800,0,20,100,weapons,0,0
 Expansion_AmmoBox_8mm_15rnd,expansion,45,7200,800,30,100,weapons,0,0
@@ -2388,8 +2388,8 @@ Ammo_Expansion_M203_Sticky_Smoke_Yellow,expansion,2,7200,0,1,100,weapons,0,0
 Ammo_Expansion_M203_Sticky_Smoke_Purple,expansion,2,7200,0,1,100,weapons,0,0
 Ammo_Expansion_M203_Sticky_Smoke_Teargas,expansion,2,7200,0,1,100,weapons,0,0
 Ammo_Expansion_M203_HE,expansion,12,7200,0,6,100,weapons,0,0
-Ammo_Expansion_46x30,expansion,24,10800,0,15,100,weapons,0,0
-Ammo_Expansion_338,expansion,65,10800,0,55,100,weapons,0,0
+Ammo_Expansion_46x30,expansion,35,10800,0,25,100,weapons,0,0
+Ammo_Expansion_338,expansion,80,10800,0,65,100,weapons,0,0
 Expansion_Ammo_ArrowBolt,expansion,91,10800,0,67,100,weapons,0,0
 Mag_Expansion_Taser,expansion,6,10800,1800,3,100,weapons,0,0
 Mag_Expansion_Vityaz_30Rnd,expansion,30,10800,800,18,100,weapons,0,0
