@@ -3197,10 +3197,6 @@ GlowPlug,expansion,Industrial
 ExpansionBusWheel,expansion,Industrial
 ExpansionBusWheelDouble,expansion,Industrial
 ExpansionUAZWheel,expansion,Industrial
-ExpansionTractorFrontWheel,expansion,Farm
-ExpansionTractorBackWheel,expansion,Farm
-ExpansionTractorDoorsDriver,expansion,Farm
-ExpansionTractorDoorsCoDriver,expansion,Farm
 ExpansionVodnikWheel,expansion,Industrial
 ExpansionVodnikDoorDriver,expansion,Industrial
 ExpansionVodnikDoorCoDriver,expansion,Industrial
@@ -3300,6 +3296,7 @@ Expansion_Mh6_Door_1_2_Wave,expansion,Industrial
 Expansion_Mh6_Door_2_1_Wave,expansion,Industrial
 Expansion_Mh6_Door_2_2_Wave,expansion,Industrial
 ExpansionKar98ScopeOptic,expansion,Military
+ExpansionKar98ScopeOptic,expansion,Hunting
 ExpansionDeltapointOptic,expansion,Military
 ExpansionEXPS3HoloOptic,expansion,Military
 ExpansionHAMROptic,expansion,Military

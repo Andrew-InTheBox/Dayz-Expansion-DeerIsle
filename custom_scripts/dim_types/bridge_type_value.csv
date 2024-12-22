@@ -103,6 +103,7 @@ AmmoBox_357_20Rnd,types,Tier9
 AmmoBox_357_20Rnd,types,Tier7
 AmmoBox_357_20Rnd,types,Tier6
 AmmoBox_357_20Rnd,types,Tier8
+AmmoBox_380_35rnd,types,Tier2
 AmmoBox_380_35rnd,types,Tier3
 AmmoBox_380_35rnd,types,Tier4
 AmmoBox_380_35rnd,types,Tier5
@@ -2365,12 +2366,10 @@ ExpansionSatchel,expansion,Tier7
 Expansion_Crossbow,expansion,Tier1
 Expansion_Crossbow,expansion,Tier2
 Expansion_Crossbow,expansion,Tier3
-ExpansionRPG7,expansion,Tier3
 ExpansionRPG7,expansion,Tier4
 ExpansionRPG7,expansion,Tier5
 ExpansionRPG7,expansion,Tier6
 ExpansionRPG7,expansion,Tier7
-ExpansionLAW,expansion,Tier3
 ExpansionLAW,expansion,Tier4
 ExpansionLAW,expansion,Tier5
 ExpansionLAW,expansion,Tier6
@@ -2450,7 +2449,6 @@ Expansion_BenelliM4,expansion,Tier4
 Expansion_BenelliM4,expansion,Tier5
 Expansion_BenelliM4,expansion,Tier6
 Expansion_BenelliM4,expansion,Tier7
-Expansion_AWM,expansion,Tier3
 Expansion_AWM,expansion,Tier4
 Expansion_AWM,expansion,Tier5
 Expansion_AWM,expansion,Tier6
@@ -2470,8 +2468,10 @@ AmmoBox_Expansion_338_15rnd,expansion,Tier6
 AmmoBox_Expansion_338_15rnd,expansion,Tier7
 Expansion_AmmoBox_8mm_15rnd,expansion,Tier1
 Expansion_AmmoBox_8mm_15rnd,expansion,Tier2
+Expansion_AmmoBox_8mm_15rnd,expansion,Tier3
 Expansion_Ammo_8mm,expansion,Tier1
 Expansion_Ammo_8mm,expansion,Tier2
+Expansion_Ammo_8mm,expansion,Tier3
 ExpansionAmmoRPG,expansion,Tier3
 ExpansionAmmoRPG,expansion,Tier4
 ExpansionAmmoRPG,expansion,Tier5
@@ -2536,6 +2536,7 @@ SNAFUKivaari_25rdMag,snafu,Tier4
 SNAFUKivaari_25rdMag,snafu,Tier5
 SNAFUKivaari_25rdMag,snafu,Tier6
 SNAFUKivaari_25rdMag,snafu,Tier7
+SNAFUKivaari_Black_GUN,snafu,Tier3
 SNAFUKivaari_Black_GUN,snafu,Tier4
 SNAFUKivaari_Black_GUN,snafu,Tier5
 SNAFUKivaari_Black_GUN,snafu,Tier6

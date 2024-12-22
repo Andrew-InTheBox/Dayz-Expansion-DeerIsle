@@ -2908,22 +2908,23 @@
 		<usage name="Industrial" />
 	</type>
 	<type name="ExpansionKar98ScopeOptic">
-		<nominal>18</nominal>
+		<nominal>30</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>8</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<usage name="Hunting" />
 	</type>
 	<type name="ExpansionDeltapointOptic">
-		<nominal>12</nominal>
+		<nominal>25</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>8</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2937,10 +2938,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="ExpansionEXPS3HoloOptic">
-		<nominal>12</nominal>
+		<nominal>25</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>8</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2954,10 +2955,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="ExpansionHAMROptic">
-		<nominal>18</nominal>
+		<nominal>22</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>12</min>
+		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2971,10 +2972,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_PMII25Optic">
-		<nominal>12</nominal>
+		<nominal>24</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>8</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3021,10 +3022,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_ANPEQ15_Red">
-		<nominal>18</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>8</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3038,10 +3039,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Kar98_Bayonet">
-		<nominal>18</nominal>
+		<nominal>8</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>6</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3098,7 +3099,6 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier3" />
 		<value name="Tier4" />
 		<value name="Tier5" />
 		<value name="Tier6" />
@@ -3115,17 +3115,16 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier3" />
 		<value name="Tier4" />
 		<value name="Tier5" />
 		<value name="Tier6" />
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_M79">
-		<nominal>0</nominal>
+		<nominal>8</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3156,10 +3155,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Taser_Yellow">
-		<nominal>24</nominal>
+		<nominal>6</nominal>
 		<lifetime>10800</lifetime>
 		<restock>900</restock>
-		<min>12</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3311,10 +3310,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Kedr">
-		<nominal>24</nominal>
+		<nominal>16</nominal>
 		<lifetime>10800</lifetime>
 		<restock>900</restock>
-		<min>18</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3325,10 +3324,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Expansion_VityazSN">
-		<nominal>24</nominal>
+		<nominal>18</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1200</restock>
-		<min>18</min>
+		<min>13</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3346,7 +3345,7 @@
 		<nominal>12</nominal>
 		<lifetime>10800</lifetime>
 		<restock>3600</restock>
-		<min>5</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3424,17 +3423,16 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_AWM">
-		<nominal>4</nominal>
+		<nominal>9</nominal>
 		<lifetime>7200</lifetime>
 		<restock>28800</restock>
-		<min>1</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier3" />
 		<value name="Tier4" />
 		<value name="Tier5" />
 		<value name="Tier6" />
@@ -3494,10 +3492,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_AmmoBox_8mm_15rnd">
-		<nominal>30</nominal>
+		<nominal>45</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>24</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3508,12 +3506,13 @@
 		<usage name="Hunting" />
 		<value name="Tier1" />
 		<value name="Tier2" />
+		<value name="Tier3" />
 	</type>
 	<type name="Expansion_Ammo_8mm">
-		<nominal>60</nominal>
+		<nominal>75</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>45</min>
+		<min>55</min>
 		<quantmin>10</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -3524,6 +3523,7 @@
 		<usage name="Hunting" />
 		<value name="Tier1" />
 		<value name="Tier2" />
+		<value name="Tier3" />
 	</type>
 	<type name="ExpansionAmmoRPG">
 		<nominal>10</nominal>
