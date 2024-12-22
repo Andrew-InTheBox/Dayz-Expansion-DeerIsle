@@ -22,7 +22,7 @@ def parse_dayz_loot_xml(xml_files, output_dir):
     # Lists to store our data
     types_data = []
     usages = set()
-    values = set()
+    values = {'all'}  # Initialize with 'all' tier
     type_usage_relations = []
     type_value_relations = []
     
@@ -66,15 +66,25 @@ def parse_dayz_loot_xml(xml_files, output_dir):
                     })
                 
             # Collect tier values (optional)
-            for value in type_elem.findall('value'):
-                value_name = value.get('name')
-                if value_name:
-                    values.add(value_name)
-                    type_value_relations.append({
-                        'type_id': type_name,
-                        'source_file': source_name,
-                        'value_name': value_name
-                    })
+            value_elements = type_elem.findall('value')
+            if value_elements:
+                # If specific tiers are defined, add those relationships
+                for value in value_elements:
+                    value_name = value.get('name')
+                    if value_name:
+                        values.add(value_name)
+                        type_value_relations.append({
+                            'type_id': type_name,
+                            'source_file': source_name,
+                            'value_name': value_name
+                        })
+            else:
+                # If no tiers specified, add relationship to 'all' tier
+                type_value_relations.append({
+                    'type_id': type_name,
+                    'source_file': source_name,
+                    'value_name': 'all'
+                })
     
     # Create dataframes
     types_df = pd.DataFrame(types_data)
@@ -97,10 +107,18 @@ def parse_dayz_loot_xml(xml_files, output_dir):
         print(f"  {len(source_df)} from {source}")
         print(f"    Categories: {source_df['category'].nunique()} unique")
         print(f"    Usage relations: {len(type_usage_bridge_df[type_usage_bridge_df['source_file'] == source])}")
-        print(f"    Value relations: {len(type_value_bridge_df[type_value_bridge_df['source_file'] == source])}")
+        all_tier_count = len(type_value_bridge_df[
+            (type_value_bridge_df['source_file'] == source) & 
+            (type_value_bridge_df['value_name'] == 'all')
+        ])
+        specific_tier_count = len(type_value_bridge_df[
+            (type_value_bridge_df['source_file'] == source) & 
+            (type_value_bridge_df['value_name'] != 'all')
+        ])
+        print(f"    Value relations: {specific_tier_count} specific tiers, {all_tier_count} all-tier items")
     
     print(f"\nFound {len(usages_df)} unique usage locations")
-    print(f"Found {len(values_df)} unique tier values")
+    print(f"Found {len(values_df)} unique tier values (including 'all')")
     
     return {
         'types': types_df,
