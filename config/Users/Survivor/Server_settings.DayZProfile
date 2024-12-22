@@ -1,9 +1,14 @@
 version=1;
 blood=1;
-terrainGrid="12.5f";
 volumeCD=5;
 volumeFX=5;
 volumeSpeech=5;
 singleVoice=0;
 gamma=1;
 brightness=1;
+sceneComplexity=500000;
+shadowQuality=2;
+shadowZDistance=250;
+viewDistance=1600;
+preferredObjectViewDistance=1600;
+terrainGrid=12.5;

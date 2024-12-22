@@ -31,9 +31,10 @@ for patrol in patrols:
 
 # Plot the data
 plt.figure(figsize=(12, 10))
+plt.figure(figsize=(12, 10), dpi=600)  # Increased DPI for higher resolution
 for name, coords in plot_data:
     x_coords, z_coords = zip(*coords)
-    plt.scatter(x_coords, z_coords, label=name)
+    plt.scatter(x_coords, z_coords, label=name, s=5)  # Reduced point size with 's=20'
     
     # Calculate geometric center (centroid) of waypoints
     centroid_x = np.mean(x_coords)

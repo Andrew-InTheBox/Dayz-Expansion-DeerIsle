@@ -517,7 +517,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "",
-            "FormationLooseness": 10.0,
+            "FormationLooseness": 20.0,
             "Loadout": "WestLoadout",
             "Units": [],
             "NumberOfAI": 3,
@@ -4621,6 +4621,123 @@
             ]
         },
         {
+            "Name": "Area42-Isl1",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationLooseness": 20.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    10988.9,
+                    5.38,
+                    10222.3
+                ],
+                [
+                    11014.4,
+                    5.3925,
+                    10267.5
+                ],
+                [
+                    10992.8,
+                    5.58179,
+                    10295.8
+                ],
+                [
+                    10964.3,
+                    5.58181,
+                    10308.6
+                ],
+                [
+                    11006.8,
+                    4.78676,
+                    10393.7
+                ]
+            ]
+        },
+        {
+            "Name": "Area42-Isl1b",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationLooseness": 20.0,
+            "Loadout": "SurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11329.3,
+                    15.3686,
+                    9896.93
+                ],
+                [
+                    11405.3,
+                    15.3893,
+                    10076.9
+                ],
+                [
+                    11423.1,
+                    16.1956,
+                    10068.3
+                ],
+                [
+                    11348.8,
+                    16.1802,
+                    9888.1
+                ]
+            ]
+        },
+        {
             "Name": "Area42-West",
             "Persist": 0,
             "Faction": "West",
@@ -4628,7 +4745,7 @@
             "FormationLooseness": 10.0,
             "Loadout": "NBCLoadout",
             "Units": [],
-            "NumberOfAI": 3,
+            "NumberOfAI": -3,
             "Behaviour": "ALTERNATE",
             "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
@@ -4655,44 +4772,19 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    12825.3447265625,
-                    4.894054889678955,
-                    9906.302734375
+                    12295.1,
+                    1.72765,
+                    9928.88
                 ],
                 [
-                    12815.158203125,
-                    5.225951194763184,
-                    9921.689453125
+                    12322.6,
+                    1.22476,
+                    9921.91
                 ],
                 [
-                    12376.908203125,
-                    7.238227844238281,
-                    9932.6279296875
-                ],
-                [
-                    12326.162109375,
-                    1.535591959953308,
-                    9923.11328125
-                ],
-                [
-                    12298.7001953125,
-                    1.7952079772949219,
-                    9927.0078125
-                ],
-                [
-                    12276.8388671875,
-                    6.007957935333252,
-                    9935.373046875
-                ],
-                [
-                    12251.0419921875,
-                    7.321588039398193,
-                    9936.2763671875
-                ],
-                [
-                    11746.091796875,
-                    7.370660781860352,
-                    9951.7802734375
+                    12314.6,
+                    1.45985,
+                    9888.97
                 ]
             ]
         },
