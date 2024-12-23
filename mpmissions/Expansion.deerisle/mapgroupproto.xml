@@ -8822,7 +8822,7 @@
 						<point pos="1.915327 1.121368 5.733860" range="1.178955" height="2.000000" />
 				</container>				
 		</group>
-		<group name="Land_Tisy_Garages" lootmax="8">
+		<group name="Land_Tisy_Garages" lootmax="10">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
@@ -8890,7 +8890,7 @@
 						<point pos="6.656132 -2.949585 3.096193" range="0.134375" height="0.259979" />
 				</container>	
 		</group>
-		<group name="Land_Tisy_RadarB_Base" lootmax="10">
+		<group name="Land_Tisy_RadarB_Base" lootmax="13">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
@@ -9012,7 +9012,7 @@
 						<point pos="-11.299109 0.966492 -17.090181" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Tisy_Base_cooler" lootmax="2">
+		<group name="Land_Tisy_Base_cooler" lootmax="3">
 				<usage name="Industrial" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -9106,7 +9106,7 @@
 						<point pos="7.501302 -4.268127 -7.317904" range="0.927490" height="2.000000" />
 				</container>				
 		</group>
-		<group name="Land_Tisy_Barracks" lootmax="25">
+		<group name="Land_Tisy_Barracks" lootmax="30">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
@@ -9999,7 +9999,7 @@
 						<point pos="3.803129 -0.592621 9.717731" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Village_PoliceStation" lootmax="15">
+		<group name="Land_Village_PoliceStation" lootmax="18">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
@@ -16248,7 +16248,7 @@
 						<point pos="-4.959105 2.261309 -3.852906" range="1.076294" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Village_PoliceStation_Enoch" lootmax="15">
+		<group name="Land_Village_PoliceStation_Enoch" lootmax="18">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
@@ -23921,7 +23921,7 @@
 						<point pos="0.538086 -1.558310 -2.646973" range="0.961482" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Village_PoliceStation_East" lootmax="15">
+		<group name="Land_Village_PoliceStation_East" lootmax="18">
 				<usage name="Police" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
