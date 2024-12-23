@@ -5129,7 +5129,7 @@
     <usage name="SeasonalEvent" />
   </type>
   <type name="CZ61">
-    <nominal>35</nominal>
+    <nominal>50</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
     <min>30</min>
@@ -14251,7 +14251,7 @@
     <usage name="Hunting" />
   </type>
   <type name="Mag_CZ61_20Rnd">
-    <nominal>40</nominal>
+    <nominal>50</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
     <min>35</min>

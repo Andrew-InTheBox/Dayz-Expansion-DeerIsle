@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="SNAFU_NPKPBIPOD">
-        <nominal>6</nominal>
+        <nominal>12</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>4</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -17,10 +17,10 @@
         <value name="Tier7" />
     </type>
         <type name="Snafu_pkp_250RND_Mag">
-        <nominal>6</nominal>
+        <nominal>10</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>4</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -33,10 +33,10 @@
         <value name="Tier7" />
     </type>
     <type name="Snafu_pkp_Black_GUN">
-        <nominal>4</nominal>
+        <nominal>12</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>3</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -49,10 +49,10 @@
         <value name="Tier7" />
     </type>
         <type name="SNAFUKivaari_25rdMag">
-        <nominal>15</nominal>
+        <nominal>20</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>12</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -66,10 +66,10 @@
         <value name="Tier7" />
     </type>
         <type name="SNAFUKivaari_Black_GUN">
-        <nominal>8</nominal>
+        <nominal>12</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>6</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
