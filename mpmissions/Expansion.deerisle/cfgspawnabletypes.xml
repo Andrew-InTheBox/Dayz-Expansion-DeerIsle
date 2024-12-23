@@ -3873,11 +3873,17 @@
 		</attachments>		
 	</type>		
 	<type name="ESP_M110">
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
 		<attachments chance="0.3">
-			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+			<item name="Mag_FAL_20Rnd" chance="0.80" />
 		</attachments>		
 	</type>	
-	
 	<type name="jmc_atv_Blue">
 		<attachments chance="1.00">
 			<item name="jmc_atv_Wheel" chance="1.00" />
