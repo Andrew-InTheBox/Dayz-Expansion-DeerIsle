@@ -18,15 +18,6 @@
     <value name="Tier7" />
     <value name="Tier8" />
     <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
   <type name="MMG_striker_helmet_admin">
     <nominal>0</nominal>
@@ -47,15 +38,6 @@
     <value name="Tier7" />
     <value name="Tier8" />
     <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
   <type name="MMG_combatpants_admin">
     <nominal>0</nominal>
@@ -76,15 +58,6 @@
     <value name="Tier7" />
     <value name="Tier8" />
     <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
   <type name="MMG_combatshirt_admin">
     <nominal>0</nominal>
@@ -105,15 +78,6 @@
     <value name="Tier7" />
     <value name="Tier8" />
     <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
   <type name="MMG_balaclava_admin">
     <nominal>0</nominal>
@@ -134,14 +98,5 @@
     <value name="Tier7" />
     <value name="Tier8" />
     <value name="Tier9" />
-    <value name="Tier10" />
-    <value name="Tier11" />
-    <value name="Tier12" />
-    <value name="Tier13" />
-    <value name="Tier14" />
-    <value name="Tier15" />
-    <value name="Tier16" />
-    <value name="Tier17" />
-    <value name="Tier18" />
   </type>
 </types>

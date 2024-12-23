@@ -176,7 +176,7 @@
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.0,
             "MinSpreadRadius": 0.0,
-            "MaxSpreadRadius": 150.0,
+            "MaxSpreadRadius": 50.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
@@ -1122,7 +1122,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 25.0,
-            "Loadout": "WestLoadout",
+            "Loadout": "EastLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -4769,27 +4769,22 @@
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 0,
-            "MaxSpreadRadius": 0,
+            "MaxSpreadRadius": 1,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
-            "UseRandomWaypointAsStartPoint": 1,
+            "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-                    12295.1,
-                    1.72765,
-                    9928.88
+                    12292.5,
+                    2.13476,
+                    9930.4
                 ],
                 [
-                    12322.6,
-                    1.22476,
-                    9921.91
-                ],
-                [
-                    12314.6,
-                    1.45985,
-                    9888.97
+                    12333.6,
+                    2.05976,
+                    9924.61
                 ]
             ]
         },

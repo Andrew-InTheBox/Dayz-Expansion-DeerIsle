@@ -33,10 +33,10 @@
         <value name="Tier7" />
     </type>
         <type name="MMG_camelback_alpine">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>10</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

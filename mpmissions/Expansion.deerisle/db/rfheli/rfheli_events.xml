@@ -3,7 +3,7 @@
     <event name="VehicleHeliSpawn">
         <nominal>7</nominal>
         <min>6</min>
-        <max>9</max>
+        <max>8</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
