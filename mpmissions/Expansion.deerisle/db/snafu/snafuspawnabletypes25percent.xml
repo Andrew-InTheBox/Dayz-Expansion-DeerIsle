@@ -34,13 +34,12 @@
 			<item name="SNAFU_Tango6T_Snow" chance="0.03" />
 			<item name="SNAFU_Kobra" chance="0.03" />
 		</attachments>
-		<attachments chance="0.50">
-			<item name="SNAFUKivaari_10rdMag" chance="0.50" />
-			<item name="SNAFUKivaari_25rdMag" chance="0.50" />
+		<attachments chance="0.60">
+			<item name="SNAFUKivaari_10rdMag" chance="0.60" />
+			<item name="SNAFUKivaari_25rdMag" chance="0.30" />
 		</attachments>
-		<attachments chance="0.50">
-			<item name="SNAFU_Bipod" chance="0.50" />
-			<item name="SNAFU_ModBipod" chance="0.50" />
+		<attachments chance="0.20">
+			<item name="SNAFU_ModBipod" chance="1.00" />
 		</attachments>
 		<attachments chance="0.12">
 			<item name="UniversalLight" chance="1.00" />
