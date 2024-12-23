@@ -31,7 +31,7 @@
                             "Include": "",
                             "Chance": 0.4,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -51,7 +51,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -71,7 +71,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -91,7 +91,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -111,7 +111,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -131,7 +131,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -151,7 +151,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -171,7 +171,7 @@
                             "Include": "",
                             "Chance": 0.33,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
@@ -191,7 +191,7 @@
                             "Include": "",
                             "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.4,
+                                "Min": 0.6,
                                 "Max": 0.8
                             },
                             "Health": [
