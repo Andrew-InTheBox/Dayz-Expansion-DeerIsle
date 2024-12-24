@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="SNAFU_NPKPBIPOD">
-        <nominal>15</nominal>
+        <nominal>18</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>12</min>
@@ -70,7 +70,7 @@
         <nominal>25</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>18</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -84,10 +84,10 @@
         <value name="Tier7" />
     </type>
         <type name="SNAFUKivaari_Black_GUN">
-        <nominal>15</nominal>
+        <nominal>20</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>10</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -102,7 +102,7 @@
         <value name="Tier7" />
     </type>
     <type name="SNAFU_ModBipod">
-        <nominal>20</nominal>
+        <nominal>23</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>15</min>
@@ -118,10 +118,10 @@
         <value name="Tier7" />
     </type>
     <type name="SNAFU_Tango6T_Black">
-        <nominal>20</nominal>
+        <nominal>25</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>15</min>
+        <min>18</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

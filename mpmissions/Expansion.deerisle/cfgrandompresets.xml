@@ -5,7 +5,7 @@
     <item name="SardinesCan" chance="0.11" />
     <item name="Apple" chance="0.07" />
   </cargo>
-  <cargo chance="0.16" name="foodVillage">
+  <cargo chance="0.15" name="foodVillage">
     <item name="SodaCan_Cola" chance="0.02" />
     <item name="SodaCan_Pipsi" chance="0.02" />
     <item name="SodaCan_Spite" chance="0.02" />
@@ -25,7 +25,7 @@
     <item name="Crackers" chance="0.05" />
     <item name="Chips" chance="0.05" />
   </cargo>
-  <cargo chance="0.16" name="foodCity">
+  <cargo chance="0.15" name="foodCity">
     <!--same as the one above - just preparing -->
     <item name="SodaCan_Cola" chance="0.02" />
     <item name="SodaCan_Pipsi" chance="0.02" />
@@ -136,23 +136,23 @@
     <item name="Battery9V" chance="0.2" />
     <item name="Flashlight" chance="0.2" />
   </cargo>
-  <cargo chance="0.35" name="ammoCivil">
+  <cargo chance="0.33" name="ammoCivil">
     <item name="Ammo_380" chance="0.33" />
-    <item name="AmmoBox_380_35Rnd" chance="0.08" />
+    <item name="AmmoBox_380_35Rnd" chance="0.10" />
     <item name="Ammo_9x19" chance="0.33" />
-    <item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-    <item name="Ammo_762x39" chance="0.33" />
-    <item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+    <item name="AmmoBox_9x19_25Rnd" chance="0.10" />
+    <item name="Ammo_762x39" chance="0.20" />
+    <item name="AmmoBox_762x39_20Rnd" chance="0.05" />
     <item name="Ammo_762x54" chance="0.33" />
-    <item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+    <item name="AmmoBox_762x54_20Rnd" chance="0.10" />
   </cargo>
-  <cargo chance="0.35" name="ammoPolice">
-    <item name="Ammo_9x19" chance="0.50" />
-    <item name="AmmoBox_9x19_25Rnd" chance="0.15" />
-    <item name="Ammo_556x45" chance="0.50" />
-    <item name="AmmoBox_556x45_20Rnd" chance="0.15" />
+  <cargo chance="0.50" name="ammoPolice">
+    <item name="Ammo_9x19" chance="0.20" />
+    <item name="Ammo_556x45" chance="0.30" />
     <item name="Ammo_545x39" chance="0.50" />
-    <item name="AmmoBox_545x39_20Rnd" chance="0.15" />
+    <item name="AmmoBox_545x39_20Rnd" chance="0.20" />
+    <item name="AmmoBox_9x19_25Rnd" chance="0.30" />
+    <item name="AmmoBox_556x45_20Rnd" chance="0.40" />
   </cargo>
   <cargo chance="1.00" name="ammoArmy">
     <item name="Ammo_45ACP" chance="0.15" />
