@@ -2187,7 +2187,7 @@
                             "Items": [
                                 {
                                     "ClassName": "Mag_STANAG_30Rnd",
-                                    "Chance": 0.6000000238418579,
+                                    "Chance": 1.0,
                                     "Quantity": {
                                         "Min": 0.0,
                                         "Max": 0.0
@@ -2199,7 +2199,7 @@
                                 },
                                 {
                                     "ClassName": "Mag_STANAG_60Rnd",
-                                    "Chance": 0.10000000149011612,
+                                    "Chance": 0.20000000149011612,
                                     "Quantity": {
                                         "Min": 0.0,
                                         "Max": 0.0
@@ -2211,7 +2211,7 @@
                                 },
                                 {
                                     "ClassName": "Mag_CMAG_10Rnd",
-                                    "Chance": 0.05000000074505806,
+                                    "Chance": 0.1000000074505806,
                                     "Quantity": {
                                         "Min": 0.0,
                                         "Max": 0.0
@@ -2223,7 +2223,7 @@
                                 },
                                 {
                                     "ClassName": "Mag_CMAG_20Rnd",
-                                    "Chance": 0.05000000074505806,
+                                    "Chance": 0.2000000074505806,
                                     "Quantity": {
                                         "Min": 0.0,
                                         "Max": 0.0
@@ -2235,7 +2235,7 @@
                                 },
                                 {
                                     "ClassName": "Mag_CMAG_30Rnd",
-                                    "Chance": 0.05000000074505806,
+                                    "Chance": 0.2000000074505806,
                                     "Quantity": {
                                         "Min": 0.0,
                                         "Max": 0.0
