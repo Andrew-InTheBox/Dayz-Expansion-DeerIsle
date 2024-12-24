@@ -65,8 +65,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="SNAFUKivaari_25rdMag">
+    <type name="SNAFUKivaari_25rdMag">
         <nominal>25</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
