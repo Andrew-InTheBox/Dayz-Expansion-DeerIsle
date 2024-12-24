@@ -1098,12 +1098,10 @@
 	<type name="ZmbM_usSoldier_normal_Desert">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_normal_Woodland">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Convoy">
 		<attachments chance="1.00">
