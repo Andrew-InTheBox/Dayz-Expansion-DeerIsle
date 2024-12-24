@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <types>
     <type name="MMG_JPC_Vest_alpine">
-        <nominal>9</nominal>
+        <nominal>13</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>6</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -17,10 +17,10 @@
         <value name="Tier7" />
     </type>
     <type name="MMG_tt_Vest_alpine">
-        <nominal>9</nominal>
+        <nominal>13</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>6</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -33,10 +33,10 @@
         <value name="Tier7" />
     </type>
         <type name="MMG_camelback_alpine">
-        <nominal>15</nominal>
+        <nominal>22</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>12</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
