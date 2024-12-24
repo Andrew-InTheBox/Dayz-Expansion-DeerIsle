@@ -13,6 +13,28 @@ The setup includes:
 
 The startup batch file identifies any directory starting with "@" as a mod. Consequently, server-side mods must not start with "@" in their names. In this setup, server-side mods are denoted with "_XYZ". Add the ones you are using manually to the startup batch.
 
+## AI Configuration
+
+LoootingBehavior can have the options described here:
+
+eAILootingBehavior
+NONE
+WEAPONS_FIREARMS 
+WEAPONS_LAUNCHERS
+WEAPONS_MELEE
+WEAPONS
+BANDAGES
+CLOTHING
+UPGRADE 
+DEFAULT
+ALL
+
+DEFAULT is synonymous to WEAPONS (but may be subject to change)
+WEAPONS is shorthand for WEAPONS_FIREARMS | WEAPONS_LAUNCHERS | WEAPONS_MELEE
+
+You can combine options like this:
+    "LootingBehaviour": "WEAPONS_MELEE | CLOTHING"
+
 ## Mods Used
 
 The setup utilizes the following mods:
