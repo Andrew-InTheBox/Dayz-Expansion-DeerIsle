@@ -13831,4 +13831,20 @@
 	<group name="Land_jmc_militarycase_c_07" pos="5835.470215 22.361601 4851.490234" rpy="-0.000000 0.000000 0.000000" a="90"/>
 	<group name="Land_jmc_militarycase_o_11" pos="5836.088867 22.340689 4854.919922" rpy="-0.000000 0.000000 -17.999985" a="108"/>
 	<group name="Land_jmc_militarycase_o_12" pos="5836.049805 22.345200 4853.299805" rpy="0.000000 0.000000 20.000000" a="70"/>
+    <group name="Land_jmc_militarycase_o_07" pos="6869.225586 3.572199 1765.041870" rpy="-0.000000 -0.000000 62.999973" a="27"/>
+	<group name="Land_jmc_militarycase_c_02" pos="6868.330078 3.571704 1765.822266" rpy="-0.000000 -0.000000 17.999937" a="72.0001"/>
+	<group name="Land_jmc_militarycase_c_07" pos="6867.219238 3.571054 1765.890869" rpy="-0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_jmc_militarycase_c_07" pos="6866.219727 3.570466 1765.853149" rpy="-0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_jmc_militarycase_o_05" pos="6862.321289 3.568167 1765.568115" rpy="0.000000 0.000000 -9.000000" a="99"/>
+	<group name="Land_jmc_militarycase_o_09" pos="6863.572754 3.568911 1765.817627" rpy="0.000000 0.000000 -9.000000" a="99"/>
+	<group name="Land_jmc_militarycase_c_06" pos="6864.979980 4.244801 1765.812744" rpy="-0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_jmc_militarycase_c_06" pos="7969.627441 6.885447 4245.990723" rpy="-0.000000 -0.000000 71.999947" a="18.0001"/>
+	<group name="Land_jmc_militarycase_c_11" pos="7969.316895 6.889343 4247.450195" rpy="-0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_jmc_militarycase_o_07" pos="7969.515625 6.902679 4248.823730" rpy="0.000000 0.000000 -53.999985" a="144"/>
+	<group name="Land_jmc_militarycase_o_09" pos="7969.761230 6.921711 4250.054688" rpy="0.000000 0.000000 -72.000015" a="162"/>
+	<group name="Land_jmc_militarycase_c_08" pos="6904.036621 37.791603 6044.313965" rpy="-0.000000 -0.000000 35.999985" a="54"/>
+	<group name="Land_jmc_militarycase_c_07" pos="6904.530273 37.833160 6043.357422" rpy="-0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_jmc_militarycase_c_05" pos="6904.400391 37.852932 6042.180176" rpy="-0.000000 0.000000 98.999931" a="-8.99993"/>
+	<group name="Land_jmc_militarycase_c_11" pos="6903.166504 37.839520 6040.848633" rpy="-0.000000 0.000000 143.999893" a="-53.9999"/>
+	<group name="Land_jmc_militarycase_c_08" pos="6902.327637 37.752815 6043.724609" rpy="-0.000000 0.000000 0.000000" a="90"/>
 </map>

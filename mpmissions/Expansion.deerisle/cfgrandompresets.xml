@@ -146,19 +146,21 @@
     <item name="Ammo_762x54" chance="0.33" />
     <item name="AmmoBox_762x54_20Rnd" chance="0.10" />
   </cargo>
-  <cargo chance="0.50" name="ammoPolice">
-    <item name="Ammo_9x19" chance="0.20" />
-    <item name="Ammo_556x45" chance="0.30" />
-    <item name="Ammo_545x39" chance="0.50" />
-    <item name="AmmoBox_545x39_20Rnd" chance="0.20" />
-    <item name="AmmoBox_9x19_25Rnd" chance="0.30" />
-    <item name="AmmoBox_556x45_20Rnd" chance="0.40" />
+  <cargo chance="0.65" name="ammoPolice">
+    <item name="Ammo_9x19" chance="0.25" />
+    <item name="Ammo_556x45" chance="0.33" />
+    <item name="Ammo_545x39" chance="0.33" />
+    <item name="AmmoBox_545x39_20Rnd" chance="0.25" />
+    <item name="AmmoBox_9x19_25Rnd" chance="0.33" />
+    <item name="AmmoBox_556x45_20Rnd" chance="0.33" />
   </cargo>
   <cargo chance="1.00" name="ammoArmy">
-    <item name="Ammo_45ACP" chance="0.15" />
-    <item name="Ammo_9x19" chance="0.15" />
-    <item name="Ammo_762x39" chance="0.15" />
-    <item name="Ammo_762x54" chance="0.15" />
+    <item name="Ammo_556x45" chance="0.30" />
+    <item name="Ammo_45ACP" chance="0.20" />
+    <item name="Ammo_9x19" chance="0.30" />
+    <item name="Ammo_762x39" chance="0.20" />
+    <item name="Ammo_762x54" chance="0.20" />
+    <item name="AmmoBox_556x45_20Rnd" chance="0.20" />   
     <item name="AmmoBox_762x39_20Rnd" chance="0.20" />
     <item name="AmmoBox_9x19" chance="0.20" />
     <item name="AmmoBox_762x54_20Rnd" chance="0.20" />
