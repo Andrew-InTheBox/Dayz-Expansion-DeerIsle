@@ -3444,10 +3444,12 @@ ExpansionCheese4,expansion,Village
 SNAFU_NPKPBIPOD,snafu,Military
 Snafu_pkp_250RND_Mag,snafu,Military
 Snafu_pkp_Black_GUN,snafu,Military
+SNAFUKivaari_10rdMag,snafu,Military
+SNAFUKivaari_10rdMag,snafu,Police
 SNAFUKivaari_25rdMag,snafu,Military
 SNAFUKivaari_25rdMag,snafu,Police
 SNAFUKivaari_Black_GUN,snafu,Military
 SNAFUKivaari_Black_GUN,snafu,Police
-SNAFU_Bipod,snafu,Military
- SNAFU_Tango6T_Black,snafu,Military
- SNAFU_Tango6T_Black,snafu,Police
+SNAFU_ModBipod,snafu,Military
+SNAFU_Tango6T_Black,snafu,Military
+SNAFU_Tango6T_Black,snafu,Police

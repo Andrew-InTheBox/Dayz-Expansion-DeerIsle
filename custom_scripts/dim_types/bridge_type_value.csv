@@ -30,6 +30,7 @@ AKM,types,Tier5
 AKM,types,Tier6
 AKM,types,Tier8
 AKS74U,types,Tier2
+AKS74U,types,Tier3
 AKS74U_Black,types,all
 AKS74U_Bttstck,types,Tier2
 AKS74U_Bttstck,types,Tier1
@@ -1952,6 +1953,9 @@ Mag_Saiga_Drum20Rnd,types,Tier5
 Mag_Saiga_Drum20Rnd,types,Tier6
 Mag_UMP_25Rnd,types,Tier2
 Mag_UMP_25Rnd,types,Tier3
+Mag_UMP_25Rnd,types,Tier4
+Mag_UMP_25Rnd,types,Tier5
+Mag_UMP_25Rnd,types,Tier6
 Mag_VAL_20Rnd,types,Tier3
 Mag_VAL_20Rnd,types,Tier4
 Mag_VAL_20Rnd,types,Tier5
@@ -4244,6 +4248,10 @@ Snafu_pkp_Black_GUN,snafu,Tier4
 Snafu_pkp_Black_GUN,snafu,Tier5
 Snafu_pkp_Black_GUN,snafu,Tier6
 Snafu_pkp_Black_GUN,snafu,Tier7
+SNAFUKivaari_10rdMag,snafu,Tier4
+SNAFUKivaari_10rdMag,snafu,Tier5
+SNAFUKivaari_10rdMag,snafu,Tier6
+SNAFUKivaari_10rdMag,snafu,Tier7
 SNAFUKivaari_25rdMag,snafu,Tier4
 SNAFUKivaari_25rdMag,snafu,Tier5
 SNAFUKivaari_25rdMag,snafu,Tier6
@@ -4253,12 +4261,12 @@ SNAFUKivaari_Black_GUN,snafu,Tier4
 SNAFUKivaari_Black_GUN,snafu,Tier5
 SNAFUKivaari_Black_GUN,snafu,Tier6
 SNAFUKivaari_Black_GUN,snafu,Tier7
-SNAFU_Bipod,snafu,Tier4
-SNAFU_Bipod,snafu,Tier5
-SNAFU_Bipod,snafu,Tier6
-SNAFU_Bipod,snafu,Tier7
- SNAFU_Tango6T_Black,snafu,Tier3
- SNAFU_Tango6T_Black,snafu,Tier4
- SNAFU_Tango6T_Black,snafu,Tier5
- SNAFU_Tango6T_Black,snafu,Tier6
- SNAFU_Tango6T_Black,snafu,Tier7
+SNAFU_ModBipod,snafu,Tier4
+SNAFU_ModBipod,snafu,Tier5
+SNAFU_ModBipod,snafu,Tier6
+SNAFU_ModBipod,snafu,Tier7
+SNAFU_Tango6T_Black,snafu,Tier3
+SNAFU_Tango6T_Black,snafu,Tier4
+SNAFU_Tango6T_Black,snafu,Tier5
+SNAFU_Tango6T_Black,snafu,Tier6
+SNAFU_Tango6T_Black,snafu,Tier7
