@@ -4153,10 +4153,10 @@
 		<usage name="Hunting" />
 	</type>
 	<type name="ExpansionSafeLarge">
-		<nominal>12</nominal>
+		<nominal>15</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -4167,10 +4167,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="ExpansionSafeMini">
-		<nominal>12</nominal>
+		<nominal>30</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
-		<min>6</min>
+		<min>26</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -4181,10 +4181,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="ExpansionSafeMedium">
-		<nominal>12</nominal>
+		<nominal>25</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
-		<min>6</min>
+		<min>22</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
