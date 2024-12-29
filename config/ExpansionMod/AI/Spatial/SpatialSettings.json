@@ -32,7 +32,7 @@
     "Spatial_TPSafeZone": 0,
     "Spatial_InOwnTerritory": 0,
     "Group": [
-        {
+		{
             "Spatial_MinCount": 1,
             "Spatial_MaxCount": 2,
             "Spatial_Weight": 50.0,
