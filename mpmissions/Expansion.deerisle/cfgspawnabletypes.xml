@@ -3821,7 +3821,7 @@
 		</attachments>
 	</type>
 --><type name="ttar9">
-		<attachments chance="0.3">
+		<attachments chance="0.5">
 			<item name="Mag_MP5_15Rnd" chance="1.00" />
 		</attachments>		
 	</type>
@@ -3836,15 +3836,20 @@
 		</attachments>		
 	</type>	
 	<type name="ttrpd">
-		<attachments chance="0.3">
+		<attachments chance="0.7">
 			<item name="ttrpdmag" chance="1.00" />
 		</attachments>		
 	</type>		
-	<type name="ttscar">
+	<type name="ttscarl">
 		<attachments chance="0.3">
 			<item name="Mag_STANAG_30Rnd" chance="1.00" />
 		</attachments>		
-	</type>		
+	</type>
+	<type name="ttscarl_Tan">
+		<attachments chance="0.3">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>		
+	</type>				
 	<type name="ttstg44">
 		<attachments chance="0.3">
 			<item name="Mag_AKM_30Rnd" chance="1.00" />
@@ -3856,12 +3861,17 @@
 		</attachments>		
 	</type>			
 	<type name="ttp90">
-		<attachments chance="0.3">
+		<attachments chance="0.5">
+			<item name="ttp90mag" chance="1.00" />
+		</attachments>		
+	</type>	
+	<type name="ttp90_Tan">
+		<attachments chance="0.5">
 			<item name="ttp90mag" chance="1.00" />
 		</attachments>		
 	</type>	
 	<type name="ots71">
-		<attachments chance="0.3">
+		<attachments chance="0.85">
 			<item name="Mag_MP5_15Rnd" chance="1.00" />
 		</attachments>		
 	</type>	
@@ -3881,6 +3891,30 @@
 		</attachments>		
 	</type>		
 	<type name="ESP_M110">
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.3">
+			<item name="Mag_FAL_20Rnd" chance="0.80" />
+		</attachments>		
+	</type>	
+	<type name="ESP_M110_Tan">
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.3">
+			<item name="Mag_FAL_20Rnd" chance="0.80" />
+		</attachments>		
+	</type>	
+	<type name="ESP_M110_Green">
 		<attachments chance="0.20">
 			<item name="BUISOptic" chance="0.20" />
 			<item name="M68Optic" chance="0.20" />

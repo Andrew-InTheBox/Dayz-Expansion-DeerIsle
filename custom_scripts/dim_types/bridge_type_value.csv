@@ -85,6 +85,7 @@ AliceBag_Black,types,Tier7
 AliceBag_Camo,types,Tier4
 AliceBag_Camo,types,Tier5
 AliceBag_Camo,types,Tier6
+AliceBag_Camo,types,Tier7
 AliceBag_Green,types,Tier4
 AliceBag_Green,types,Tier9
 AmmoBox,types,all
@@ -3353,8 +3354,12 @@ ttp90_Tan,types,Tier3
 ttp90_Tan,types,Tier4
 ttp90_Tan,types,Tier5
 ttp90_Tan,types,Tier6
+ttp90_Tan,types,Tier7
 ttp90mag,types,Tier3
 ttp90mag,types,Tier4
+ttp90mag,types,Tier5
+ttp90mag,types,Tier6
+ttp90mag,types,Tier7
 ots71,types,Tier2
 aek,types,Tier3
 aek,types,Tier4

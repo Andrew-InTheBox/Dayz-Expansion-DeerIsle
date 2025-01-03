@@ -33,10 +33,10 @@
         <value name="Tier7" />
     </type>
     <type name="Snafu_pkp_Black_GUN">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>11</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -117,10 +117,10 @@
         <value name="Tier7" />
     </type>
     <type name="SNAFU_Tango6T_Black">
-        <nominal>30</nominal>
+        <nominal>40</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>24</min>
+        <min>35</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

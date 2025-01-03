@@ -5,7 +5,7 @@
     <item name="SardinesCan" chance="0.11" />
     <item name="Apple" chance="0.07" />
   </cargo>
-  <cargo chance="0.15" name="foodVillage">
+  <cargo chance="0.10" name="foodVillage">
     <item name="SodaCan_Cola" chance="0.02" />
     <item name="SodaCan_Pipsi" chance="0.02" />
     <item name="SodaCan_Spite" chance="0.02" />
@@ -25,7 +25,7 @@
     <item name="Crackers" chance="0.05" />
     <item name="Chips" chance="0.05" />
   </cargo>
-  <cargo chance="0.15" name="foodCity">
+  <cargo chance="0.10" name="foodCity">
     <!--same as the one above - just preparing -->
     <item name="SodaCan_Cola" chance="0.02" />
     <item name="SodaCan_Pipsi" chance="0.02" />
@@ -58,8 +58,8 @@
     <item name="TacticalBaconCan" chance="0.1" />
     <item name="Canteen" chance="0.1" />
   </cargo>
-  <cargo chance="0.15" name="toolsHermit">
-    <item name="WeaponCleaningKit" chance="0.10" />
+  <cargo chance="0.20" name="toolsHermit">
+    <item name="WeaponCleaningKit" chance="0.15" />
     <item name="Matchbox" chance="0.15" />
     <item name="CanOpener" chance="0.05" />
     <item name="Rope" chance="0.07" />

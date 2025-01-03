@@ -1292,7 +1292,7 @@
         <nominal>5</nominal>
         <min>5</min>
         <max>5</max>
-        <lifetime>1200</lifetime>
+        <lifetime>1800/lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
         <distanceradius>250</distanceradius>
@@ -1353,9 +1353,9 @@
         <children/>            
     </event>  	
     <event name="StaticAirplaneCrate">
-        <nominal>9</nominal>
-        <min>9</min>
-        <max>9</max>
+        <nominal>10</nominal>
+        <min>10</min>
+        <max>10</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
