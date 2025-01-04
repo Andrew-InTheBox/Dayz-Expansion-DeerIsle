@@ -847,6 +847,7 @@ CivilianSedan,types,all
 CivilianSedan_Black,types,all
 CivilianSedan_Wine,types,all
 Colt1911,types,Tier2
+Colt1911,types,Tier3
 CombatBoots_Beige,types,Tier3
 CombatBoots_Beige,types,Tier4
 CombatBoots_Beige,types,Tier5
@@ -2309,6 +2310,7 @@ PlateCarrierPouches_Camo,types,Tier6
 PlateCarrierPouches_Green,types,Tier3
 PlateCarrierPouches_Green,types,Tier4
 PlateCarrierPouches_Green,types,Tier5
+PlateCarrierVest,types,Tier4
 PlateCarrierVest,types,Tier5
 PlateCarrierVest,types,Tier6
 PlateCarrierVest_Winter,types,Tier8
@@ -4253,6 +4255,7 @@ Snafu_pkp_Black_GUN,snafu,Tier4
 Snafu_pkp_Black_GUN,snafu,Tier5
 Snafu_pkp_Black_GUN,snafu,Tier6
 Snafu_pkp_Black_GUN,snafu,Tier7
+SNAFUKivaari_10rdMag,snafu,Tier3
 SNAFUKivaari_10rdMag,snafu,Tier4
 SNAFUKivaari_10rdMag,snafu,Tier5
 SNAFUKivaari_10rdMag,snafu,Tier6

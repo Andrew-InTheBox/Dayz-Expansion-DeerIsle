@@ -14632,10 +14632,10 @@
     <usage name="Military" />
   </type>
   <type name="Mag_SV98_10Rnd">
-    <nominal>14</nominal>
+    <nominal>18</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>14</min>
     <quantmin>30</quantmin>
     <quantmax>70</quantmax>
     <cost>100</cost>

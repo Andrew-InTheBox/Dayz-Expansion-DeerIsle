@@ -3213,10 +3213,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_G36">
-		<nominal>25</nominal>
+		<nominal>15</nominal>
 		<lifetime>10800</lifetime>
 		<restock>3600</restock>
-		<min>11</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3227,10 +3227,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Expansion_MPX">
-		<nominal>34</nominal>
+		<nominal>25</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>25</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3241,10 +3241,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Expansion_MP5">
-		<nominal>35</nominal>
+		<nominal>20</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>17</min>
+		<min>16</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3259,10 +3259,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_MP5SD">
-		<nominal>34</nominal>
+		<nominal>22</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>22</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3293,10 +3293,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_MP7">
-		<nominal>34</nominal>
+		<nominal>25</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>17</min>
+		<min>18</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3310,10 +3310,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Kedr">
-		<nominal>22</nominal>
+		<nominal>16</nominal>
 		<lifetime>10800</lifetime>
 		<restock>900</restock>
-		<min>17</min>
+		<min>13</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3324,10 +3324,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Expansion_VityazSN">
-		<nominal>25</nominal>
+		<nominal>16</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1200</restock>
-		<min>18</min>
+		<min>13</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3342,10 +3342,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_M16">
-		<nominal>17</nominal>
+		<nominal>10</nominal>
 		<lifetime>10800</lifetime>
 		<restock>3600</restock>
-		<min>10</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3359,7 +3359,7 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_M1A">
-		<nominal>15</nominal>
+		<nominal>10</nominal>
 		<lifetime>10800</lifetime>
 		<restock>3600</restock>
 		<min>6</min>
@@ -3376,10 +3376,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_M14">
-		<nominal>21</nominal>
+		<nominal>10</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>11</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3409,7 +3409,7 @@
 		<nominal>17</nominal>
 		<lifetime>10800</lifetime>
 		<restock>3600</restock>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3442,7 +3442,7 @@
 		<nominal>35</nominal>
 		<lifetime>7200</lifetime>
 		<restock>900</restock>
-		<min>25</min>
+		<min>32</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3457,10 +3457,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="AmmoBox_Expansion_46x30_25rnd">
-		<nominal>34</nominal>
+		<nominal>40</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>17</min>
+		<min>30</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3729,17 +3729,16 @@
 		<usage name="Military" />
 	</type>
 	<type name="Ammo_Expansion_46x30">
-		<nominal>60</nominal>
+		<nominal>68</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>50</min>
+		<min>62</min>
 		<quantmin>25</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier2" />
 		<value name="Tier3" />
 		<value name="Tier4" />
 		<value name="Tier5" />
@@ -3778,10 +3777,10 @@
 		<usage name="Hunting" />
 	</type>
 	<type name="Mag_Expansion_Taser">
-		<nominal>8</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>4</min>
+		<min>1</min>
 		<quantmin>100</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3793,7 +3792,7 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Mag_Expansion_Vityaz_30Rnd">
-		<nominal>42</nominal>
+		<nominal>30</nominal>
 		<lifetime>10800</lifetime>
 		<restock>800</restock>
 		<min>25</min>
@@ -3811,10 +3810,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Mag_Expansion_M14_20Rnd">
-		<nominal>28</nominal>
+		<nominal>25</nominal>
 		<lifetime>10800</lifetime>
 		<restock>800</restock>
-		<min>17</min>
+		<min>20</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3829,10 +3828,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Mag_Expansion_M14_10Rnd">
-		<nominal>28</nominal>
+		<nominal>24</nominal>
 		<lifetime>10800</lifetime>
 		<restock>800</restock>
-		<min>17</min>
+		<min>18</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3858,10 +3857,10 @@
 		<usage name="Police" />
 	</type>
 	<type name="Mag_Expansion_MPX_50Rnd">
-		<nominal>50</nominal>
+		<nominal>40</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>34</min>
+		<min>32</min>
 		<quantmin>8</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -3870,12 +3869,13 @@
 		<usage name="Military" />
 		<value name="Tier1" />
 		<value name="Tier2" />
+		<value name="Tier3" />
 	</type>
 	<type name="Mag_Expansion_G36_30Rnd">
 		<nominal>34</nominal>
 		<lifetime>10800</lifetime>
 		<restock>0</restock>
-		<min>25</min>
+		<min>28</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3886,10 +3886,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Mag_Expansion_Kedr_20Rnd">
-		<nominal>50</nominal>
+		<nominal>40</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>34</min>
+		<min>30</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
