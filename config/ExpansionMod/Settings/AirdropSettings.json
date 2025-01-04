@@ -135,7 +135,7 @@
                 },
                 {
                     "Name": "WeaponCleaningKit",
-                    "Chance": 0.50000001311302187,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -242,6 +242,11 @@
                             "Name": "UniversalLight",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_UMP_25Rnd",
+                            "Chance": 0.5,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
@@ -341,6 +346,11 @@
                     "Attachments": [
                         {
                             "Name": "HuntingOptic",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_CZ527_5rnd",
                             "Chance": 1.0,
                             "Attachments": []
                         }
@@ -2532,7 +2542,7 @@
             "Container": "ExpansionAirdropContainer_Medical",
             "FallSpeed": 4.5,
             "Usage": 0,
-            "Weight": 5.0,
+            "Weight": 3.0,
             "Infected": [
                 "ZmbM_HermitSkinny_Beige",
                 "ZmbM_HermitSkinny_Black",
@@ -3291,6 +3301,11 @@
                             "Name": "UniversalLight",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_UMP_25Rnd",
+                            "Chance": 0.5,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
@@ -3306,7 +3321,7 @@
                 },
                 {
                     "Name": "Mosin9130",
-                    "Chance": 0.4000000059604645,
+                    "Chance": 0.5000000059604645,
                     "Attachments": [
                         {
                             "Name": "PUScopeOptic",
@@ -3392,6 +3407,11 @@
                             "Name": "HuntingOptic",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_CZ527_5rnd",
+                            "Chance": 1.0,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
@@ -3411,6 +3431,11 @@
                     "Attachments": [
                         {
                             "Name": "TLRLight",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_CZ75_15rnd",
                             "Chance": 1.0,
                             "Attachments": []
                         }
