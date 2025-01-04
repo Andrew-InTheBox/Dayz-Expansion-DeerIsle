@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <types>
     <type name="MMG_JPC_Vest_alpine">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>12</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military" />
         <value name="Tier4" />
@@ -17,14 +17,14 @@
         <value name="Tier7" />
     </type>
     <type name="MMG_tt_Vest_alpine">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>12</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military" />
         <value name="Tier4" />
@@ -33,14 +33,14 @@
         <value name="Tier7" />
     </type>
         <type name="MMG_camelback_alpine">
-        <nominal>32</nominal>
+        <nominal>22</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>28</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military" />
         <value name="Tier4" />
