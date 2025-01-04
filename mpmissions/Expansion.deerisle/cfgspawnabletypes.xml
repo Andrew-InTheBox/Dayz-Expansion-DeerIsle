@@ -3831,12 +3831,12 @@
 		</attachments>		
 	</type>
 	<type name="ttr700">
-		<attachments chance="0.3">
+		<attachments chance="0.75">
 			<item name="ttr700mag" chance="1.00" />
 		</attachments>		
 	</type>	
 	<type name="ttrpd">
-		<attachments chance="0.7">
+		<attachments chance="0.75">
 			<item name="ttrpdmag" chance="1.00" />
 		</attachments>		
 	</type>		
@@ -3856,17 +3856,17 @@
 		</attachments>		
 	</type>			
 	<type name="ttstg44">
-		<attachments chance="0.3">
+		<attachments chance="0.5">
 			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>		
 	</type>			
 	<type name="ttp90">
-		<attachments chance="0.5">
+		<attachments chance="0.75">
 			<item name="ttp90mag" chance="1.00" />
 		</attachments>		
 	</type>	
 	<type name="ttp90_Tan">
-		<attachments chance="0.5">
+		<attachments chance="0.75">
 			<item name="ttp90mag" chance="1.00" />
 		</attachments>		
 	</type>	
@@ -3876,7 +3876,7 @@
 		</attachments>		
 	</type>	
 	<type name="aek">
-		<attachments chance="0.3">
+		<attachments chance="0.75">
 			<item name="Mag_AKA101_30Rnd" chance="1.00" />
 		</attachments>		
 	</type>	
@@ -3899,7 +3899,7 @@
 			<item name="ACOGOptic" chance="0.20" />
 		</attachments>
 		<attachments chance="0.3">
-			<item name="Mag_FAL_20Rnd" chance="0.80" />
+			<item name="Mag_FAL_20Rnd" chance="1.0" />
 		</attachments>		
 	</type>	
 	<type name="ESP_M110_Tan">
@@ -3911,7 +3911,7 @@
 			<item name="ACOGOptic" chance="0.20" />
 		</attachments>
 		<attachments chance="0.3">
-			<item name="Mag_FAL_20Rnd" chance="0.80" />
+			<item name="Mag_FAL_20Rnd" chance="1.0" />
 		</attachments>		
 	</type>	
 	<type name="ESP_M110_Green">

@@ -1,0 +1,22 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_VEHICLE_PARTS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Gas",
+    "Currencies": [
+        "ExpansionBanknoteHryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Vehicle_Parts",
+        "Batteries"
+    ],
+    "Items": {
+        "tirerepairkit": 1,
+        "canistergasoline": 1
+    }
+}
