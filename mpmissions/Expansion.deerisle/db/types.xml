@@ -596,10 +596,10 @@
     <value name="Tier9" />
   </type>
   <type name="AmmoBox_12gaRubberSlug_10Rnd">
-    <nominal>30</nominal>
+    <nominal>20</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>25</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -733,12 +733,14 @@
     <value name="Tier8" />
     <usage name="Military" />
     <usage name="Police" />
+    <usage name="Hunting" />
+    <usage name="Village" />
   </type>
   <type name="AmmoBox_380_35rnd">
-    <nominal>65</nominal>
+    <nominal>72</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>55</min>
+    <min>62</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -753,12 +755,13 @@
     <value name="Tier8" />
     <usage name="Military" />
     <usage name="Police" />
+    <usage name="Village" />
   </type>
   <type name="AmmoBox_45ACP_25rnd">
-    <nominal>70</nominal>
+    <nominal>80</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>60</min>
+    <min>72</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -798,10 +801,10 @@
     <value name="Tier9" />
   </type>
   <type name="AmmoBox_545x39_20Rnd">
-    <nominal>60</nominal>
+    <nominal>65</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>50</min>
+    <min>60</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -838,10 +841,10 @@
     <value name="Tier9" />
   </type>
   <type name="AmmoBox_556x45_20Rnd">
-    <nominal>60</nominal>
+    <nominal>65</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>50</min>
+    <min>60</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -877,10 +880,10 @@
     <value name="Tier9" />
   </type>
   <type name="AmmoBox_762x39_20Rnd">
-    <nominal>60</nominal>
+    <nominal>65</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>50</min>
+    <min>60</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -894,6 +897,7 @@
     <value name="Tier6" />
     <value name="Tier8" />
     <usage name="Military" />
+    <usage name="Village" />
   </type>
   <type name="AmmoBox_762x54Tracer_20Rnd">
     <nominal>25</nominal>
@@ -7520,7 +7524,7 @@
     <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>13</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7536,7 +7540,7 @@
     <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>13</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7552,7 +7556,7 @@
     <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>12</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7568,7 +7572,7 @@
     <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>12</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7723,10 +7727,10 @@
     <usage name="Farm" />
   </type>
   <type name="ElectronicRepairKit">
-    <nominal>45</nominal>
+    <nominal>50</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>35</min>
+    <min>42</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -21993,10 +21997,10 @@
     <usage name="Village" />
   </type>
   <type name="TireRepairKit">
-    <nominal>45</nominal>
+    <nominal>50</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>35</min>
+    <min>42</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -22801,10 +22805,10 @@
     <usage name="Police" />
   </type>
   <type name="UnknownFoodCan">
-    <nominal>50</nominal>
+    <nominal>45</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>42</min>
+    <min>40</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
