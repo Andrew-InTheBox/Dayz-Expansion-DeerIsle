@@ -2510,10 +2510,10 @@
     <usage name="Military" />
   </type>
   <type name="AssaultBag_Green">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>12</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2527,7 +2527,7 @@
     <usage name="Military" />
   </type>
   <type name="AssaultBag_Ttsko">
-    <nominal>8</nominal>
+    <nominal>10</nominal>
     <lifetime>86400</lifetime>
     <restock>0</restock>
     <min>6</min>
@@ -26314,10 +26314,10 @@
     <value name="Tier9" />
   </type>
   <type name="ttak458">
-    <nominal>11</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>8</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26331,10 +26331,10 @@
     <value name="Tier9" />
   </type>
   <type name="ttak458_Gold">
-    <nominal>3</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26346,10 +26346,10 @@
     <usage name="Military" />
   </type>
   <type name="ttak458poli">
-    <nominal>21</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>14</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26558,10 +26558,10 @@
     <usage name="Police" />
   </type>
   <type name="ttp90">
-    <nominal>21</nominal>
+    <nominal>14</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>14</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26573,10 +26573,10 @@
     <usage name="Military" />
   </type>
   <type name="ttp90_Tan">
-    <nominal>21</nominal>
+    <nominal>14</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>14</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

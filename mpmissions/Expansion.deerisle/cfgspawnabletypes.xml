@@ -2542,7 +2542,7 @@
 			<item name="PSO1Optic" chance="0.30" />
 			<item name="KobraOptic" chance="0.40" />
 		</attachments>
-		<attachments chance="0.20">
+		<attachments chance="0.33">
 			<item name="Mag_PP19_64Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -3821,8 +3821,20 @@
 		</attachments>
 	</type>
 --><type name="ttar9">
-		<attachments chance="0.5">
+		<attachments chance="0.7">
 			<item name="Mag_MP5_15Rnd" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="ttak458">
+		<attachments chance="0.3">
+			<item name="Mag_AKM_Drum75Rnd" chance="1.00" />
+			<item name="KobraOptic" chance="0.5" />
+		</attachments>		
+	</type>
+	<type name="ttak458poli">
+		<attachments chance="0.3">
+			<item name="Mag_AKM_Drum75Rnd" chance="1.00" />
+			<item name="KobraOptic" chance="0.5" />
 		</attachments>		
 	</type>
 	<type name="ttbar">

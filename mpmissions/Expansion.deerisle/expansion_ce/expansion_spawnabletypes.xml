@@ -2848,18 +2848,18 @@
 		</attachments>
 	</type>
 	<type name="Expansion_Kedr">
-		<attachments chance="0.30">
+		<attachments chance="0.50">
 			<item name="Mag_Expansion_Kedr_20Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
+		<attachments chance="0.1">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Expansion_VityazSN">
-		<attachments chance="0.25">
+		<attachments chance="0.50">
 			<item name="Mag_Expansion_Vityaz_30Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
+		<attachments chance="0.10">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
         <attachments chance="1.00">
