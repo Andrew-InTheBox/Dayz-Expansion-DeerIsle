@@ -136,7 +136,7 @@
     <item name="Battery9V" chance="0.2" />
     <item name="Flashlight" chance="0.2" />
   </cargo>
-  <cargo chance="0.33" name="ammoCivil">
+  <cargo chance="0.40" name="ammoCivil">
     <item name="Ammo_380" chance="0.33" />
     <item name="AmmoBox_380_35Rnd" chance="0.10" />
     <item name="Ammo_9x19" chance="0.33" />
@@ -146,7 +146,7 @@
     <item name="Ammo_762x54" chance="0.33" />
     <item name="AmmoBox_762x54_20Rnd" chance="0.10" />
   </cargo>
-  <cargo chance="0.65" name="ammoPolice">
+  <cargo chance="0.70" name="ammoPolice">
     <item name="Ammo_9x19" chance="0.25" />
     <item name="Ammo_556x45" chance="0.25" />
     <item name="Ammo_545x39" chance="0.25" />
@@ -669,18 +669,18 @@
     <item name="TunaCan" chance="0.1" />
     <item name="SardinesCan" chance="0.1" />
   </cargo>
-  <cargo chance="0.50" name="ammoArmyJMC">
-    <item name="AmmoBox_308Win_20Rnd" chance="0.05" />
-    <item name="AmmoBox_357_20Rnd" chance="0.05" />
-    <item name="AmmoBox_380_35Rnd" chance="0.05" />
-    <item name="AmmoBox_545x39_20Rnd" chance="0.05" />
-    <item name="AmmoBox_556x45_20Rnd" chance="0.05" />
-    <item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-    <item name="AmmoBox_762x54_20Rnd" chance="0.05" />
-    <item name="AmmoBox_9x29_20Rnd" chance="0.05" />
-    <item name="jmc_SnowOwl_Ammo" chance="0.05" />
+  <cargo chance="0.70" name="ammoArmyJMC">
+    <item name="AmmoBox_308Win_20Rnd" chance="0.1" />
+    <item name="AmmoBox_357_20Rnd" chance="0.1" />
+    <item name="AmmoBox_380_35Rnd" chance="0.1" />
+    <item name="AmmoBox_545x39_20Rnd" chance="0.1" />
+    <item name="AmmoBox_556x45_20Rnd" chance="0.1" />
+    <item name="AmmoBox_762x39_20Rnd" chance="0.1" />
+    <item name="AmmoBox_762x54_20Rnd" chance="0.1" />
+    <item name="AmmoBox_9x29_20Rnd" chance="0.1" />
+    <item name="jmc_SnowOwl_Ammo" chance="0.1" />
   </cargo>
-  <cargo chance="0.30" name="mixArmyJMC">
+  <cargo chance="0.35" name="mixArmyJMC">
     <item name="Mag_CMAG_40Rnd" chance="0.05" />
     <item name="Mag_FAL_20Rnd" chance="0.05" />
     <item name="Mag_M14_20Rnd" chance="0.05" />

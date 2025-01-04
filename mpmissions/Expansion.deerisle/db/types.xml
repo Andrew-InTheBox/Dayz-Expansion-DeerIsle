@@ -935,10 +935,10 @@
     <usage name="Military" />
   </type>
   <type name="AmmoBox_9x19_25rnd">
-    <nominal>65</nominal>
+    <nominal>70</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>55</min>
+    <min>65</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1157,10 +1157,10 @@
     <value name="Tier1" />
   </type>
   <type name="Ammo_380">
-    <nominal>100</nominal>
+    <nominal>110</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>85</min>
+    <min>95</min>
     <quantmin>30</quantmin>
     <quantmax>70</quantmax>
     <cost>100</cost>
@@ -26513,10 +26513,10 @@
     <usage name="Military" />
   </type>
   <type name="ttstg44">
-    <nominal>21</nominal>
+    <nominal>12</nominal>
     <lifetime>28800</lifetime>
     <restock>7200</restock>
-    <min>14</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26533,7 +26533,7 @@
     <nominal>17</nominal>
     <lifetime>28800</lifetime>
     <restock>7200</restock>
-    <min>11</min>
+    <min>12</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -26544,10 +26544,10 @@
     <usage name="Police" />
   </type>
   <type name="ttagram">
-    <nominal>17</nominal>
+    <nominal>15</nominal>
     <lifetime>28800</lifetime>
     <restock>7200</restock>
-    <min>11</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
