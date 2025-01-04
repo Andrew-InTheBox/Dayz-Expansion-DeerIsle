@@ -4065,7 +4065,6 @@ Ammo_Expansion_M203_Sticky_Smoke_Yellow,expansion,all
 Ammo_Expansion_M203_Sticky_Smoke_Purple,expansion,all
 Ammo_Expansion_M203_Sticky_Smoke_Teargas,expansion,all
 Ammo_Expansion_M203_HE,expansion,all
-Ammo_Expansion_46x30,expansion,Tier2
 Ammo_Expansion_46x30,expansion,Tier3
 Ammo_Expansion_46x30,expansion,Tier4
 Ammo_Expansion_46x30,expansion,Tier5
@@ -4098,6 +4097,7 @@ Mag_Expansion_M14_10Rnd,expansion,Tier3
 Mag_Expansion_M9_15Rnd,expansion,all
 Mag_Expansion_MPX_50Rnd,expansion,Tier1
 Mag_Expansion_MPX_50Rnd,expansion,Tier2
+Mag_Expansion_MPX_50Rnd,expansion,Tier3
 Mag_Expansion_G36_30Rnd,expansion,Tier2
 Mag_Expansion_G36_30Rnd,expansion,Tier3
 Mag_Expansion_Kedr_20Rnd,expansion,Tier1

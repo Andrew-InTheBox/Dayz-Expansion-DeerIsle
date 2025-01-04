@@ -3408,7 +3408,7 @@
 	<type name="Expansion_BenelliM4">
 		<nominal>17</nominal>
 		<lifetime>10800</lifetime>
-		<restock>3600</restock>
+		<restock>1200</restock>
 		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -3425,7 +3425,7 @@
 	<type name="Expansion_AWM">
 		<nominal>13</nominal>
 		<lifetime>7200</lifetime>
-		<restock>28800</restock>
+		<restock>1200</restock>
 		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
