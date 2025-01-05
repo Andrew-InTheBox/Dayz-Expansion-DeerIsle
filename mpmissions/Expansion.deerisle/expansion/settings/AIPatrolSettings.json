@@ -5468,7 +5468,7 @@
             "Faction": "West",
             "Formation": "Column",
             "FormationLooseness": 25.0,
-            "Loadout": "BanditLoadout",
+            "Loadout": "UnarmedLoadout",
             "Units": [],
             "NumberOfAI": -2,
             "Behaviour": "LOOP",
