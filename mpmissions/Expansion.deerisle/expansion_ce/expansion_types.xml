@@ -2921,7 +2921,6 @@
 		<usage name="Hunting" />
 		<value name="Tier2" />
 		<value name="Tier3" />
-
 	</type>
 	<type name="ExpansionDeltapointOptic">
 		<nominal>35</nominal>

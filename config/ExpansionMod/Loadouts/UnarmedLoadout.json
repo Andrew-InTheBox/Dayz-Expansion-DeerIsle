@@ -7847,7 +7847,7 @@
             "Items": [
                 {
                     "ClassName": "BaseballBat",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.16,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -7866,7 +7866,7 @@
                 },
                 {
                     "ClassName": "FirefighterAxe",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.15,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -7885,7 +7885,7 @@
                 },
                 {
                     "ClassName": "Shovel",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.15,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -7904,7 +7904,7 @@
                 },
                 {
                     "ClassName": "PipeWrench",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.15,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -7923,7 +7923,7 @@
                 },
                 {
                     "ClassName": "Pipe",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.15,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0

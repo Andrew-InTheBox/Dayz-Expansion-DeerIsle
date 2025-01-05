@@ -1645,7 +1645,7 @@
                     "Items": [
                         {
                             "ClassName": "AK101",
-                            "Chance": 1.0,
+                            "Chance": 0.1,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -1866,7 +1866,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.1,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2112,7 +2112,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.33,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2235,7 +2235,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.1,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2669,7 +2669,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.5,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2863,7 +2863,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.2,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3057,7 +3057,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.5,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3622,7 +3622,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.33,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3810,7 +3810,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.5,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
