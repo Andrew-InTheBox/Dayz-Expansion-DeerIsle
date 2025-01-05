@@ -488,7 +488,7 @@
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="5" dmax="10" x="13147.4" z="9691.67" r="100" />
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="8" dmax="13" x="13544.7" z="9622" r="100" />
         <zone name="InfectedArmy" smin="0" smax="0" dmin="7" dmax="13" x="5300.9" z="9150.03" r="80" />
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="25" dmax="38" x="8854.29" z="3756.13" r="160" />
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="15" dmax="20" x="8854.29" z="3756.13" r="160" />
         <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="4424.4" z="4454" r="75" />
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="13" dmax="19" x="13608.4" z="9898.6" r="175" />
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="7" dmax="13" x="12968.7" z="9902.67" r="100" />
