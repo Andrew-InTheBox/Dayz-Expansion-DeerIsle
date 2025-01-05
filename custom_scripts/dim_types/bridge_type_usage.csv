@@ -81,8 +81,11 @@ AmmoBox_308Win_20Rnd,types,Coast
 AmmoBox_308Win_20Rnd,types,Hunting
 AmmoBox_357_20Rnd,types,Military
 AmmoBox_357_20Rnd,types,Police
+AmmoBox_357_20Rnd,types,Hunting
+AmmoBox_357_20Rnd,types,Village
 AmmoBox_380_35rnd,types,Military
 AmmoBox_380_35rnd,types,Police
+AmmoBox_380_35rnd,types,Village
 AmmoBox_45ACP_25rnd,types,Military
 AmmoBox_45ACP_25rnd,types,Police
 AmmoBox_45ACP_25rnd,types,Farm
@@ -98,6 +101,7 @@ AmmoBox_556x45_20Rnd,types,Military
 AmmoBox_762x39Tracer_20Rnd,types,Military
 AmmoBox_762x39Tracer_20Rnd,types,Police
 AmmoBox_762x39_20Rnd,types,Military
+AmmoBox_762x39_20Rnd,types,Village
 AmmoBox_762x54Tracer_20Rnd,types,Military
 AmmoBox_762x54Tracer_20Rnd,types,Police
 AmmoBox_762x54_20Rnd,types,Military

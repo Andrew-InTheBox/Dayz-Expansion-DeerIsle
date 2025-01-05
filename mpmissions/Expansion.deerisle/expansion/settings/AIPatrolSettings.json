@@ -5461,6 +5461,97 @@
                     4937.11
                 ]
             ]
+        },
+        {
+            "Name": "Stonington",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "Column",
+            "FormationLooseness": 25.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    7547.54,
+                    5.26953,
+                    1683.12
+                ],
+                [
+                    7166.74,
+                    7.93,
+                    1585.68
+                ],
+                [
+                    6998.91,
+                    7.27392,
+                    1523.16
+                ],
+                [
+                    6680.13,
+                    2.76,
+                    1463.28
+                ],
+                [
+                    6420.68,
+                    2.76,
+                    1356.95
+                ],
+                [
+                    6470.67,
+                    21.2869,
+                    1501.69
+                ],
+                [
+                    6676.1,
+                    26.8024,
+                    1761.19
+                ],
+                [
+                    7137.45,
+                    43.1227,
+                    1775.01
+                ],
+                [
+                    7237.36,
+                    23.9629,
+                    1953.33
+                ],
+                [
+                    7190.24,
+                    19.7544,
+                    1706.97
+                ],
+                [
+                    7448.31,
+                    14.4503,
+                    1665.35
+                ]
+            ]                
         }
     ]
 }
