@@ -12,7 +12,7 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "Boats",
+        "Boats:1",
         "Vehicle_Parts:3",
         "Batteries:3"
     ],

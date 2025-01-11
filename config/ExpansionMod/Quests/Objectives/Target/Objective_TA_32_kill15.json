@@ -4,7 +4,7 @@
     "ObjectiveType": 2,
     "ObjectiveText": "Kill infected near the cooling towers",
     "TimeLimit": -1,
-    "Active": 0,
+    "Active": 1,
     "Position": [
         4673.60986328125,
         20.38629913330078,

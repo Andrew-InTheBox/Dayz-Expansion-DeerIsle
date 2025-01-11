@@ -12,14 +12,14 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "Gardening",
-        "Tools",
-        "Supplies",
-        "Locks",
-        "Containers",
-        "Tents",
-        "Furnishings",
-        "Flags"
+        "Gardening:1",
+        "Tools:1",
+        "Supplies:1",
+        "Locks:1",
+        "Containers:1",
+        "Tents:1",
+        "Furnishings:1",
+        "Flags:1"
     ],
     "Items": {}
 }

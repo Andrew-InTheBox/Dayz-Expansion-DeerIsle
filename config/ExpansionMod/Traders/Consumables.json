@@ -12,11 +12,11 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "Drinks",
-        "Food",
-        "Fruit_And_Vegetables",
-        "Meat",
-        "Fish"
+        "Drinks:1",
+        "Food:1",
+        "Fruit_And_Vegetables:1",
+        "Meat:1",
+        "Fish:1"
     ],
     "Items": {}
 }

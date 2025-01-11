@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "MMG Items",
-    "MinRequiredReputation": 3000,
+    "MinRequiredReputation": 0,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,

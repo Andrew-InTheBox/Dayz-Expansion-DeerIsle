@@ -4,7 +4,7 @@
     "ObjectiveType": 2,
     "ObjectiveText": "Kill 10 Military/NPC Infected",
     "TimeLimit": -1,
-    "Active": 0,
+    "Active": 1,
     "Position": [
         0.0,
         0.0,

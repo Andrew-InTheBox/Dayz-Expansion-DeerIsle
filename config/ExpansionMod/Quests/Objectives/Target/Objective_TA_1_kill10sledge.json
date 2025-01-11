@@ -4,7 +4,7 @@
     "ObjectiveType": 2,
     "ObjectiveText": "Kill 10 Infected with a sledgehammer",
     "TimeLimit": -1,
-    "Active": 0,
+    "Active": 1,
     "Position": [
         4560.00,
         10.0,

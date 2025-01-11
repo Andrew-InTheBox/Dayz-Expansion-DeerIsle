@@ -1,6 +1,6 @@
 {
     "m_Version": 15,
-    "MarketSystemEnabled": 0,
+    "MarketSystemEnabled": 1,
     "NetworkCategories": [],
     "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
     "ATMSystemEnabled": 1,
