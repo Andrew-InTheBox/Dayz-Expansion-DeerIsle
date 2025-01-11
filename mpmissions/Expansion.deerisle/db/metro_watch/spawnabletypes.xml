@@ -1,0 +1,8 @@
+
+
+    </type>
+	<type name="Metro_Watch">
+		<attachments chance="0.50">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>

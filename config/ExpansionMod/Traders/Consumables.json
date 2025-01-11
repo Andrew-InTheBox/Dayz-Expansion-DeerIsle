@@ -1,0 +1,22 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Can Of Beans Big",
+    "Currencies": [
+        "ExpansionBanknoteHryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Drinks:1",
+        "Food:1",
+        "Fruit_And_Vegetables:1",
+        "Meat:1",
+        "Fish:1"
+    ],
+    "Items": {}
+}

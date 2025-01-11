@@ -1,0 +1,1 @@
+-config=serverDZ.cfg "-mod=" "-serverMod=" "-profiles=C:\path_to_your_log_folder\logs" -port=2302 -freezecheck -adminlog -dologs

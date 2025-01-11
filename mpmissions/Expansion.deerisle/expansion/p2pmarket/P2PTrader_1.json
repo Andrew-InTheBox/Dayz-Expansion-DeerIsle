@@ -1,5 +1,5 @@
 {
-    "m_Version": 7,
+    "m_Version": 8,
     "m_TraderID": 1,
     "m_ClassName": "ExpansionP2PTraderAIIrena",
     "m_Position": [
@@ -34,6 +34,11 @@
     "m_Waypoints": [],
     "m_EmoteID": 46,
     "m_EmoteIsStatic": 0,
+    "m_RequiredFaction": "",
+    "m_UseReputation": 0,
+    "m_MinRequiredReputation": 0,
+    "m_MaxRequiredReputation": 2147483647,
+    "m_RequiredCompletedQuestID": -1,
     "m_IsGlobalTrader": 0,
     "m_Currencies": [
         "expansionbanknotehryvnia"

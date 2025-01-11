@@ -1036,7 +1036,7 @@ class Expansion_Reloading_Start_Reloading_Transition_0: eAITransition {
 		if (!fsm.weapon || fsm.weapon.IsDamageDestroyed())
 		return FAIL;
 		if (!unit.eAI_HasAmmoForFirearm(fsm.weapon, dst.magazine)) return FAIL;
-		#ifdef DIAG
+		#ifdef EXTRACE_DIAG
 		if (!dst.magazine)
 		EXTrace.Start0(EXTrace.AI, this, "Reloading " + fsm.weapon + " from internal mag");
 		else
@@ -1515,7 +1515,7 @@ class Expansion_Master_TakeItemToHands_State_0: eAIState {
 			{
 				//! Try to put current hand item in inventory (shoulder slot or cargo), drop if not possible
 				if (!unit.eAI_TakeItemToInventoryDropShoulderImpl(hands))
-				unit.eAI_DropItem(hands);
+				unit.eAI_DropItem(hands, false, true, false);
 				else if (unit.m_eAI_LastDroppedItem == item)
 				unit.eAI_ThreatOverride(item, false);
 				else
@@ -2091,6 +2091,8 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2166,8 +2168,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2182,7 +2187,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2192,8 +2197,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2206,8 +2214,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2232,6 +2243,8 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2307,8 +2320,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2323,7 +2339,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2333,8 +2349,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2347,8 +2366,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2373,6 +2395,8 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2448,8 +2472,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2464,7 +2491,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2474,8 +2501,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2488,8 +2518,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2514,6 +2547,8 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2589,8 +2624,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2605,7 +2643,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2615,8 +2653,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2629,8 +2670,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2655,6 +2699,8 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		ItemBase hands = unit.GetItemInHands();
 		//! If ruined, drop
 		if (hands && hands.IsDamageDestroyed())
@@ -2730,8 +2776,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2746,7 +2795,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 					return SUCCESS;
 				}
 			}
-			if (!preferExplosiveAmmo)
+			if (!preferTargetItem && !preferExplosiveAmmo)
 			{
 				item = unit.eAI_GetWeaponToUse(true, false);
 				//! If we have no non-explosive ammo weapon and target is not an item and distance is at least 30 m,
@@ -2756,8 +2805,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2770,8 +2822,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2813,6 +2868,8 @@ class Expansion_Master_Idle_TakeItemToInventory_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
@@ -2882,6 +2939,8 @@ class Expansion_Master_Flank_TakeItemToInventory_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;
@@ -2951,6 +3010,8 @@ class Expansion_Master_Fighting_TakeItemToInventory_Transition_0: eAITransition 
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
+		if (unit.eAI_IsChangingStance())
+		return FAIL;
 		if (unit.IsRaised()) return FAIL;
 		if (unit.GetWeaponManager().IsRunning()) return FAIL;
 		if (unit.GetActionManager().GetRunningAction()) return FAIL;

@@ -158,19 +158,23 @@
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMVehicleSpawnerModule",
+                    "Name": "JMLoadoutModule",
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMItemSetSpawnerModule",
+                    "Name": "JMLoadoutModuleCreate",
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMItemSetSpawnerModuleVector",
+                    "Name": "JMLoadoutModuleDelete",
                     "Enabled": 0
                 },
                 {
-                    "Name": "JMItemSetSpawnerModulePlayer",
+                    "Name": "JMLoadoutModuleBackup",
+                    "Enabled": 0
+                },
+                {
+                    "Name": "JMLoadoutModuleSpawn",
                     "Enabled": 0
                 },
                 {

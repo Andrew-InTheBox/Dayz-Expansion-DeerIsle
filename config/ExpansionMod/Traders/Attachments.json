@@ -1,0 +1,34 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_ATTACHMENTS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Scrap Metal",
+    "Currencies": [
+        "ExpansionBanknoteHryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Magazines:1",
+        "Muzzles:1",
+        "Bayonets:1",
+        "Optics:1",
+        "Buttstocks:1",
+        "Handguards:1",
+        "Snafu_Bipods:1",
+        "Snafu_Extras:1",
+        "Snafu_Grips:1",
+        "Snafu_Handguards:1",
+        "Snafu_Scopes:1",
+        "Snafu_Mags:1",
+        "Snafu_Stocks:1",
+        "Snafu_Suppressors:1"
+    ],
+    "Items": {
+        "universallight": 1,
+        "tlrlight": 1
+    }
+}

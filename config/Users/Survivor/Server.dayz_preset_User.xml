@@ -520,6 +520,12 @@
     <input name="UAUICredits">
         <btn name="x1View" />
     </input>
+    <input name="UAUICopyDebugMonitorPos">
+        <btn name="kP" />
+    </input>
+    <input name="UAUIThumbRight">
+        <btn name="x1ThumbRight" />
+    </input>
     <input name="UAUIRightStickHorizontal">
         <btn name="x1RightThumbHorizontal" />
     </input>
@@ -975,7 +981,7 @@
             <btn name="kJ" />
         </btn>
     </input>
-    <input name="UACOTToggleItem">
+    <input name="UACOTToggleLoadout">
         <btn name="kRMenu">
             <btn name="kK" />
         </btn>
@@ -1304,6 +1310,8 @@
         <sensitivity name="rvert" value="1.000000" />
         <sensitivity name="rhorz" value="1.000000" />
         <sensitivity name="rcurv" value="1.000000" />
+        <sensitivity name="ldeadzone" value="1.000000" />
+        <sensitivity name="rdeadzone" value="1.000000" />
     </controller>
     <controller name="PCMouse">
         <limit name="doubleclick" value="0.500000" />
@@ -1318,6 +1326,8 @@
         <sensitivity name="rvert" value="1.000000" />
         <sensitivity name="rhorz" value="1.000000" />
         <sensitivity name="rcurv" value="1.000000" />
+        <sensitivity name="ldeadzone" value="1.000000" />
+        <sensitivity name="rdeadzone" value="1.000000" />
     </controller>
     <controller name="X1Controller">
         <limit name="doubleclick" value="0.500000" />
@@ -1332,6 +1342,8 @@
         <sensitivity name="rvert" value="1.250000" />
         <sensitivity name="rhorz" value="1.250000" />
         <sensitivity name="rcurv" value="0.500000" />
+        <sensitivity name="ldeadzone" value="0.030000" />
+        <sensitivity name="rdeadzone" value="0.030000" />
     </controller>
     <controller name="PS4Controller">
         <limit name="doubleclick" value="0.500000" />
@@ -1346,6 +1358,8 @@
         <sensitivity name="rvert" value="1.250000" />
         <sensitivity name="rhorz" value="1.250000" />
         <sensitivity name="rcurv" value="0.500000" />
+        <sensitivity name="ldeadzone" value="0.030000" />
+        <sensitivity name="rdeadzone" value="0.030000" />
     </controller>
     <controller name="IRTracker">
         <limit name="doubleclick" value="0.500000" />
@@ -1360,6 +1374,8 @@
         <sensitivity name="rvert" value="1.000000" />
         <sensitivity name="rhorz" value="1.000000" />
         <sensitivity name="rcurv" value="1.000000" />
+        <sensitivity name="ldeadzone" value="1.000000" />
+        <sensitivity name="rdeadzone" value="1.000000" />
     </controller>
     <modificator name="aiming">
         <sensitivity name="vert" value="1.000000" />

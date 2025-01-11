@@ -30,7 +30,7 @@
 		</attachments>
 	</type>
 	<type name="UMP45">
-		<attachments chance="0.20">
+		<attachments chance="0.35">
 			<item name="Mag_UMP_25Rnd" chance="1.00" />
 		</attachments>
 		<!-- Mag_UMP_25Rnd -->
@@ -42,7 +42,7 @@
 			<item name="ExpansionReflexMRSOptic" chance="0.10" />
 			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
 		</attachments>
-		<attachments chance="0.05">
+		<attachments chance="0.15">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.10">
@@ -64,7 +64,7 @@
 			<item name="ExpansionReflexMRSOptic" chance="0.10" />
 			<item name="ExpansionEXPS3HoloOptic" chance="0.10" />
 		</attachments>
-		<attachments chance="0.10">
+		<attachments chance="0.25">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2184,8 +2184,11 @@
 		</attachments>
 	</type>
 	<type name="ExpansionVodnik">
-		<attachments chance="1.00">
+		<attachments chance="0.60">
 			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -2285,32 +2288,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="ExpansionBusWheelDouble" chance="0.80" />
-		</attachments>
-	</type>
-	<type name="ExpansionTractor">
-		<attachments chance="1.00">
-			<item name="ExpansionTractorFrontWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorFrontWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorBackWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorBackWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorDoorsDriver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="ExpansionTractorDoorsCodriver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
 		</attachments>
 	</type>
 	<type name="Expansion_Landrover">
@@ -2871,18 +2848,18 @@
 		</attachments>
 	</type>
 	<type name="Expansion_Kedr">
-		<attachments chance="0.30">
+		<attachments chance="0.50">
 			<item name="Mag_Expansion_Kedr_20Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
+		<attachments chance="0.1">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Expansion_VityazSN">
-		<attachments chance="0.25">
+		<attachments chance="0.50">
 			<item name="Mag_Expansion_Vityaz_30Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
+		<attachments chance="0.10">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
         <attachments chance="1.00">

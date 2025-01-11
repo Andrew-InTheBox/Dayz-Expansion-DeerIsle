@@ -522,3 +522,237 @@ This controls the sell price for all market items in this specific zone. By defa
 Map<String, Integer>.
 
 Contains all the items that can be purchased in this market zone and the current stock of each item. You can set the stock for each individual item or set it to 0 (meaning traders in this zone will only start selling the item after players have sold at least one of the respective item to the trader).
+
+MarketSettings.json
+
+\mpmissions\map\expansion\settings
+
+Global settings file.  
+
+Buy/sell percentage ratio set here.
+
+Vehicle spawn positions here.
+
+{
+    "m_Version": 11,
+    "MarketSystemEnabled": 1,
+    "NetworkCategories": [],
+    "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
+    "ATMSystemEnabled": 1,
+    "MaxDepositMoney": 10000000,
+    "DefaultDepositMoney": 10000,
+    "ATMPlayerTransferEnabled": 1,
+    "ATMPartyLockerEnabled": 1,
+    "MaxPartyDepositMoney": 10000000,
+    "UseWholeMapForATMPlayerList": 0,
+    "SellPricePercent": 65.0,
+    "NetworkBatchSize": 100,
+    "MaxVehicleDistanceToTrader": 120.0,
+    "MaxLargeVehicleDistanceToTrader": 744.0,
+    "LargeVehicles": [
+        "expansionlhd"
+    ],
+    "LandSpawnPositions": [
+        {
+            "Position": [
+                7562.26416015625,
+                89.25,
+                4603.5830078125
+            ],
+            "Orientation": [
+                142.53062438964845,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Position": [
+                5086.759765625,
+                59.560001373291019,
+                7998.81982421875
+            ],
+            "Orientation": [
+                152.45999145507813,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "AirSpawnPositions": [
+        {
+            "Position": [
+                5049.5322265625,
+                59.42906951904297,
+                7987.19384765625
+            ],
+            "Orientation": [
+                -101.87964630126953,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+
+
+TraderZone.json
+
+E.g. hill_trader.json, Boat_trader.json, spire_trader.json
+
+\mpmissions\map\expansion\traderzones
+
+Location/size of trader zones.
+Stock of items sold there.
+
+{
+    "m_Version": 6,
+    "m_DisplayName": "The Hill",
+    "Position": [
+        7529.1357421875,
+        89.1981201171875,
+        4610.044921875
+    ],
+    "Radius": 300.0,
+    "BuyPricePercent": 125.0,
+    "SellPricePercent": -1.0,
+    "Stock": {
+        "aviatorglasses": 1,
+        "expansionspraycanmerlinvrana": 0,
+        "booniehat_blue": 1,
+        "wolfsteakmeat": 75,
+        "tomato": 75,
+        "joggingshoes_black": 75,
+        "sparkplug": 1,
+        "motohelmet_white": 0,
+        "flag_chel": 75,
+        "expansion_ammobox_8mm_15rnd": 0,
+        "civsedandoors_driver_black": 75,
+        "gaz_3110_volga_doors_trunk_white": 0,
+        "hatchbackdoors_driver_white": 75,
+        "platecarriervest": 1,
+        "expansionuazdoorcargo2": 1,
+        "flatcap_grey": 0,
+        "epinephrine": 1,
+        "uaz_27722_mchs_wheel": 0,
+        "ballerinas_yellow": 75,
+        "ij_2125_kombi_beg": 0,
+        "lunchmeat": 1,
+        "mag_saiga_drum20rnd": 1,
+        "expansion_flag_expansion": 75,
+        "ams_ai2": 77,
+
+
+Market.json
+
+e.g. Ammo.json, Armbands.json, Accessories.json
+
+\config\ExpansionMod\market
+
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_VESTS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "reflexvest",
+            "MaxPriceThreshold": 10,
+            "MinPriceThreshold": 5,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "policevest",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 35,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+
+Controls price and how much stock a trader has.
+Not used with unlimited stock!
+Initial stock setting
+Max price threshold, min price threshold - sets scaling of prices based on stock levels.  Can set to same value.
+MinStockThreshold and MaxStockThreshold - set to 1 for unlimited.
+Quantity percent.  -1 is "full".  Ammo must be I ntock to have a magazine be sold as full.
+Can put class names of different color things under "variants" in a category.
+
+Traders.json
+
+\config\ExpansionMod\Traders
+
+E.g. Aircraft.json, Boats.json, Medicals,json,Vehicle_Parts.json, etc.
+
+Gets referenced by lines in Traders.map which sets what category, and groups of market json files, a trader will sell.
+
+Traders.map sets one of these per each trader, which defines what categories go with each "master" category, i.e. traders.json file variant.
+
+{
+    "m_Version": 11,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_MEDICALS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Medic Box",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "Categories": [
+        "Medical"
+    ],
+    "Items": {}
+}
+
+Sets currency trader uses.
+Categories trader sells.
+Categories are the filenames of the market.json files.
+Number on end of the category sets if buy, sell or buy and sell for that trader.
+
+Safezone.json
+
+Defines safe zone.
+
+Traders.map
+
+Interaction trader will interact with.
+
+References the Traders.json files in config/expansionmod/traders
+
+ExpansionTraderMirek.Weapons|5129.500000 59.479023 7988.390137|94.491951 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderMirek.Weapons|7489.82 87.682 4595. 8|94.491951 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderHelga.Medicals|5139.807129 60.069141 8002.295898|-164.655121 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderHassan.BuildingSupplies|5136.693848 59.559959 7980.172852|-42.662037 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderCyril.Clothing|5112.850098 59.989971 7983.914551|0.000000 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderIndar.Accessories|5112.97 60.0701 7989.72|120.000000 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderMaria.Consumables|5105.172363 60.057400 7984.764160|-60.992580 0.000000 0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderRolf.Vehicles|5073.94 59.225 7991.69|71.435036 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderDenis.Vehicle_Parts|5074.001465 59.393593 7993.838379|71.435036 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderGabi.Aircraft|5034.049805 60.123978 7982.919922|148.285004 0.000000 0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+ExpansionTraderSeth.Medicals|7502.604492 87.797 4608.411621|91.490944 0.000000 -0.000000|GorkaEJacket_Flat,GorkaPants_Flat,HikingBoots_Black,TacticalGloves_Black
+
+
+Objects.map
+
+Definitions that come with the game.
+
+
+ATM troubleshooting
+
+Things to check
+1 atm currency is market settings. 
+2 define currency in exchange json in market folder 
+3 trader folder in profiles/expansion each trader has currency accepted
+
+The traders use currency expansionbanknotehryvnia.
+
+Added to marketsettings.json to be sure.

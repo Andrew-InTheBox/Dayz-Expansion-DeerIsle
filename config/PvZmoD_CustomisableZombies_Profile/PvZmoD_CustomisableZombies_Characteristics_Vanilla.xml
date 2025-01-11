@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
+	
+<types>
+	<!--________________ NEW CLASS FROM OTHER ZOMBIE MODS (have to be before the vanilla classes) ______________-->
+	
+	<!-- Add new zombie class here ! -->
+	
+	<!--________________ NEW CLASS FROM OTHER ZOMBIE MODS (have to be before the vanilla classes) ______________-->
+	
+	<type name="ZmbM_NBC_White">
+        <Health_Points				Day="100" 	Night="100"/>
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/> <!-- Resists to contaminated areas -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbM_NBC_Yellow"> 
+        <Health_Points				Day="100" 	Night="100"/>
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/> <!-- Resists to contaminated areas -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbM_NBC_Grey"> <!-- Keep before ZmbM_SoldierNormal_Base -->
+        <Health_Points				Day="115" 	Night="115"/> <!-- Little bit stronger -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/> <!-- Resists to contaminated areas -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbM_SoldierNormal_Base">
+        <Health_Points				Day="115" 	Night="115"/> <!-- Little bit stronger -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbM_PolicemanSpecForce_Base">
+        <Health_Points				Day="100" 	Night="100"/>
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="1.5" 	Night="1.5"/> <!-- Good resistance to bullet headshots -->
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="LowTierZombieMaleBase">
+        <Health_Points				Day="85" 	Night="85"/> <!-- Weak -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="LowTierZombieFemaleBase">
+        <Health_Points				Day="85" 	Night="85"/> <!-- Weak -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbF_Runner_Base">
+        <Health_Points				Day="50" 	Night="50"/> <!-- Very Weak -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="3.0" 	Night="3.0"/> <!-- Always run -->
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbM__Runner_Base"> <!-- Don't modify typo, the double _ is a dayz devs error -->
+        <Health_Points				Day="50" 	Night="50"/> <!-- Very Weak -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="3.0" 	Night="3.0"/> <!-- Always run -->
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	
+	<type name="ZmbM_Mummy"> 
+        <Health_Points				Day="1000" 	Night="1000"/> <!-- Very Strong -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="2.5" 	Night="2.5"/> <!-- don't sprint -->
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/>		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/> <!-- Resists to contaminated areas -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>
+    </type>
+	<!--___________________________________ FOR THE DARK HORDE MOD ______________________________________________-->
+	
+	<!--____ WARNING : IF YOU USE WINTER CHERNARUS MAP (and maybe other winter maps) WITH THE DARK HORDE MOD ____-->
+	<!-- Keep ZmbM_JournalistSkinny_Base ZmbF_PatientOld_Base ZmbM_CitizenASkinny_Base After the Dark Horde Creatures if you have to modify them -->
+	<type name="ZmbM_DH_Master_Day">
+        <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
+        <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
+		<Resistance_to_Stun_Bullets	Day="1.5" 	Night="1.5"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
+		<Move_Speed_Adjust_Max		Day="0.3" 	Night="0.3"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="-1.0"/>	<!-- Never Crawl -->
+		<Can_Dodge					Day="1" 	Night="1"/>		<!-- Can dodge when fighting -->
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="1"		Night="1"/>
+ 		<Attack_Speed 				Day="2.0"	Night="2.0"/>	<!-- Fast Attack Speed -->
+		<Ratio_Damage_Health		LightAttack_NotBlocked="2.0" LightAttack_Blocked="1.5" HeavyAttack_NotBlocked="2.0" HeavyAttack_Blocked="1.5" NightRatio="1.0"/> <!-- More Health Damage -->
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="3.0" LightAttack_Blocked="0.5" HeavyAttack_NotBlocked="3.5" HeavyAttack_Blocked="1.0" NightRatio="1.0"/> <!-- More Shock Damage -->
+		<Bleeding_Chance			LightAttack_NotBlocked="0.2" LightAttack_Blocked="0.1" HeavyAttack_NotBlocked="0.2" HeavyAttack_Blocked="0.1" NightRatio="1.0"/> <!-- More Bleeding chance -->
+		<Damage_Blood				LightAttack_NotBlocked="100" LightAttack_Blocked="50" HeavyAttack_NotBlocked="100" HeavyAttack_Blocked="50" NightRatio="1.0"/> <!-- Drain Blood -->
+		<Damage_Stamina				LightAttack_NotBlocked="50" LightAttack_Blocked="25" HeavyAttack_NotBlocked="50" HeavyAttack_Blocked="25" NightRatio="1.0"/> <!-- Drain Stamina -->
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="0"		Night="0"/>	<!-- Can't be backstab (even if set to 1) -->
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="1"		Night="1"/>
+ 		<Size_Mini 					Day="1.6"	Night="1.6"/>
+ 		<Size_Maxi 					Day="1.6"	Night="1.6"/>
+ 		<Can_Throw_Stones			Day="2"		Night="2"/>
+    </type>
+	<type name="ZmbM_DH_Master_Night">							<!--  This class is use if go through walls option of Dark Horde mod is Activated  -->
+        <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
+        <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
+		<Resistance_to_Stun_Bullets	Day="1.5" 	Night="1.5"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
+		<Move_Speed_Adjust_Max		Day="0.3" 	Night="0.3"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="-1.0"/>	<!-- Never Crawl -->
+		<Can_Dodge					Day="1" 	Night="1"/>		<!-- Can dodge when fighting -->
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="1"		Night="1"/>
+ 		<Attack_Speed 				Day="2.0"	Night="2.0"/>	<!-- Fast Attack Speed -->
+		<Ratio_Damage_Health		LightAttack_NotBlocked="2.0" LightAttack_Blocked="1.5" HeavyAttack_NotBlocked="2.0" HeavyAttack_Blocked="1.5" NightRatio="1.0"/> <!-- More Health Damage -->
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="3.0" LightAttack_Blocked="0.5" HeavyAttack_NotBlocked="3.5" HeavyAttack_Blocked="1.0" NightRatio="1.0"/> <!-- More Shock Damage -->
+		<Bleeding_Chance			LightAttack_NotBlocked="0.2" LightAttack_Blocked="0.1" HeavyAttack_NotBlocked="0.2" HeavyAttack_Blocked="0.1" NightRatio="1.0"/> <!-- More Bleeding chance -->
+		<Damage_Blood				LightAttack_NotBlocked="100" LightAttack_Blocked="50" HeavyAttack_NotBlocked="100" HeavyAttack_Blocked="50" NightRatio="1.0"/> <!-- Drain Blood -->
+		<Damage_Stamina				LightAttack_NotBlocked="50" LightAttack_Blocked="25" HeavyAttack_NotBlocked="50" HeavyAttack_Blocked="25" NightRatio="1.0"/> <!-- Drain Stamina -->
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="0"		Night="0"/>	<!-- Can't be backstab (even if set to 1) -->
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="1"		Night="1"/>
+ 		<Size_Mini 					Day="2.0"	Night="2.0"/>
+ 		<Size_Maxi 					Day="2.0"	Night="2.0"/>
+ 		<Can_Throw_Stones			Day="2"		Night="2"/>
+    </type>
+	
+	<type name="ZmbM_DH_Master_Night_NotThroughWalls">			<!--  This class is use if go through walls option of Dark Horde mod is Deactivated  -->
+        <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
+        <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
+		<Resistance_to_Stun_Bullets	Day="1.5" 	Night="1.5"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
+		<Move_Speed_Adjust_Max		Day="0.3" 	Night="0.3"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="-1.0"/>	<!-- Never Crawl -->
+		<Can_Dodge					Day="1" 	Night="1"/>		<!-- Can dodge when fighting -->
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="1"		Night="1"/>
+ 		<Attack_Speed 				Day="2.0"	Night="2.0"/>	<!-- Fast Attack Speed -->
+		<Ratio_Damage_Health		LightAttack_NotBlocked="2.0" LightAttack_Blocked="1.5" HeavyAttack_NotBlocked="2.0" HeavyAttack_Blocked="1.5" NightRatio="1.0"/> <!-- More Health Damage -->
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="3.0" LightAttack_Blocked="0.5" HeavyAttack_NotBlocked="3.5" HeavyAttack_Blocked="1.0" NightRatio="1.0"/> <!-- More Shock Damage -->
+		<Bleeding_Chance			LightAttack_NotBlocked="0.2" LightAttack_Blocked="0.1" HeavyAttack_NotBlocked="0.2" HeavyAttack_Blocked="0.1" NightRatio="1.0"/> <!-- More Bleeding chance -->
+		<Damage_Blood				LightAttack_NotBlocked="100" LightAttack_Blocked="50" HeavyAttack_NotBlocked="100" HeavyAttack_Blocked="50" NightRatio="1.0"/> <!-- Drain Blood -->
+		<Damage_Stamina				LightAttack_NotBlocked="50" LightAttack_Blocked="25" HeavyAttack_NotBlocked="50" HeavyAttack_Blocked="25" NightRatio="1.0"/> <!-- Drain Stamina -->
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="0"		Night="0"/>	<!-- Can't be backstab (even if set to 1) -->
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="1"		Night="1"/>
+ 		<Size_Mini 					Day="2.0"	Night="2.0"/>
+ 		<Size_Maxi 					Day="2.0"	Night="2.0"/>
+ 		<Can_Throw_Stones			Day="2"		Night="2"/>
+    </type>
+	
+	<type name="ZmbM_DH_Invisible_Ghillie">						
+        <Health_Points				Day="150" 	Night="150"/>	<!-- Strong Lvl 1.5 -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint-->
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.0" HeavyAttack_Blocked="0.0" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="0.6"	Night="0.6"/>
+ 		<Size_Maxi 					Day="0.7"	Night="0.8"/>
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>
+    </type>
+	
+	<type name="ZmbM_DH_Invisible_RedEye">
+        <Health_Points				Day="150" 	Night="150"/>	<!-- Strong Lvl 1.5 -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
+		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
+        <Move_Speed_Min				Day="2.0" 	Night="2.0"/>	<!-- Always run -->
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint-->
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> 
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> 
+		<Bleeding_Chance			LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.2"	Night="1.2"/>
+ 		<Size_Maxi 					Day="1.3"	Night="1.3"/>
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>
+    </type>
+	
+	<type name="ZmbF_DH_WhiteLady_Base">							
+        <Health_Points				Day="33" 	Night="33"/>	<!-- Weak -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
+		<Move_Speed_Adjust_Max		Day="0.3" 	Night="0.3"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.0" HeavyAttack_Blocked="0.0" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="0"		Night="0"/>
+ 		<Size_Mini 					Day="0.9"	Night="0.8"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>
+    </type>
+	
+	<type name="ZmbM_DH_NightWalker_Base">
+        <Health_Points				Day="10000"	Night="10000"/> 	<!-- Health increased -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="10.0" 	Night="10.0"/> 	<!-- Melee resistance increased to avoid one shot with fists -->
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
+        <Resistance_to_HeadShots	Day="0.001" Night="0.001"/>	<!-- Head shot resistance decrease -->
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
+		<Move_Speed_Max				Day="1.5" 	Night="1.5"/>	<!-- Max speed decreased to walk -->
+		<Move_Speed_Adjust_Max		Day="0.3" 	Night="0.3"/>
+		<Animation_Type				Day="1" 	Night="1"/>
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="-1.0"/>	<!-- Never crawl -->
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.0" HeavyAttack_Blocked="0.0" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="0"		Night="0"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.1"	Night="1.2"/>
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>
+    </type>
+	
+	<type name="ZmbM_DH_AlmostTransparent_Base">							
+        <Health_Points				Day="10" 	Night="10"/>	<!-- Very Weak -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.0" HeavyAttack_Blocked="0.0" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="1"		Night="1"/>	<!-- Resist to contaminated areas (even if set to 0) -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="0"		Night="0"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.2"	Night="1.2"/>
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>
+    </type>
+		
+	<!--_______________________________________ EXAMPLES _____________________________________________________-->
+	
+	<type name="Example_WALKINGDEAD_HeadShot">					<!-- WALKINGDEAD_HEADSHOT Example (Night values are "normal zombies" ones to compare changes ) -->
+        <Health_Points				Day="10000"	Night="100"/> 	<!-- Health increased -->
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Melees		Day="10.0" 	Night="1.0"/> 	<!-- Melee resistance increased to avoid one shot with fists -->
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
+		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
+        <Resistance_to_HeadShots	Day="0.001" Night="1.0"/>	<!-- Headshot resistance decrease -->
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
+        <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
+		<Move_Speed_Max				Day="1.5" 	Night="3.0"/>	<!-- Max speed decreased to walk -->
+		<Move_Speed_Adjust_Max		Day="0.2" 	Night="0.0"/>	<!-- Little speed boost to not be too slow -->
+		<Animation_Type				Day="-9" 	Night="-9"/>
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="0.0"/>	<!-- Never crawl -->
+		<Can_Dodge					Day="0" 	Night="0"/>
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
+		<Bleeding_Chance			LightAttack_NotBlocked="0.1" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.1" HeavyAttack_Blocked="0.1" NightRatio="1.0"/>
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
+		<Vision_Distance_Ratio		Day="1.0" Night="0.8" WithBloodyHands="0.5" WithSpecialMask="0.25" MinimumRatioDistance="0.1"/>
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>
+ 		<Can_Throw_Stones			Day="1"		Night="1"/>
+    </type>
+
+	<!--____________________________________ DEFAULT CONFIG ____________________________________________________-->	
+	<type name="ZombieBase">									<!-- KEEP THIS CLASS (ZombieBase) IN LAST POSITION -->
+        <Health_Points				Day="100" 	Night="100"/> 	<!-- Integer (Quantity) [1 to 10000] -->		
+        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->
+		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->		
+		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+		<Special_HeadShot_Weapons	Day="0"		Night="0"/>		<!-- Integer [0 or 1] -->
+		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [0.0 to 3.0] -->
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Decimal (Quantity) [1.0 to 3.0] -->		
+		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
+		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 3 (not 2) or -9 (-9: random)] -->
+        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>	<!-- Decimal (Ratio) [-1.0 to 1.0] -->		
+		<Can_Dodge					Day="0" 	Night="0"/>		<!-- Integer [0 or 1] -->
+ 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>		<!-- Integer [0 or 1] -->
+ 		<Immune_To_MultiHit 		Day="0"		Night="0"/>		<!-- Integer [0:Not Immune or 1:Immune] -->
+ 		<Attack_Speed 				Day="1.0"	Night="1.0"/>	<!-- Integer [0.0 to 2.0] -->
+		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0-infinite] -->	
+		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0-infinite] -->
+		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0 to 1.0 or -1 to let vanilla system manage bleeding sources] -->		
+		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/> <!-- Integer (Quantity) [0-5000] -->
+		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/> <!-- Integer (Quantity) [0-100] -->
+		<Vision_Distance_Ratio		Day="1.0" Night="1.0" WithBloodyHands="1.0" WithSpecialMask="1.0" MinimumRatioDistance="0.1"/> <!-- Decimal (Ratio) [0.0 - 1.0] -->
+ 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>		<!-- Integer [0:No Backstabbed or 1: Backstabbed possible] -->
+ 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>		<!-- Integer [0: Don't Resist or 1: Restist] -->
+ 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>		<!-- Integer [0 to infinite] (0: Zombie can't break doors, 2: zombie need two hit to break a door...) -->
+ 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
+ 		<Can_Throw_Stones			Day="0"		Night="0"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
+    </type>
+	<!--________________________ DON'T ADD NEW CLASS AFTER DEFAULT CONFIG ________________________________-->
+</types>
+<!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
+
+

@@ -391,7 +391,7 @@
             "Variants": []
         },
         {
-            "ClassName": "ammo_expansion_338",
+            "ClassName": "Ammo_Expansion_338",
             "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,
