@@ -3,7 +3,7 @@
     <!-- Vanilla Tweaks -->
     <event name="VehicleHatchback02">
         <nominal>10</nominal>
-        <min>7</min>
+        <min>8</min>
         <max>13</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
@@ -46,8 +46,8 @@
     <!-- CARS -->
 	<event name="VehicleUAZ">
         <nominal>5</nominal>
-        <min>1</min>
-        <max>7</max>
+        <min>3</min>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -73,9 +73,9 @@
         </children>
     </event>
 	<event name="VehicleVodnik">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>2</max>
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>3</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
