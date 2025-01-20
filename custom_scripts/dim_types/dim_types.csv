@@ -47,7 +47,7 @@ AmmoBox_12gaSlug_10Rnd,types,65,10800,0,55,100,weapons,0,0
 AmmoBox_22_50Rnd,types,60,7200,0,45,100,weapons,0,0
 AmmoBox_308WinTracer_20Rnd,types,40,10800,0,30,100,weapons,0,1
 AmmoBox_308Win_20Rnd,types,60,7200,0,50,100,weapons,0,0
-AmmoBox_357_20Rnd,types,70,10800,0,62,100,weapons,0,0
+AmmoBox_357_20Rnd,types,70,10800,0,65,100,weapons,0,0
 AmmoBox_380_35rnd,types,72,10800,0,62,100,weapons,0,0
 AmmoBox_45ACP_25rnd,types,80,10800,0,72,100,weapons,0,0
 AmmoBox_545x39Tracer_20Rnd,types,30,10800,0,22,100,weapons,0,1
@@ -1003,7 +1003,7 @@ MP5k_StockBttstck,types,14,7200,0,10,100,weapons,0,0
 Machete,types,50,7200,0,40,100,tools,0,0
 MacrolepiotaMushroom,types,0,900,0,0,100,food,1,0
 Mag_1911_7Rnd,types,63,7200,0,49,100,weapons,0,0
-Mag_AK74_45Rnd,types,35,28800,2700,22,100,weapons,0,0
+Mag_AK74_45Rnd,types,35,28800,2700,25,100,weapons,0,0
 Mag_AK101_30Rnd,types,35,10800,1800,25,100,weapons,0,0
 Mag_AK74_30Rnd,types,42,10800,1800,31,100,weapons,0,0
 Mag_AKM_30Rnd,types,34,10800,1800,14,100,weapons,0,0
@@ -1959,7 +1959,6 @@ aek,types,11,28800,7200,8,100,weapons,0,0
 avs36,types,9,28800,7200,6,100,weapons,0,0
 higgins,types,20,28800,7200,15,100,weapons,0,0
 junkak,types,8,28800,7200,5,100,weapons,0,0
-kar98,types,0,28800,7200,0,100,weapons,0,0
 marlin,types,15,28800,7200,10,100,weapons,0,0
 JMC_BoxCerealCrunchin_Paulies,types,1,10800,0,1,100,industrialfood,0,0
 JMC_Radio_CassetteTape_MusicTape2,types,1,28800,14400,1,100,weapons,0,0
@@ -2371,8 +2370,8 @@ Expansion_AWM,expansion,13,7200,1200,7,100,weapons,0,1
 Expansion_Kar98,expansion,35,7200,900,32,100,weapons,0,0
 AmmoBox_Expansion_46x30_25rnd,expansion,40,10800,0,30,100,weapons,0,0
 AmmoBox_Expansion_338_15rnd,expansion,40,10800,0,35,100,weapons,0,0
-Expansion_AmmoBox_8mm_15rnd,expansion,50,7200,800,45,100,weapons,0,0
-Expansion_Ammo_8mm,expansion,85,7200,800,75,100,weapons,0,0
+Expansion_AmmoBox_8mm_15rnd,expansion,60,7200,800,55,100,weapons,0,0
+Expansion_Ammo_8mm,expansion,95,7200,800,85,100,weapons,0,0
 ExpansionAmmoRPG,expansion,14,10800,10800,1,100,weapons,0,0
 ExpansionAmmoLAW,expansion,14,10800,10800,1,100,weapons,0,0
 Ammo_Expansion_M203_Smoke_White,expansion,2,7200,0,1,100,weapons,0,0

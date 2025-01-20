@@ -2957,6 +2957,7 @@ WaterBottle,types,Tier2
 WaterproofBag_Green,types,all
 WaterproofBag_Orange,types,all
 WaterproofBag_Yellow,types,all
+WeaponCleaningKit,types,Tier2
 WeaponCleaningKit,types,Tier3
 WeaponCleaningKit,types,Tier4
 WeaponCleaningKit,types,Tier5
@@ -3373,9 +3374,6 @@ higgins,types,Tier4
 higgins,types,Tier2
 junkak,types,Tier4
 junkak,types,Tier6
-kar98,types,Tier3
-kar98,types,Tier4
-kar98,types,Tier2
 marlin,types,Tier3
 marlin,types,Tier2
 JMC_BoxCerealCrunchin_Paulies,types,all

@@ -5552,6 +5552,297 @@
                     1665.35
                 ]
             ]                
+        },
+        {
+            "Name": "Mountainville-Ridge",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 25.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 120.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": 1050.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 0.5,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    6233.33,
+                    121.846,
+                    8742.69
+                ],
+                [
+                    6318.86,
+                    128.268,
+                    8775.29
+                ],
+                [
+                    6433.7,
+                    118.727,
+                    8781.75
+                ],
+                [
+                    6471.78,
+                    111.006,
+                    8787.56
+                ]
+            ]                
+        },
+        {
+            "Name": "Mountainville-SouthBridge",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 1.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 150.0,
+            "MaxDistRadius": 700.0,
+            "DespawnRadius": 1000.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 0.65,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    5949.02,
+                    4.6777,
+                    8432.13
+                ],
+                [
+                    5892.96,
+                    4.88529,
+                    8380.35
+                ]
+            ]                
+        },
+        {
+            "Name": "Mountainville-NorthBridge",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 1.0,
+            "Loadout": "GorkaLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 150.0,
+            "MaxDistRadius": 700.0,
+            "DespawnRadius": 1000.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 0.5,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    5440.55,
+                    5.01,
+                    9182.27
+                ],
+                [
+                    5351.83,
+                    5.00575,
+                    9182.47
+                ]
+            ]                
+        },
+        {
+            "Name": "ParisIsland-RailBridge",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 1.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 150.0,
+            "MaxDistRadius": 700.0,
+            "DespawnRadius": 1000.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 0.65,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3176.31,
+                    5.85053,
+                    3521.04
+                ],
+                [
+                    3253.5,
+                    5.70081,
+                    3462.51
+                ],
+                [
+                    3496.2,
+                    5.74041,
+                    3317.23
+                ]
+            ]                
+        },
+        {
+            "Name": "RCFI-BridgeNBC",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 1.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 150.0,
+            "MaxDistRadius": 700.0,
+            "DespawnRadius": 1000.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 0.65,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3883.62,
+                    6.51223,
+                    10442.6
+                ]
+            ]                
+        },
+        {
+            "Name": "EastbrookBridge",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 1.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 150.0,
+            "MaxDistRadius": 700.0,
+            "DespawnRadius": 1000.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 0.65,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    12145.7,
+                    2.49759,
+                    7810.54
+                ],
+                [
+                    12298.7,
+                    2.7293,
+                    7700.42
+                ],
+                [
+                    12524.4,
+                    2.04488,
+                    7636.3
+                ]
+            ]                
         }
     ]
 }

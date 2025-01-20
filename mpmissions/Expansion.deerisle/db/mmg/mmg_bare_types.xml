@@ -48,4 +48,21 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
+    </type>
+        <type name="MMG_falcon_b1_belt_multicam">
+        <nominal>25</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>22</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+        <value name="Tier5" />
+        <value name="Tier6" />
+        <value name="Tier7" />
+    </type>
 </types>
