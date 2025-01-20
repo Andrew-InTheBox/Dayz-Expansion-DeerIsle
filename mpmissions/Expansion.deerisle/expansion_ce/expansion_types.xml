@@ -3480,10 +3480,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_AmmoBox_8mm_15rnd">
-		<nominal>50</nominal>
+		<nominal>60</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>45</min>
+		<min>55</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3497,11 +3497,11 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Expansion_Ammo_8mm">
-		<nominal>85</nominal>
+		<nominal>95</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>75</min>
-		<quantmin>10</quantmin>
+		<min>85</min>
+		<quantmin>40</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
