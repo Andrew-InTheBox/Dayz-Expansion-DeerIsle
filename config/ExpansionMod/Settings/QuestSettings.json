@@ -1,6 +1,6 @@
 {
     "m_Version": 10,
-    "EnableQuests": 1,
+    "EnableQuests": 0,
     "EnableQuestLogTab": 1,
     "CreateQuestNPCMarkers": 1,
     "QuestAcceptedTitle": "Quest Accepted",
