@@ -906,7 +906,7 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Mag_MP5_30Rnd",
-                    "Chance": 0.5,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
