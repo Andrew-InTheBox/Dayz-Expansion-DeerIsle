@@ -15,7 +15,7 @@
     "GroupDifficulty": 0,
     "MinimumPlayerDistance": 0,
     "MaxSoloPlayers": 0,
-    "MinimumAge": 150,
+    "MinimumAge": 1500,
     "ActiveHoursEnabled": 1,
     "ActiveStartTime": 5.5,
     "ActiveStopTime": 18.5,
