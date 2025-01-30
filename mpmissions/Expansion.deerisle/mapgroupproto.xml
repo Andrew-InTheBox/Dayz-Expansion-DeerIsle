@@ -8822,7 +8822,7 @@
 						<point pos="1.915327 1.121368 5.733860" range="1.178955" height="2.000000" />
 				</container>				
 		</group>
-		<group name="Land_Tisy_Garages" lootmax="10">
+		<group name="Land_Tisy_Garages" lootmax="13">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="8">
 						<category name="tools" />

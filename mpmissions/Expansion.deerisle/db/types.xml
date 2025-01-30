@@ -737,10 +737,10 @@
     <usage name="Village" />
   </type>
   <type name="AmmoBox_380_35rnd">
-    <nominal>72</nominal>
+    <nominal>80</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>62</min>
+    <min>68</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
