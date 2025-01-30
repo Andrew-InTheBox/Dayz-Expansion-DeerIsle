@@ -245,7 +245,7 @@
                         },
                         {
                             "Name": "Mag_UMP_25Rnd",
-                            "Chance": 0.5,
+                            "Chance": 0.8,
                             "Attachments": []
                         }
                     ],
@@ -255,7 +255,7 @@
                     "Variants": [
                         {
                             "Name": "UMP45",
-                            "Chance": 0.6000000238418579,
+                            "Chance": 0.8,
                             "Attachments": []
                         }
                     ]
@@ -362,13 +362,24 @@
                         {
                             "Name": "CZ527",
                             "Chance": 0.4000000059604645,
-                            "Attachments": []
+                            "Attachments": [
+                                {
+                                    "Name": "HuntingOptic",
+                                    "Chance": 1.0,
+                                    "Attachments": []
+                                },
+                                {
+                                    "Name": "Mag_CZ527_5rnd",
+                                    "Chance": 1.0,
+                                    "Attachments": []
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "Name": "CZ75",
-                    "Chance": 0.20000000298023225,
+                    "Chance": 0.25,
                     "Attachments": [
                         {
                             "Name": "TLRLight",
@@ -2356,7 +2367,7 @@
                 },
                 {
                     "Name": "PlateCarrierVest",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.15,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -2383,7 +2394,7 @@
                 },
                 {
                     "Name": "PlateCarrierVest",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.15,
                     "Attachments": [
                         {
                             "Name": "PlateCarrierHolster",
@@ -5112,7 +5123,7 @@
                 },
                 {
                     "Name": "AmmoBox_762x54Tracer_20Rnd",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5121,7 +5132,7 @@
                 },
                 {
                     "Name": "AmmoBox_762x54_20Rnd",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5130,7 +5141,7 @@
                 },
                 {
                     "Name": "AmmoBox_762x39Tracer_20Rnd",
-                    "Chance": 0.05999999865889549,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5139,7 +5150,7 @@
                 },
                 {
                     "Name": "AmmoBox_762x39_20Rnd",
-                    "Chance": 0.09000000357627869,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5148,7 +5159,7 @@
                 },
                 {
                     "Name": "AmmoBox_556x45Tracer_20Rnd",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5157,7 +5168,7 @@
                 },
                 {
                     "Name": "AmmoBox_556x45_20Rnd",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5166,7 +5177,7 @@
                 },
                 {
                     "Name": "AmmoBox_545x39Tracer_20Rnd",
-                    "Chance": 0.05999999865889549,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5175,7 +5186,7 @@
                 },
                 {
                     "Name": "AmmoBox_545x39_20Rnd",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5184,7 +5195,7 @@
                 },
                 {
                     "Name": "Ammo_762x54Tracer",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5193,7 +5204,7 @@
                 },
                 {
                     "Name": "Ammo_762x54",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5202,7 +5213,7 @@
                 },
                 {
                     "Name": "Ammo_762x39Tracer",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5211,7 +5222,7 @@
                 },
                 {
                     "Name": "Ammo_762x39",
-                    "Chance": 0.11999999731779099,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5220,7 +5231,7 @@
                 },
                 {
                     "Name": "Ammo_556x45Tracer",
-                    "Chance": 0.07000000029802323,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5229,7 +5240,7 @@
                 },
                 {
                     "Name": "Ammo_556x45",
-                    "Chance": 0.10999999940395355,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5238,7 +5249,7 @@
                 },
                 {
                     "Name": "Ammo_545x39Tracer",
-                    "Chance": 0.07000000029802323,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5247,115 +5258,7 @@
                 },
                 {
                     "Name": "Ammo_545x39",
-                    "Chance": 0.10000000149011612,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Smoke_White",
-                    "Chance": 0.07999999821186066,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Smoke_Red",
-                    "Chance": 0.07999999821186066,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Smoke_Green",
-                    "Chance": 0.07999999821186066,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Smoke_Yellow",
-                    "Chance": 0.07999999821186066,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Smoke_Purple",
-                    "Chance": 0.07999999821186066,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Smoke_Teargas",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Sticky_Smoke_White",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Sticky_Smoke_Red",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Sticky_Smoke_Green",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Sticky_Smoke_Yellow",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Sticky_Smoke_Purple",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "Ammo_Expansion_M203_Sticky_Smoke_Teargas",
-                    "Chance": 0.019999999552965165,
+                    "Chance": 0.6,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5391,7 +5294,7 @@
                 },
                 {
                     "Name": "KobraOptic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.50,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5409,7 +5312,7 @@
                 },
                 {
                     "Name": "KobraOptic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.5,
                     "Attachments": [
                         {
                             "Name": "Battery9V",
@@ -5439,7 +5342,7 @@
                 },
                 {
                     "Name": "ACOGOptic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.5,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5448,7 +5351,7 @@
                 },
                 {
                     "Name": "ACOGOptic_6x",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.2,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5484,7 +5387,7 @@
                 },
                 {
                     "Name": "PUScopeOptic",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.33,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5526,7 +5429,7 @@
                 },
                 {
                     "Name": "M68Optic",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.2,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5535,7 +5438,7 @@
                 },
                 {
                     "Name": "M4_T3NRDSOptic",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.25,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5544,7 +5447,7 @@
                 },
                 {
                     "Name": "FNP45_MRDSOptic",
-                    "Chance": 0.10000000149011612,
+                    "Chance":1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5553,7 +5456,7 @@
                 },
                 {
                     "Name": "PSO1Optic",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.15,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5562,7 +5465,7 @@
                 },
                 {
                     "Name": "PSO11Optic",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.25,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5571,7 +5474,7 @@
                 },
                 {
                     "Name": "M68Optic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.36,
                     "Attachments": [
                         {
                             "Name": "Battery9V",
@@ -5586,7 +5489,7 @@
                 },
                 {
                     "Name": "M4_T3NRDSOptic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.2,
                     "Attachments": [
                         {
                             "Name": "Battery9V",
@@ -5601,7 +5504,7 @@
                 },
                 {
                     "Name": "PSO1Optic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.15,
                     "Attachments": [
                         {
                             "Name": "Battery9V",
@@ -5616,7 +5519,7 @@
                 },
                 {
                     "Name": "PSO11Optic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.15,
                     "Attachments": [
                         {
                             "Name": "Battery9V",
@@ -5631,7 +5534,7 @@
                 },
                 {
                     "Name": "ExpansionReflexMRSOptic",
-                    "Chance": 0.10000000149011612,
+                    "Chance": 0.33,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5640,7 +5543,7 @@
                 },
                 {
                     "Name": "ExpansionReflexMRSOptic",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.33,
                     "Attachments": [
                         {
                             "Name": "Battery9V",
@@ -5709,7 +5612,7 @@
                 },
                 {
                     "Name": "PlateCarrierVest",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.33,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -5736,7 +5639,7 @@
                 },
                 {
                     "Name": "PlateCarrierVest",
-                    "Chance": 0.05000000074505806,
+                    "Chance": 0.15,
                     "Attachments": [
                         {
                             "Name": "PlateCarrierHolster",
