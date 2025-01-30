@@ -22995,10 +22995,10 @@
     <category name="tools" />
   </type>
   <type name="WaterBottle">
-    <nominal>60</nominal>
+    <nominal>70</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>40</min>
+    <min>65</min>
     <quantmin>20</quantmin>
     <quantmax>70</quantmax>
     <cost>100</cost>
@@ -23006,6 +23006,7 @@
     <category name="food" />
     <value name="Tier3" />
     <value name="Tier2" />
+    <value name="Tier1" />
     <usage name="Town" />
     <usage name="Farm" />
     <usage name="Village" />
