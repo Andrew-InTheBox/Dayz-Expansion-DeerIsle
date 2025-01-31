@@ -32,7 +32,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-        <type name="MMG_camelback_alpine">
+    <type name="MMG_camelback_alpine">
         <nominal>22</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -48,8 +48,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="MMG_falcon_b1_belt_multicam">
+    <type name="MMG_falcon_b1_belt_multicam">
         <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -65,8 +64,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="MMG_Med_Pouch_multicamblack">
+    <type name="MMG_Med_Pouch_multicamblack">
         <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -82,8 +80,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="MMG_tactical_pouch_multicamblack">
+    <type name="MMG_tactical_pouch_multicamblack">
         <nominal>22</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -99,8 +96,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="MMG_Holster_multicamblack">
+    <type name="MMG_Holster_multicamblack">
         <nominal>22</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -116,8 +112,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="MMG_ammo_pouch_olive">
+    <type name="MMG_ammo_pouch_olive">
         <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -133,8 +128,7 @@
         <value name="Tier6" />
         <value name="Tier7" />
     </type>
-    </type>
-        <type name="MMG_sheath_olive">
+    <type name="MMG_sheath_olive">
         <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
