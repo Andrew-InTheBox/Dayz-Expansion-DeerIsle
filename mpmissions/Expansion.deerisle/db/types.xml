@@ -26597,10 +26597,10 @@
     <value name="Tier7" />
   </type>
   <type name="ttp90mag">
-    <nominal>35</nominal>
+    <nominal>40</nominal>
     <lifetime>28800</lifetime>
     <restock>7200</restock>
-    <min>28</min>
+    <min>35</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
