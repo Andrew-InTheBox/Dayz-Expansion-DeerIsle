@@ -118,10 +118,28 @@
         <value name="Tier7" />
     </type>
     <type name="SNAFU_Tango6T_Black">
-        <nominal>40</nominal>
+        <nominal>25</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>35</min>
+        <min>22</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
+        <category name="weapons" />
+        <usage name="Military" />
+        <usage name="Police" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+        <value name="Tier5" />
+        <value name="Tier6" />
+        <value name="Tier7" />
+    </type>
+    <type name="SNAFU_Tango6T_Tan">
+        <nominal>25</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>22</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

@@ -1,8 +1,10 @@
 import xml.etree.ElementTree as ET
 import os
 import math
+import sys
+import argparse
 
-def process_types_xml():
+def process_types_xml(item_type=None):
     # Hard-coded input path
     input_path = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\mpmissions\Expansion.deerisle\expansion_ce\expansion_types.xml"
     
@@ -22,6 +24,10 @@ def process_types_xml():
     print(f"Root tag: {root.tag}")
     print(f"Number of type elements found: {len(root.findall('type'))}")
     
+    # Determine which types to process
+    types_to_process = ['Military', 'Police'] if item_type is None else [item_type]
+    print(f"Processing items of type(s): {', '.join(types_to_process)}")
+    
     modified_count = 0
     
     # For each type element in the file
@@ -29,10 +35,11 @@ def process_types_xml():
         # Find usage element
         usage = type_elem.find('usage')
         
-        # Check if usage is Military or Police
-        if usage is not None and usage.get('name') in ['Military', 'Police']:
+        # Check if usage matches our criteria
+        if usage is not None and usage.get('name') in types_to_process:
             name = type_elem.get('name', 'Unknown')
-            print(f"\nProcessing Military/Police item: {name}")
+            item_type = usage.get('name')
+            print(f"\nProcessing {item_type} item: {name}")
             
             # Get nominal and min elements
             nominal_elem = type_elem.find('nominal')
@@ -67,7 +74,16 @@ def process_types_xml():
 if __name__ == "__main__":
     try:
         print("Script starting...")
-        process_types_xml()
+        
+        # Set up argument parser
+        parser = argparse.ArgumentParser(description='Process military and/or police items in types.xml')
+        parser.add_argument('--type', choices=['Military', 'Police'], 
+                          help='Specify item type to process (Military or Police). If not specified, both will be processed.')
+        
+        args = parser.parse_args()
+        
+        # Run the processor with the specified type (or None for both)
+        process_types_xml(args.type)
         print("Script completed.")
     except Exception as e:
         print(f"An error occurred: {str(e)}")

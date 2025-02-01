@@ -4073,10 +4073,10 @@
     <value name="Tier1" />
   </type>
   <type name="BomberJacket_Brown">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4090,10 +4090,10 @@
     <value name="Tier1" />
   </type>
   <type name="BomberJacket_Grey">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4107,10 +4107,10 @@
     <value name="Tier1" />
   </type>
   <type name="BomberJacket_Maroon">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4124,10 +4124,10 @@
     <value name="Tier1" />
   </type>
   <type name="BomberJacket_Olive">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4141,10 +4141,10 @@
     <value name="Tier1" />
   </type>
   <type name="BomberJacket_SkyBlue">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
