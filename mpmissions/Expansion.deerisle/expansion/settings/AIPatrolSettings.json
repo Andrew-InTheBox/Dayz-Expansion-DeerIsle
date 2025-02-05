@@ -5940,7 +5940,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "",
-            "FormationLooseness": 25.0,
+            "FormationLooseness": 1.0,
             "Loadout": "SniperLoadout",
             "Units": [],
             "NumberOfAI": 1,
@@ -5953,7 +5953,7 @@
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
             "AccuracyMax": -1.0,
-            "ThreatDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 400.0,
             "NoiseInvestigationDistanceLimit": 300.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
@@ -5970,14 +5970,9 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    10016.1,
-                    29.7009,
-                    12408.3
-                ],
-                [
-                    10008.6,
-                    29.7008,
-                    12423.0
+                    10018.8,
+                    39.7009,
+                    12418.9
                 ]
             ]
         },
@@ -5989,7 +5984,7 @@
             "FormationLooseness": 25.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
-            "NumberOfAI": -4,
+            "NumberOfAI": -2,
             "Behaviour": "ALTERNATE",
             "LootingBehaviour": "NONE",
             "Speed": "WALK",

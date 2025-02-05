@@ -6510,10 +6510,10 @@
     <usage name="Farm" />
   </type>
   <type name="Compass">
-    <nominal>70</nominal>
+    <nominal>75</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>56</min>
+    <min>65</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6522,7 +6522,6 @@
     <tag name="shelves" />
     <value name="Tier3" />
     <value name="Tier4" />
-    <value name="Tier9" />
     <value name="Tier2" />
     <value name="Tier1" />
     <usage name="Military" />
@@ -16540,7 +16539,7 @@
     <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>14</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -23147,7 +23146,7 @@
     <nominal>90</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>70</min>
+    <min>80</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
