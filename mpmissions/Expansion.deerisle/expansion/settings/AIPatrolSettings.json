@@ -5936,6 +5936,98 @@
             ]
         },
         {
+            "Name": "Bayville-MilitaryRoof",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationLooseness": 25.0,
+            "Loadout": "SniperLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    10016.1,
+                    29.7009,
+                    12408.3
+                ],
+                [
+                    10008.6,
+                    29.7008,
+                    12423.0
+                ]
+            ]
+        },
+        {
+            "Name": "Bayville-MilitaryNW",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "",
+            "FormationLooseness": 25.0,
+            "Loadout": "GorkaLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.200000047683716,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    9811.9,
+                    22.2289,
+                    12533.4
+                ],
+                [
+                    9969.08,
+                    6.31409,
+                    12948.5
+                ]
+            ]
+        },
+        {
             "Name": "Alcatraz",
             "Persist": 0,
             "Faction": "West",
