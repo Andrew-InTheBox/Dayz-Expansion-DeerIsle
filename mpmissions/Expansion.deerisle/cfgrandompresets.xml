@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <randompresets>
-  <cargo chance="0.15" name="foodHermit">
+  <cargo chance="0.10" name="foodHermit">
     <item name="TunaCan" chance="0.11" />
     <item name="SardinesCan" chance="0.11" />
     <item name="Apple" chance="0.07" />
@@ -46,7 +46,7 @@
     <item name="Crackers" chance="0.05" />
     <item name="Chips" chance="0.05" />
   </cargo>
-  <cargo chance="0.1" name="foodArmy">
+  <cargo chance="0.10" name="foodArmy">
     <item name="SodaCan_Cola" chance="0.05" />
     <item name="SodaCan_Pipsi" chance="0.05" />
     <item name="SodaCan_Spite" chance="0.05" />

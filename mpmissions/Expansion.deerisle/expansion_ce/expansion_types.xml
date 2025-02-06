@@ -3426,10 +3426,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Kar98">
-		<nominal>35</nominal>
+		<nominal>42</nominal>
 		<lifetime>7200</lifetime>
 		<restock>900</restock>
-		<min>32</min>
+		<min>40</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

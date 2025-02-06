@@ -14560,7 +14560,7 @@
     <usage name="Firefighter" />
   </type>
   <type name="Mag_Scout_5Rnd">
-    <nominal>42</nominal>
+    <nominal>45</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>42</min>
@@ -14578,12 +14578,13 @@
     <nominal>42</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>31</min>
+    <min>36</min>
     <quantmin>10</quantmin>
     <quantmax>50</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <value name="Tier2" />
     <value name="Tier3" />
     <usage name="Military" />
     <usage name="Police" />
@@ -19257,10 +19258,10 @@
     <usage name="Industrial" />
   </type>
   <type name="Scout">
-    <nominal>28</nominal>
+    <nominal>38</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>21</min>
+    <min>35</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -19268,9 +19269,8 @@
     <category name="weapons" />
     <value name="Tier2" />
     <value name="Tier3" />
-    <value name="Tier4" />
-    <value name="Tier5" />
     <usage name="Military" />
+    <usage name="Police" />
   </type>
   <type name="Scout_Chernarus">
     <nominal>0</nominal>
@@ -20845,19 +20845,19 @@
     <usage name="Industrial" />
   </type>
   <type name="SSG82">
-    <nominal>28</nominal>
+    <nominal>35</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>14</min>
+    <min>32</min>
     <quantmin>0</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <value name="Tier2" />
     <value name="Tier3" />
-    <value name="Tier4" />
-    <value name="Tier5" />
     <usage name="Military" />
+    <usgae name="Police" />
   </type>
   <type name="Ssh68Helmet">
     <nominal>14</nominal>
