@@ -958,7 +958,7 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    88763.98,
+                    8763.98,
                     45.4325,
                     3753.81
                 ]
@@ -1065,7 +1065,7 @@
             "AccuracyMin": -1.0,
             "AccuracyMax": -1.0,
             "ThreatDistanceLimit": -1.0,
-            "NoiseInvestigationDistanceLimit": 300.0,
+            "NoiseInvestigationDistanceLimit": 650.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
             "CanBeTriggeredByAI": 0,
@@ -2940,7 +2940,7 @@
             "AccuracyMin": -1.0,
             "AccuracyMax": -1.0,
             "ThreatDistanceLimit": -1.0,
-            "NoiseInvestigationDistanceLimit": 300.0,
+            "NoiseInvestigationDistanceLimit": 450.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.0,
             "CanBeTriggeredByAI": 0,
