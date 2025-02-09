@@ -3065,7 +3065,7 @@
                                     "Items": [
                                         {
                                             "ClassName": "PUScopeOptic",
-                                            "Chance": 0.60,
+                                            "Chance": 0.75,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -3272,7 +3272,7 @@
                                         },
                                         {
                                             "ClassName": "HuntingOptic",
-                                            "Chance": 0.5,
+                                            "Chance": 0.75,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -3326,7 +3326,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.5,
+            "Chance": 0.33,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
