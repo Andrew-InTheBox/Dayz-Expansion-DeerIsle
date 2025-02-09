@@ -723,14 +723,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <tag name="shelves" />
-    <value name="Tier2" />
-    <value name="Tier3" />
-    <value name="Tier4" />
-    <value name="Tier5" />
-    <value name="Tier9" />
-    <value name="Tier7" />
-    <value name="Tier6" />
-    <value name="Tier8" />
     <usage name="Military" />
     <usage name="Police" />
     <usage name="Hunting" />
@@ -8164,10 +8156,10 @@
     <category name="tools" />
   </type>
   <type name="FirefighterJacket_Beige">
-    <nominal>10</nominal>
+    <nominal>20</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8176,10 +8168,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="FirefighterJacket_Black">
-    <nominal>10</nominal>
+    <nominal>20</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8224,10 +8216,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="FirefightersPants_Beige">
-    <nominal>10</nominal>
+    <nominal>20</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8236,10 +8228,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="FirefightersPants_Black">
-    <nominal>10</nominal>
+    <nominal>20</nominal>
     <lifetime>5600</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14373,10 +14365,10 @@
     <usage name="Firefighter" />
   </type>
   <type name="Mag_IJ70_8Rnd">
-    <nominal>70</nominal>
+    <nominal>80</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>49</min>
+    <min>65</min>
     <quantmin>10</quantmin>
     <quantmax>50</quantmax>
     <cost>100</cost>
@@ -14782,17 +14774,16 @@
     <usage name="Military" />
   </type>
   <type name="Magnum">
-    <nominal>30</nominal>
+    <nominal>45</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>20</min>
+    <min>40</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <value name="Tier5" />
     <value name="Tier2" />
     <usage name="Town" />
@@ -14801,10 +14792,10 @@
     <usage name="Industrial" />
   </type>
   <type name="MakarovIJ70">
-    <nominal>70</nominal>
+    <nominal>80</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>49</min>
+    <min>65</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15809,10 +15800,10 @@
     <category name="tools" />
   </type>
   <type name="Mp133Shotgun">
-    <nominal>56</nominal>
+    <nominal>65</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
-    <min>42</min>
+    <min>60</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -17263,10 +17254,10 @@
     <usage name="Industrial" />
   </type>
   <type name="PistolSuppressor">
-    <nominal>49</nominal>
+    <nominal>55</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>42</min>
+    <min>50</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -17503,10 +17494,10 @@
     <usage name="Military" />
   </type>
   <type name="PlateCarrierVest">
-    <nominal>20</nominal>
+    <nominal>22</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
-    <min>18</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -17531,10 +17522,10 @@
     <value name="Tier8" />
   </type>
   <type name="PlateCarrierVest_Black">
-    <nominal>21</nominal>
+    <nominal>22</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>14</min>
+    <min>16</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -17559,10 +17550,10 @@
     <usage name="Military" />
   </type>
   <type name="PlateCarrierVest_Green">
-    <nominal>17</nominal>
+    <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>8</min>
+    <min>12</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -28099,10 +28090,10 @@
     <usage name="Military" />
   </type>
   <type name="ESP_Wrapped_Suppressor_Green">
-    <nominal>20</nominal>
+    <nominal>25</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>17</min>
+    <min>22</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

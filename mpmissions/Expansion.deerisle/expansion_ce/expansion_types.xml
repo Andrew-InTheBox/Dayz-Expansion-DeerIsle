@@ -3426,10 +3426,10 @@
 		<value name="Tier7" />
 	</type>
 	<type name="Expansion_Kar98">
-		<nominal>42</nominal>
+		<nominal>50</nominal>
 		<lifetime>7200</lifetime>
 		<restock>900</restock>
-		<min>40</min>
+		<min>46</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3497,10 +3497,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Expansion_Ammo_8mm">
-		<nominal>95</nominal>
+		<nominal>110</nominal>
 		<lifetime>7200</lifetime>
 		<restock>800</restock>
-		<min>85</min>
+		<min>100</min>
 		<quantmin>40</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>

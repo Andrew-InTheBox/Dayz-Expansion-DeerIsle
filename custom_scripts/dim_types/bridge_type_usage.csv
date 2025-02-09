@@ -2318,6 +2318,7 @@ Screwdriver,types,Farm
 Screwdriver,types,Village
 Screwdriver,types,Industrial
 Scout,types,Military
+Scout,types,Police
 Scout_Chernarus,types,Military
 Scout_Livonia,types,Military
 SeaChest,types,Coast
@@ -3100,6 +3101,12 @@ jmc_atv_Wheel,types,Industrial
 MMG_JPC_Vest_alpine,mmg,Military
 MMG_tt_Vest_alpine,mmg,Military
 MMG_camelback_alpine,mmg,Military
+MMG_falcon_b1_belt_multicam,mmg,Military
+MMG_Med_Pouch_multicamblack,mmg,Military
+MMG_tactical_pouch_multicamblack,mmg,Military
+MMG_Holster_multicamblack,mmg,Military
+MMG_ammo_pouch_olive,mmg,Military
+MMG_sheath_olive,mmg,Military
 Hatchback_02_Door_1_1_BanditKitty,expansion,Industrial
 Hatchback_02_Door_1_2_BanditKitty,expansion,Industrial
 Hatchback_02_Door_2_1_BanditKitty,expansion,Industrial
@@ -3455,3 +3462,5 @@ SNAFUKivaari_Black_GUN,snafu,Police
 SNAFU_ModBipod,snafu,Military
 SNAFU_Tango6T_Black,snafu,Military
 SNAFU_Tango6T_Black,snafu,Police
+SNAFU_Tango6T_Tan,snafu,Military
+SNAFU_Tango6T_Tan,snafu,Police
