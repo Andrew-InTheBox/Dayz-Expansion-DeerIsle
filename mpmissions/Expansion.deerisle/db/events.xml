@@ -837,9 +837,9 @@
         </children>
     </event>
     <event name="StaticScientist">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <min>1</min>
-        <max>1</max>
+        <max>3</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>300</saferadius>
@@ -853,7 +853,7 @@
     </event>	
     <event name="StaticPoliceCar">
         <nominal>7</nominal>
-        <min>4</min>
+        <min>6</min>
         <max>9</max>
         <lifetime>2400</lifetime>
         <restock>0</restock>
@@ -1285,9 +1285,9 @@
     </event>    		
     <event name="StaticSurvivorCamps">
         <nominal>5</nominal>
-        <min>5</min>
-        <max>5</max>
-        <lifetime>1800</lifetime>
+        <min>3</min>
+        <max>6</max>
+        <lifetime>2400</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
         <distanceradius>250</distanceradius>
@@ -1319,7 +1319,7 @@
         <nominal>6</nominal>
         <min>4</min>
         <max>7</max>
-        <lifetime>1200</lifetime>
+        <lifetime>2400</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
         <distanceradius>250</distanceradius>
@@ -1332,9 +1332,9 @@
         <children/>            
     </event>  	
     <event name="StaticWreckedTrains">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <min>4</min>
-        <max>4</max>
+        <max>6</max>
         <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>400</saferadius>
@@ -1348,9 +1348,9 @@
         <children/>            
     </event>  	
     <event name="StaticAirplaneCrate">
-        <nominal>10</nominal>
+        <nominal>12</nominal>
         <min>10</min>
-        <max>10</max>
+        <max>13</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -1368,7 +1368,7 @@
     </event>		
     <event name="VehicleATVCivil">
         <nominal>18</nominal>
-        <min>14</min>
+        <min>16</min>
         <max>20</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
