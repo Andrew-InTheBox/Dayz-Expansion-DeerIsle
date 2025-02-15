@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>DayZ Heatmap</title>
+</head>
+
+<body>
+
+<style>
+#mapImage {
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  background-size: 100% 100%;
+  outline: black 3px solid;
+}
+
+html {
+  text-align: center;
+}
+</style>
+
+<p>
+Select map:
+<select name="mapSelect", id="mapSelect", onchange="changeMap()">
+<option value="Chernarus">Chernarus</option>
+<option value="Enoch">Livonia</option>
+<option value="Esseker">Esseker</option>
+<option value="Local Map">Local Map</option>
+</select>
+</p>
+
+<div>
+Time:
+<input id="timeSlider" type="range" min="0" max="1" value="1" step="0.01">
+</div>
+<br/>
+<div id="dropbox">
+<div id="mapImage">
+<canvas id="mapCanvas" width="1000" height="1000">
+</canvas>
+</div>
+<br/>
+<input type="button" onClick="save();" value="Merge Data and Map">
+</div>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script>
+var mapSize = new Map();
+mapSize.set("Chernarus", 15360);
+mapSize.set("Enoch", 12800);
+mapSize.set("Esseker", 12800);
+
+var mapImage = new Map();
+mapImage.set("Chernarus", "https://github.com/BohemiaInteractive/DayZ-Central-Economy/raw/master/CETool/ChernarusPlus/map.png");
+mapImage.set("Enoch", "https://github.com/BohemiaInteractive/DayZ-Central-Economy/raw/master/CETool/Enoch/map.png");
+mapImage.set("Esseker", "https://github.com/InclementDab/Esseker-Server/raw/main/Central%20Economy%20Tool/map.png");
+
+var waypoints = new Array();
+var deathpoints = new Array();
+var maxTime = 0.0;
+
+changeMap();
+
+let dropbox = document.getElementById("dropbox");
+
+dropbox.addEventListener('dragover', dragover, false);
+dropbox.addEventListener("drop", drop, false);
+
+function changeMap() {
+  let canvas = document.getElementById("mapCanvas");
+  let ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  let mapSelect = document.getElementById("mapSelect");
+  let value = mapSelect.value;
+  let text = mapSelect.options[mapSelect.selectedIndex].value;
+  if (mapImage.has(text))
+  {
+    let url = mapImage.get(text);
+
+    document.getElementById("mapImage").style.backgroundImage = "url('"+url+"')";
+  }
+  else
+  {
+    loadLocalMap();
+
+     let size = prompt("Size of the map", "12800");
+     mapSize.set("Local Map", parseInt(size));
+  }
+}
+
+function loadLocalMap() {
+  let input = document.createElement("input");
+  input.type = "file";
+  input.accept=".jpg, .png, .jpeg"
+  input.onchange = _ => {
+    let files = Array.from(input.files);
+    const reader = new FileReader();
+    reader.onloadend = function() {
+      document.getElementById("mapImage").style.backgroundImage = "url('"+reader.result+"')";
+    }
+    if(files[0]) {
+      reader.readAsDataURL(files[0]);
+    }
+  };
+  input.click();
+}
+
+function dragover(e) {
+  e.preventDefault();
+}
+function drop(e) {
+  e.stopPropagation();
+  e.preventDefault();
+
+  const dt = e.dataTransfer;
+  const files = dt.files;
+
+  waypoints = new Array();
+  deathpoints = new Array();
+
+  for(let i = 0; i < files.length; i++) {
+    const reader = new FileReader();
+    let lastFile = i == files.length-1;
+    reader.addEventListener('load', (event) => {
+      jsn = JSON.parse(event.target.result);
+
+      for(let i = 0; i < jsn.m_WayPoints.length; i++) {
+        waypoints.push(jsn.m_WayPoints[i]);
+      }
+
+      for(let i = 0; i < jsn.m_DeathPoints.length; i++) {
+        deathpoints.push(jsn.m_DeathPoints[i]);
+      }
+
+      if(lastFile) {
+        document.getElementById("timeSlider").value = "1.0";
+        maxTime = getMaxTime();
+        drawHeatmap(1.0);
+      }
+    });
+    reader.readAsText(files[i]);
+  }
+}
+
+function getMaxTime()
+{
+  let max = 0.0;
+
+  for(let i = 0; i < waypoints.length; i++) {
+    let playerwaypoints = waypoints[i];
+    for(let j = 0; j < playerwaypoints.length; j++)
+    {
+      max = Math.max(max, playerwaypoints[j][1]);
+    }
+    for(let i = 0; i < deathpoints.length; i++) {
+      max = Math.max(max, deathpoints[i][1]);
+    }
+  }
+
+  console.log(max);
+
+  return max;
+}
+
+var lastTimeValue = 1.0;
+var inp = document.getElementById('timeSlider'); 
+inp.addEventListener("mousemove", function () {
+  if(this.value != lastTimeValue)
+  {
+    lastTimeValue = this.value;
+    drawHeatmap(this.value);
+  }
+});
+
+function drawHeatmap(time)
+{
+  let mapSelect = document.getElementById("mapSelect");
+  let value = mapSelect.value;
+  let text = mapSelect.options[mapSelect.selectedIndex].text;
+  let size = mapSize.get(text);
+
+  let canvas = document.getElementById("mapCanvas");
+  let ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.globalAlpha = Math.max(1.0 / waypoints.length, 0.1);
+  for(let i = 0; i < waypoints.length; i++) {
+    let playerwaypoints = waypoints[i];
+    ctx.beginPath();
+    ctx.lineWidth = "3";
+    ctx.strokeStyle = "red";
+    let firstPoint = true;
+    for(let j = 0; j < playerwaypoints.length; j++)
+    {
+      let waypoint = playerwaypoints[j];
+      if(waypoint[1]/maxTime > time) {
+        console.log(waypoint[1]/maxTime);
+        continue;
+      }
+      let x = canvas.width / size * waypoint[0];
+      let y = canvas.height - (canvas.height / size * waypoint[2]);
+      if(firstPoint)
+      {
+        ctx.moveTo(x, y)
+        firstPoint = false;
+      }
+      else
+      {
+        ctx.lineTo(x, y);
+      }
+    }
+    ctx.stroke();
+  }
+
+  ctx.globalAlpha = 1.0;
+  for(let i = 0; i < deathpoints.length; i++) {
+    let waypoint = deathpoints[i];
+    let x = canvas.width / size * waypoint[0];
+    let y = canvas.height - (canvas.height / size * waypoint[2]);
+    ctx.beginPath();
+    ctx.lineWidth = "2";
+    ctx.strokeStyle = "yellow";
+    ctx.arc(x, y, canvas.width*0.0015, 0, 2 * Math.PI);
+    ctx.stroke();
+  }
+}
+
+function save()
+{
+  let merged = document.getElementById("mergedCanvas");
+  if(merged) {
+    merged.remove()
+  }
+
+  html2canvas(document.getElementById("mapImage"), {
+    allowTaint: true,
+  }).then(canvas => {
+    canvas.id = "mergedCanvas";
+    document.body.appendChild(canvas);
+  });
+}
+</script>
+
+</body>
+</html>

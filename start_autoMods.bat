@@ -36,7 +36,7 @@ echo Server mod list: %mods%
 echo (%time%) %serverName% started.
 
 ::Launch parameters (edit end: -config=|-port=|-profiles=|-doLogs|-adminLog|-netLog|-freezeCheck|-filePatching|-BEpath=|-cpuCount=)
-start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -mod=%mods% "-serverMod=_@DayZ-Dynamic-AI-Addon" -port=%serverPort% -profiles=%serverProfile% -cpuCount=%serverCPU% -adminlog -netlog -freezecheck 
+start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -mod=%mods% "-serverMod=_@DayZ-Dynamic-AI-Addon;_@Heatmap" -port=%serverPort% -profiles=%serverProfile% -cpuCount=%serverCPU% -adminlog -netlog -freezecheck 
 
 ::Time in seconds before kill server process (14400 = 4 hours)
 timeout 14390
