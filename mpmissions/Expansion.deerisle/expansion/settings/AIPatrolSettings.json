@@ -1050,7 +1050,7 @@
             "Name": "ParisIsland",
             "Persist": 0,
             "Faction": "West",
-            "Formation": "",
+            "Formation": "RANDOM",
             "FormationLooseness": 10.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -1081,19 +1081,24 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2670.25,
-                    22.6299991607666,
-                    4465.169921875
+                    2657.17,
+                    22.6396,
+                    4440.59
                 ],
                 [
-                    2550.81005859375,
-                    22.450000762939454,
-                    4134.64013671875
+                    3008.23,
+                    22.3785,
+                    4246.5
                 ],
                 [
-                    2479.52001953125,
-                    22.462499618530275,
-                    4001.659912109375
+                    2933.28,
+                    22.4625,
+                    4094.96
+                ],
+                [
+                    2598.87,
+                    22.63,
+                    4312.5
                 ]
             ]
         },
@@ -2925,7 +2930,7 @@
             "Name": "ParisIsland2",
             "Persist": 0,
             "Faction": "West",
-            "Formation": "",
+            "Formation": "RANDOM",
             "FormationLooseness": 15.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -5888,7 +5893,7 @@
             "Name": "Bayville-Military",
             "Persist": 0,
             "Faction": "West",
-            "Formation": "",
+            "Formation": "RANDOM",
             "FormationLooseness": 25.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -6584,6 +6589,52 @@
                     12524.4,
                     2.04488,
                     7636.3
+                ]
+            ]                
+        },
+        {
+            "Name": "ParisIslandLab",
+            "Persist": 0,
+            "Faction": "West",
+            "Formation": "File",
+            "FormationLooseness": 1.0,
+            "Loadout": "GorkaLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": 300.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 150.0,
+            "MaxDistRadius": 700.0,
+            "DespawnRadius": 800.0,
+            "MinSpreadRadius": 0,
+            "MaxSpreadRadius": 0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1800.0,
+            "RespawnTime": 6000.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    2699.12,
+                    26.9909,
+                    3454.84
+                ],
+                [
+                    2727.88,
+                    22.4897,
+                    3434.21
                 ]
             ]                
         }

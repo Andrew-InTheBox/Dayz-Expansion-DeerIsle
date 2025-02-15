@@ -17,7 +17,7 @@
 
         <!-- if the value is larger than 0, then flag Countdown is enabled,
                         countdown reaches zero in 10 hours --> 
-        <deadline>5</deadline>
+        <deadline>600</deadline>
 
         <!-- disable On connect flag -->
         <onConnect>0</onConnect>
