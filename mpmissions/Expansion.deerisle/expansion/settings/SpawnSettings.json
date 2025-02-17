@@ -85,12 +85,7 @@
             "AthleticShoes_Black"
         ],
         "Armbands": [],
-        "Backpacks": [
-            "TaloonBag_Blue",
-            "TaloonBag_Green",
-            "TaloonBag_Orange",
-            "TaloonBag_Violet"
-        ]
+        "Backpacks": []
     },
     "EnableSpawnSelection": 1,
     "SpawnOnTerritory": 0,
