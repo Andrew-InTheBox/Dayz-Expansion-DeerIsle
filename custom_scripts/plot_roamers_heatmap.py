@@ -56,18 +56,37 @@ try:
 
     colors = list(mcolors.TABLEAU_COLORS.values())
 
-    # Plot each array of AI waypoints
+     # Plot each array of AI waypoints
     for i, waypoints in enumerate(data['m_AIWayPoints']):
         waypoints = np.array(waypoints)
+        color = colors[i % len(colors)]
+        
+        # Plot the line
         plt.plot(
             waypoints[:, 0], waypoints[:, 2],
-            marker='o', 
-            linestyle='-', 
-            markersize=5,       # Increased from 5 to 12
-            markeredgewidth=2,   # Added edge width to markers
+            linestyle='-',
             linewidth=2,
-            color=colors[i % len(colors)], 
+            color=color,
             alpha=0.7
+        )
+        
+        # Plot start point (circle)
+        plt.plot(
+            waypoints[0, 0], waypoints[0, 2],
+            marker='o',
+            markersize=8,
+            markeredgewidth=2,
+            color=color,
+            label=f'Path {i+1}'
+        )
+        
+        # Plot end point (triangle)
+        plt.plot(
+            waypoints[-1, 0], waypoints[-1, 2],
+            marker='^',
+            markersize=8,
+            markeredgewidth=2,
+            color=color
         )
 
     plt.xlim(0, 16300)
