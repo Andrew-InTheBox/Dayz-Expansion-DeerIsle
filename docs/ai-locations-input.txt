@@ -1,0 +1,263 @@
+Portland
+left edge
+<5739.77, 5.94294, 14556.6>
+right edge
+<6258.26, 18.41, 14553>
+
+Paris Island
+left edge
+<2486.865714285714, 25.75, 3649.58>
+right edge
+<3058.294285714286, 25.75, 3649.58>
+
+ParisIsland2
+left edge
+<2930.504761904762, 25.75, 4045.6>
+right edge
+<3406.695238095238, 25.75, 4045.6>
+
+Swanville
+left edge
+<5213.11, 4.79496, 12426.5>
+right edge
+<5354.26, 4.78026, 12426.2>
+
+Broken Police Bridge
+left edge
+<5089.7, 4.4265, 9195.39>
+right edge
+<5484.75, 5.01, 9197.92>
+
+RCFI
+left edge
+<3585.55, 13.6829, 8811.55>
+right edge
+<3870.52, 11.4033, 8844.17>
+
+Old Town
+left edge
+<1835.81, 9.19, 8985.63>
+right edge
+<2075.37, 9.19, 8976.15>
+
+Westbrook
+top edge
+<3361.14, 20.5263, 6663.7>
+bottom edge
+<3308.65, 22.38, 6228.36>
+
+Power plant
+left edge
+<4475.15, 4475.15, 4475.15>
+right edge
+<4966.96, 14.2372, 7149.22>
+
+Sandy Bay
+left edge
+<5213.5, 10.6882, 7621.15>
+right edge
+<5515.44, 2.87135, 7612.18>
+
+MountainVille
+top edge
+<7276.22, 6.675, 8615.17>
+bottom edge
+<7259.95, 6.67499, 8415.53>
+
+Waldoborough
+left edge
+<8247.88, 5.43409, 9213.37>
+right edge
+<9320.64, 11.7537, 9429.03>
+
+Bayville
+top edge
+<10191.1, 6.76872, 12167.7>
+bottom edge
+<10215.6, 4.93147, 11910>
+
+Military-North-Bayville
+left edge
+<9943.62, 26.9073, 12527>
+right edge
+<10205.6, 20.36, 12532.4>
+
+Area 42-1
+left edge
+<10889.4, 5.38, 10309.8>
+right edge
+<11076, 5.46412, 10312.5>
+
+Area 42-2
+top edge
+<11369.6, 14.8364, 10335.7>
+bottom edge
+<11397.2, 5.45921, 9901.15>
+
+Area 42-3
+top edge
+<13423.6, 8.64138, 10060.7>
+bottom edge
+<13447.7, 12.94, 9586.57>
+
+Camp Wolf
+top edge
+<5485.47, 9.5836, 1136.78>
+bottom edge
+<5481.13, 6.625, 1015.54>
+
+Prison
+top edge
+<5494.88, 34.84, 731.295>
+bottom edge
+<5526.49, 34.865, 605.793>
+
+Stonington1
+left edge
+<6282.16, 31.575, 2093.93>
+right edge
+<6530.01, 31.575, 2082.6>
+
+Stonington2
+left edge
+<6875.64, 38.82, 2047.82>
+right edge
+<7231.63, 29.0696, 2051.63>
+
+Stonington3
+left edge
+<6676.98, 2.76, 1469.99>
+right edge
+<7168.18, 7.955, 1551.37>
+
+Stonington-North
+top edge
+<6909.98, 42.125, 2469.71>
+bottom edge
+<6889.14, 42.1, 2243.77>
+
+Ashville
+top edge
+<7299.58, 40.5008, 2680.9>
+bottom edge
+<7313.94, 44.294, 2508.92>
+
+Kushville
+top edge
+<7315.33, 44.2552, 2508.17>
+bottom edge
+<7522.13, 25.559, 3760.09>
+
+Hazelands
+top edge
+<4559.24, 8.28499, 2897.07>
+bottom edge
+<4530.25, 2.72832, 2522.23>
+
+GrootsHill
+top edge
+<7539.4, 85.5976, 4666.06>
+bottom edge
+<7537.8, 84.8268, 4536.44>
+
+OceanvilleBridge
+top edge
+<9774.24, 7.41238, 4441.68>
+bottom edge
+<9764.59, 7.04979, 4292.17>
+
+Oceanville
+top edge
+<10228, 42.2413, 5031.14>
+bottom edge
+<10243.7, 38.5985, 4789.99>
+
+Camp Eagle
+left edge
+<8746.06, 45.42, 3776.89>
+right edge
+<8923.42, 46.0435, 3758.72>
+
+Crotch Island1
+top edge
+<10560.7, 14.565, 2795.18>
+bottom edge
+<10475.9, 14.5652, 2535.6>
+
+Fishers Camp
+top edge
+<10369, 2.63649, 5639.32>
+bottom edge
+<10352.4, 3.53576, 5524.31>
+
+Camp Bear
+left edge
+<8588, 3.02224, 6008.93>
+right edge
+<9003.58, 20.376, 5969.65>
+
+Cabins-1
+top edge
+<8476.9, 2.47579, 5478.06>
+bottom edge
+<8476.92, 23.5965, 5248.53>
+
+Isl1-misc
+bottom edge
+<9558.67, 23.1368, 5744.67>
+top edge
+<9552.8, 3.13076, 5951.67>
+
+Isl1-misc2
+top edge
+<9743.42, 33.5995, 5611.14>
+bottom edge
+<9736.87, 42.1472, 5420.17>
+
+Warren Cove
+left edge
+<6930.93, 10.2754, 5437.76>
+right edge
+<7137.38, 7.37394, 5443.15>
+
+MainDrag1
+top edge
+<6942.13, 39.0628, 5955.96>
+bottom edge
+<6999.95, 26.3704, 5791.6>
+
+Sunset Cross
+left edge
+<6400.39, 15.09, 6371.97>
+right edge
+<6729.74, 15.09, 6416.75>
+
+West-Deepwater1
+top edge
+<780.63, 51.18, 12337.3>
+bottom edge
+<750.338, 57.1616, 11887.5>
+
+West-Deepwater2
+top edge
+<1084.48, 7, 13704.9>
+bottom edge
+<1011.87, 7.02498, 13079.3>
+
+NorthHaven
+top edge
+<1140.53, 8.47171, 15633.6>
+bottom edge
+<1089.78, 2.12, 14773.5>
+
+North of Volcano1
+left edge
+<14309.5, 4.97497, 5248.9>
+right edge
+<14579.6, 4.975, 5295.25>
+
+North of Volcano2
+top edge
+<14374, 65.549, 6138.33>
+bottom edge
+<14388, 68.3693, 5873.73>

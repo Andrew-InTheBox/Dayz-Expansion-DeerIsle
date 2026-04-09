@@ -526,6 +526,12 @@
     <input name="UAUIThumbRight">
         <btn name="x1ThumbRight" />
     </input>
+    <input name="UAUIPadLeft">
+        <btn name="x1PadLeft" />
+    </input>
+    <input name="UAUIPadRight">
+        <btn name="x1PadRight" />
+    </input>
     <input name="UAUIRightStickHorizontal">
         <btn name="x1RightThumbHorizontal" />
     </input>
@@ -899,6 +905,9 @@
     <input name="UABuldAdvanceAnimation">
         <btn name="mWheelDown" />
         <btn name="kApostrophe" />
+    </input>
+    <input name="UABuldAlignToTerrain">
+        <btn name="k9" />
     </input>
     <input name="UACOTModuleToggleCOT">
         <btn name="kEnd" />
