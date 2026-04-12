@@ -837,7 +837,6 @@
 		<attachments chance="0.25">
 			<item name="Mag_STANAG_30Rnd" chance="0.50" />
 			<item name="Mag_STANAG_60Rnd" chance="0.25" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.25" />
 		</attachments>
 	</type>
 	<type name="GCGN_HK416">
@@ -938,7 +937,6 @@
 		<attachments chance="0.25">
 			<item name="Mag_STANAG_30Rnd" chance="0.50" />
 			<item name="Mag_STANAG_60Rnd" chance="0.25" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.25" />
 		</attachments>
 	</type>
 	<type name="HK416_Gun">

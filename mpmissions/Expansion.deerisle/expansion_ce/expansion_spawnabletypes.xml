@@ -2745,7 +2745,6 @@
 	<type name="Expansion_M16">
 		<attachments chance="0.30">
 			<item name="Mag_STANAG_30Rnd" chance="0.15" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.05" />
 			<item name="Mag_CMAG_10Rnd" chance="0.30" />
 			<item name="Mag_CMAG_20Rnd" chance="0.25" />
 			<item name="Mag_CMAG_30Rnd" chance="0.15" />
