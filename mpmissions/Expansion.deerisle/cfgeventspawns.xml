@@ -6,7 +6,7 @@
   <event name="AnimalCow" />
   <event name="AnimalSheep" />
   <event name="AnimalRoeDeer" />
-  <event name="AnimalReindeer" />
+  <!-- <event name="AnimalReindeer" /> -->
   <event name="AnimalWolf" />
   <event name="AnimalWildBoar" />
   <event name="VehicleBoat">

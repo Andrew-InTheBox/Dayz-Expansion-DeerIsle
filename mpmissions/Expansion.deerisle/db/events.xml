@@ -165,6 +165,7 @@
             <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_SusDomesticus"/>
         </children>
     </event>
+    <!--
     <event name="AnimalReindeer">
         <nominal>6</nominal>
         <min>4</min>
@@ -182,7 +183,8 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_RangiferTarandus"/>
             <child lootmax="0" lootmin="0" max="4" min="2" type="Animal_RangiferTarandusF"/>
         </children>
-    </event>	
+    </event>
+    -->
     <event name="AmbientRoeDeer">
         <nominal>12</nominal>
         <min>2</min>
