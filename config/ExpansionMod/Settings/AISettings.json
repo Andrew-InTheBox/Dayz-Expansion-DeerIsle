@@ -4,7 +4,7 @@
     "AccuracyMax": 0.9200000166893005,
     "ThreatDistanceLimit": 400.0,
     "NoiseInvestigationDistanceLimit": 1000.0,
-    "MaxFlankingDistance": 200.0,
+    "MaxFlankingDistance": 100.0,
     "EnableFlankingOutsideCombat": 0,
     "DamageMultiplier": 1.0,
     "DamageReceivedMultiplier": 1.0,

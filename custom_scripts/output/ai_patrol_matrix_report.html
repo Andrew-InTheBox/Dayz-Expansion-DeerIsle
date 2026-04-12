@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Patrol Matrix Report</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f5;
+      --ink: #202422;
+      --muted: #5f6763;
+      --line: #cfd5d1;
+      --head: #e7ece8;
+      --baseline: #eef6f0;
+      --variant: #fff2bf;
+      --same: #f8faf8;
+      --accent: #0f6b58;
+    }
+    * { box-sizing: border-box; }
+    html, body { max-width: 100%; overflow-x: hidden; }
+    body { margin: 0; font: 14px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; color: var(--ink); background: var(--bg); }
+    header { padding: 28px 32px 18px; border-bottom: 1px solid var(--line); background: #ffffff; }
+    main { padding: 24px 32px 40px; min-width: 0; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin: 0 0 12px; font-size: 18px; }
+    h2 span { color: var(--muted); font-weight: 500; }
+    p { margin: 0 0 14px; color: var(--muted); }
+    section { margin: 0 0 24px; min-width: 0; }
+    .stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+    .stat { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: #fff; min-width: 180px; }
+    .stat strong { display: block; font-size: 22px; }
+    .matrix { display: block; width: 100%; max-width: 100%; overflow-x: scroll; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; background: white; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    .matrix table { width: max-content; min-width: 100%; }
+    th, td { border: 1px solid var(--line); padding: 7px 9px; vertical-align: top; white-space: nowrap; }
+    th { background: var(--head); text-align: left; }
+    .matrix thead th { position: sticky; top: 0; z-index: 1; }
+    .group-row th { position: static; background: #dce7e1; color: #18372f; font-size: 15px; }
+    .baseline { background: var(--baseline); }
+    .variant { background: var(--variant); font-weight: 650; }
+    .same { background: var(--same); }
+    .empty { color: #8a6b00; font-style: italic; }
+    .ok { color: var(--accent); font-weight: 650; }
+    .warn { color: #966200; font-weight: 650; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 18px; align-items: start; }
+    code { background: #eef1ee; padding: 1px 4px; border-radius: 4px; }
+    @media (max-width: 700px) {
+      header, main { padding-left: 14px; padding-right: 14px; }
+      .grid { grid-template-columns: 1fr; }
+      th, td { white-space: normal; }
+      .matrix th, .matrix td { white-space: nowrap; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Patrol Matrix Report</h1>
+    <p>Source: <code>C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\mpmissions\Expansion.deerisle\expansion\settings\AIPatrolSettings.json</code>. Generated: 2026-04-12 16:27:46.</p>
+    <p>Yellow cells are fields that differ from the most common value inside that patrol family. Green cells are the common value for fields that vary inside that family.</p>
+    <div class="stats">
+      <div class="stat"><strong>35</strong>Total patrols</div>
+      <div class="stat"><strong>6</strong>Heli / police / contam</div><div class="stat"><strong>24</strong>Standard ROAMING</div><div class="stat"><strong>1</strong>ROAMING_LOCAL</div><div class="stat"><strong>4</strong>Regular multi-waypoint</div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>Patrol Matrix</h2>
+      <div class="matrix"><table><thead><tr><th>Name</th><th>Group</th><th>Behaviour</th><th>Faction</th><th>Loadout</th><th>NumberOfAI</th><th>NumberOfAIMax</th><th>Formation</th><th>Speed</th><th>CanBeLooted</th><th>UnlimitedReload</th><th>CanSpawnInContaminatedArea</th><th>MinDistRadius</th><th>MaxDistRadius</th><th>DespawnRadius</th><th>DespawnTime</th><th>RespawnTime</th><th>DamageMultiplier</th><th>DamageReceivedMultiplier</th><th>LoadBalancingCategory</th><th>ObjectClassName</th><th>WaypointCount</th></tr></thead><tbody><tr class="group-row"><th colspan="22">Heli / police / contam (6)</th></tr><tr><td class="">Wreck-UH1Y</td><td class="">Heli / police / contam</td><td class="same">HALT_OR_ALTERNATE</td><td class="baseline">West</td><td class="baseline">WestLoadout</td><td class="variant">3</td><td class="variant">5</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="baseline">0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="baseline">HelicopterWreck</td><td class="">Wreck_UH1Y</td><td class="same">0</td></tr><tr><td class="">Wreck-MI8-Crashed</td><td class="">Heli / police / contam</td><td class="same">HALT_OR_ALTERNATE</td><td class="baseline">West</td><td class="baseline">WestLoadout</td><td class="variant">3</td><td class="variant">5</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="baseline">0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="baseline">HelicopterWreck</td><td class="">Wreck_Mi8_Crashed</td><td class="same">0</td></tr><tr><td class="">Wreck-police-1</td><td class="">Heli / police / contam</td><td class="same">HALT_OR_ALTERNATE</td><td class="variant">Raiders</td><td class="variant">PoliceLoadout</td><td class="baseline">1</td><td class="baseline">3</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="baseline">0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="variant"><span class="empty">blank</span></td><td class="">Land_Wreck_sed01_aban1_police</td><td class="same">0</td></tr><tr><td class="">Wreck-police-2</td><td class="">Heli / police / contam</td><td class="same">HALT_OR_ALTERNATE</td><td class="variant">Raiders</td><td class="variant">PoliceLoadout</td><td class="baseline">1</td><td class="baseline">3</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="baseline">0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="variant"><span class="empty">blank</span></td><td class="">Land_Wreck_sed01_aban2_police</td><td class="same">0</td></tr><tr><td class="">Contam-area-static</td><td class="">Heli / police / contam</td><td class="same">HALT_OR_ALTERNATE</td><td class="baseline">West</td><td class="variant">NBCLoadout</td><td class="baseline">1</td><td class="baseline">3</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="variant">1</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="variant">ContaminatedArea</td><td class="">ContaminatedArea_Static</td><td class="same">0</td></tr><tr><td class="">Contam-Dynamic</td><td class="">Heli / police / contam</td><td class="same">HALT_OR_ALTERNATE</td><td class="baseline">West</td><td class="variant">NBCLoadout</td><td class="baseline">1</td><td class="baseline">3</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="variant">1</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-2.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="variant">ContaminatedArea</td><td class="">ContaminatedArea_Dynamic</td><td class="same">0</td></tr><tr class="group-row"><th colspan="22">Standard ROAMING (24)</th></tr><tr><td class="">ROAMING-NearCampEagle</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="variant">3</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-WestBrook</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Bayville</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Fairfield</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Hazelands</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Georgestown</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Waldoboro</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-OldTown</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Oceanville</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-SunsetCross</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-DevilsEyeSouth</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-NE-of-Airfield</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-West-of-Sunset-Cross</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-South-of-BarrenFalls</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Swamp</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-West-of-Oceanville</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-South-of-Camp-Bear</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Camp-Bear</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Camp-Eagle</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Duskar</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Area42</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Portland</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-Northhaven</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr><td class="">ROAMING-ParisIsland</td><td class="">Standard ROAMING</td><td class="same">ROAMING</td><td class="same">West</td><td class="same">PlayerSurvivorLoadout</td><td class="baseline">1</td><td class="same">0</td><td class="same">RANDOM</td><td class="same">WALK</td><td class="same">1</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">15000.0</td><td class="same">15000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr class="group-row"><th colspan="22">ROAMING_LOCAL (1)</th></tr><tr><td class="">ROAMING-Local-Alcatraz</td><td class="">ROAMING_LOCAL</td><td class="same">ROAMING_LOCAL</td><td class="same">West</td><td class="same">BanditLoadout</td><td class="same">3</td><td class="same">4</td><td class="same">RANDOM_LOCAL</td><td class="same">WALK</td><td class="same">0</td><td class="same">0</td><td class="same">0</td><td class="same">5.0</td><td class="same">5500.0</td><td class="same">6000.0</td><td class="same">-1.0</td><td class="same">600.0</td><td class="same">-1.0</td><td class="same">-1.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="same">1</td></tr><tr class="group-row"><th colspan="22">Regular multi-waypoint (4)</th></tr><tr><td class="">DeepWaterRig</td><td class="">Regular multi-waypoint</td><td class="baseline">ALTERNATE</td><td class="same">West</td><td class="baseline">SurvivorLoadout</td><td class="baseline">1</td><td class="baseline">0</td><td class="baseline">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="same">0</td><td class="baseline">200.0</td><td class="baseline">350.0</td><td class="baseline">450.0</td><td class="baseline">-1.0</td><td class="baseline">-2.0</td><td class="baseline">-1.0</td><td class="baseline">0.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="baseline">7</td></tr><tr><td class="">DeepWaterRig2</td><td class="">Regular multi-waypoint</td><td class="baseline">ALTERNATE</td><td class="same">West</td><td class="baseline">SurvivorLoadout</td><td class="baseline">1</td><td class="baseline">0</td><td class="baseline">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="same">0</td><td class="baseline">200.0</td><td class="baseline">350.0</td><td class="baseline">450.0</td><td class="baseline">-1.0</td><td class="baseline">-2.0</td><td class="baseline">-1.0</td><td class="baseline">0.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="baseline">7</td></tr><tr><td class="">Horizons</td><td class="">Regular multi-waypoint</td><td class="baseline">ALTERNATE</td><td class="same">West</td><td class="baseline">SurvivorLoadout</td><td class="variant">2</td><td class="baseline">0</td><td class="baseline">RANDOM</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="same">0</td><td class="baseline">200.0</td><td class="baseline">350.0</td><td class="baseline">450.0</td><td class="baseline">-1.0</td><td class="baseline">-2.0</td><td class="baseline">-1.0</td><td class="baseline">0.0</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="baseline">7</td></tr><tr><td class="">Stonington</td><td class="">Regular multi-waypoint</td><td class="variant">LOOP</td><td class="same">West</td><td class="variant">BanditLoadout</td><td class="variant">2</td><td class="variant">2</td><td class="variant">Circle</td><td class="same">WALK</td><td class="same">0</td><td class="same">4</td><td class="same">0</td><td class="variant">150.0</td><td class="variant">1000.0</td><td class="variant">1050.0</td><td class="variant">600.0</td><td class="variant">2400.0</td><td class="variant">0.75</td><td class="variant">1.25</td><td class="same"><span class="empty">blank</span></td><td class=""><span class="empty">blank</span></td><td class="variant">11</td></tr></tbody></table></div>
+    </section>
+    <section>
+      <h2>Major Differences</h2>
+      <div class="grid">
+            <section>
+              <h2>Heli / police / contam differences</h2>
+              <table>
+                <thead><tr><th>Setting</th><th>Patrol values</th></tr></thead>
+                <tbody><tr><th>Faction</th><td><strong>West</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Contam-area-static, Contam-Dynamic<br><strong>Raiders</strong>: Wreck-police-1, Wreck-police-2</td></tr>
+<tr><th>FormationScale</th><td><strong>-1.0</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Wreck-police-1, Wreck-police-2, Contam-area-static<br><strong>0.0</strong>: Contam-Dynamic</td></tr>
+<tr><th>FormationLooseness</th><td><strong>0.5</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Wreck-police-1, Wreck-police-2, Contam-area-static<br><strong>0.0</strong>: Contam-Dynamic</td></tr>
+<tr><th>Loadout</th><td><strong>WestLoadout</strong>: Wreck-UH1Y, Wreck-MI8-Crashed<br><strong>PoliceLoadout</strong>: Wreck-police-1, Wreck-police-2<br><strong>NBCLoadout</strong>: Contam-area-static, Contam-Dynamic</td></tr>
+<tr><th>NumberOfAI</th><td><strong>3</strong>: Wreck-UH1Y, Wreck-MI8-Crashed<br><strong>1</strong>: Wreck-police-1, Wreck-police-2, Contam-area-static, Contam-Dynamic</td></tr>
+<tr><th>NumberOfAIMax</th><td><strong>5</strong>: Wreck-UH1Y, Wreck-MI8-Crashed<br><strong>3</strong>: Wreck-police-1, Wreck-police-2, Contam-area-static, Contam-Dynamic</td></tr>
+<tr><th>NoiseInvestigationDistanceLimit</th><td><strong>300.0</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Wreck-police-1, Wreck-police-2, Contam-area-static<br><strong>350.0</strong>: Contam-Dynamic</td></tr>
+<tr><th>CanSpawnInContaminatedArea</th><td><strong>0</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Wreck-police-1, Wreck-police-2<br><strong>1</strong>: Contam-area-static, Contam-Dynamic</td></tr>
+<tr><th>MinSpreadRadius</th><td><strong>5.0</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Wreck-police-1, Wreck-police-2, Contam-Dynamic<br><strong>0.0</strong>: Contam-area-static</td></tr>
+<tr><th>MaxSpreadRadius</th><td><strong>20.0</strong>: Wreck-UH1Y, Wreck-MI8-Crashed, Wreck-police-1, Wreck-police-2<br><strong>50.0</strong>: Contam-area-static<br><strong>30.0</strong>: Contam-Dynamic</td></tr>
+<tr><th>LoadBalancingCategory</th><td><strong>HelicopterWreck</strong>: Wreck-UH1Y, Wreck-MI8-Crashed<br><strong><span class="empty">blank</span></strong>: Wreck-police-1, Wreck-police-2<br><strong>ContaminatedArea</strong>: Contam-area-static, Contam-Dynamic</td></tr></tbody>
+              </table>
+            </section>
+            
+            <section>
+              <h2>Standard ROAMING differences</h2>
+              <table>
+                <thead><tr><th>Setting</th><th>Patrol values</th></tr></thead>
+                <tbody><tr><th>NumberOfAI</th><td><strong>3</strong>: ROAMING-NearCampEagle<br><strong>1</strong>: ROAMING-WestBrook, ROAMING-Bayville, ROAMING-Fairfield, ROAMING-Hazelands, ROAMING-Georgestown, ROAMING-Waldoboro, ROAMING-OldTown, ROAMING-Oceanville, ROAMING-SunsetCross, ROAMING-DevilsEyeSouth, ROAMING-NE-of-Airfield, ROAMING-West-of-Sunset-Cross, ROAMING-South-of-BarrenFalls, ROAMING-Swamp, ROAMING-West-of-Oceanville, ROAMING-South-of-Camp-Bear, ROAMING-Camp-Bear, ROAMING-Camp-Eagle, ROAMING-Duskar, ROAMING-Area42, ROAMING-Portland, ROAMING-Northhaven, ROAMING-ParisIsland</td></tr></tbody>
+              </table>
+            </section>
+            
+            <section>
+              <h2>ROAMING_LOCAL differences</h2>
+              <table>
+                <thead><tr><th>Setting</th><th>Patrol values</th></tr></thead>
+                <tbody><tr><td colspan="2">No differences inside this group.</td></tr></tbody>
+              </table>
+            </section>
+            
+            <section>
+              <h2>Regular multi-waypoint differences</h2>
+              <table>
+                <thead><tr><th>Setting</th><th>Patrol values</th></tr></thead>
+                <tbody><tr><th>Behaviour</th><td><strong>ALTERNATE</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>LOOP</strong>: Stonington</td></tr>
+<tr><th>Formation</th><td><strong>RANDOM</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>Circle</strong>: Stonington</td></tr>
+<tr><th>FormationLooseness</th><td><strong>0.5</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>0.6</strong>: Stonington</td></tr>
+<tr><th>Loadout</th><td><strong>SurvivorLoadout</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>BanditLoadout</strong>: Stonington</td></tr>
+<tr><th>NumberOfAI</th><td><strong>1</strong>: DeepWaterRig, DeepWaterRig2<br><strong>2</strong>: Horizons, Stonington</td></tr>
+<tr><th>NumberOfAIMax</th><td><strong>0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>2</strong>: Stonington</td></tr>
+<tr><th>NoiseInvestigationDistanceLimit</th><td><strong>300.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>500.0</strong>: Stonington</td></tr>
+<tr><th>DamageMultiplier</th><td><strong>-1.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>0.75</strong>: Stonington</td></tr>
+<tr><th>DamageReceivedMultiplier</th><td><strong>0.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>1.25</strong>: Stonington</td></tr>
+<tr><th>MinDistRadius</th><td><strong>200.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>150.0</strong>: Stonington</td></tr>
+<tr><th>MaxDistRadius</th><td><strong>350.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>1000.0</strong>: Stonington</td></tr>
+<tr><th>DespawnRadius</th><td><strong>450.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>1050.0</strong>: Stonington</td></tr>
+<tr><th>DespawnTime</th><td><strong>-1.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>600.0</strong>: Stonington</td></tr>
+<tr><th>RespawnTime</th><td><strong>-2.0</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>2400.0</strong>: Stonington</td></tr>
+<tr><th>WaypointCount</th><td><strong>7</strong>: DeepWaterRig, DeepWaterRig2, Horizons<br><strong>11</strong>: Stonington</td></tr></tbody>
+              </table>
+            </section>
+            </div>
+    </section>
+    <section>
+      <h2>Group Setting Summary</h2>
+      <div class="grid">
+            <section>
+              <h2>Heli / police / contam <span>6 patrols</span></h2>
+              <p>Waypoint counts: 0 x 6</p>
+              <table>
+                <thead><tr><th>Setting</th><th>Values</th><th>Status</th></tr></thead>
+                <tbody><tr><th>Faction</th><td>West x 4, Raiders x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>Behaviour</th><td>HALT_OR_ALTERNATE</td><td><span class="ok">same</span></td></tr>
+<tr><th>Formation</th><td>RANDOM</td><td><span class="ok">same</span></td></tr>
+<tr><th>FormationScale</th><td>-1.0 x 5, 0.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>FormationLooseness</th><td>0.5 x 5, 0.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>Loadout</th><td>WestLoadout x 2, PoliceLoadout x 2, NBCLoadout x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>NumberOfAI</th><td>1 x 4, 3 x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>NumberOfAIMax</th><td>3 x 4, 5 x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>LootingBehaviour</th><td>NONE</td><td><span class="ok">same</span></td></tr>
+<tr><th>Speed</th><td>WALK</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnderThreatSpeed</th><td>JOG</td><td><span class="ok">same</span></td></tr>
+<tr><th>DefaultStance</th><td>STANDING</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeLooted</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnlimitedReload</th><td>4</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMin</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMax</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>ThreatDistanceLimit</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>NoiseInvestigationDistanceLimit</th><td>300.0 x 5, 350.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>MaxFlankingDistance</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>EnableFlankingOutsideCombat</th><td>-1</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageMultiplier</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageReceivedMultiplier</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>HeadshotResistance</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanSpawnInContaminatedArea</th><td>0 x 4, 1 x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>CanBeTriggeredByAI</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinDistRadius</th><td>-2.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxDistRadius</th><td>-2.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnRadius</th><td>-2.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinSpreadRadius</th><td>5.0 x 5, 0.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>MaxSpreadRadius</th><td>20.0 x 4, 50.0 x 1, 30.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>Chance</th><td>1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnTime</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>RespawnTime</th><td>-2.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>LoadBalancingCategory</th><td>HelicopterWreck x 2, <span class="empty">blank</span> x 2, ContaminatedArea x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>ObjectClassName</th><td>Wreck_UH1Y x 1, Wreck_Mi8_Crashed x 1, Land_Wreck_sed01_aban1_police x 1, Land_Wreck_sed01_aban2_police x 1, ContaminatedArea_Static x 1, ContaminatedArea_Dynamic x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>WaypointInterpolation</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>UseRandomWaypointAsStartPoint</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointCount</th><td>0</td><td><span class="ok">same</span></td></tr></tbody>
+              </table>
+            </section>
+            
+            <section>
+              <h2>Standard ROAMING <span>24 patrols</span></h2>
+              <p>Waypoint counts: 1 x 24</p>
+              <table>
+                <thead><tr><th>Setting</th><th>Values</th><th>Status</th></tr></thead>
+                <tbody><tr><th>Faction</th><td>West</td><td><span class="ok">same</span></td></tr>
+<tr><th>Behaviour</th><td>ROAMING</td><td><span class="ok">same</span></td></tr>
+<tr><th>Formation</th><td>RANDOM</td><td><span class="ok">same</span></td></tr>
+<tr><th>FormationScale</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>FormationLooseness</th><td>0.5</td><td><span class="ok">same</span></td></tr>
+<tr><th>Loadout</th><td>PlayerSurvivorLoadout</td><td><span class="ok">same</span></td></tr>
+<tr><th>NumberOfAI</th><td>1 x 23, 3 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>NumberOfAIMax</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>LootingBehaviour</th><td>ALL</td><td><span class="ok">same</span></td></tr>
+<tr><th>Speed</th><td>WALK</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnderThreatSpeed</th><td>JOG</td><td><span class="ok">same</span></td></tr>
+<tr><th>DefaultStance</th><td>STANDING</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeLooted</th><td>1</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnlimitedReload</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMin</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMax</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>ThreatDistanceLimit</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>NoiseInvestigationDistanceLimit</th><td>1000.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxFlankingDistance</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>EnableFlankingOutsideCombat</th><td>-1</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageMultiplier</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageReceivedMultiplier</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>HeadshotResistance</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanSpawnInContaminatedArea</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeTriggeredByAI</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinDistRadius</th><td>5.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxDistRadius</th><td>15000.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnRadius</th><td>15000.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinSpreadRadius</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxSpreadRadius</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>Chance</th><td>1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnTime</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>RespawnTime</th><td>600.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>LoadBalancingCategory</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>ObjectClassName</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointInterpolation</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>UseRandomWaypointAsStartPoint</th><td>1</td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointCount</th><td>1</td><td><span class="ok">same</span></td></tr></tbody>
+              </table>
+            </section>
+            
+            <section>
+              <h2>ROAMING_LOCAL <span>1 patrols</span></h2>
+              <p>Waypoint counts: 1 x 1</p>
+              <table>
+                <thead><tr><th>Setting</th><th>Values</th><th>Status</th></tr></thead>
+                <tbody><tr><th>Faction</th><td>West</td><td><span class="ok">same</span></td></tr>
+<tr><th>Behaviour</th><td>ROAMING_LOCAL</td><td><span class="ok">same</span></td></tr>
+<tr><th>Formation</th><td>RANDOM_LOCAL</td><td><span class="ok">same</span></td></tr>
+<tr><th>FormationScale</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>FormationLooseness</th><td>0.8</td><td><span class="ok">same</span></td></tr>
+<tr><th>Loadout</th><td>BanditLoadout</td><td><span class="ok">same</span></td></tr>
+<tr><th>NumberOfAI</th><td>3</td><td><span class="ok">same</span></td></tr>
+<tr><th>NumberOfAIMax</th><td>4</td><td><span class="ok">same</span></td></tr>
+<tr><th>LootingBehaviour</th><td>NONE</td><td><span class="ok">same</span></td></tr>
+<tr><th>Speed</th><td>WALK</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnderThreatSpeed</th><td>JOG</td><td><span class="ok">same</span></td></tr>
+<tr><th>DefaultStance</th><td>STANDING</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeLooted</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnlimitedReload</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMin</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMax</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>ThreatDistanceLimit</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>NoiseInvestigationDistanceLimit</th><td>1000.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxFlankingDistance</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>EnableFlankingOutsideCombat</th><td>-1</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageMultiplier</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageReceivedMultiplier</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>HeadshotResistance</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanSpawnInContaminatedArea</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeTriggeredByAI</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinDistRadius</th><td>5.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxDistRadius</th><td>5500.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnRadius</th><td>6000.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinSpreadRadius</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxSpreadRadius</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>Chance</th><td>1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnTime</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>RespawnTime</th><td>600.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>LoadBalancingCategory</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>ObjectClassName</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointInterpolation</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>UseRandomWaypointAsStartPoint</th><td>1</td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointCount</th><td>1</td><td><span class="ok">same</span></td></tr></tbody>
+              </table>
+            </section>
+            
+            <section>
+              <h2>Regular multi-waypoint <span>4 patrols</span></h2>
+              <p>Waypoint counts: 7 x 3, 11 x 1</p>
+              <table>
+                <thead><tr><th>Setting</th><th>Values</th><th>Status</th></tr></thead>
+                <tbody><tr><th>Faction</th><td>West</td><td><span class="ok">same</span></td></tr>
+<tr><th>Behaviour</th><td>ALTERNATE x 3, LOOP x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>Formation</th><td>RANDOM x 3, Circle x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>FormationScale</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>FormationLooseness</th><td>0.5 x 3, 0.6 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>Loadout</th><td>SurvivorLoadout x 3, BanditLoadout x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>NumberOfAI</th><td>1 x 2, 2 x 2</td><td><span class="warn">varies</span></td></tr>
+<tr><th>NumberOfAIMax</th><td>0 x 3, 2 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>LootingBehaviour</th><td>NONE</td><td><span class="ok">same</span></td></tr>
+<tr><th>Speed</th><td>WALK</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnderThreatSpeed</th><td>JOG</td><td><span class="ok">same</span></td></tr>
+<tr><th>DefaultStance</th><td>STANDING</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeLooted</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>UnlimitedReload</th><td>4</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMin</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>AccuracyMax</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>ThreatDistanceLimit</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>NoiseInvestigationDistanceLimit</th><td>300.0 x 3, 500.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>MaxFlankingDistance</th><td>-1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>EnableFlankingOutsideCombat</th><td>-1</td><td><span class="ok">same</span></td></tr>
+<tr><th>DamageMultiplier</th><td>-1.0 x 3, 0.75 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>DamageReceivedMultiplier</th><td>0.0 x 3, 1.25 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>HeadshotResistance</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanSpawnInContaminatedArea</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>CanBeTriggeredByAI</th><td>0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MinDistRadius</th><td>200.0 x 3, 150.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>MaxDistRadius</th><td>350.0 x 3, 1000.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>DespawnRadius</th><td>450.0 x 3, 1050.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>MinSpreadRadius</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>MaxSpreadRadius</th><td>0.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>Chance</th><td>1.0</td><td><span class="ok">same</span></td></tr>
+<tr><th>DespawnTime</th><td>-1.0 x 3, 600.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>RespawnTime</th><td>-2.0 x 3, 2400.0 x 1</td><td><span class="warn">varies</span></td></tr>
+<tr><th>LoadBalancingCategory</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>ObjectClassName</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointInterpolation</th><td><span class="empty">blank</span></td><td><span class="ok">same</span></td></tr>
+<tr><th>UseRandomWaypointAsStartPoint</th><td>1</td><td><span class="ok">same</span></td></tr>
+<tr><th>WaypointCount</th><td>7 x 3, 11 x 1</td><td><span class="warn">varies</span></td></tr></tbody>
+              </table>
+            </section>
+            </div>
+    </section>
+  </main>
+</body>
+</html>
