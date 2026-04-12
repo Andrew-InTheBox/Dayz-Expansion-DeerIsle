@@ -2,6 +2,7 @@
 _@*/
 .env
 config/DataCache/cache.ch
+dayz.gproj
 *.exe
 *.RPT
 *.ADM
