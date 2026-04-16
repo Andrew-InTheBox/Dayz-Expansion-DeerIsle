@@ -26,10 +26,10 @@
         <usage name="Military"/>
 	</type>
     <type name="AmmoBox_Expansion_338_15rnd">
-        <nominal>15</nominal>
+        <nominal>22</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>18</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
