@@ -165,10 +165,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Hatchback_02_Door_1_1_BanditKitty">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -177,10 +177,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2_BanditKitty">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -189,10 +189,10 @@
         <usage name="Industrial"/>
     </type>
      <type name="Hatchback_02_Door_2_1_BanditKitty">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -201,10 +201,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2_BanditKitty">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -213,10 +213,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood_BanditKitty">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -225,10 +225,10 @@
         <usage name="Industrial"/>
     </type>
      <type name="Hatchback_02_Trunk_BanditKitty">
-        <nominal>0</nominal>
+        <nominal>14</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -541,10 +541,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_Red">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -553,10 +553,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Red">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -565,10 +565,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Red">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -587,10 +587,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_White">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -599,10 +599,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_White">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -611,10 +611,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_White">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -633,10 +633,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -645,10 +645,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -657,10 +657,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -679,10 +679,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_Wine">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -691,10 +691,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Wine">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -703,10 +703,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Wine">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -725,10 +725,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_Lime">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -737,10 +737,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Lime">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -749,10 +749,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Lime">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -771,10 +771,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_Yellow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -783,10 +783,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Yellow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -795,10 +795,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Yellow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -817,10 +817,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Truck_01_Hood_YellowBright">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -829,10 +829,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_YellowBright">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -841,10 +841,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_YellowBright">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1585,10 +1585,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Wheel_Yellow">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1669,10 +1669,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Wheel_Orange">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1753,10 +1753,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Wheel_Red">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1837,10 +1837,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Wheel_Blue">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1921,10 +1921,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Wheel_Grey">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2005,10 +2005,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Expansion_Landrover_Wheel_Green">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2282,10 +2282,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUAZDoorHood">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2342,10 +2342,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUAZDoorHood_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2354,10 +2354,10 @@
         <usage name="Industrial" />
     </type>
 	<type name="ExpansionUAZDoorDriver_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2366,10 +2366,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2378,10 +2378,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2390,10 +2390,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2402,10 +2402,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUAZDoorHood_LightGreen">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2414,10 +2414,10 @@
         <usage name="Industrial" />
     </type>
 	<type name="ExpansionUAZDoorDriver_LightGreen">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2426,10 +2426,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCoDriver_LightGreen">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2438,10 +2438,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo1_LightGreen">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2450,10 +2450,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionUAZDoorCargo2_LightGreen">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2558,10 +2558,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_1_1_Medical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2570,10 +2570,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_1_2_Medical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2582,10 +2582,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_2_1_Medical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2594,10 +2594,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_2_2_Medical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2606,10 +2606,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_1_1_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2618,10 +2618,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_1_2_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2630,10 +2630,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_2_1_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2642,10 +2642,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_2_2_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2654,10 +2654,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_1_1_Uber">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2666,10 +2666,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_1_2_Uber">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2678,10 +2678,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_2_1_Uber">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2690,10 +2690,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="ExpansionUh1hDoor_2_2_Uber">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2750,10 +2750,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Blueline">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2762,10 +2762,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Blueline">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2774,10 +2774,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Blueline">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2786,10 +2786,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Blueline">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2798,10 +2798,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Digital">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2810,10 +2810,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Digital">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2822,10 +2822,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Digital">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2834,10 +2834,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Digital">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2846,10 +2846,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Elliptical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2858,10 +2858,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Elliptical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2870,10 +2870,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Elliptical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2882,10 +2882,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Elliptical">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2894,10 +2894,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Furious">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2906,10 +2906,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Furious">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2918,10 +2918,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Furious">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2930,10 +2930,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Furious">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2942,10 +2942,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_GrayWatcher">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2954,10 +2954,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_GrayWatcher">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2966,10 +2966,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_GrayWatcher">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2978,10 +2978,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_GrayWatcher">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2990,10 +2990,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Jeans">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3002,10 +3002,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Jeans">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3014,10 +3014,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Jeans">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3026,10 +3026,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Jeans">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3038,10 +3038,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3050,10 +3050,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3062,10 +3062,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3074,10 +3074,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Resistance">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3086,10 +3086,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Shadow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3098,10 +3098,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Shadow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3110,10 +3110,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Shadow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3122,10 +3122,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Shadow">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3134,10 +3134,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Sheriff">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3146,10 +3146,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Sheriff">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3158,10 +3158,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Sheriff">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3170,10 +3170,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Sheriff">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3182,10 +3182,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Speedy">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3194,10 +3194,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Speedy">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3206,10 +3206,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Speedy">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3218,10 +3218,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Speedy">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3230,10 +3230,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Sunset">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3242,10 +3242,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Sunset">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3254,10 +3254,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Sunset">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3266,10 +3266,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Sunset">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3278,10 +3278,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Vrana">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3290,10 +3290,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Vrana">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3302,10 +3302,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Vrana">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3314,10 +3314,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Vrana">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3326,10 +3326,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Wasp">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3338,10 +3338,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Wasp">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3350,10 +3350,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Wasp">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3362,10 +3362,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Wasp">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3374,10 +3374,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_1_Wave">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3386,10 +3386,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_1_2_Wave">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3398,10 +3398,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_1_Wave">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3410,10 +3410,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Expansion_Mh6_Door_2_2_Wave">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

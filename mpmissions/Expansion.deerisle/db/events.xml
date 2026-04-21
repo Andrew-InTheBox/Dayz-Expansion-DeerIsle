@@ -1431,12 +1431,12 @@
 			<child lootmax="0" lootmin="0" max="5" min="3" type="jmc_atv_STAG_Black"/>                        
         </children>
     </event>	
-	<event name="VehicleRFMosquito">
-        <nominal>2</nominal>
-        <min>1</min>
-        <max>2</max>
-        <lifetime>1800</lifetime>
-        <restock>0</restock>
+		<event name="VehicleRFMosquito">
+	        <nominal>0</nominal>
+	        <min>0</min>
+	        <max>0</max>
+	        <lifetime>1800</lifetime>
+	        <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
         <cleanupradius>200</cleanupradius>

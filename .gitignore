@@ -31,3 +31,4 @@ custom_scripts/roamer_plots/
 .vscode/
 __pycache__/
 .mypy_cache/
+/tmp
