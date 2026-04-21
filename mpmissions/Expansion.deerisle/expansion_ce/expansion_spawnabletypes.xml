@@ -1623,7 +1623,10 @@
 	</type>
 	<type name="ExpansionGyrocopter">
 		<attachments chance="1.00">
-			<item name="ExpansionHelicopterBattery" chance="0.60" />
+			<item name="ExpansionHelicopterBattery" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="1.00" />
         </attachments>
 		<attachments chance="1.00">
 			<item name="SparkPlug" chance="0.60" />

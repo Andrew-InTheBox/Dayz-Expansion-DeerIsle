@@ -13,6 +13,17 @@
             "Enabled": 1
         },
         {
+            "Name": "Scout Camp",
+            "Position": [
+                4960.52,
+                3.915,
+                2102.45
+            ],
+            "Radius": 120.0,
+            "Type": "",
+            "Enabled": 1
+        },
+        {
             "Name": "Paris Island",
             "Position": [
                 2772.58,
