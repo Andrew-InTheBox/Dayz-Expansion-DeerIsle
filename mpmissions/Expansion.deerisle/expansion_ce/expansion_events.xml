@@ -2,9 +2,9 @@
 <events>
     <!-- Vanilla Tweaks -->
     <event name="VehicleHatchback02">
-        <nominal>10</nominal>
-        <min>8</min>
-        <max>13</max>
+        <nominal>14</nominal>
+        <min>11</min>
+        <max>15</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -45,9 +45,9 @@
     <!-- Expansion content -->
     <!-- CARS -->
 	<event name="VehicleUAZ">
-        <nominal>5</nominal>
-        <min>3</min>
-        <max>6</max>
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>9</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -241,9 +241,9 @@
         </children>
     </event>
 	<event name="VehicleZodiacBoat">
-        <nominal>12</nominal>
-        <min>1</min>
-        <max>14</max>
+        <nominal>15</nominal>
+        <min>10</min>
+        <max>17</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
