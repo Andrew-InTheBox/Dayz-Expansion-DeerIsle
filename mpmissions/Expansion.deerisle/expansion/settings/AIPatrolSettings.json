@@ -1687,7 +1687,7 @@
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "DespawnTime": 300.0,
-            "RespawnTime": 600.0,
+            "RespawnTime": 1800.0,
             "LoadBalancingCategory": "",
             "ObjectClassName": "",
             "WaypointInterpolation": "",
