@@ -1479,16 +1479,16 @@
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionMerlinFrontWheel" chance="0.30" />
+			<item name="ExpansionMerlinFrontWheel" chance="1.0" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionMerlinFrontWheel" chance="0.30" />
+			<item name="ExpansionMerlinFrontWheel" chance="1.0" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionMerlinBackWheel" chance="0.30" />
+			<item name="ExpansionMerlinBackWheel" chance="1.0" />
         </attachments>
 		<attachments chance="1.00">
-			<item name="ExpansionMerlinBackWheel" chance="0.30" />
+			<item name="ExpansionMerlinBackWheel" chance="1.0" />
         </attachments>
 	</type>
 	<type name="ExpansionUh1h">
