@@ -1,0 +1,20 @@
+{
+    "m_Version": 2,
+    "NewsFeedTexts": [
+        {
+            "m_Title": "KRONJON Deer Isle",
+            "m_Text": "PvE server with roaming AI patrols. Some bots may look like players, so stay alert and say 'hi' if in doubt."
+        },
+        {
+            "m_Title": "Discord",
+            "m_Text": "Join our Discord for announcements, help, and community info: discord.gg/YOUR_INVITE_CODE"
+        }
+    ],
+    "NewsFeedLinks": [
+        {
+            "m_Label": "Discord",
+            "m_Icon": "set:expansion_iconset image:icon_discord",
+            "m_URL": "https://discord.gg/YOUR_INVITE_CODE"
+        }
+    ]
+}

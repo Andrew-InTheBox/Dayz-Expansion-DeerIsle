@@ -32,3 +32,4 @@ custom_scripts/roamer_plots/
 __pycache__/
 .mypy_cache/
 /tmp
+config/ExpansionMod/Settings/SocialMediaSettings.json
