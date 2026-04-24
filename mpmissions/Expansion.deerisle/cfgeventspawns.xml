@@ -838,7 +838,7 @@
     <pos x="5739.77" z="14556.6" a="-9.09697" />
   </event>
   <event name="VehicleMerlinHelicopter">
-    <pos x="6319.688" z="14801.94" a="0" />
+    <pos x="6336.71" z="14807.1" a="110.5" />
   </event>
   <event name="VehicleUh1hHelicopter">
     <pos x="13307.67" z="9602.437" a="13.92287" />
