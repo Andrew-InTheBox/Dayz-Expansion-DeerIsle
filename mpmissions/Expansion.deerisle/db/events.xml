@@ -1372,10 +1372,10 @@
         <children/>            
     </event>  	
     <event name="StaticAirplaneCrate">
-        <nominal>12</nominal>
-        <min>9</min>
-        <max>13</max>
-        <lifetime>1800</lifetime>
+        <nominal>15</nominal>
+        <min>12</min>
+        <max>16</max>
+        <lifetime>1200</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1</distanceradius>
