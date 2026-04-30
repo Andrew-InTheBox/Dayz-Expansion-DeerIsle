@@ -2747,10 +2747,10 @@
         <usage name="Police" />
         </type>
     <type name="B95">
-        <nominal>25</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>22</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2759,12 +2759,10 @@
         <usage name="Town" />
         <usage name="Farm" />
         <usage name="Village" />
-        <usage name="Coast" />
         <usage name="Hunting" />
-        <usage name="Industrial" />
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier5" />
-        </type>
+    </type>
     <type name="Bait">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -11713,6 +11711,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
         <tag name="floor" />
+        <tag name="shelves" />
         <usage name="Coast" />
         <usage name="Hunting" />
         <value name="Tier2" />
@@ -13924,7 +13923,7 @@
         <nominal>45</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13937,6 +13936,7 @@
         <usage name="Coast" />
         <usage name="Hunting" />
         <usage name="Industrial" />
+        <value name="Tier1" />
         <value name="Tier2" />
         <value name="Tier3" />
         </type>
@@ -14279,7 +14279,7 @@
         <nominal>70</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>49</min>
+        <min>60</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -14456,27 +14456,25 @@
         <usage name="Military" />
         </type>
     <type name="Mag_MKII_10Rnd">
-        <nominal>63</nominal>
+        <nominal>65</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>45</min>
+        <min>55</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
         <tag name="shelves" />
+        <value name="Tier1" />
         <value name="Tier2" />
         <value name="Tier3" />
-        <usage name="Military" />
-        <usage name="Police" />
         <usage name="Town" />
         <usage name="Farm" />
         <usage name="Village" />
         <usage name="Coast" />
         <usage name="Hunting" />
         <usage name="Industrial" />
-        <usage name="Firefighter" />
         </type>
     <type name="Mag_MP5_15Rnd">
         <nominal>35</nominal>
@@ -14521,6 +14519,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
+        <value name="Tier1" />
         <value name="Tier2" />
         <usage name="Military" />
         <usage name="Police" />
