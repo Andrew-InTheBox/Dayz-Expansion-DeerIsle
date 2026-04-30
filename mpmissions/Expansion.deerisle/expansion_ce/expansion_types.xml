@@ -26,7 +26,7 @@
         <usage name="Military"/>
 	</type>
     <type name="AmmoBox_Expansion_338_15rnd">
-        <nominal>28</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>23</min>
@@ -39,10 +39,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Ammo_Expansion_338">
-        <nominal>80</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>70</min>
+        <min>0</min>
         <quantmin>40</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -52,10 +52,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Mag_Expansion_AWM_5Rnd">
-	    <nominal>10</nominal>
+	    <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>6</min>
+        <min>0</min>
         <quantmin>60</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -65,10 +65,10 @@
         <usage name="Hunting"/>
 	</type>
     <type name="Expansion_AWM">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>28800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
