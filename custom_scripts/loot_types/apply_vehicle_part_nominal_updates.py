@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import math
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -27,6 +26,12 @@ TYPE_FILES = [
 
 SPAWN_FILE = MISSION / "cfgeventspawns.xml"
 HEADLIGHT_OVERRIDE = ("HeadlightH7", 40, 35)
+BODY_PART_TOTAL_MIN = 10
+BODY_PART_TOTAL_MAX = 25
+
+
+def clamp(value, low, high):
+    return max(low, min(high, value))
 
 
 def load_spawn_counts():
@@ -61,33 +66,99 @@ def load_type_index():
     return index
 
 
-def compute_updates():
-    spawn_counts = load_spawn_counts()
-    spawnables = load_spawnables()
-    type_index = load_type_index()
-    expected = defaultdict(float)
+def body_part_slot(part):
+    if "Wheel" in part:
+        return None
 
+    match = re.match(r"^(.+?Door(?:s)?_(?:\d_\d|Driver|CoDriver))(?:_.+)?$", part)
+    if match:
+        return match.group(1)
+
+    match = re.match(r"^(.+?(?:Hood|Trunk))(?:_.+)?$", part)
+    if match:
+        return match.group(1)
+
+    return None
+
+
+def distribute_total(total, parts):
+    if not parts:
+        return {}
+
+    base = total // len(parts)
+    remainder = total % len(parts)
+    return {part: base + (1 if idx < remainder else 0) for idx, part in enumerate(sorted(parts))}
+
+
+def active_vehicle_rows(spawn_counts):
+    rows = []
     for path in EVENT_FILES:
         root = ET.parse(path).getroot()
         for event in root.findall("event"):
             event_name = event.attrib.get("name", "")
             if not event_name.startswith("Vehicle"):
                 continue
+
             nominal = int((event.findtext("nominal") or "0").strip())
+            minimum = int((event.findtext("min") or "0").strip())
             active = (event.findtext("active") or "0").strip()
             if active != "1" or nominal <= 0 or spawn_counts.get(event_name, 0) <= 0:
                 continue
 
             children = [child.attrib["type"] for child in event.findall("./children/child")]
-            if not children:
-                continue
+            if children:
+                rows.append(
+                    {
+                        "event": event_name,
+                        "nominal": nominal,
+                        "min": minimum,
+                        "children": children,
+                    }
+                )
+    return rows
 
-            per_variant = nominal / len(children)
-            for child in children:
-                for part, chance in spawnables.get(child, []):
+
+def compute_updates():
+    spawn_counts = load_spawn_counts()
+    spawnables = load_spawnables()
+    type_index = load_type_index()
+    expected = defaultdict(float)
+    body_groups = {}
+
+    for row in active_vehicle_rows(spawn_counts):
+        per_variant = row["nominal"] / len(row["children"])
+        for child in row["children"]:
+            for part, chance in spawnables.get(child, []):
+                slot = body_part_slot(part)
+                if slot:
+                    body_groups.setdefault(
+                        (row["event"], slot),
+                        {
+                            "nominal": row["nominal"],
+                            "min": row["min"],
+                            "parts": set(),
+                        },
+                    )["parts"].add(part)
+                else:
                     expected[part] += per_variant * chance
 
     updates = defaultdict(dict)
+
+    for group in body_groups.values():
+        target_nominal = clamp(round(group["nominal"]), BODY_PART_TOTAL_MIN, BODY_PART_TOTAL_MAX)
+        event_min_ratio = group["min"] / group["nominal"] if group["nominal"] > 0 else 0.75
+        target_min = clamp(round(target_nominal * event_min_ratio), 1, target_nominal)
+
+        nominal_by_part = distribute_total(target_nominal, group["parts"])
+        min_by_part = distribute_total(target_min, group["parts"])
+        for part in group["parts"]:
+            if part not in type_index:
+                continue
+            nominal = nominal_by_part[part]
+            minimum = min_by_part[part]
+            if type_index[part]["nominal"] == nominal and type_index[part]["min"] == minimum:
+                continue
+            updates[type_index[part]["file"]][part] = (nominal, minimum)
 
     for part, exp_count in expected.items():
         if part not in type_index:
