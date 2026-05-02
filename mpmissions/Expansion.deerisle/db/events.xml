@@ -1391,9 +1391,9 @@
         </children>
     </event>		
 	<event name="VehicleATVCivil">
-        <nominal>15</nominal>
-        <min>12</min>
-        <max>16</max>
+        <nominal>16</nominal>
+        <min>13</min>
+        <max>18</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
