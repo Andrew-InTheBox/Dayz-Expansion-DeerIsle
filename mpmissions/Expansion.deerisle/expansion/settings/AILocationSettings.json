@@ -466,9 +466,9 @@
         {
             "Name": "NorthHaven",
             "Position": [
-                1115.155,
-                5.2958549999999995,
-                15203.55
+                1512.1,
+                8.345,
+                15501.4
             ],
             "Radius": 200.0,
             "Type": "",
@@ -504,6 +504,50 @@
                 7627.22
             ],
             "Radius": 160.0,
+            "Type": "",
+            "Enabled": 1
+        },
+        {
+            "Name": "Volcano Island South",
+            "Position": [
+                13022.9,
+                21.125,
+                1456.01
+            ],
+            "Radius": 170.0,
+            "Type": "",
+            "Enabled": 1
+        },
+        {
+            "Name": "Threepwood",
+            "Position": [
+                9086.66,
+                35.48,
+                7702.6
+            ],
+            "Radius": 150.0,
+            "Type": "",
+            "Enabled": 1
+        },
+        {
+            "Name": "Airfield Island NE",
+            "Position": [
+                10094.6,
+                49.168,
+                14533.8
+            ],
+            "Radius": 150.0,
+            "Type": "",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hunting NW of Bayville",
+            "Position": [
+                8540.92,
+                1.67567,
+                13453.9
+            ],
+            "Radius": 175.0,
             "Type": "",
             "Enabled": 1
         }

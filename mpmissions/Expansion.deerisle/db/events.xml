@@ -1103,9 +1103,9 @@
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>12</nominal>
-        <min>10</min>
-        <max>14</max>
+        <nominal>16</nominal>
+        <min>14</min>
+        <max>17</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1122,9 +1122,9 @@
         </children>
     </event>
     <event name="VehicleOffroad02">
-        <nominal>4</nominal>
-        <min>3</min>
-        <max>4</max>
+        <nominal>7</nominal>
+        <min>5</min>
+        <max>8</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1391,9 +1391,9 @@
         </children>
     </event>		
 	<event name="VehicleATVCivil">
-        <nominal>16</nominal>
-        <min>13</min>
-        <max>18</max>
+        <nominal>22</nominal>
+        <min>20</min>
+        <max>24</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1413,9 +1413,9 @@
         </children>
     </event>
 	<event name="VehicleATVSTAG">
-        <nominal>3</nominal>
-        <min>2</min>
-        <max>3</max>
+        <nominal>5</nominal>
+        <min>3</min>
+        <max>6</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>

@@ -109,9 +109,9 @@
         </children>
     </event>
     <event name="VehicleLandRover">
-        <nominal>4</nominal>
-        <min>3</min>
-        <max>5</max>
+        <nominal>5</nominal>
+        <min>4</min>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -133,9 +133,9 @@
     </event>
 	<!-- HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
-        <nominal>7</nominal>
-        <min>6</min>
-        <max>9</max>
+        <nominal>12</nominal>
+        <min>10</min>
+        <max>13</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -186,9 +186,9 @@
         </children>
     </event>
 	<event name="VehicleUh1hHelicopter">
-        <nominal>3</nominal>
-        <min>2</min>
-        <max>4</max>
+        <nominal>5</nominal>
+        <min>4</min>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -206,9 +206,9 @@
         </children>
     </event>
     <event name="VehicleGyroHelicopter">
-        <nominal>11</nominal>
-        <min>9</min>
-        <max>13</max>
+        <nominal>13</nominal>
+        <min>11</min>
+        <max>14</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>

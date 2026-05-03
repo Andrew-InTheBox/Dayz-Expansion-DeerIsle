@@ -9,6 +9,7 @@ Helper scripts are grouped by the kind of DayZ server configuration work they su
 - `loadouts/`: Expansion loadout analysis and loadout mutation helpers.
 - `market/`: Expansion market JSON pricing, threshold, and item helpers.
 - `loot_types/`: `types.xml`, tier, nominal/minimum, and vehicle-spawn analysis helpers.
+- `vehicles/`: Vehicle event spawn parsing and map plotting tools.
 - `quests/`: Quest/NPC/objective analysis reports.
 - `docs/`: Documentation scraping helpers.
 - `maintenance/`: Broad server config maintenance and validation scripts.
