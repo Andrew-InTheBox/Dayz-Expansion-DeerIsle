@@ -1074,7 +1074,7 @@
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>85</min>
-        <quantmin>30</quantmin>
+        <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
