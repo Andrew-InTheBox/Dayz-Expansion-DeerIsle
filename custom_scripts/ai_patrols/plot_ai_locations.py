@@ -15,15 +15,12 @@ from matplotlib.patches import Circle
 SCRIPT_DIR = Path(__file__).resolve().parent
 MPMISSIONS_DIR = SCRIPT_DIR.parents[1] / "mpmissions"
 PREFERRED_MISSION_DIR = MPMISSIONS_DIR / "Expansion.deerisle"
-DEFAULT_MAP_SIZE = 15000.0
+DEFAULT_MAP_SIZE = 16400.0
 DEFAULT_EXTENT = (0.0, DEFAULT_MAP_SIZE, 0.0, DEFAULT_MAP_SIZE)
 DEFAULT_BACKGROUND_IMAGE = SCRIPT_DIR.parent / "assets" / "deer_isle_background.png"
 # The image pixel dimensions do not need to match the DayZ world size.
 # Matplotlib stretches the image into these world coordinates via `extent`.
-# Deer Isle background art appears to cover a slightly larger world box than
-# the playable 0..15000 coordinates. This default keeps plot data unshifted
-# while scaling the image outward so points land further inward on the art.
-DEFAULT_BACKGROUND_WORLD_BOUNDS = (0.0, 16875.0, 0.0, 16875.0)
+DEFAULT_BACKGROUND_WORLD_BOUNDS = DEFAULT_EXTENT
 
 
 def resolve_settings_path(filename):

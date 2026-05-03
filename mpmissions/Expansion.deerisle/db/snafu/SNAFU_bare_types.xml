@@ -69,10 +69,10 @@
         <value name="Tier9" />
     </type>
     <type name="SNAFUKivaari_10rdMag">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>9</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -80,6 +80,7 @@
         <category name="weapons" />
         <usage name="Military" />
         <usage name="Police" />
+        <value name="Tier3" />
         <value name="Tier4" />
         <value name="Tier6" />
         <value name="Tier7" />
@@ -170,12 +171,12 @@
         <value name="Tier5" />
     </type>
     <type name="SNAFU_Ammo_338">
-        <nominal>80</nominal>
+        <nominal>85</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>65</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <min>75</min>
+        <quantmin>40</quantmin>
+        <quantmax>70</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0" />
         <category name="weapons" />
