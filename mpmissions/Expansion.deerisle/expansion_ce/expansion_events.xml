@@ -186,9 +186,9 @@
         </children>
     </event>
 	<event name="VehicleUh1hHelicopter">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <min>4</min>
-        <max>5</max>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
