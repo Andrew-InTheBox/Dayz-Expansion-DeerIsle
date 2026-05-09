@@ -32,12 +32,9 @@ def resolve_settings_path(filename):
     return candidates[0] if candidates else None
 
 
-def load_locations(json_file_path):
-    with open(json_file_path, "r") as file_handle:
-        data = json.load(file_handle)
-
+def parse_area_entries(entries):
     points = []
-    for location in data.get("RoamingLocations", []):
+    for location in entries:
         position = location.get("Position", [])
         if len(position) < 3:
             continue
@@ -54,6 +51,16 @@ def load_locations(json_file_path):
     return points
 
 
+def load_location_settings(json_file_path):
+    with open(json_file_path, "r") as file_handle:
+        data = json.load(file_handle)
+
+    return {
+        "roaming_locations": parse_area_entries(data.get("RoamingLocations", [])),
+        "no_go_areas": parse_area_entries(data.get("NoGoAreas", [])),
+    }
+
+
 def plot_ai_locations(
     json_file_path,
     output_dir,
@@ -61,7 +68,10 @@ def plot_ai_locations(
     focus_region=None,
     background_bounds=None,
 ):
-    locations = load_locations(json_file_path)
+    settings = load_location_settings(json_file_path)
+    locations = settings["roaming_locations"]
+    no_go_areas = settings["no_go_areas"]
+
     if not locations:
         print("No roaming locations found in the JSON file.")
         return
@@ -86,6 +96,19 @@ def plot_ai_locations(
         )
         ax.add_patch(circle)
 
+    for area in no_go_areas:
+        circle = Circle(
+            (area["x"], area["z"]),
+            area["radius"],
+            fill=True,
+            facecolor="grey",
+            edgecolor="dimgray",
+            linewidth=1.0,
+            alpha=0.35,
+            zorder=3,
+        )
+        ax.add_patch(circle)
+
     ax.scatter(
         [location["x"] for location in locations],
         [location["z"] for location in locations],
@@ -97,6 +120,18 @@ def plot_ai_locations(
         zorder=5,
     )
 
+    if no_go_areas:
+        ax.scatter(
+            [area["x"] for area in no_go_areas],
+            [area["z"] for area in no_go_areas],
+            c="grey",
+            s=16,
+            alpha=0.85,
+            edgecolors="black",
+            linewidth=0.4,
+            zorder=5,
+        )
+
     if label_locations:
         for location in locations:
             ax.annotate(
@@ -106,6 +141,18 @@ def plot_ai_locations(
                 xytext=(3, 3),
                 textcoords="offset points",
                 bbox=dict(facecolor="white", alpha=0.7, edgecolor="none", pad=1.5),
+                zorder=6,
+            )
+
+        for area in no_go_areas:
+            ax.annotate(
+                area["name"],
+                (area["x"], area["z"]),
+                fontsize=6,
+                xytext=(3, 3),
+                textcoords="offset points",
+                bbox=dict(facecolor="white", alpha=0.7, edgecolor="none", pad=1.5),
+                color="dimgray",
                 zorder=6,
             )
 
@@ -120,7 +167,7 @@ def plot_ai_locations(
     ax.grid(True, alpha=0.3, linestyle="--")
     ax.set_xlabel("X Coordinate (meters)")
     ax.set_ylabel("Z Coordinate (meters)")
-    ax.set_title("Deer Isle AI Roaming Areas")
+    ax.set_title("Deer Isle AI Roaming Areas and No-Go Areas")
 
     timestamp = datetime.now().strftime("%Y%m%d%H%M")
     output_path = Path(output_dir) / f"AILocationsPlots-{timestamp}.png"
@@ -132,6 +179,7 @@ def plot_ai_locations(
 
     print(f"Plot saved to: {output_path}")
     print(f"Total locations plotted: {len(locations)}")
+    print(f"Total no-go areas plotted: {len(no_go_areas)}")
 
 
 def main():
