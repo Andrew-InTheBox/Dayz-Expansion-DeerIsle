@@ -2,13 +2,19 @@
 <eventposdef>
   <event name="AmbientFox" />
   <event name="AmbientHare" />
-  <event name="AnimalDeer" />
-  <event name="AnimalCow" />
-  <event name="AnimalSheep" />
-  <event name="AnimalRoeDeer" />
+  <event name="AmbientHen" />
+  <event name="AmbientCow" />
+  <event name="AmbientDeer" />
+  <event name="AmbientGoat" />
+  <event name="AmbientPig" />
+  <event name="AmbientRoeDeer" />
+  <event name="AmbientSheep" />
+  <event name="AmbientWildBoar" />
   <!-- <event name="AnimalReindeer" /> -->
   <event name="AnimalWolf" />
-  <event name="AnimalWildBoar" />
+  <event name="AnimalArcticWolf" />
+  <event name="AmbientBear" />
+  <event name="AmbientPolarbear" />
   <event name="VehicleBoat">
     <pos x="12370.05" z="7797.182" y="1.5" />
     <pos x="9383" z="4326.001" y="1.5" />

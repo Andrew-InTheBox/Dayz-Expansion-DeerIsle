@@ -1120,6 +1120,26 @@
         <btn name="kE" />
         <btn name="x1ShoulderRight" />
     </input>
+    <input name="UAExpansionHeliTrimSet">
+        <btn name="kRControl">
+            <btn name="kNumpad5" />
+        </btn>
+    </input>
+    <input name="UAExpansionHeliTrimRelease">
+        <btn name="kRControl">
+            <btn name="kDecimal" />
+        </btn>
+    </input>
+    <input name="UAExpansionHeliTrimCyclic">
+        <btn name="kRControl">
+            <btn name="kNumpad4" />
+        </btn>
+    </input>
+    <input name="UAExpansionHeliTrimAntiTorque">
+        <btn name="kRControl">
+            <btn name="kNumpad1" />
+        </btn>
+    </input>
     <input name="UAExpansionHeliCargoDoorUp" />
     <input name="UAExpansionHeliCargoDoorDown" />
     <input name="UAExpansionPlaneFlare">
@@ -1183,6 +1203,10 @@
     </input>
     <input name="UAExpansionCarRefill">
         <btn name="kR" />
+    </input>
+    <input name="UAExpansionVehicleCenterCamera">
+        <btn name="kNumpad5" />
+        <btn name="x1ThumbRight" />
     </input>
     <input name="UADiveDown">
         <btn name="kNumpad2" />

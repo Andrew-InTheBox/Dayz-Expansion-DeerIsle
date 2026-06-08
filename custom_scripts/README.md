@@ -5,6 +5,7 @@ Helper scripts are grouped by the kind of DayZ server configuration work they su
 ## Folders
 
 - `ai_patrols/`: AI patrol/location settings builders, reports, and map plots.
+- `animals/`: Animal territory spawn-zone map plots.
 - `roamers/`: Roamer heatmap, log, and animation plotting tools.
 - `loadouts/`: Expansion loadout analysis and loadout mutation helpers.
 - `market/`: Expansion market JSON pricing, threshold, and item helpers.
