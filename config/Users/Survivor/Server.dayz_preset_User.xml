@@ -1112,6 +1112,8 @@
         <btn name="kZ" />
         <btn name="x1TriggerLeft" />
     </input>
+    <input name="UAExpansionHeliCollectiveAnalogueUp" />
+    <input name="UAExpansionHeliCollectiveAnalogueDown" />
     <input name="UAExpansionHeliAntiTorqueLeft">
         <btn name="kQ" />
         <btn name="x1ShoulderLeft" />
@@ -1207,6 +1209,9 @@
     <input name="UAExpansionVehicleCenterCamera">
         <btn name="kNumpad5" />
         <btn name="x1ThumbRight" />
+    </input>
+    <input name="UAExpansionVehicleCameraZoomOut">
+        <btn name="kSubstract" />
     </input>
     <input name="UADiveDown">
         <btn name="kNumpad2" />

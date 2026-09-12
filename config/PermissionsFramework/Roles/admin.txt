@@ -120,6 +120,7 @@ Weather.QuickAction.Cloudy 2
 Weather.QuickAction.Storm 2
 Weather.QuickAction.Date 2
 Weather.FreezeTime 2
+Weather.Behavior 2
 Weather.Date 2
 Weather.Wind 2
 Weather.Wind.FunctionParams 2
